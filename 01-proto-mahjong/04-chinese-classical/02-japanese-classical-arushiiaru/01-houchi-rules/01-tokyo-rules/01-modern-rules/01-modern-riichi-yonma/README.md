@@ -4,7 +4,9 @@ detail: red fives, 1970
 family: japanese
 confidence: documented
 parent: Modern rules
-chart_refs: [10, 11, 12]
+chart_id: modern-riichi
+canonical_source: wikidot-japanese-modern
+chart_refs: [48, 10, 11, 12]
 ---
 
 # Modern riichi / yonma
@@ -19,11 +21,14 @@ chart_refs: [10, 11, 12]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [10](../../../../../../../REFERENCES.md#ref-10) | Yuria (Hassouhatsu Club). "A Brief History of Japanese Mahjong." Krakow Chombo Club, 2 Aug 2026. | <https://chombo.club/en/blog/2026/08/02/a-brief-history-of-japanese-mahjong/> |
-| [11](../../../../../../../REFERENCES.md#ref-11) | Japanese Mahjong Wiki. "Japanese Mahjong." riichi.wiki. | <https://riichi.wiki/index.php?title=Japanese_mahjong> |
-| [12](../../../../../../../REFERENCES.md#ref-12) | Wikipedia. "Japanese Mahjong." | <https://en.wikipedia.org/wiki/Japanese_mahjong> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [48](../../../../../../../REFERENCES.md#ref-48) | Mahjong Wiki. "Japanese Modern Overview." mahjong.wikidot.com. | <http://mahjong.wikidot.com/rules:japanese-modern-overview> | **canonical** |
+| [10](../../../../../../../REFERENCES.md#ref-10) | Yuria (Hassouhatsu Club). "A Brief History of Japanese Mahjong." Krakow Chombo Club, 2 Aug 2026. | <https://chombo.club/en/blog/2026/08/02/a-brief-history-of-japanese-mahjong/> | supporting |
+| [11](../../../../../../../REFERENCES.md#ref-11) | Japanese Mahjong Wiki. "Japanese Mahjong." riichi.wiki. | <https://riichi.wiki/index.php?title=Japanese_mahjong> | supporting |
+| [12](../../../../../../../REFERENCES.md#ref-12) | Wikipedia. "Japanese Mahjong." | <https://en.wikipedia.org/wiki/Japanese_mahjong> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

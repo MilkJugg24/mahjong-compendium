@@ -4,7 +4,9 @@ detail: 1920s, 144 tiles
 family: chinese
 confidence: documented
 parent: Proto-mahjong
-chart_refs: [7, 3]
+chart_id: chinese-classical
+canonical_source: wikidot-chinese-classical
+chart_refs: [39, 7, 3]
 ---
 
 # Chinese classical
@@ -26,10 +28,13 @@ chart_refs: [7, 3]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [7](../../REFERENCES.md#ref-7) | Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com. | <http://mahjong.wikidot.com/> |
-| [3](../../REFERENCES.md#ref-3) | Sloper, Tom. "FAQ 11: History of Mah-Jongg." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq11f.html> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [39](../../REFERENCES.md#ref-39) | Mahjong Wiki. "Chinese Classical Overview." mahjong.wikidot.com. | <http://mahjong.wikidot.com/rules:chinese-classical-overview> | **canonical** |
+| [7](../../REFERENCES.md#ref-7) | Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com. | <http://mahjong.wikidot.com/> | supporting |
+| [3](../../REFERENCES.md#ref-3) | Sloper, Tom. "FAQ 11: History of Mah-Jongg." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq11f.html> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

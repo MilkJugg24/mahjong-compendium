@@ -1,6 +1,6 @@
 # References
 
-The bibliography of [the source chart](_dev/source-chart/mahjong-variant-family-tree.pdf), transcribed verbatim, with back-links to the variant folders each reference is cited for. All web sources were retrieved on 2026-09-13 by the chart's author; nothing here has been re-checked since.
+The bibliography of [the source chart](_dev/source-chart/mahjong-variant-family-tree.md), transcribed verbatim, with back-links to the variant folders each reference is cited for. References 1-38 are the chart's numbered bibliography; 39-50 are the Mahjong Wiki pages its node table cites directly for individual variants. All web sources were retrieved on 2026-09-13 by the chart's author; nothing here has been re-checked since.
 
 ## Variant Catalogues and Lineage Frameworks
 
@@ -12,9 +12,9 @@ Tile counts, hand sizes, flower handling and scoring for roughly 50 named varian
 
 <https://www.sloperama.com/mjfaq/mjfaq02b.html>
 
-<details><summary><em>Cited for 36 variants</em></summary>
+<details><summary><em>Cited for 38 variants</em></summary>
 
-[Modern HKOS](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/01-modern-hkos/), [Taiwanese style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/), [Hong Kong Taiwanese](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/01-hong-kong-taiwanese/), [Nanyang variants](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/), [Singapore style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/01-singapore-style/), [Malaysian 3-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/02-malaysian-3-player/), [Malaysian 4-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/03-malaysian-4-player/), [Filipino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/04-filipino-style/), [Bashi-Bashi](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/04-filipino-style/01-bashi-bashi/), [Vietnamese classical](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/05-vietnamese-classical/), [Vietnamese modern](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/05-vietnamese-classical/01-vietnamese-modern/), [Pong](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/06-pong-malaya/), [Mainland regionals](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/), [Sichuan / Hunan / Tibetan](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/01-sichuan-hunan-tibetan/), [Sichuan bloody rules](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/02-sichuan-bloody-rules/), [Sichuan 72-tile game](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/03-sichuan-72-tile/), [Fuzhou style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/04-fuzhou-style/), [Fujian style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/05-fujian-style/), [Beijing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/06-beijing-style/), [Nanjing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/07-nanjing-style/), [Shenzhen style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/08-shenzhen-style/), [Macau simplificado](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/09-macau-simplificado/), [Tui Dao Hu](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/10-tui-dao-hu/), [Chinese casino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/11-chinese-casino-style/), [Sanma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/02-sanma/), [WMPA / WMF](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/03-wmpa-wmf/), [Korean traditional](01-proto-mahjong/04-chinese-classical/03-korean-traditional/), [Twenty Point Mah Jong](01-proto-mahjong/04-chinese-classical/04-babcock-rules/01-twenty-point-mah-jong/), [Western / British Empire style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/), [Wright-Patterson](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/01-wright-patterson/), [India / Mumbai style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/02-india-mumbai-style/), [Israeli Mah-Jongg Association](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/03-israeli-mah-jongg-association/), [Nepalese](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/04-nepalese/), [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/), [Mhing](02-modern-inventions/02-mhing/), [Mahjong Masters Millions](02-modern-inventions/03-mahjong-masters-millions/)
+[Modern HKOS](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/01-modern-hkos/), [Taiwanese style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/), [Hong Kong Taiwanese](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/01-hong-kong-taiwanese/), [Nanyang variants](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/), [Singapore style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/01-singapore-style/), [Malaysian 3-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/02-malaysian-3-player/), [Malaysian 4-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/03-malaysian-4-player/), [Filipino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/04-filipino-style/), [Bashi-Bashi](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/04-filipino-style/01-bashi-bashi/), [Vietnamese classical](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/05-vietnamese-classical/), [Vietnamese modern](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/05-vietnamese-classical/01-vietnamese-modern/), [Pong](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/06-pong-malaya/), [Mainland regionals](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/), [Sichuan / Hunan / Tibetan](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/01-sichuan-hunan-tibetan/), [Sichuan bloody rules](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/02-sichuan-bloody-rules/), [Sichuan 72-tile game](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/03-sichuan-72-tile/), [Fuzhou style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/04-fuzhou-style/), [Fujian style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/05-fujian-style/), [Beijing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/06-beijing-style/), [Nanjing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/07-nanjing-style/), [Shenzhen style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/08-shenzhen-style/), [Macau simplificado](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/09-macau-simplificado/), [Tui Dao Hu](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/10-tui-dao-hu/), [Chinese casino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/11-chinese-casino-style/), [Sanma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/02-sanma/), [WMPA / WMF](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/03-wmpa-wmf/), [Korean traditional](01-proto-mahjong/04-chinese-classical/03-korean-traditional/), [Babcock rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/), [Twenty Point Mah Jong](01-proto-mahjong/04-chinese-classical/04-babcock-rules/01-twenty-point-mah-jong/), [Western / British Empire style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/), [Wright-Patterson](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/01-wright-patterson/), [India / Mumbai style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/02-india-mumbai-style/), [Israeli Mah-Jongg Association](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/03-israeli-mah-jongg-association/), [Nepalese](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/04-nepalese/), [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/), [Modern inventions](02-modern-inventions/), [Mhing](02-modern-inventions/02-mhing/), [Mahjong Masters Millions](02-modern-inventions/03-mahjong-masters-millions/)
 
 </details>
 
@@ -36,7 +36,7 @@ Regional branching in the 1930s and 40s; Racster 1924 on Shanghai versus Hong Ko
 
 <https://www.sloperama.com/mjfaq/mjfaq11f.html>
 
-*Cited for:* [Chinese classical](01-proto-mahjong/04-chinese-classical/), [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/)
+*Cited for:* [Proto-mahjong](01-proto-mahjong/), [Chinese classical](01-proto-mahjong/04-chinese-classical/), [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/)
 
 <a id="ref-4"></a>
 
@@ -397,6 +397,128 @@ Cantonese-language treatment of the Hong Kong game, in the register the wiki app
 Hong Kong winning-hand list, a direct comparison point for the wiki's NEW6 and NEW18 tables.
 
 <https://zh.wikipedia.org/zh-hant/%E9%A6%99%E6%B8%AF%E9%BA%BB%E9%9B%80%E8%83%A1%E7%89%8C%E5%88%97%E8%A1%A8>
+
+*Cited for:* no variant folder yet.
+
+## Additional Wiki Pages Cited by Node Rows
+
+<a id="ref-39"></a>
+
+**39. Mahjong Wiki. "Chinese Classical Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:chinese-classical-overview>
+
+*Cited for:* [Chinese classical](01-proto-mahjong/04-chinese-classical/)
+
+<a id="ref-40"></a>
+
+**40. Mahjong Wiki. "Hong Kong New Style Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:hong-kong-new-style-overview>
+
+*Cited for:* [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/)
+
+<a id="ref-41"></a>
+
+**41. Mahjong Wiki. "Hong Kong Old Style Scoring." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:hong-kong-old-style-scoring>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-42"></a>
+
+**42. Mahjong Wiki. "Guangdong Style Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:guangdong-style-overview>
+
+*Cited for:* [Guangdong style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/)
+
+<a id="ref-43"></a>
+
+**43. Mahjong Wiki. "Guangdong MCR Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:gmcr-overview>
+
+*Cited for:* [Guangdong MCR / GMCR](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/01-guangdong-mcr/)
+
+<a id="ref-44"></a>
+
+**44. Mahjong Wiki. "Taiwanese Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:taiwanese-overview>
+
+*Cited for:* [Taiwanese style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/), [Hong Kong Taiwanese](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/01-hong-kong-taiwanese/)
+
+<a id="ref-45"></a>
+
+**45. Mahjong Wiki. "Zung Jung Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:zung-jung-overview>
+
+*Cited for:* [Zung Jung](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/06-zung-jung/)
+
+<a id="ref-46"></a>
+
+**46. Mahjong Wiki. "Mainland Mahjong Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:mainland-mahjong-overview>
+
+*Cited for:* [Mainland regionals](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/), [Sichuan bloody rules](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/02-sichuan-bloody-rules/)
+
+<a id="ref-47"></a>
+
+**47. Mahjong Wiki. "Japanese Classical Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:japanese-classical-overview>
+
+*Cited for:* [Japanese classical / arushiiaru](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/)
+
+<a id="ref-48"></a>
+
+**48. Mahjong Wiki. "Japanese Modern Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:japanese-modern-overview>
+
+*Cited for:* [Modern riichi / yonma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/01-modern-riichi-yonma/)
+
+<a id="ref-49"></a>
+
+**49. Mahjong Wiki. "American Overview." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:american-overview>
+
+*Cited for:* [NMJL card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/)
+
+<a id="ref-50"></a>
+
+**50. Mahjong Wiki. "Western Mah Jong Scoring." mahjong.wikidot.com.**
+
+Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.
+
+<http://mahjong.wikidot.com/rules:western-mah-jong-scoring>
 
 *Cited for:* no variant folder yet.
 

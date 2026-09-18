@@ -4,6 +4,8 @@ detail: two-handed, 2015
 family: western-american
 confidence: documented
 parent: American mah jongg
+chart_id: siamese-mah-jongg
+canonical_source: mahjongg-org
 chart_refs: [23]
 ---
 
@@ -19,9 +21,11 @@ chart_refs: [23]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [23](../../../../../../../REFERENCES.md#ref-23) | Grad, Gladys. Siamese Mah Jongg. mahjongg.org. | <https://mahjongg.org/> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [23](../../../../../../../REFERENCES.md#ref-23) | Grad, Gladys. Siamese Mah Jongg. mahjongg.org. | <https://mahjongg.org/> | **canonical** |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

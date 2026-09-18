@@ -4,6 +4,8 @@ detail: 84 tiles, one suit
 family: southeast-asian
 confidence: catalogued
 parent: Nanyang variants
+chart_id: malaysian-3p
+canonical_source: sloperama-malaysian
 chart_refs: [5, 1]
 ---
 
@@ -19,10 +21,12 @@ chart_refs: [5, 1]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [5](../../../../../../REFERENCES.md#ref-5) | Sloper, Tom. "Malaysian Mah-Jongg." Sloperama. | <https://www.sloperama.com/mahjongg/malaysian.html> |
-| [1](../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [5](../../../../../../REFERENCES.md#ref-5) | Sloper, Tom. "Malaysian Mah-Jongg." Sloperama. | <https://www.sloperama.com/mahjongg/malaysian.html> | **canonical** |
+| [1](../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

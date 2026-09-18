@@ -4,6 +4,8 @@ detail: c. 1890, Wilkinson
 family: roots
 confidence: documented
 parent: Proto-mahjong
+chart_id: chinese-archaic
+canonical_source: sloperama-analysis
 chart_refs: [4, 2]
 ---
 
@@ -19,10 +21,12 @@ chart_refs: [4, 2]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [4](../../REFERENCES.md#ref-4) | Sloper, Tom. "Comparative Analysis of Early Mah-Jongg Forms." Sloperama. | <https://www.sloperama.com/mahjongg/analysis.html> |
-| [2](../../REFERENCES.md#ref-2) | Sloper, Tom. "The Mah-Jongg Family Tree." Sloperama. | <https://www.sloperama.com/mjfaq/tree.htm> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [4](../../REFERENCES.md#ref-4) | Sloper, Tom. "Comparative Analysis of Early Mah-Jongg Forms." Sloperama. | <https://www.sloperama.com/mahjongg/analysis.html> | **canonical** |
+| [2](../../REFERENCES.md#ref-2) | Sloper, Tom. "The Mah-Jongg Family Tree." Sloperama. | <https://www.sloperama.com/mjfaq/tree.htm> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

@@ -1,6 +1,6 @@
 {
   "retrieved": "2026-09-13",
-  "note": "Bibliography transcribed verbatim from the source chart (_dev/source-chart/mahjong-variant-family-tree.pdf). All web sources retrieved 13 September 2026.",
+  "note": "Bibliography transcribed from the source chart (_dev/source-chart/mahjong-variant-family-tree.md). References 1-38 are the chart's numbered bibliography; 39-50 are the wiki pages its node table cites directly.",
   "primary_sources_not_consulted": "Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.",
   "references": [
     {
@@ -8,266 +8,400 @@
       "section": "VARIANT CATALOGUES AND LINEAGE FRAMEWORKS",
       "citation": "Sloper, Tom. \"FAQ 2b: Identifying a Mah-Jongg Variant.\" Sloperama.",
       "note": "Tile counts, hand sizes, flower handling and scoring for roughly 50 named variants. Primary source for most leaf nodes in this chart.",
-      "url": "https://www.sloperama.com/mjfaq/mjfaq02b.html"
+      "url": "https://www.sloperama.com/mjfaq/mjfaq02b.html",
+      "slug": "sloperama-faq-2b"
     },
     {
       "id": 2,
       "section": "VARIANT CATALOGUES AND LINEAGE FRAMEWORKS",
       "citation": "Sloper, Tom. \"The Mah-Jongg Family Tree.\" Sloperama.",
       "note": "Illustrated tree; source for the Matiao / Khanhoo / dominoes root structure.",
-      "url": "https://www.sloperama.com/mjfaq/tree.htm"
+      "url": "https://www.sloperama.com/mjfaq/tree.htm",
+      "slug": "sloperama-tree"
     },
     {
       "id": 3,
       "section": "VARIANT CATALOGUES AND LINEAGE FRAMEWORKS",
       "citation": "Sloper, Tom. \"FAQ 11: History of Mah-Jongg.\" Sloperama.",
       "note": "Regional branching in the 1930s and 40s; Racster 1924 on Shanghai versus Hong Kong base scores; the author's own note that the tree illustration predates later findings.",
-      "url": "https://www.sloperama.com/mjfaq/mjfaq11f.html"
+      "url": "https://www.sloperama.com/mjfaq/mjfaq11f.html",
+      "slug": "sloperama-faq-11"
     },
     {
       "id": 4,
       "section": "VARIANT CATALOGUES AND LINEAGE FRAMEWORKS",
       "citation": "Sloper, Tom. \"Comparative Analysis of Early Mah-Jongg Forms.\" Sloperama.",
       "note": "Chinese Archaic, Late Qing and Pre-Classical rule comparisons.",
-      "url": "https://www.sloperama.com/mahjongg/analysis.html"
+      "url": "https://www.sloperama.com/mahjongg/analysis.html",
+      "slug": "sloperama-analysis"
     },
     {
       "id": 5,
       "section": "VARIANT CATALOGUES AND LINEAGE FRAMEWORKS",
       "citation": "Sloper, Tom. \"Malaysian Mah-Jongg.\" Sloperama.",
       "note": "The 84-tile three-player and 164-tile four-player Malaysian games.",
-      "url": "https://www.sloperama.com/mahjongg/malaysian.html"
+      "url": "https://www.sloperama.com/mahjongg/malaysian.html",
+      "slug": "sloperama-malaysian"
     },
     {
       "id": 6,
       "section": "VARIANT CATALOGUES AND LINEAGE FRAMEWORKS",
       "citation": "Sloper, Tom. \"FAQ 22: Chinese Official Scoring Explained.\" Sloperama.",
       "note": "Confirms the 1998 People's Sports Publishing House edition of the competition rules.",
-      "url": "https://sloperama.com/mjfaq/mjfaq22.html"
+      "url": "https://sloperama.com/mjfaq/mjfaq22.html",
+      "slug": "sloperama-faq-22"
     },
     {
       "id": 7,
       "section": "VARIANT CATALOGUES AND LINEAGE FRAMEWORKS",
       "citation": "Mahjong Wiki. \"Family Tree and Timeline.\" mahjong.wikidot.com.",
       "note": "The decade-by-decade timeline and the branch structure this chart follows, including the caveat that each variant's evolution has been cross-cultural.",
-      "url": "http://mahjong.wikidot.com/"
+      "url": "http://mahjong.wikidot.com/",
+      "slug": "wikidot-home"
     },
     {
       "id": 8,
       "section": "VARIANT CATALOGUES AND LINEAGE FRAMEWORKS",
       "citation": "Mahjong Wiki. \"Hong Kong Old Style Overview.\"",
       "note": "The 1950s simplification, removal of fu, the 1970s 3-3 system, and the late-1980s split into Taiwanese and Guangdong styles.",
-      "url": "http://mahjong.wikidot.com/rules:hong-kong-old-style-overview"
+      "url": "http://mahjong.wikidot.com/rules:hong-kong-old-style-overview",
+      "slug": "wikidot-hkos"
     },
     {
       "id": 9,
       "section": "VARIANT CATALOGUES AND LINEAGE FRAMEWORKS",
       "citation": "Mahjong Wiki. \"Chinese Official (MCR) Overview.\"",
       "note": "1998 release; the 1996 PRC push for sport recognition; Cantonese objections around the handover.",
-      "url": "http://mahjong.wikidot.com/rules:chinese-official-overview"
+      "url": "http://mahjong.wikidot.com/rules:chinese-official-overview",
+      "slug": "wikidot-mcr"
     },
     {
       "id": 10,
       "section": "JAPANESE LINEAGE",
       "citation": "Yuria (Hassouhatsu Club). \"A Brief History of Japanese Mahjong.\" Krakow Chombo Club, 2 Aug 2026.",
       "note": "Arushiiaru rules and scoring; Amano Daizou; the Houchi Shinbun serial of 11 Nov - 5 Dec 1952; the 1957 Tokyo rules and 1967 modern rules; bazoro; the Federation's 2016 acceptance of riichi.",
-      "url": "https://chombo.club/en/blog/2026/08/02/a-brief-history-of-japanese-mahjong/"
+      "url": "https://chombo.club/en/blog/2026/08/02/a-brief-history-of-japanese-mahjong/",
+      "slug": "chombo-club"
     },
     {
       "id": 11,
       "section": "JAPANESE LINEAGE",
       "citation": "Japanese Mahjong Wiki. \"Japanese Mahjong.\" riichi.wiki.",
       "note": "Arrival in Japan in 1909; the post-1969 popularity surge; Tenhou.net in 2007.",
-      "url": "https://riichi.wiki/index.php?title=Japanese_mahjong"
+      "url": "https://riichi.wiki/index.php?title=Japanese_mahjong",
+      "slug": "riichi-wiki"
     },
     {
       "id": 12,
       "section": "JAPANESE LINEAGE",
       "citation": "Wikipedia. \"Japanese Mahjong.\"",
       "note": "The riichi declaration, dora, furiten and ordered discards.",
-      "url": "https://en.wikipedia.org/wiki/Japanese_mahjong"
+      "url": "https://en.wikipedia.org/wiki/Japanese_mahjong",
+      "slug": "wikipedia-japanese-mahjong"
     },
     {
       "id": 13,
       "section": "WESTERN AND AMERICAN LINEAGE",
       "citation": "Wikipedia. \"American Mahjong.\"",
       "note": "Racks, jokers, the Charleston, and the NMJL / AMJA annual card.",
-      "url": "https://en.wikipedia.org/wiki/American_mahjong"
+      "url": "https://en.wikipedia.org/wiki/American_mahjong",
+      "slug": "wikipedia-american"
     },
     {
       "id": 14,
       "section": "WESTERN AND AMERICAN LINEAGE",
       "citation": "MahjongCompare. \"Mahjong History and Origin.\"",
       "note": "NMJL founders (Cecil, Meyerson, Jacobs, Potter), the 1937 Essex House meeting, and jokers entering the official rules in 1961.",
-      "url": "https://mahjongcompare.com/history"
+      "url": "https://mahjongcompare.com/history",
+      "slug": "mahjong-compare"
     },
     {
       "id": 15,
       "section": "WESTERN AND AMERICAN LINEAGE",
       "citation": "The Mahjong Line. \"History of the Game.\"",
       "note": "Wright-Patterson origins among Air Force officers' spouses at Wright Field, Ohio.",
-      "url": "https://themahjongline.com/pages/history"
+      "url": "https://themahjongline.com/pages/history",
+      "slug": "mahjong-line"
     },
     {
       "id": 16,
       "section": "WESTERN AND AMERICAN LINEAGE",
       "citation": "The Charleston Club. \"The History of American Mah Jongg.\"",
       "note": "Babcock's 1920 translation and the Parker Brothers / Milton Bradley licensing.",
-      "url": "https://thecharlestonclubaz.com/blogs/the-journal/the-history-of-american-mah-jongg-from-1920s-import-to-a-century-old-american-tradition"
+      "url": "https://thecharlestonclubaz.com/blogs/the-journal/the-history-of-american-mah-jongg-from-1920s-import-to-a-century-old-american-tradition",
+      "slug": "charleston-club"
     },
     {
       "id": 17,
       "section": "WESTERN AND AMERICAN LINEAGE",
       "citation": "Grokipedia. \"American Mahjong.\"",
       "note": "Jokers appearing in sets from the 1940s; the NMJL mandate from the 1960-61 season.",
-      "url": "https://grokipedia.com/page/American_mahjong"
+      "url": "https://grokipedia.com/page/American_mahjong",
+      "slug": "grokipedia-american"
     },
     {
       "id": 18,
       "section": "CHINESE COMPETITION RULES",
       "citation": "Wikipedia. \"Hong Kong Mahjong Scoring Rules.\"",
       "note": "Faan scoring, the common 3-faan minimum and the 13-faan ceiling.",
-      "url": "https://en.wikipedia.org/wiki/Hong_Kong_mahjong_scoring_rules"
+      "url": "https://en.wikipedia.org/wiki/Hong_Kong_mahjong_scoring_rules",
+      "slug": "wikipedia-hk-scoring"
     },
     {
       "id": 19,
       "section": "CHINESE COMPETITION RULES",
       "citation": "Wikipedia. \"World Mahjong Championship.\"",
       "note": "Mahjong certified as China's 255th sport in January 1998; unified rules codified that September.",
-      "url": "https://en.wikipedia.org/wiki/World_Mahjong_Championship"
+      "url": "https://en.wikipedia.org/wiki/World_Mahjong_Championship",
+      "slug": "wikipedia-wmc"
     },
     {
       "id": 20,
       "section": "CHINESE COMPETITION RULES",
       "citation": "World Mahjong Organization. Mahjong Competition Rules, English edition.",
       "note": "The 1998 ruleset itself.",
-      "url": "http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf"
+      "url": "http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf",
+      "slug": "mcr-rulebook"
     },
     {
       "id": 21,
       "section": "CHINESE COMPETITION RULES",
       "citation": "The World of Chinese. \"Tales of the Tile,\" November 2019.",
       "note": "The 1998 State Sports Commission publication of the Guobiao rules; WMO founded 2006.",
-      "url": "https://www.theworldofchinese.com/2019/11/tales-of-the-tile/"
+      "url": "https://www.theworldofchinese.com/2019/11/tales-of-the-tile/",
+      "slug": "world-of-chinese"
     },
     {
       "id": 22,
       "section": "INDIVIDUAL VARIANTS",
       "citation": "Mahjong International League. \"Duplicate Mahjong Rules.\"",
       "note": "Prebuilt walls intended to remove luck for mind-sport recognition.",
-      "url": "http://mahjong-mil.org/rules_dup.html"
+      "url": "http://mahjong-mil.org/rules_dup.html",
+      "slug": "mil-duplicate"
     },
     {
       "id": 23,
       "section": "INDIVIDUAL VARIANTS",
       "citation": "Grad, Gladys. Siamese Mah Jongg. mahjongg.org.",
       "note": "The two-handed variant, 2015.",
-      "url": "https://mahjongg.org/"
+      "url": "https://mahjongg.org/",
+      "slug": "mahjongg-org"
     },
     {
       "id": 24,
       "section": "INDIVIDUAL VARIANTS",
       "citation": "maque.games. \"Tui Dao Hu.\"",
       "note": "Twelve ways of going out; more than one player may win.",
-      "url": "https://maque.games/post/323/"
+      "url": "https://maque.games/post/323/",
+      "slug": "maque-games"
     },
     {
       "id": 25,
       "section": "INDIVIDUAL VARIANTS",
       "citation": "Gunplot. \"Pusser's Mahjongg (Pusser's Bones).\"",
       "note": "The Royal Navy adaptation of the Western game.",
-      "url": "http://www.gunplot.net/mahjongg/mahjongg2.html"
+      "url": "http://www.gunplot.net/mahjongg/mahjongg2.html",
+      "slug": "gunplot"
     },
     {
       "id": 26,
       "section": "INDIVIDUAL VARIANTS",
       "citation": "Stanwick, Michael and Hongbing Xu. \"Flowers and Kings.\" themahjongtileset.co.uk.",
       "note": "Early ma que tile-set research underlying the Hua Maque and Wang Maque material.",
-      "url": "http://www.themahjongtileset.co.uk/tile-set-history/flowers-and-kings-an-hypothesis-of-their-function-in-early-ma-que/"
+      "url": "http://www.themahjongtileset.co.uk/tile-set-history/flowers-and-kings-an-hypothesis-of-their-function-in-early-ma-que/",
+      "slug": "stanwick-xu"
     },
     {
       "id": 27,
       "section": "SOURCES THE WIKI NAMES OR CAN BE MATCHED TO",
       "citation": "Perlmen, Samuel K. and Mark Kai-Chi Chan. The Chinese Game of Mahjong. Book Marketing Ltd., Hong Kong, 1979. ISBN 962-211-0169.",
       "note": "The only book the wiki cites by name, used as a whole fan-list column. Sloper's book FAQ describes it as covering both Old Style and New Style as played in Hong Kong, which is precisely the distinction the wiki's taxonomy is built on. This is the likeliest backbone of its HKOS material.",
-      "url": "https://www.goodreads.com/book/show/658815.The_Chinese_Game_of_Mahjong"
+      "url": "https://www.goodreads.com/book/show/658815.The_Chinese_Game_of_Mahjong",
+      "slug": "perlmen-chan-1979"
     },
     {
       "id": 28,
       "section": "SOURCES THE WIKI NAMES OR CAN BE MATCHED TO",
       "citation": "\"Let's Mahjong!\" ruleset, as tabulated on the Mahjong Wiki HKOS scoring page.",
       "note": "Cited as a second fan-list column and treated as the representative New Chapter standard. The wiki describes it as the transition from HKOS to Guangdong Style. It is a ruleset, not a scholarly source, and the wiki gives no publication details for it.",
-      "url": "http://mahjong.wikidot.com/rules:hong-kong-old-style-scoring"
+      "url": "http://mahjong.wikidot.com/rules:hong-kong-old-style-scoring",
+      "slug": "lets-mahjong"
     },
     {
       "id": 29,
       "section": "SOURCES THE WIKI NAMES OR CAN BE MATCHED TO",
       "citation": "Cantonese fan lists: New6 (六獨), New18 (十八番), and 無奇不有.",
       "note": "Named on the HKOS and Hong Kong New Style pages. These are traditions internal to Hong Kong play. The wiki's own caveat is that NEW18 may not in fact be standardised at all.",
-      "url": "http://mahjong.wikidot.com/rules:hong-kong-new-style-overview"
+      "url": "http://mahjong.wikidot.com/rules:hong-kong-new-style-overview",
+      "slug": "cantonese-fan-lists"
     },
     {
       "id": 30,
       "section": "SOURCES THE WIKI NAMES OR CAN BE MATCHED TO",
       "citation": "Kwan, Alan. Zung Jung scoring system.",
       "note": "Named on the wiki and independently documented; the World Series of Mahjong used a modified form of it.",
-      "url": "http://mahjong.wikidot.com/rules:zung-jung-overview"
+      "url": "http://mahjong.wikidot.com/rules:zung-jung-overview",
+      "slug": "kwan-zung-jung"
     },
     {
       "id": 31,
       "section": "SOURCES THE WIKI NAMES OR CAN BE MATCHED TO",
       "citation": "Chinese Mahjong Competition Rules, People's Sports Publishing House, 1998.",
       "note": "Underlies the wiki's MCR pages, though it cites no edition.",
-      "url": "http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf"
+      "url": "http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf",
+      "slug": "cmcr-1998"
     },
     {
       "id": 32,
       "section": "SOURCES THE WIKI NAMES OR CAN BE MATCHED TO",
       "citation": "British Mahjong scoring, as tabulated on the wiki's own Western Mah Jong page.",
       "note": "The wiki attributes All Green, Seven Pairs and the Jewel Dragons to this tradition flowing back into Chinese rulesets. No book is named.",
-      "url": "http://mahjong.wikidot.com/rules:western-mah-jong-scoring"
+      "url": "http://mahjong.wikidot.com/rules:western-mah-jong-scoring",
+      "slug": "british-mahjong-scoring"
     },
     {
       "id": 33,
       "section": "SOURCES THE WIKI NAMES OR CAN BE MATCHED TO",
       "citation": "Archived earlier version of the Mahjong Wiki, 30 March 2025.",
       "note": "The author's own predecessor site, linked from the current front page. Useful for seeing which claims are new to the rebuild and which were carried over.",
-      "url": "https://web.archive.org/web/20250330002121/http://mahjong.wikidot.com/"
+      "url": "https://web.archive.org/web/20250330002121/http://mahjong.wikidot.com/",
+      "slug": "wikidot-archive-2025"
     },
     {
       "id": 34,
       "section": "WHERE TO CHECK THE WIKI INDEPENDENTLY",
       "citation": "Sloper, Tom. \"FAQ 3: Books About Mah-Jongg.\"",
       "note": "Identifies Perlmen & Chan in full and lists the other Hong Kong Old Style books: Constantino, Li, Tsui, Lo.",
-      "url": "https://sloperama.com/mjfaq/mjfaq03.html"
+      "url": "https://sloperama.com/mjfaq/mjfaq03.html",
+      "slug": "sloperama-faq-3"
     },
     {
       "id": 35,
       "section": "WHERE TO CHECK THE WIKI INDEPENDENTLY",
       "citation": "rec.games.mahjong newsgroup archive.",
       "note": "Where much of the English-language variant research was originally argued out, and the origin of several single-informant reports in Sloper's catalogue.",
-      "url": "https://groups.google.com/g/rec.games.mahjong"
+      "url": "https://groups.google.com/g/rec.games.mahjong",
+      "slug": "rec-games-mahjong"
     },
     {
       "id": 36,
       "section": "WHERE TO CHECK THE WIKI INDEPENDENTLY",
       "citation": "Tsui, Cofa. International Mahjong Rules, 1998.",
       "note": "An independent Hong Kong Old Style codification, useful as a check on the wiki's fan tables.",
-      "url": "http://www.cofatsui.com/mahjong.html"
+      "url": "http://www.cofatsui.com/mahjong.html",
+      "slug": "cofa-tsui"
     },
     {
       "id": 37,
       "section": "WHERE TO CHECK THE WIKI INDEPENDENTLY",
       "citation": "Cantonese Wikipedia: 香港麻雀.",
       "note": "Cantonese-language treatment of the Hong Kong game, in the register the wiki appears to draw from.",
-      "url": "https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E9%BA%BB%E9%9B%80"
+      "url": "https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E9%BA%BB%E9%9B%80",
+      "slug": "yue-wikipedia-hk-mahjong"
     },
     {
       "id": 38,
       "section": "WHERE TO CHECK THE WIKI INDEPENDENTLY",
       "citation": "Chinese Wikipedia: 香港麻雀胡牌列表.",
       "note": "Hong Kong winning-hand list, a direct comparison point for the wiki's NEW6 and NEW18 tables.",
-      "url": "https://zh.wikipedia.org/zh-hant/%E9%A6%99%E6%B8%AF%E9%BA%BB%E9%9B%80%E8%83%A1%E7%89%8C%E5%88%97%E8%A1%A8"
+      "url": "https://zh.wikipedia.org/zh-hant/%E9%A6%99%E6%B8%AF%E9%BA%BB%E9%9B%80%E8%83%A1%E7%89%8C%E5%88%97%E8%A1%A8",
+      "slug": "zh-wikipedia-hk-hands"
+    },
+    {
+      "id": 39,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-chinese-classical",
+      "citation": "Mahjong Wiki. \"Chinese Classical Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:chinese-classical-overview"
+    },
+    {
+      "id": 40,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-hk-new-style",
+      "citation": "Mahjong Wiki. \"Hong Kong New Style Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:hong-kong-new-style-overview"
+    },
+    {
+      "id": 41,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-hkos-scoring",
+      "citation": "Mahjong Wiki. \"Hong Kong Old Style Scoring.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:hong-kong-old-style-scoring"
+    },
+    {
+      "id": 42,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-guangdong",
+      "citation": "Mahjong Wiki. \"Guangdong Style Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:guangdong-style-overview"
+    },
+    {
+      "id": 43,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-gmcr",
+      "citation": "Mahjong Wiki. \"Guangdong MCR Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:gmcr-overview"
+    },
+    {
+      "id": 44,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-taiwanese",
+      "citation": "Mahjong Wiki. \"Taiwanese Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:taiwanese-overview"
+    },
+    {
+      "id": 45,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-zung-jung",
+      "citation": "Mahjong Wiki. \"Zung Jung Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:zung-jung-overview"
+    },
+    {
+      "id": 46,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-mainland",
+      "citation": "Mahjong Wiki. \"Mainland Mahjong Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:mainland-mahjong-overview"
+    },
+    {
+      "id": 47,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-japanese-classical",
+      "citation": "Mahjong Wiki. \"Japanese Classical Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:japanese-classical-overview"
+    },
+    {
+      "id": 48,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-japanese-modern",
+      "citation": "Mahjong Wiki. \"Japanese Modern Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:japanese-modern-overview"
+    },
+    {
+      "id": 49,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-american",
+      "citation": "Mahjong Wiki. \"American Overview.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:american-overview"
+    },
+    {
+      "id": 50,
+      "section": "ADDITIONAL WIKI PAGES CITED BY NODE ROWS",
+      "slug": "wikidot-western",
+      "citation": "Mahjong Wiki. \"Western Mah Jong Scoring.\" mahjong.wikidot.com.",
+      "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
+      "url": "http://mahjong.wikidot.com/rules:western-mah-jong-scoring"
     }
   ]
 }

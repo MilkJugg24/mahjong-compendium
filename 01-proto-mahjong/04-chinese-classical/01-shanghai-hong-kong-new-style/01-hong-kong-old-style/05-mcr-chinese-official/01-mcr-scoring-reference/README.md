@@ -3,7 +3,9 @@ node: MCR scoring reference
 family: chinese
 confidence: documented
 parent: MCR / Chinese official
-chart_refs: [6, 20]
+chart_id: mcr-scoring
+canonical_source: mcr-rulebook
+chart_refs: [20, 6]
 ---
 
 # MCR scoring reference
@@ -16,10 +18,12 @@ chart_refs: [6, 20]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [6](../../../../../../REFERENCES.md#ref-6) | Sloper, Tom. "FAQ 22: Chinese Official Scoring Explained." Sloperama. | <https://sloperama.com/mjfaq/mjfaq22.html> |
-| [20](../../../../../../REFERENCES.md#ref-20) | World Mahjong Organization. Mahjong Competition Rules, English edition. | <http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [20](../../../../../../REFERENCES.md#ref-20) | World Mahjong Organization. Mahjong Competition Rules, English edition. | <http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf> | **canonical** |
+| [6](../../../../../../REFERENCES.md#ref-6) | Sloper, Tom. "FAQ 22: Chinese Official Scoring Explained." Sloperama. | <https://sloperama.com/mjfaq/mjfaq22.html> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

@@ -1,62 +1,62 @@
-depth	family	slug	label	detail	confidence	refs	note
-0	roots	proto-mahjong	Proto-mahjong	c. 1870s, rules lost	lost	2,26	
-1	roots	chinese-archaic	Chinese archaic	c. 1890, Wilkinson	documented	4,2	
-1	roots	late-qing-style	Late Qing style	c. 1903, Li Boyuan	documented	4	
-1	roots	chinese-pre-classical	Chinese pre-classical	Mauger, 1915	documented	4	
-1	chinese	chinese-classical	Chinese classical	1920s, 144 tiles	documented	7,3	
-2	chinese	shanghai-hong-kong-new-style	Shanghai / Hong Kong new style	1920s	documented	7,3,28	
-3	chinese	hong-kong-old-style	Hong Kong old style	1950s, fu removed	documented	8,18,27,28,29,36	
-4	chinese	modern-hkos	Modern HKOS	3-faan minimum, 1970s	documented	8,18,1	The 1970s 3-3 system is asserted by the Mahjong Wiki timeline and carries no citation there.
-4	chinese	guangdong-style	Guangdong style	1980s, additive scoring	documented	8,28	Influenced first by Hong Kong and later by Taiwanese play; a single parent arrow understates this. The late-1980s move to additive scoring is unsourced on the wiki.
-5	chinese	guangdong-mcr	Guangdong MCR / GMCR	2020s	documented	8	
-4	taiwanese	taiwanese-style	Taiwanese style	16-tile hand, 1980s	documented	1,8	
-5	taiwanese	hong-kong-taiwanese	Hong Kong Taiwanese	HKT	catalogued	1	
-4	southeast-asian	nanyang-variants	Nanyang variants	descent disputed	disputed	1,7	Drawn with a dashed connector in the source chart: no source establishes this descent.
-5	southeast-asian	singapore-style	Singapore style	148 tiles, animal flowers	catalogued	1	
-5	southeast-asian	malaysian-3-player	Malaysian 3-player	84 tiles, one suit	catalogued	5,1	
-5	southeast-asian	malaysian-4-player	Malaysian 4-player	164 tiles, 24 flowers	catalogued	5,1	
-5	southeast-asian	filipino-style	Filipino style	16-tile hand, honours as flowers	catalogued	1	
-6	southeast-asian	bashi-bashi	Bashi-Bashi	3-player, Philippine casinos	catalogued	1	
-5	southeast-asian	vietnamese-classical	Vietnamese classical	160 tiles, 8 jokers	catalogued	1	
-6	southeast-asian	vietnamese-modern	Vietnamese modern	176+ tiles, 24+ jokers	catalogued	1	
-5	southeast-asian	pong-malaya	Pong	Malaya, 120 tiles, Dobree 1955	catalogued	1	
-4	chinese	mcr-chinese-official	MCR / Chinese official	1998, Guobiao	documented	6,9,19,20,21,31	
-5	chinese	mcr-scoring-reference	MCR scoring reference		documented	6,20	
-4	chinese	zung-jung	Zung Jung	Alan Kwan, 2000s	documented	30	
-3	chinese	mainland-regionals	Mainland regionals		catalogued	1,7	These ten nodes stand in for a hundred-plus real variants, most undocumented in English. The group began on a Chinese Classical frame and only later adopted HKOS's simplified scoring, so its placement under Hong Kong old style is a simplification.
-4	chinese	sichuan-hunan-tibetan	Sichuan / Hunan / Tibetan	108 tiles	catalogued	1	
-4	chinese	sichuan-bloody-rules	Sichuan bloody rules	Chengdu, 1990s	catalogued	1	
-4	chinese	sichuan-72-tile	Sichuan 72-tile game	per Dragon Chang	single-informant	1	
-4	chinese	fuzhou-style	Fuzhou style	132 tiles	catalogued	1	
-4	chinese	fujian-style	Fujian style	124 tiles, winds as flowers	single-informant	1	Rests on a single informant report.
-4	chinese	beijing-style	Beijing style	drawn wild tile	catalogued	1	
-4	chinese	nanjing-style	Nanjing style	dragons as flowers	catalogued	1	
-4	chinese	shenzhen-style	Shenzhen style	kongs only, poorly documented	single-informant	1	Rests on a single informant report.
-4	chinese	macau-simplificado	Macau simplificado	112 tiles, hold 4	catalogued	1	
-4	chinese	tui-dao-hu	Tui Dao Hu	multiple winners	single-informant	24,1	Rests on a single informant report.
-4	chinese	chinese-casino-style	Chinese casino style		catalogued	1	
-2	japanese	japanese-classical-arushiiaru	Japanese classical / arushiiaru	1929	documented	10,11,12	
-3	japanese	houchi-rules	Houchi rules	1952, Amano Daizou	documented	10	
-4	japanese	tokyo-rules	Tokyo rules	1957, 1-han minimum	documented	10	
-5	japanese	modern-rules	Modern rules	1967, ura dora, oka, bazoro	documented	10	
-6	japanese	modern-riichi-yonma	Modern riichi / yonma	red fives, 1970	documented	10,11,12	
-6	japanese	sanma	Sanma	3-player riichi	catalogued	1,12	
-6	korean	wmpa-wmf	WMPA / WMF	Korean, riichi-based	catalogued	10,1	
-2	korean	korean-traditional	Korean traditional	104 tiles, no bamboo	placeholder	1,7	Drawn with a dashed connector in the source chart. No source establishes how the 104-tile Korean game descends from anything; the parent link is a placeholder.
-2	western-american	babcock-rules	Babcock rules	1920, the little red book	documented	16,13,14	
-3	western-american	twenty-point-mah-jong	Twenty Point Mah Jong	R.F. Foster, 1924	documented	1	
-3	western-american	western-british-empire-style	Western / British Empire style		documented	32,1	All Pairs and All Green flowed backwards out of this branch into most other modern rulesets, which no top-down tree can show.
-4	western-american	wright-patterson	Wright-Patterson	USAF spouses, Ohio	documented	15,1	
-4	western-american	india-mumbai-style	India / Mumbai style	rotating round rules	catalogued	1	
-4	western-american	israeli-mah-jongg-association	Israeli Mah-Jongg Association		catalogued	1	
-4	western-american	nepalese	Nepalese	11-tile winning hand	catalogued	1	
-4	western-american	pussers-bones	Pusser's Bones	Royal Navy	documented	25,1	
-3	western-american	regional-us-house-rules	Regional US house rules	1920s-30s	catalogued	13,14	
-4	western-american	nmjl-card	NMJL card	1937, annual hand list	documented	13,14,17	
-5	western-american	american-mah-jongg	American mah jongg	152 tiles, jokers 1961	documented	13,14,17	
-6	western-american	amja-card	AMJA card		documented	13	
-6	western-american	siamese-mah-jongg	Siamese Mah Jongg	two-handed, 2015	documented	23	
-0	roots	modern-inventions	Modern inventions	not descendants	catalogued		Inventions that do not descend from the mahjong line; grouped here only so the compendium has a home for them.
-1	roots	duplicate-mahjong	Duplicate mahjong	prebuilt walls, no luck	documented	22	
-1	roots	mhing	Mhing	card version	catalogued	1	
-1	roots	mahjong-masters-millions	Mahjong Masters Millions		catalogued	1	
+depth	family	slug	alias	label	detail	confidence	source	refs	note
+0	roots	proto-mahjong	proto-mahjong	Proto-mahjong	c. 1870s, rules lost	lost	sloperama-faq-11	2,26	
+1	roots	chinese-archaic	chinese-archaic	Chinese archaic	c. 1890, Wilkinson	documented	sloperama-analysis	4,2	
+1	roots	late-qing-style	late-qing	Late Qing style	c. 1903, Li Boyuan	documented	sloperama-analysis	4	
+1	roots	chinese-pre-classical	chinese-pre-classical	Chinese pre-classical	Mauger, 1915	documented	sloperama-analysis	4	
+1	chinese	chinese-classical	chinese-classical	Chinese classical	1920s, 144 tiles	documented	wikidot-chinese-classical	7,3	
+2	chinese	shanghai-hong-kong-new-style	shanghai-hk-new-style	Shanghai / Hong Kong new style	1920s	documented	wikidot-hk-new-style	7,3,28	
+3	chinese	hong-kong-old-style	hkos	Hong Kong old style	1950s, fu removed	documented	wikidot-hkos	8,18,27,28,29,36	
+4	chinese	modern-hkos	modern-hkos	Modern HKOS	3-faan minimum, 1970s	documented	wikipedia-hk-scoring	8,18,1	The 1970s 3-3 system is asserted by the Mahjong Wiki timeline and carries no citation there.
+4	chinese	guangdong-style	guangdong-style	Guangdong style	1980s, additive scoring	documented	wikidot-guangdong	8,28	Influenced first by Hong Kong and later by Taiwanese play; a single parent arrow understates this. The late-1980s move to additive scoring is unsourced on the wiki.
+5	chinese	guangdong-mcr	gmcr	Guangdong MCR / GMCR	2020s	documented	wikidot-gmcr	8	
+4	taiwanese	taiwanese-style	taiwanese-style	Taiwanese style	16-tile hand, 1980s	documented	wikidot-taiwanese	1,8	
+5	taiwanese	hong-kong-taiwanese	hkt	Hong Kong Taiwanese	HKT	catalogued	wikidot-taiwanese	1	
+4	southeast-asian	nanyang-variants	nanyang	Nanyang variants	descent disputed	disputed	wikidot-home	1,7	Drawn with a dashed connector in the source chart: no source establishes this descent.
+5	southeast-asian	singapore-style	singapore-style	Singapore style	148 tiles, animal flowers	catalogued	sloperama-faq-2b	1	
+5	southeast-asian	malaysian-3-player	malaysian-3p	Malaysian 3-player	84 tiles, one suit	catalogued	sloperama-malaysian	5,1	
+5	southeast-asian	malaysian-4-player	malaysian-4p	Malaysian 4-player	164 tiles, 24 flowers	catalogued	sloperama-malaysian	5,1	
+5	southeast-asian	filipino-style	filipino-style	Filipino style	16-tile hand, honours as flowers	catalogued	sloperama-faq-2b	1	Sits under Nanyang despite a 16-tile hand resembling Taiwanese. The distinguishing test is that Filipino play treats winds and dragons as flowers.
+6	southeast-asian	bashi-bashi	bashi-bashi	Bashi-Bashi	3-player, Philippine casinos	catalogued	sloperama-faq-2b	1	
+5	southeast-asian	vietnamese-classical	vietnamese-classical	Vietnamese classical	160 tiles, 8 jokers	catalogued	sloperama-faq-2b	1	
+6	southeast-asian	vietnamese-modern	vietnamese-modern	Vietnamese modern	176+ tiles, 24+ jokers	catalogued	sloperama-faq-2b	1	
+5	southeast-asian	pong-malaya	pong-malaya	Pong	Malaya, 120 tiles, Dobree 1955	catalogued	sloperama-faq-2b	1	
+4	chinese	mcr-chinese-official	mcr	MCR / Chinese official	1998, Guobiao	documented	wikidot-mcr	6,9,19,20,21,31	
+5	chinese	mcr-scoring-reference	mcr-scoring	MCR scoring reference		documented	mcr-rulebook	6,20	
+4	chinese	zung-jung	zung-jung	Zung Jung	Alan Kwan, 2000s	documented	wikidot-zung-jung	30	
+3	chinese	mainland-regionals	mainland-regionals	Mainland regionals		catalogued	wikidot-mainland	1,7	These eleven nodes stand in for a hundred-plus real variants, most undocumented in English. The group began on a Chinese Classical frame and only later adopted HKOS's simplified scoring, so its placement under Hong Kong old style is a simplification.
+4	chinese	sichuan-hunan-tibetan	sichuan-108	Sichuan / Hunan / Tibetan	108 tiles	catalogued	sloperama-faq-2b	1	
+4	chinese	sichuan-bloody-rules	sichuan-bloody	Sichuan bloody rules	Chengdu, 1990s	catalogued	wikidot-mainland	1	
+4	chinese	sichuan-72-tile	sichuan-72	Sichuan 72-tile game	per Dragon Chang	single-informant	sloperama-faq-2b	1	
+4	chinese	fuzhou-style	fuzhou-style	Fuzhou style	132 tiles	catalogued	sloperama-faq-2b	1	
+4	chinese	fujian-style	fujian-style	Fujian style	124 tiles, winds as flowers	single-informant	sloperama-faq-2b	1	Rests on a single informant report.
+4	chinese	beijing-style	beijing-style	Beijing style	drawn wild tile	catalogued	sloperama-faq-2b	1	
+4	chinese	nanjing-style	nanjing-style	Nanjing style	dragons as flowers	catalogued	sloperama-faq-2b	1	
+4	chinese	shenzhen-style	shenzhen-style	Shenzhen style	kongs only, poorly documented	single-informant	sloperama-faq-2b	1	Rests on a single informant report.
+4	chinese	macau-simplificado	macau-simplificado	Macau simplificado	112 tiles, hold 4	catalogued	sloperama-faq-2b	1	
+4	chinese	tui-dao-hu	tui-dao-hu	Tui Dao Hu	multiple winners	single-informant	maque-games	24,1	Rests on a single informant report.
+4	chinese	chinese-casino-style	chinese-casino	Chinese casino style		catalogued	sloperama-faq-2b	1	
+2	japanese	japanese-classical-arushiiaru	japanese-classical	Japanese classical / arushiiaru	1929	documented	wikidot-japanese-classical	10,11,12	
+3	japanese	houchi-rules	houchi-rules	Houchi rules	1952, Amano Daizou	documented	chombo-club	10	
+4	japanese	tokyo-rules	tokyo-rules	Tokyo rules	1957, 1-han minimum	documented	chombo-club	10	
+5	japanese	modern-rules	modern-rules-1967	Modern rules	1967, ura dora, oka, bazoro	documented	chombo-club	10	
+6	japanese	modern-riichi-yonma	modern-riichi	Modern riichi / yonma	red fives, 1970	documented	wikidot-japanese-modern	10,11,12	
+6	japanese	sanma	sanma	Sanma	3-player riichi	catalogued	wikipedia-japanese-mahjong	1,12	
+6	korean	wmpa-wmf	wmpa-wmf	WMPA / WMF	Korean, riichi-based	catalogued	sloperama-faq-2b	10,1	
+2	korean	korean-traditional	korean-traditional	Korean traditional	104 tiles, no bamboo	placeholder	sloperama-faq-2b	1,7	Drawn with a dashed connector in the source chart. No source establishes how the 104-tile Korean game descends from anything; the parent link is a placeholder.
+2	western-american	babcock-rules	babcock-rules	Babcock rules	1920, the little red book	documented	sloperama-faq-2b	16,13,14	
+3	western-american	twenty-point-mah-jong	twenty-point	Twenty Point Mah Jong	R.F. Foster, 1924	documented	sloperama-faq-2b	1	
+3	western-american	western-british-empire-style	western-british	Western / British Empire style		documented	sloperama-faq-2b	32,1	All Pairs and All Green flowed backwards out of this branch into most other modern rulesets, meaning the Western / American branch fed the Chinese branch, which no tree layout shows.
+4	western-american	wright-patterson	wright-patterson	Wright-Patterson	USAF spouses, Ohio	documented	mahjong-line	15,1	
+4	western-american	india-mumbai-style	india-mumbai	India / Mumbai style	rotating round rules	catalogued	sloperama-faq-2b	1	
+4	western-american	israeli-mah-jongg-association	israeli-mja	Israeli Mah-Jongg Association		catalogued	sloperama-faq-2b	1	
+4	western-american	nepalese	nepalese	Nepalese	11-tile winning hand	catalogued	sloperama-faq-2b	1	
+4	western-american	pussers-bones	pussers-bones	Pusser's Bones	Royal Navy	documented	gunplot	25,1	
+3	western-american	regional-us-house-rules	regional-us-house	Regional US house rules	1920s-30s	catalogued	wikipedia-american	13,14	
+4	western-american	nmjl-card	nmjl-card	NMJL card	1937, annual hand list	documented	wikidot-american	13,14,17	
+5	western-american	american-mah-jongg	american-mah-jongg	American mah jongg	152 tiles, jokers 1961	documented	wikipedia-american	13,14,17	
+6	western-american	amja-card	amja-card	AMJA card		documented	wikipedia-american	13	
+6	western-american	siamese-mah-jongg	siamese-mah-jongg	Siamese Mah Jongg	two-handed, 2015	documented	mahjongg-org	23	
+0	roots	modern-inventions	modern-inventions	Modern inventions	not descendants	catalogued	sloperama-faq-2b		Inventions that do not descend from the mahjong line; grouped here only so the compendium has a home for them.
+1	roots	duplicate-mahjong	duplicate-mahjong	Duplicate mahjong	prebuilt walls, no luck	documented	mil-duplicate	22	
+1	roots	mhing	mhing	Mhing	card version	catalogued	sloperama-faq-2b	1	
+1	roots	mahjong-masters-millions	mahjong-masters-millions	Mahjong Masters Millions		catalogued	sloperama-faq-2b	1	

@@ -4,7 +4,9 @@ detail: not descendants
 family: roots
 confidence: catalogued
 parent: (none)
-chart_refs: []
+chart_id: modern-inventions
+canonical_source: sloperama-faq-2b
+chart_refs: [1]
 ---
 
 # Modern inventions
@@ -29,7 +31,11 @@ chart_refs: []
 
 ## Sources the chart cites for this node
 
-None. This node is grouped here for convenience, not on a cited claim.
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [1](../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | **canonical** |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

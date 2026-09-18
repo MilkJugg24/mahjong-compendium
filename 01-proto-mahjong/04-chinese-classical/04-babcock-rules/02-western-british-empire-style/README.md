@@ -3,7 +3,9 @@ node: Western / British Empire style
 family: western-american
 confidence: documented
 parent: Babcock rules
-chart_refs: [32, 1]
+chart_id: western-british
+canonical_source: sloperama-faq-2b
+chart_refs: [1, 32]
 ---
 
 # Western / British Empire style
@@ -24,14 +26,16 @@ chart_refs: [32, 1]
 
 ## Caveat from the source chart
 
-> All Pairs and All Green flowed backwards out of this branch into most other modern rulesets, which no top-down tree can show.
+> All Pairs and All Green flowed backwards out of this branch into most other modern rulesets, meaning the Western / American branch fed the Chinese branch, which no tree layout shows.
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [32](../../../../REFERENCES.md#ref-32) | British Mahjong scoring, as tabulated on the wiki's own Western Mah Jong page. | <http://mahjong.wikidot.com/rules:western-mah-jong-scoring> |
-| [1](../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [1](../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | **canonical** |
+| [32](../../../../REFERENCES.md#ref-32) | British Mahjong scoring, as tabulated on the wiki's own Western Mah Jong page. | <http://mahjong.wikidot.com/rules:western-mah-jong-scoring> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

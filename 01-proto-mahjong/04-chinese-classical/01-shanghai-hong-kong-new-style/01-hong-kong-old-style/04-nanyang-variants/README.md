@@ -4,7 +4,9 @@ detail: descent disputed
 family: southeast-asian
 confidence: disputed
 parent: Hong Kong old style
-chart_refs: [1, 7]
+chart_id: nanyang
+canonical_source: wikidot-home
+chart_refs: [7, 1]
 ---
 
 # Nanyang variants
@@ -32,10 +34,12 @@ chart_refs: [1, 7]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> |
-| [7](../../../../../REFERENCES.md#ref-7) | Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com. | <http://mahjong.wikidot.com/> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [7](../../../../../REFERENCES.md#ref-7) | Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com. | <http://mahjong.wikidot.com/> | **canonical** |
+| [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

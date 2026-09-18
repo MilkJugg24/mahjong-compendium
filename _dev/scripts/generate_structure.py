@@ -59,10 +59,16 @@ def load_nodes():
     """Return the flat node list with parent / child / path links resolved."""
     with open(os.path.join(DATA, "nodes.tsv")) as f:
         nodes = list(csv.DictReader(f, delimiter="\t"))
+    refs_by_slug = {r["slug"]: r["id"] for r in
+                    json.load(open(os.path.join(DATA, "references.json")))["references"]}
     for n in nodes:
         n["depth"] = int(n["depth"])
-        n["refs"] = [int(r) for r in n["refs"].split(",") if r]
         n["children"] = []
+        # The chart's node table names one canonical source per node; the rest are supporting
+        # references matched by subject. The canonical one leads and is marked as such.
+        n["canonical"] = refs_by_slug[n["source"]]
+        supporting = [int(r) for r in n["refs"].split(",") if r and int(r) != n["canonical"]]
+        n["refs"] = [n["canonical"]] + supporting
 
     stack = {}
     counters = {}
@@ -123,6 +129,8 @@ def node_readme(node, refs_by_id):
     out.append(f"family: {node['family']}")
     out.append(f"confidence: {node['confidence']}")
     out.append(f"parent: {node['parent']['label'] if node['parent'] else '(none)'}")
+    out.append(f"chart_id: {node['alias']}")
+    out.append(f"canonical_source: {node['source']}")
     out.append(f"chart_refs: [{', '.join(str(r) for r in node['refs'])}]")
     out.append("---")
     out.append("")
@@ -158,11 +166,19 @@ def node_readme(node, refs_by_id):
     out.append("## Sources the chart cites for this node")
     out.append("")
     if node["refs"]:
-        out.append("| # | Source | URL |")
-        out.append("| --- | --- | --- |")
+        out.append("| # | Source | URL | Role |")
+        out.append("| --- | --- | --- | --- |")
         for r in node["refs"]:
             ref = refs_by_id[r]
-            out.append(f"| [{r}]({up}/REFERENCES.md#ref-{r}) | {ref['citation']} | <{ref['url']}> |")
+            mark = "**canonical**" if r == node["canonical"] else "supporting"
+            out.append(
+                f"| [{r}]({up}/REFERENCES.md#ref-{r}) | {ref['citation']} | <{ref['url']}> | {mark} |"
+            )
+        out.append("")
+        out.append(
+            "The canonical source is the one the chart's node table names for this variant. Supporting "
+            "references are matched by subject and were not attributed to it by the chart."
+        )
     else:
         out.append("None. This node is grouped here for convenience, not on a cited claim.")
     out.append("")
@@ -203,7 +219,7 @@ def root_readme(nodes, data):
     out.append("")
     out.append(
         "The folder tree mirrors the variant family tree in "
-        "[`_dev/source-chart/mahjong-variant-family-tree.pdf`](_dev/source-chart/mahjong-variant-family-tree.pdf): "
+        "[`_dev/source-chart/`](_dev/source-chart/): "
         "**one folder per variant, nested by descent**. Drop a collected file into the folder for the variant "
         "it documents, and log it in that folder's `README.md` table. Every folder's README carries the "
         "variant's lineage, the sources the chart cites for it, and how much those sources are actually worth."
@@ -281,7 +297,7 @@ def root_readme(nodes, data):
     return "\n".join(out)
 
 
-SMALL_WORDS = {"and", "or", "to", "the", "a", "an", "of", "in", "for"}
+SMALL_WORDS = {"and", "or", "to", "the", "a", "an", "of", "in", "for", "by", "with"}
 
 
 def headline(text):
@@ -305,8 +321,10 @@ def references_md(nodes, data):
     out.append("")
     out.append(
         "The bibliography of "
-        "[the source chart](_dev/source-chart/mahjong-variant-family-tree.pdf), transcribed verbatim, with "
-        "back-links to the variant folders each reference is cited for. All web sources were retrieved on "
+        "[the source chart](_dev/source-chart/mahjong-variant-family-tree.md), transcribed verbatim, with "
+        "back-links to the variant folders each reference is cited for. References 1-38 are the chart's "
+        "numbered bibliography; 39-50 are the Mahjong Wiki pages its node table cites directly for "
+        "individual variants. All web sources were retrieved on "
         f'{data["retrieved"]} by the chart\'s author; nothing here has been re-checked since.'
     )
     out.append("")

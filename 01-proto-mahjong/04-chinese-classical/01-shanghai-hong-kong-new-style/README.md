@@ -4,7 +4,9 @@ detail: 1920s
 family: chinese
 confidence: documented
 parent: Chinese classical
-chart_refs: [7, 3, 28]
+chart_id: shanghai-hk-new-style
+canonical_source: wikidot-hk-new-style
+chart_refs: [40, 7, 3, 28]
 ---
 
 # Shanghai / Hong Kong new style
@@ -24,11 +26,14 @@ chart_refs: [7, 3, 28]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [7](../../../REFERENCES.md#ref-7) | Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com. | <http://mahjong.wikidot.com/> |
-| [3](../../../REFERENCES.md#ref-3) | Sloper, Tom. "FAQ 11: History of Mah-Jongg." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq11f.html> |
-| [28](../../../REFERENCES.md#ref-28) | "Let's Mahjong!" ruleset, as tabulated on the Mahjong Wiki HKOS scoring page. | <http://mahjong.wikidot.com/rules:hong-kong-old-style-scoring> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [40](../../../REFERENCES.md#ref-40) | Mahjong Wiki. "Hong Kong New Style Overview." mahjong.wikidot.com. | <http://mahjong.wikidot.com/rules:hong-kong-new-style-overview> | **canonical** |
+| [7](../../../REFERENCES.md#ref-7) | Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com. | <http://mahjong.wikidot.com/> | supporting |
+| [3](../../../REFERENCES.md#ref-3) | Sloper, Tom. "FAQ 11: History of Mah-Jongg." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq11f.html> | supporting |
+| [28](../../../REFERENCES.md#ref-28) | "Let's Mahjong!" ruleset, as tabulated on the Mahjong Wiki HKOS scoring page. | <http://mahjong.wikidot.com/rules:hong-kong-old-style-scoring> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 
