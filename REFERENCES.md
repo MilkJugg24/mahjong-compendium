@@ -1,0 +1,409 @@
+# References
+
+The bibliography of [the source chart](_dev/source-chart/mahjong-variant-family-tree.pdf), transcribed verbatim, with back-links to the variant folders each reference is cited for. All web sources were retrieved on 2026-09-13 by the chart's author; nothing here has been re-checked since.
+
+## Variant Catalogues and Lineage Frameworks
+
+<a id="ref-1"></a>
+
+**1. Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama.**
+
+Tile counts, hand sizes, flower handling and scoring for roughly 50 named variants. Primary source for most leaf nodes in this chart.
+
+<https://www.sloperama.com/mjfaq/mjfaq02b.html>
+
+<details><summary><em>Cited for 36 variants</em></summary>
+
+[Modern HKOS](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/01-modern-hkos/), [Taiwanese style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/), [Hong Kong Taiwanese](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/01-hong-kong-taiwanese/), [Nanyang variants](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/), [Singapore style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/01-singapore-style/), [Malaysian 3-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/02-malaysian-3-player/), [Malaysian 4-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/03-malaysian-4-player/), [Filipino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/04-filipino-style/), [Bashi-Bashi](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/04-filipino-style/01-bashi-bashi/), [Vietnamese classical](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/05-vietnamese-classical/), [Vietnamese modern](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/05-vietnamese-classical/01-vietnamese-modern/), [Pong](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/06-pong-malaya/), [Mainland regionals](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/), [Sichuan / Hunan / Tibetan](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/01-sichuan-hunan-tibetan/), [Sichuan bloody rules](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/02-sichuan-bloody-rules/), [Sichuan 72-tile game](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/03-sichuan-72-tile/), [Fuzhou style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/04-fuzhou-style/), [Fujian style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/05-fujian-style/), [Beijing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/06-beijing-style/), [Nanjing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/07-nanjing-style/), [Shenzhen style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/08-shenzhen-style/), [Macau simplificado](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/09-macau-simplificado/), [Tui Dao Hu](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/10-tui-dao-hu/), [Chinese casino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/11-chinese-casino-style/), [Sanma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/02-sanma/), [WMPA / WMF](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/03-wmpa-wmf/), [Korean traditional](01-proto-mahjong/04-chinese-classical/03-korean-traditional/), [Twenty Point Mah Jong](01-proto-mahjong/04-chinese-classical/04-babcock-rules/01-twenty-point-mah-jong/), [Western / British Empire style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/), [Wright-Patterson](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/01-wright-patterson/), [India / Mumbai style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/02-india-mumbai-style/), [Israeli Mah-Jongg Association](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/03-israeli-mah-jongg-association/), [Nepalese](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/04-nepalese/), [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/), [Mhing](02-modern-inventions/02-mhing/), [Mahjong Masters Millions](02-modern-inventions/03-mahjong-masters-millions/)
+
+</details>
+
+<a id="ref-2"></a>
+
+**2. Sloper, Tom. "The Mah-Jongg Family Tree." Sloperama.**
+
+Illustrated tree; source for the Matiao / Khanhoo / dominoes root structure.
+
+<https://www.sloperama.com/mjfaq/tree.htm>
+
+*Cited for:* [Proto-mahjong](01-proto-mahjong/), [Chinese archaic](01-proto-mahjong/01-chinese-archaic/)
+
+<a id="ref-3"></a>
+
+**3. Sloper, Tom. "FAQ 11: History of Mah-Jongg." Sloperama.**
+
+Regional branching in the 1930s and 40s; Racster 1924 on Shanghai versus Hong Kong base scores; the author's own note that the tree illustration predates later findings.
+
+<https://www.sloperama.com/mjfaq/mjfaq11f.html>
+
+*Cited for:* [Chinese classical](01-proto-mahjong/04-chinese-classical/), [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/)
+
+<a id="ref-4"></a>
+
+**4. Sloper, Tom. "Comparative Analysis of Early Mah-Jongg Forms." Sloperama.**
+
+Chinese Archaic, Late Qing and Pre-Classical rule comparisons.
+
+<https://www.sloperama.com/mahjongg/analysis.html>
+
+*Cited for:* [Chinese archaic](01-proto-mahjong/01-chinese-archaic/), [Late Qing style](01-proto-mahjong/02-late-qing-style/), [Chinese pre-classical](01-proto-mahjong/03-chinese-pre-classical/)
+
+<a id="ref-5"></a>
+
+**5. Sloper, Tom. "Malaysian Mah-Jongg." Sloperama.**
+
+The 84-tile three-player and 164-tile four-player Malaysian games.
+
+<https://www.sloperama.com/mahjongg/malaysian.html>
+
+*Cited for:* [Malaysian 3-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/02-malaysian-3-player/), [Malaysian 4-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/03-malaysian-4-player/)
+
+<a id="ref-6"></a>
+
+**6. Sloper, Tom. "FAQ 22: Chinese Official Scoring Explained." Sloperama.**
+
+Confirms the 1998 People's Sports Publishing House edition of the competition rules.
+
+<https://sloperama.com/mjfaq/mjfaq22.html>
+
+*Cited for:* [MCR / Chinese official](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/05-mcr-chinese-official/), [MCR scoring reference](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/05-mcr-chinese-official/01-mcr-scoring-reference/)
+
+<a id="ref-7"></a>
+
+**7. Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com.**
+
+The decade-by-decade timeline and the branch structure this chart follows, including the caveat that each variant's evolution has been cross-cultural.
+
+<http://mahjong.wikidot.com/>
+
+*Cited for:* [Chinese classical](01-proto-mahjong/04-chinese-classical/), [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/), [Nanyang variants](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/), [Mainland regionals](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/), [Korean traditional](01-proto-mahjong/04-chinese-classical/03-korean-traditional/)
+
+<a id="ref-8"></a>
+
+**8. Mahjong Wiki. "Hong Kong Old Style Overview."**
+
+The 1950s simplification, removal of fu, the 1970s 3-3 system, and the late-1980s split into Taiwanese and Guangdong styles.
+
+<http://mahjong.wikidot.com/rules:hong-kong-old-style-overview>
+
+*Cited for:* [Hong Kong old style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/), [Modern HKOS](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/01-modern-hkos/), [Guangdong style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/), [Guangdong MCR / GMCR](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/01-guangdong-mcr/), [Taiwanese style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/)
+
+<a id="ref-9"></a>
+
+**9. Mahjong Wiki. "Chinese Official (MCR) Overview."**
+
+1998 release; the 1996 PRC push for sport recognition; Cantonese objections around the handover.
+
+<http://mahjong.wikidot.com/rules:chinese-official-overview>
+
+*Cited for:* [MCR / Chinese official](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/05-mcr-chinese-official/)
+
+## Japanese Lineage
+
+<a id="ref-10"></a>
+
+**10. Yuria (Hassouhatsu Club). "A Brief History of Japanese Mahjong." Krakow Chombo Club, 2 Aug 2026.**
+
+Arushiiaru rules and scoring; Amano Daizou; the Houchi Shinbun serial of 11 Nov - 5 Dec 1952; the 1957 Tokyo rules and 1967 modern rules; bazoro; the Federation's 2016 acceptance of riichi.
+
+<https://chombo.club/en/blog/2026/08/02/a-brief-history-of-japanese-mahjong/>
+
+*Cited for:* [Japanese classical / arushiiaru](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/), [Houchi rules](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/), [Tokyo rules](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/), [Modern rules](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/), [Modern riichi / yonma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/01-modern-riichi-yonma/), [WMPA / WMF](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/03-wmpa-wmf/)
+
+<a id="ref-11"></a>
+
+**11. Japanese Mahjong Wiki. "Japanese Mahjong." riichi.wiki.**
+
+Arrival in Japan in 1909; the post-1969 popularity surge; Tenhou.net in 2007.
+
+<https://riichi.wiki/index.php?title=Japanese_mahjong>
+
+*Cited for:* [Japanese classical / arushiiaru](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/), [Modern riichi / yonma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/01-modern-riichi-yonma/)
+
+<a id="ref-12"></a>
+
+**12. Wikipedia. "Japanese Mahjong."**
+
+The riichi declaration, dora, furiten and ordered discards.
+
+<https://en.wikipedia.org/wiki/Japanese_mahjong>
+
+*Cited for:* [Japanese classical / arushiiaru](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/), [Modern riichi / yonma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/01-modern-riichi-yonma/), [Sanma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/02-sanma/)
+
+## Western and American Lineage
+
+<a id="ref-13"></a>
+
+**13. Wikipedia. "American Mahjong."**
+
+Racks, jokers, the Charleston, and the NMJL / AMJA annual card.
+
+<https://en.wikipedia.org/wiki/American_mahjong>
+
+*Cited for:* [Babcock rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/), [Regional US house rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/), [NMJL card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/), [American mah jongg](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/), [AMJA card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/01-amja-card/)
+
+<a id="ref-14"></a>
+
+**14. MahjongCompare. "Mahjong History and Origin."**
+
+NMJL founders (Cecil, Meyerson, Jacobs, Potter), the 1937 Essex House meeting, and jokers entering the official rules in 1961.
+
+<https://mahjongcompare.com/history>
+
+*Cited for:* [Babcock rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/), [Regional US house rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/), [NMJL card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/), [American mah jongg](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/)
+
+<a id="ref-15"></a>
+
+**15. The Mahjong Line. "History of the Game."**
+
+Wright-Patterson origins among Air Force officers' spouses at Wright Field, Ohio.
+
+<https://themahjongline.com/pages/history>
+
+*Cited for:* [Wright-Patterson](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/01-wright-patterson/)
+
+<a id="ref-16"></a>
+
+**16. The Charleston Club. "The History of American Mah Jongg."**
+
+Babcock's 1920 translation and the Parker Brothers / Milton Bradley licensing.
+
+<https://thecharlestonclubaz.com/blogs/the-journal/the-history-of-american-mah-jongg-from-1920s-import-to-a-century-old-american-tradition>
+
+*Cited for:* [Babcock rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/)
+
+<a id="ref-17"></a>
+
+**17. Grokipedia. "American Mahjong."**
+
+Jokers appearing in sets from the 1940s; the NMJL mandate from the 1960-61 season.
+
+<https://grokipedia.com/page/American_mahjong>
+
+*Cited for:* [NMJL card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/), [American mah jongg](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/)
+
+## Chinese Competition Rules
+
+<a id="ref-18"></a>
+
+**18. Wikipedia. "Hong Kong Mahjong Scoring Rules."**
+
+Faan scoring, the common 3-faan minimum and the 13-faan ceiling.
+
+<https://en.wikipedia.org/wiki/Hong_Kong_mahjong_scoring_rules>
+
+*Cited for:* [Hong Kong old style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/), [Modern HKOS](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/01-modern-hkos/)
+
+<a id="ref-19"></a>
+
+**19. Wikipedia. "World Mahjong Championship."**
+
+Mahjong certified as China's 255th sport in January 1998; unified rules codified that September.
+
+<https://en.wikipedia.org/wiki/World_Mahjong_Championship>
+
+*Cited for:* [MCR / Chinese official](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/05-mcr-chinese-official/)
+
+<a id="ref-20"></a>
+
+**20. World Mahjong Organization. Mahjong Competition Rules, English edition.**
+
+The 1998 ruleset itself.
+
+<http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf>
+
+*Cited for:* [MCR / Chinese official](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/05-mcr-chinese-official/), [MCR scoring reference](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/05-mcr-chinese-official/01-mcr-scoring-reference/)
+
+<a id="ref-21"></a>
+
+**21. The World of Chinese. "Tales of the Tile," November 2019.**
+
+The 1998 State Sports Commission publication of the Guobiao rules; WMO founded 2006.
+
+<https://www.theworldofchinese.com/2019/11/tales-of-the-tile/>
+
+*Cited for:* [MCR / Chinese official](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/05-mcr-chinese-official/)
+
+## Individual Variants
+
+<a id="ref-22"></a>
+
+**22. Mahjong International League. "Duplicate Mahjong Rules."**
+
+Prebuilt walls intended to remove luck for mind-sport recognition.
+
+<http://mahjong-mil.org/rules_dup.html>
+
+*Cited for:* [Duplicate mahjong](02-modern-inventions/01-duplicate-mahjong/)
+
+<a id="ref-23"></a>
+
+**23. Grad, Gladys. Siamese Mah Jongg. mahjongg.org.**
+
+The two-handed variant, 2015.
+
+<https://mahjongg.org/>
+
+*Cited for:* [Siamese Mah Jongg](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/02-siamese-mah-jongg/)
+
+<a id="ref-24"></a>
+
+**24. maque.games. "Tui Dao Hu."**
+
+Twelve ways of going out; more than one player may win.
+
+<https://maque.games/post/323/>
+
+*Cited for:* [Tui Dao Hu](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/10-tui-dao-hu/)
+
+<a id="ref-25"></a>
+
+**25. Gunplot. "Pusser's Mahjongg (Pusser's Bones)."**
+
+The Royal Navy adaptation of the Western game.
+
+<http://www.gunplot.net/mahjongg/mahjongg2.html>
+
+*Cited for:* [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/)
+
+<a id="ref-26"></a>
+
+**26. Stanwick, Michael and Hongbing Xu. "Flowers and Kings." themahjongtileset.co.uk.**
+
+Early ma que tile-set research underlying the Hua Maque and Wang Maque material.
+
+<http://www.themahjongtileset.co.uk/tile-set-history/flowers-and-kings-an-hypothesis-of-their-function-in-early-ma-que/>
+
+*Cited for:* [Proto-mahjong](01-proto-mahjong/)
+
+## Sources the Wiki Names or Can Be Matched To
+
+<a id="ref-27"></a>
+
+**27. Perlmen, Samuel K. and Mark Kai-Chi Chan. The Chinese Game of Mahjong. Book Marketing Ltd., Hong Kong, 1979. ISBN 962-211-0169.**
+
+The only book the wiki cites by name, used as a whole fan-list column. Sloper's book FAQ describes it as covering both Old Style and New Style as played in Hong Kong, which is precisely the distinction the wiki's taxonomy is built on. This is the likeliest backbone of its HKOS material.
+
+<https://www.goodreads.com/book/show/658815.The_Chinese_Game_of_Mahjong>
+
+*Cited for:* [Hong Kong old style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/)
+
+<a id="ref-28"></a>
+
+**28. "Let's Mahjong!" ruleset, as tabulated on the Mahjong Wiki HKOS scoring page.**
+
+Cited as a second fan-list column and treated as the representative New Chapter standard. The wiki describes it as the transition from HKOS to Guangdong Style. It is a ruleset, not a scholarly source, and the wiki gives no publication details for it.
+
+<http://mahjong.wikidot.com/rules:hong-kong-old-style-scoring>
+
+*Cited for:* [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/), [Hong Kong old style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/), [Guangdong style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/)
+
+<a id="ref-29"></a>
+
+**29. Cantonese fan lists: New6 (六獨), New18 (十八番), and 無奇不有.**
+
+Named on the HKOS and Hong Kong New Style pages. These are traditions internal to Hong Kong play. The wiki's own caveat is that NEW18 may not in fact be standardised at all.
+
+<http://mahjong.wikidot.com/rules:hong-kong-new-style-overview>
+
+*Cited for:* [Hong Kong old style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/)
+
+<a id="ref-30"></a>
+
+**30. Kwan, Alan. Zung Jung scoring system.**
+
+Named on the wiki and independently documented; the World Series of Mahjong used a modified form of it.
+
+<http://mahjong.wikidot.com/rules:zung-jung-overview>
+
+*Cited for:* [Zung Jung](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/06-zung-jung/)
+
+<a id="ref-31"></a>
+
+**31. Chinese Mahjong Competition Rules, People's Sports Publishing House, 1998.**
+
+Underlies the wiki's MCR pages, though it cites no edition.
+
+<http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf>
+
+*Cited for:* [MCR / Chinese official](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/05-mcr-chinese-official/)
+
+<a id="ref-32"></a>
+
+**32. British Mahjong scoring, as tabulated on the wiki's own Western Mah Jong page.**
+
+The wiki attributes All Green, Seven Pairs and the Jewel Dragons to this tradition flowing back into Chinese rulesets. No book is named.
+
+<http://mahjong.wikidot.com/rules:western-mah-jong-scoring>
+
+*Cited for:* [Western / British Empire style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/)
+
+<a id="ref-33"></a>
+
+**33. Archived earlier version of the Mahjong Wiki, 30 March 2025.**
+
+The author's own predecessor site, linked from the current front page. Useful for seeing which claims are new to the rebuild and which were carried over.
+
+<https://web.archive.org/web/20250330002121/http://mahjong.wikidot.com/>
+
+*Cited for:* no variant folder yet.
+
+## Where to Check the Wiki Independently
+
+<a id="ref-34"></a>
+
+**34. Sloper, Tom. "FAQ 3: Books About Mah-Jongg."**
+
+Identifies Perlmen & Chan in full and lists the other Hong Kong Old Style books: Constantino, Li, Tsui, Lo.
+
+<https://sloperama.com/mjfaq/mjfaq03.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-35"></a>
+
+**35. rec.games.mahjong newsgroup archive.**
+
+Where much of the English-language variant research was originally argued out, and the origin of several single-informant reports in Sloper's catalogue.
+
+<https://groups.google.com/g/rec.games.mahjong>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-36"></a>
+
+**36. Tsui, Cofa. International Mahjong Rules, 1998.**
+
+An independent Hong Kong Old Style codification, useful as a check on the wiki's fan tables.
+
+<http://www.cofatsui.com/mahjong.html>
+
+*Cited for:* [Hong Kong old style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/)
+
+<a id="ref-37"></a>
+
+**37. Cantonese Wikipedia: 香港麻雀.**
+
+Cantonese-language treatment of the Hong Kong game, in the register the wiki appears to draw from.
+
+<https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E9%BA%BB%E9%9B%80>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-38"></a>
+
+**38. Chinese Wikipedia: 香港麻雀胡牌列表.**
+
+Hong Kong winning-hand list, a direct comparison point for the wiki's NEW6 and NEW18 tables.
+
+<https://zh.wikipedia.org/zh-hant/%E9%A6%99%E6%B8%AF%E9%BA%BB%E9%9B%80%E8%83%A1%E7%89%8C%E5%88%97%E8%A1%A8>
+
+*Cited for:* no variant folder yet.
+
+## Primary sources cited within the above, not consulted directly for the chart
+
+Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.
+
+## Where the chart's sources disagree
+
+Where Sloperama and the Mahjong Wiki disagree, the chart follows the Mahjong Wiki, whose material is more recent. Tile counts and hand sizes come from Sloperama, the only catalogue that records them systematically. The Mahjong Wiki itself carries no bibliography and no per-claim citations; references 27-33 are the sources its distinctive claims can be matched to, and references 34-38 are where to check it independently. See [`_dev/source-chart/`](_dev/source-chart/) for the chart's full appendix on this.

@@ -1,0 +1,284 @@
+   3937.0	  40.0	roots           	        	Mahjong variant family tree
+   3921.0	  40.0	-               	        	Roughly 55 documented rulesets. Indentation shows descent; dashed links are disputed. Click any node for its source.
+   3887.5	  48.0	roots           	        	Roots / ancestral
+   3887.5	 134.8	chinese         	        	Chinese
+   3887.5	 189.0	taiwanese       	        	Taiwanese
+   3887.5	 253.1	southeast-asian 	        	Southeast Asian
+   3887.5	 337.9	japanese        	        	Japanese
+   3887.5	 397.8	korean          	        	Korean
+   3887.5	 448.2	western-american	        	Western / American
+   3857.8	  48.0	roots           	        	Proto-mahjong (c. 1870s, rules lost)
+   3834.8	  74.0	roots           	        	Chinese archaic (c. 1890, Wilkinson)
+   3811.8	  74.0	roots           	        	Late Qing style (c. 1903, Li Boyuan)
+   3788.8	  74.0	roots           	        	Chinese pre-classical (Mauger, 1915)
+   3765.8	  74.0	chinese         	        	Chinese classical (1920s, 144 tiles)
+   3742.8	 100.0	chinese         	        	Shanghai / Hong Kong new style (1920s)
+   3719.8	 126.0	chinese         	        	Hong Kong old style (1950s, fu removed)
+   3696.8	 152.0	chinese         	        	Modern HKOS (3-faan minimum, 1970s)
+   3673.8	 152.0	chinese         	        	Guangdong style (1980s, additive scoring)
+   3650.8	 178.0	chinese         	        	Guangdong MCR / GMCR (2020s)
+   3627.8	 152.0	taiwanese       	        	Taiwanese style (16-tile hand, 1980s)
+   3604.8	 178.0	taiwanese       	        	Hong Kong Taiwanese (HKT)
+   3581.8	 152.0	southeast-asian 	disputed	Nanyang variants (descent disputed)
+   3558.8	 178.0	southeast-asian 	        	Singapore style (148 tiles, animal flowers)
+   3535.8	 178.0	southeast-asian 	        	Malaysian 3-player (84 tiles, one suit)
+   3512.8	 178.0	southeast-asian 	        	Malaysian 4-player (164 tiles, 24 flowers)
+   3489.8	 178.0	southeast-asian 	        	Filipino style (16-tile hand, honours as flowers)
+   3466.8	 204.0	southeast-asian 	        	Bashi-Bashi (3-player, Philippine casinos)
+   3443.8	 178.0	southeast-asian 	        	Vietnamese classical (160 tiles, 8 jokers)
+   3420.8	 204.0	southeast-asian 	        	Vietnamese modern (176+ tiles, 24+ jokers)
+   3397.8	 178.0	southeast-asian 	        	Pong (Malaya, 120 tiles, Dobree 1955)
+   3374.8	 152.0	chinese         	        	MCR / Chinese official (1998, Guobiao)
+   3351.8	 178.0	chinese         	        	MCR scoring reference
+   3328.8	 152.0	chinese         	        	Zung Jung (Alan Kwan, 2000s)
+   3305.8	 126.0	chinese         	        	Mainland regionals
+   3282.8	 152.0	chinese         	        	Sichuan / Hunan / Tibetan (108 tiles)
+   3259.8	 152.0	chinese         	        	Sichuan bloody rules (Chengdu, 1990s)
+   3236.8	 152.0	chinese         	        	Sichuan 72-tile game (per Dragon Chang)
+   3213.8	 152.0	chinese         	        	Fuzhou style (132 tiles)
+   3190.8	 152.0	chinese         	        	Fujian style (124 tiles, winds as flowers)
+   3167.8	 152.0	chinese         	        	Beijing style (drawn wild tile)
+   3144.8	 152.0	chinese         	        	Nanjing style (dragons as flowers)
+   3121.8	 152.0	chinese         	        	Shenzhen style (kongs only, poorly documented)
+   3098.8	 152.0	chinese         	        	Macau simplificado (112 tiles, hold 4)
+   3075.8	 152.0	chinese         	        	Tui Dao Hu (multiple winners)
+   3052.8	 152.0	chinese         	        	Chinese casino style
+   3029.8	 100.0	japanese        	        	Japanese classical / arushiiaru (1929)
+   3006.8	 126.0	japanese        	        	Houchi rules (1952, Amano Daizou)
+   2983.8	 152.0	japanese        	        	Tokyo rules (1957, 1-han minimum)
+   2960.8	 178.0	japanese        	        	Modern rules (1967, ura dora, oka, bazoro)
+   2937.8	 204.0	japanese        	        	Modern riichi / yonma (red fives, 1970)
+   2914.8	 204.0	japanese        	        	Sanma (3-player riichi)
+   2891.8	 204.0	korean          	        	WMPA / WMF (Korean, riichi-based)
+   2868.8	 100.0	korean          	disputed	Korean traditional (104 tiles, no bamboo)
+   2845.8	 100.0	western-american	        	Babcock rules (1920, the little red book)
+   2822.8	 126.0	western-american	        	Twenty Point Mah Jong (R.F. Foster, 1924)
+   2799.8	 126.0	western-american	        	Western / British Empire style
+   2776.8	 152.0	western-american	        	Wright-Patterson (USAF spouses, Ohio)
+   2753.8	 152.0	western-american	        	India / Mumbai style (rotating round rules)
+   2730.8	 152.0	western-american	        	Israeli Mah-Jongg Association
+   2707.8	 152.0	western-american	        	Nepalese (11-tile winning hand)
+   2684.8	 152.0	western-american	        	Pusser's Bones (Royal Navy)
+   2661.8	 126.0	western-american	        	Regional US house rules (1920s-30s)
+   2638.8	 152.0	western-american	        	NMJL card (1937, annual hand list)
+   2615.8	 178.0	western-american	        	American mah jongg (152 tiles, jokers 1961)
+   2592.8	 204.0	western-american	        	AMJA card
+   2569.8	 204.0	western-american	        	Siamese Mah Jongg (two-handed, 2015)
+   2546.8	  48.0	roots           	        	Modern inventions (not descendants)
+   2523.8	  74.0	roots           	        	Duplicate mahjong (prebuilt walls, no luck)
+   2500.8	  74.0	roots           	        	Mhing (card version)
+   2477.8	  74.0	roots           	        	Mahjong Masters Millions
+   2441.0	  40.0	-               	        	Dashed connectors mark parentage that no source establishes. Solid connectors follow the Mahjong Wiki
+   2428.0	  40.0	-               	        	family tree and timeline, cross-checked against Tom Sloper's FAQ 2b variant catalogue.
+   2402.0	  40.0	-               	        	Known distortions in any tree layout of this material:
+   2389.0	  40.0	-               	        	- Guangdong was influenced first by Hong Kong, later by Taiwanese; the arrow should run both ways.
+   2376.0	  40.0	-               	        	- Mainland regionals began on a Chinese Classical frame and later adopted HKOS's simplified scoring.
+   2363.0	  40.0	-               	        	- All Pairs and All Green flowed backwards from Western Mah Jong into most other modern rulesets.
+   2350.0	  40.0	-               	        	- The ten mainland nodes stand in for a hundred-plus real variants, most undocumented in English.
+   2337.0	  40.0	-               	        	- Several entries (Shenzhen, Tui Dao Hu, Fujian) rest on a single informant report.
+   2324.0	  40.0	-               	        	- No source establishes how Korean 104-tile mahjong descends from anything; the link is a placeholder.
+   2283.0	  40.0	roots           	        	References
+   2249.0	  40.0	-               	        	VARIANT CATALOGUES AND LINEAGE FRAMEWORKS
+   2232.0	  40.0	-               	        	1.
+   2232.0	  60.0	-               	        	Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama.
+   2221.0	  60.0	-               	        	Tile counts, hand sizes, flower handling and scoring for roughly 50 named variants. Primary source for most leaf nodes in this chart.
+   2211.0	  60.0	-               	        	https://www.sloperama.com/mjfaq/mjfaq02b.html
+   2196.0	  40.0	-               	        	2.
+   2196.0	  60.0	-               	        	Sloper, Tom. "The Mah-Jongg Family Tree." Sloperama.
+   2185.0	  60.0	-               	        	Illustrated tree; source for the Matiao / Khanhoo / dominoes root structure.
+   2175.0	  60.0	-               	        	https://www.sloperama.com/mjfaq/tree.htm
+   2160.0	  40.0	-               	        	3.
+   2160.0	  60.0	-               	        	Sloper, Tom. "FAQ 11: History of Mah-Jongg." Sloperama.
+   2149.0	  60.0	-               	        	Regional branching in the 1930s and 40s; Racster 1924 on Shanghai versus Hong Kong base scores; the author's own note that the tree
+   2139.0	  60.0	-               	        	illustration predates later findings.
+   2129.0	  60.0	-               	        	https://www.sloperama.com/mjfaq/mjfaq11f.html
+   2114.0	  40.0	-               	        	4.
+   2114.0	  60.0	-               	        	Sloper, Tom. "Comparative Analysis of Early Mah-Jongg Forms." Sloperama.
+   2103.0	  60.0	-               	        	Chinese Archaic, Late Qing and Pre-Classical rule comparisons.
+   2093.0	  60.0	-               	        	https://www.sloperama.com/mahjongg/analysis.html
+   2078.0	  40.0	-               	        	5.
+   2078.0	  60.0	-               	        	Sloper, Tom. "Malaysian Mah-Jongg." Sloperama.
+   2067.0	  60.0	-               	        	The 84-tile three-player and 164-tile four-player Malaysian games.
+   2057.0	  60.0	-               	        	https://www.sloperama.com/mahjongg/malaysian.html
+   2042.0	  40.0	-               	        	6.
+   2042.0	  60.0	-               	        	Sloper, Tom. "FAQ 22: Chinese Official Scoring Explained." Sloperama.
+   2031.0	  60.0	-               	        	Confirms the 1998 People's Sports Publishing House edition of the competition rules.
+   2021.0	  60.0	-               	        	https://sloperama.com/mjfaq/mjfaq22.html
+   2006.0	  40.0	-               	        	7.
+   2006.0	  60.0	-               	        	Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com.
+   1995.0	  60.0	-               	        	The decade-by-decade timeline and the branch structure this chart follows, including the caveat that each variant's evolution has been
+   1985.0	  60.0	-               	        	cross-cultural.
+   1975.0	  60.0	-               	        	http://mahjong.wikidot.com/
+   1960.0	  40.0	-               	        	8.
+   1960.0	  60.0	-               	        	Mahjong Wiki. "Hong Kong Old Style Overview."
+   1949.0	  60.0	-               	        	The 1950s simplification, removal of fu, the 1970s 3-3 system, and the late-1980s split into Taiwanese and Guangdong styles.
+   1939.0	  60.0	-               	        	http://mahjong.wikidot.com/rules:hong-kong-old-style-overview
+   1924.0	  40.0	-               	        	9.
+   1924.0	  60.0	-               	        	Mahjong Wiki. "Chinese Official (MCR) Overview."
+   1913.0	  60.0	-               	        	1998 release; the 1996 PRC push for sport recognition; Cantonese objections around the handover.
+   1903.0	  60.0	-               	        	http://mahjong.wikidot.com/rules:chinese-official-overview
+   1883.0	  40.0	-               	        	JAPANESE LINEAGE
+   1866.0	  40.0	-               	        	10.
+   1866.0	  60.0	-               	        	Yuria (Hassouhatsu Club). "A Brief History of Japanese Mahjong." Krakow Chombo Club, 2 Aug 2026.
+   1855.0	  60.0	-               	        	Arushiiaru rules and scoring; Amano Daizou; the Houchi Shinbun serial of 11 Nov - 5 Dec 1952; the 1957 Tokyo rules and 1967 modern
+   1845.0	  60.0	-               	        	rules; bazoro; the Federation's 2016 acceptance of riichi.
+   1835.0	  60.0	-               	        	https://chombo.club/en/blog/2026/08/02/a-brief-history-of-japanese-mahjong/
+   1820.0	  40.0	-               	        	11.
+   1820.0	  60.0	-               	        	Japanese Mahjong Wiki. "Japanese Mahjong." riichi.wiki.
+   1809.0	  60.0	-               	        	Arrival in Japan in 1909; the post-1969 popularity surge; Tenhou.net in 2007.
+   1799.0	  60.0	-               	        	https://riichi.wiki/index.php?title=Japanese_mahjong
+   1784.0	  40.0	-               	        	12.
+   1784.0	  60.0	-               	        	Wikipedia. "Japanese Mahjong."
+   1773.0	  60.0	-               	        	The riichi declaration, dora, furiten and ordered discards.
+   1763.0	  60.0	-               	        	https://en.wikipedia.org/wiki/Japanese_mahjong
+   1743.0	  40.0	-               	        	WESTERN AND AMERICAN LINEAGE
+   1726.0	  40.0	-               	        	13.
+   1726.0	  60.0	-               	        	Wikipedia. "American Mahjong."
+   1715.0	  60.0	-               	        	Racks, jokers, the Charleston, and the NMJL / AMJA annual card.
+   1705.0	  60.0	-               	        	https://en.wikipedia.org/wiki/American_mahjong
+   1690.0	  40.0	-               	        	14.
+   1690.0	  60.0	-               	        	MahjongCompare. "Mahjong History and Origin."
+   1679.0	  60.0	-               	        	NMJL founders (Cecil, Meyerson, Jacobs, Potter), the 1937 Essex House meeting, and jokers entering the official rules in 1961.
+   1669.0	  60.0	-               	        	https://mahjongcompare.com/history
+   1654.0	  40.0	-               	        	15.
+   1654.0	  60.0	-               	        	The Mahjong Line. "History of the Game."
+   1643.0	  60.0	-               	        	Wright-Patterson origins among Air Force officers' spouses at Wright Field, Ohio.
+   1633.0	  60.0	-               	        	https://themahjongline.com/pages/history
+   1618.0	  40.0	-               	        	16.
+   1618.0	  60.0	-               	        	The Charleston Club. "The History of American Mah Jongg."
+   1607.0	  60.0	-               	        	Babcock's 1920 translation and the Parker Brothers / Milton Bradley licensing.
+   1597.0	  60.0	-               	        	https://thecharlestonclubaz.com/blogs/the-journal/the-history-of-american-mah-jongg-from-1920s-import-to-a-century-old-american-tradition
+   1582.0	  40.0	-               	        	17.
+   1582.0	  60.0	-               	        	Grokipedia. "American Mahjong."
+   1571.0	  60.0	-               	        	Jokers appearing in sets from the 1940s; the NMJL mandate from the 1960-61 season.
+   1561.0	  60.0	-               	        	https://grokipedia.com/page/American_mahjong
+   1541.0	  40.0	-               	        	CHINESE COMPETITION RULES
+   1524.0	  40.0	-               	        	18.
+   1524.0	  60.0	-               	        	Wikipedia. "Hong Kong Mahjong Scoring Rules."
+   1513.0	  60.0	-               	        	Faan scoring, the common 3-faan minimum and the 13-faan ceiling.
+   1503.0	  60.0	-               	        	https://en.wikipedia.org/wiki/Hong_Kong_mahjong_scoring_rules
+   1488.0	  40.0	-               	        	19.
+   1488.0	  60.0	-               	        	Wikipedia. "World Mahjong Championship."
+   1477.0	  60.0	-               	        	Mahjong certified as China's 255th sport in January 1998; unified rules codified that September.
+   1467.0	  60.0	-               	        	https://en.wikipedia.org/wiki/World_Mahjong_Championship
+   1452.0	  40.0	-               	        	20.
+   1452.0	  60.0	-               	        	World Mahjong Organization. Mahjong Competition Rules, English edition.
+   1441.0	  60.0	-               	        	The 1998 ruleset itself.
+   1431.0	  60.0	-               	        	http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf
+   1416.0	  40.0	-               	        	21.
+   1416.0	  60.0	-               	        	The World of Chinese. "Tales of the Tile," November 2019.
+   1405.0	  60.0	-               	        	The 1998 State Sports Commission publication of the Guobiao rules; WMO founded 2006.
+   1395.0	  60.0	-               	        	https://www.theworldofchinese.com/2019/11/tales-of-the-tile/
+   1375.0	  40.0	-               	        	INDIVIDUAL VARIANTS
+   1358.0	  40.0	-               	        	22.
+   1358.0	  60.0	-               	        	Mahjong International League. "Duplicate Mahjong Rules."
+   1347.0	  60.0	-               	        	Prebuilt walls intended to remove luck for mind-sport recognition.
+   1337.0	  60.0	-               	        	http://mahjong-mil.org/rules_dup.html
+   1322.0	  40.0	-               	        	23.
+   1322.0	  60.0	-               	        	Grad, Gladys. Siamese Mah Jongg. mahjongg.org.
+   1311.0	  60.0	-               	        	The two-handed variant, 2015.
+   1301.0	  60.0	-               	        	https://mahjongg.org/
+   1286.0	  40.0	-               	        	24.
+   1286.0	  60.0	-               	        	maque.games. "Tui Dao Hu."
+   1275.0	  60.0	-               	        	Twelve ways of going out; more than one player may win.
+   1265.0	  60.0	-               	        	https://maque.games/post/323/
+   1250.0	  40.0	-               	        	25.
+   1250.0	  60.0	-               	        	Gunplot. "Pusser's Mahjongg (Pusser's Bones)."
+   1239.0	  60.0	-               	        	The Royal Navy adaptation of the Western game.
+   1229.0	  60.0	-               	        	http://www.gunplot.net/mahjongg/mahjongg2.html
+   1214.0	  40.0	-               	        	26.
+   1214.0	  60.0	-               	        	Stanwick, Michael and Hongbing Xu. "Flowers and Kings." themahjongtileset.co.uk.
+   1203.0	  60.0	-               	        	Early ma que tile-set research underlying the Hua Maque and Wang Maque material.
+   1193.0	  60.0	-               	        	http://www.themahjongtileset.co.uk/tile-set-history/flowers-and-kings-an-hypothesis-of-their-function-in-early-ma-que/
+   1163.0	  40.0	-               	        	Primary sources cited within the above, not consulted directly for this chart:
+   1151.0	  40.0	-               	        	Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan,
+   1139.0	  40.0	-               	        	Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster
+   1127.0	  40.0	-               	        	(1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano
+   1115.0	  40.0	-               	        	Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules,
+   1103.0	  40.0	-               	        	People's Sports Publishing House (1998), ISBN 7-5009-1630-2.
+   1079.0	  40.0	-               	        	All web sources retrieved 13 September 2026. Where Sloperama and the Mahjong Wiki disagree, this chart
+   1067.0	  40.0	-               	        	follows the Mahjong Wiki, whose material is more recent. Tile counts and hand sizes come from Sloperama,
+   1055.0	  40.0	-               	        	the only catalogue that records them systematically.
+   1013.0	  40.0	roots           	        	Appendix: where the Mahjong Wiki's information comes from
+    986.0	  40.0	-               	        	The Mahjong Wiki supplies the lineage structure of this chart, and it carries no bibliography, no about page, and no per-claim citations. It is
+    975.0	  40.0	-               	        	also a rebuild: the author states the earlier wiki had become extremely outdated and links an archived snapshot of it. What follows is an
+    964.0	  40.0	-               	        	attempt to trace the material anyway. None of this is confirmed by the author. It is the set of sources the wiki's distinctive claims can be
+    953.0	  40.0	-               	        	matched to, plus an honest account of what cannot be traced at all.
+    930.0	  40.0	-               	        	WHAT THE WIKI ITSELF CREDITS
+    914.0	  40.0	-               	        	- The Hong Kong Old Style scoring page is the only page that names anything. It sets its fan lists out
+    903.0	  40.0	-               	        	  in three labelled columns: HKOS, "Let's Mahjong!", and "Perlmen & Chan".
+    892.0	  40.0	-               	        	- The same page appeals to "several Cantonese sources" without naming them, saying they agree that the
+    881.0	  40.0	-               	        	  conditions in "Let's Mahjong!" represent the New Chapter standard.
+    870.0	  40.0	-               	        	- It names three Cantonese fan-list traditions with almost no English-language presence: New6 (六獨),
+    859.0	  40.0	-               	        	  New18 (十八番), and a larger uncodified set the Hong Kong New Style page calls 無奇不有.
+    848.0	  40.0	-               	        	- Its core taxonomy, Clear Chapter (清章) and New Chapter (新章), is Cantonese terminology rather than a
+    837.0	  40.0	-               	        	  Western coinage. This is the strongest single sign that the author works from Cantonese material.
+    826.0	  40.0	-               	        	- It credits Alan Kwan for Zung Jung, and names British Mahjong as the origin of several imported fan,
+    815.0	  40.0	-               	        	  including the Jewel Dragons and Seven Pairs.
+    804.0	  40.0	-               	        	- Its diagrams are served from a Blogger account, so the author keeps a blog; the wiki never links it.
+    783.0	  40.0	-               	        	SOURCES THE WIKI NAMES OR CAN BE MATCHED TO
+    767.0	  40.0	-               	        	27.
+    767.0	  60.0	-               	        	Perlmen, Samuel K. and Mark Kai-Chi Chan. The Chinese Game of Mahjong. Book Marketing Ltd., Hong Kong, 1979. ISBN
+    756.0	  60.0	-               	        	962-211-0169.
+    745.0	  60.0	-               	        	The only book the wiki cites by name, used as a whole fan-list column. Sloper's book FAQ describes it as covering both Old Style and
+    735.0	  60.0	-               	        	New Style as played in Hong Kong, which is precisely the distinction the wiki's taxonomy is built on. This is the likeliest backbone of its
+    725.0	  60.0	-               	        	HKOS material.
+    715.0	  60.0	-               	        	https://www.goodreads.com/book/show/658815.The_Chinese_Game_of_Mahjong
+    700.0	  40.0	-               	        	28.
+    700.0	  60.0	-               	        	"Let's Mahjong!" ruleset, as tabulated on the Mahjong Wiki HKOS scoring page.
+    689.0	  60.0	-               	        	Cited as a second fan-list column and treated as the representative New Chapter standard. The wiki describes it as the transition from
+    679.0	  60.0	-               	        	HKOS to Guangdong Style. It is a ruleset, not a scholarly source, and the wiki gives no publication details for it.
+    669.0	  60.0	-               	        	http://mahjong.wikidot.com/rules:hong-kong-old-style-scoring
+    654.0	  40.0	-               	        	29.
+    654.0	  60.0	-               	        	Cantonese fan lists: New6 (六獨), New18 (十八番), and 無奇不有.
+    643.0	  60.0	-               	        	Named on the HKOS and Hong Kong New Style pages. These are traditions internal to Hong Kong play. The wiki's own caveat is that
+    633.0	  60.0	-               	        	NEW18 may not in fact be standardised at all.
+    623.0	  60.0	-               	        	http://mahjong.wikidot.com/rules:hong-kong-new-style-overview
+    608.0	  40.0	-               	        	30.
+    608.0	  60.0	-               	        	Kwan, Alan. Zung Jung scoring system.
+    597.0	  60.0	-               	        	Named on the wiki and independently documented; the World Series of Mahjong used a modified form of it.
+    587.0	  60.0	-               	        	http://mahjong.wikidot.com/rules:zung-jung-overview
+    572.0	  40.0	-               	        	31.
+    572.0	  60.0	-               	        	Chinese Mahjong Competition Rules, People's Sports Publishing House, 1998.
+    561.0	  60.0	-               	        	Underlies the wiki's MCR pages, though it cites no edition.
+    551.0	  60.0	-               	        	http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf
+    536.0	  40.0	-               	        	32.
+    536.0	  60.0	-               	        	British Mahjong scoring, as tabulated on the wiki's own Western Mah Jong page.
+    525.0	  60.0	-               	        	The wiki attributes All Green, Seven Pairs and the Jewel Dragons to this tradition flowing back into Chinese rulesets. No book is named.
+    515.0	  60.0	-               	        	http://mahjong.wikidot.com/rules:western-mah-jong-scoring
+    500.0	  40.0	-               	        	33.
+    500.0	  60.0	-               	        	Archived earlier version of the Mahjong Wiki, 30 March 2025.
+    489.0	  60.0	-               	        	The author's own predecessor site, linked from the current front page. Useful for seeing which claims are new to the rebuild and which
+    479.0	  60.0	-               	        	were carried over.
+    469.0	  60.0	-               	        	https://web.archive.org/web/20250330002121/http://mahjong.wikidot.com/
+    454.0	  40.0	-               	        	WHAT REMAINS UNTRACEABLE
+    438.0	  40.0	-               	        	- The decade-by-decade timeline, which is the single most load-bearing thing this chart takes from the
+    427.0	  40.0	-               	        	  wiki, carries no citation on any page. The 1950s gambling-house adoption of Clear Chapter, the 1970s
+    416.0	  40.0	-               	        	  3-3 system, and the late-1980s move to additive scoring are asserted and never sourced.
+    405.0	  40.0	-               	        	- The Japanese pages cite nothing whatsoever. One glossary entry still reads "[coming soon]".
+    394.0	  40.0	-               	        	- The Nanyang, Korean and mainland claims carry no sources either, which is at least consistent with the
+    383.0	  40.0	-               	        	  wiki openly flagging those as unresolved questions rather than presenting them as settled.
+    372.0	  40.0	-               	        	- Sourcing is therefore uneven by region, not absent: Cantonese material is credited, everything else
+    361.0	  40.0	-               	        	  is not. Weight the wiki accordingly, and weight this chart accordingly.
+    340.0	  40.0	-               	        	WHERE TO CHECK THE WIKI INDEPENDENTLY
+    324.0	  40.0	-               	        	34.
+    324.0	  60.0	-               	        	Sloper, Tom. "FAQ 3: Books About Mah-Jongg."
+    313.0	  60.0	-               	        	Identifies Perlmen & Chan in full and lists the other Hong Kong Old Style books: Constantino, Li, Tsui, Lo.
+    303.0	  60.0	-               	        	https://sloperama.com/mjfaq/mjfaq03.html
+    288.0	  40.0	-               	        	35.
+    288.0	  60.0	-               	        	rec.games.mahjong newsgroup archive.
+    277.0	  60.0	-               	        	Where much of the English-language variant research was originally argued out, and the origin of several single-informant reports in
+    267.0	  60.0	-               	        	Sloper's catalogue.
+    257.0	  60.0	-               	        	https://groups.google.com/g/rec.games.mahjong
+    242.0	  40.0	-               	        	36.
+    242.0	  60.0	-               	        	Tsui, Cofa. International Mahjong Rules, 1998.
+    231.0	  60.0	-               	        	An independent Hong Kong Old Style codification, useful as a check on the wiki's fan tables.
+    221.0	  60.0	-               	        	http://www.cofatsui.com/mahjong.html
+    206.0	  40.0	-               	        	37.
+    206.0	  60.0	-               	        	Cantonese Wikipedia: 香港麻雀.
+    195.0	  60.0	-               	        	Cantonese-language treatment of the Hong Kong game, in the register the wiki appears to draw from.
+    185.0	  60.0	-               	        	https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E9%BA%BB%E9%9B%80
+    170.0	  40.0	-               	        	38.
+    170.0	  60.0	-               	        	Chinese Wikipedia: 香港麻雀胡牌列表.
+    159.0	  60.0	-               	        	Hong Kong winning-hand list, a direct comparison point for the wiki's NEW6 and NEW18 tables.
+    149.0	  60.0	-               	        	https://zh.wikipedia.org/zh-hant/%E9%A6%99%E6%B8%AF%E9%BA%BB%E9%9B%80%E8%83%A1%E7%89%8C%E5%88%97%E8%A1%A8
