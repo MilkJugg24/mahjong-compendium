@@ -674,6 +674,36 @@ Biography of the populariser: 1893 to 1949, his 1920 Rules of Mah-Jongg known as
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-66"></a>
+
+**66. Chinese Wikipedia: 港式臺灣麻雀 (Hong Kong-style Taiwanese Mahjong).**
+
+The only encyclopedia treatment found of the 16-tile Hong Kong and Macau game. Describes it as a blend of Hong Kong, authentic Taiwanese, Japanese and MCR rules, with additive scoring, a ready declaration called ding, and a carry-over stake called la. The article itself carries a single-source reliability warning.
+
+<https://zh.wikipedia.org/zh-hant/%E6%B8%AF%E5%BC%8F%E5%8F%B0%E7%81%A3%E9%BA%BB%E5%B0%87>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-67"></a>
+
+**67. Wikipedia. "Mhing."**
+
+Dates the card game to a 1982 Suntex publication. The article is an orphan and carries a single-source reliability warning.
+
+<https://en.wikipedia.org/wiki/Mhing>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-68"></a>
+
+**68. Steve-p.org. "Cards - Mhing (Spear's Games)."**
+
+A card collector's description of the Spear's Games 1984 UK edition: a deck based on Chinese money-suited cards, with wild cards, scoring cards and hand-reference tables. Records the original 1982 Suntex International release in Pennsylvania and names Robert Sun as the company's founder.
+
+<https://steve-p.org/cards/Mhin.html>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.

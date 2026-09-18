@@ -522,6 +522,30 @@
       "citation": "Wikipedia. \"Joseph Park Babcock.\"",
       "note": "Biography of the populariser: 1893 to 1949, his 1920 Rules of Mah-Jongg known as the red book, and his membership of the committee that published a standardised American rule set.",
       "url": "https://en.wikipedia.org/wiki/Joseph_Park_Babcock"
+    },
+    {
+      "id": 66,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "zh-wikipedia-hkt",
+      "citation": "Chinese Wikipedia: 港式臺灣麻雀 (Hong Kong-style Taiwanese Mahjong).",
+      "note": "The only encyclopedia treatment found of the 16-tile Hong Kong and Macau game. Describes it as a blend of Hong Kong, authentic Taiwanese, Japanese and MCR rules, with additive scoring, a ready declaration called ding, and a carry-over stake called la. The article itself carries a single-source reliability warning.",
+      "url": "https://zh.wikipedia.org/zh-hant/%E6%B8%AF%E5%BC%8F%E5%8F%B0%E7%81%A3%E9%BA%BB%E5%B0%87"
+    },
+    {
+      "id": 67,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wikipedia-mhing",
+      "citation": "Wikipedia. \"Mhing.\"",
+      "note": "Dates the card game to a 1982 Suntex publication. The article is an orphan and carries a single-source reliability warning.",
+      "url": "https://en.wikipedia.org/wiki/Mhing"
+    },
+    {
+      "id": 68,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "stevep-mhing",
+      "citation": "Steve-p.org. \"Cards - Mhing (Spear's Games).\"",
+      "note": "A card collector's description of the Spear's Games 1984 UK edition: a deck based on Chinese money-suited cards, with wild cards, scoring cards and hand-reference tables. Records the original 1982 Suntex International release in Pennsylvania and names Robert Sun as the company's founder.",
+      "url": "https://steve-p.org/cards/Mhin.html"
     }
   ]
 }

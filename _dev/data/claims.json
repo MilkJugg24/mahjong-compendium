@@ -1243,10 +1243,18 @@
         "source": "sloperama-faq-2b",
         "retrieved": "2026-09-18",
         "note": "NOT FOUND. Neither Sloperama's catalogue nor any Mahjong Wiki page fetched here carries an entry for Hong Kong Taiwanese or HKT. The chart's node rests on the Sloperama catalogue as its canonical source, but the label does not appear there"
+      },
+      {
+        "source": "zh-wikipedia-hkt",
+        "retrieved": "2026-09-18",
+        "tiles": "144, the same set as 13-tile mahjong, including the eight flowers: the four seasons 春夏秋冬 and four plants 梅蘭菊竹; some players add jokers",
+        "hand": "16, the sixteen-tile game of the Hong Kong and Macau region",
+        "scoring": "additive (加算法), because it has many fan types and many fan; contrasted explicitly with Guangdong mahjong, which multiplies because it has few patterns. Fan are unlimited",
+        "note": "MULTI-PARENT: describes the game as a blend (糅合) of Hong Kong mahjong, authentic Taiwanese mahjong, Japanese mahjong and MCR, with fan counts far larger than authentic Taiwanese, contrasted with traditional 13-tile Clear Chapter (清章) play. Locally it is simply called Taiwanese mahjong, 台灣牌 or 港式台牌. It has a ready declaration called ding (叮) which, unlike Japanese riichi, needs neither a concealed hand nor a stake, and pays a bonus for winning within one turn; and a carry-over stake mechanism called la (拉). The article carries a single-source reliability warning dated March 2023, and cites a Hong Kong Mahjong Association league rules PDF from 2020"
       }
     ],
-    "evidence": "unsupported",
-    "assessment": "Neither the Sloperama catalogue named as this node's canonical source nor any wiki page fetched here contains an entry for Hong Kong Taiwanese or HKT. The node currently rests on a label that its own cited source does not carry."
+    "evidence": "partial",
+    "assessment": "No longer unsupported. Chinese Wikipedia carries a full article on 港式臺灣麻雀, the 16-tile game of Hong Kong and Macau, giving 144 tiles with eight flowers, a 16-tile hand, additive and unlimited fan, a ready declaration called ding and a carry-over stake called la, and citing a Hong Kong Mahjong Association league rules document. Two cautions. The article itself carries a single-source reliability warning, so it is one account rather than a consensus. And it contradicts the tree's shape: it describes the game as a blend of Hong Kong, authentic Taiwanese, Japanese and MCR rules, where the chart makes it simply a child of Taiwanese style. Its additive scoring is also the feature the article uses to contrast it with Guangdong, which the chart places on a different branch entirely."
   },
   "nanyang-variants": {
     "observations": [
@@ -1321,9 +1329,20 @@
         "source": "sloperama-faq-2b",
         "retrieved": "2026-09-18",
         "note": "listed as 'Mhing (Suntex)', cross-referenced to Sloperama's Cards/Kards FAQ; added to the variant list on 17 November 2001. Attributing it to the publisher Suntex is more specific than the chart's bare 'card version'"
+      },
+      {
+        "source": "wikipedia-mhing",
+        "retrieved": "2026-09-18",
+        "note": "dates the game to a 1982 publication by Suntex and calls it an abstract family card game based on mahjong. The article is an orphan and carries a single-source reliability warning"
+      },
+      {
+        "source": "stevep-mhing",
+        "retrieved": "2026-09-18",
+        "tiles": "the Spear's Games 1984 UK edition comprises 158 cards plus a rule leaflet, a scoring pad and six hand-reference tables, with six wild Mhing cards, six double-sided scoring cards and two blanks",
+        "note": "the deck is based on Chinese money-suited cards. Records the original release in the USA in 1982 by Suntex International of Pennsylvania, a company still trading in mathematical education software, and names its founder Robert Sun. Suntex did not operate outside the USA, so the game was licensed abroad, to Spear's Games in the UK"
       }
     ],
     "evidence": "corroborated",
-    "assessment": "Sloperama confirms a card version and attributes it to the publisher Suntex, which is more than the chart records. It was added to Sloperama's list in November 2001, giving a rough floor for its documented existence."
+    "assessment": "Three sources, and the node is now dated and attributed where the chart had only 'card version'. Wikipedia and a card collector's description agree on a 1982 Suntex release; the collector adds Robert Sun as the company's founder, Pennsylvania as its home, a Chinese money-suited card design, and a 1984 Spear's Games edition for the UK under licence. Card counts should be treated with care: the only count read at source is 158 for the Spear's edition including its extras, which is not necessarily the count of the playing deck."
   }
 }

@@ -5,10 +5,10 @@ What the sources say when set against each other, variant by variant. Every clai
 | Evidence | Meaning | Variants |
 | --- | --- | --- |
 | `corroborated` | two or more independent sources agree on the facts that define this variant | 34 |
-| `partial` | sources agree on some points and are silent or divided on others | 7 |
+| `partial` | sources agree on some points and are silent or divided on others | 8 |
 | `conflicting` | sources disagree materially, or one source contradicts itself | 7 |
 | `single-source` | only one source was found; nothing independent confirms it | 10 |
-| `unsupported` | the sources checked do not carry the claim this node makes | 3 |
+| `unsupported` | the sources checked do not carry the claim this node makes | 2 |
 
 A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast Asian entries there simply is one English-language account, usually a newsgroup report, and the honest record is that it stands alone.
 
@@ -48,10 +48,6 @@ The name may not denote a variant at all. Wikipedia gives 推倒胡 as the ordin
 
 The node asserts something its own cited source does not contain. None of these means the variant is not real; it means the citation does not support the entry as written.
 
-### [Hong Kong Taiwanese](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/01-hong-kong-taiwanese/)
-
-Neither the Sloperama catalogue named as this node's canonical source nor any wiki page fetched here contains an entry for Hong Kong Taiwanese or HKT. The node currently rests on a label that its own cited source does not carry.
-
 ### [Modern inventions](02-modern-inventions/)
 
 No source groups these as a category. Sloperama lists each of them among its variants without any shared heading. The grouping is the chart's own editorial device, which is exactly what the node label already admits.
@@ -67,6 +63,10 @@ Agreement on some defining facts, silence or division on others.
 ### [AMJA card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/01-amja-card/)
 
 Two sources confirm the AMJA card exists as the second of the two annual American cards and that the NMJL and AMJA differ in minor scoring details. The association's own site could not be read: amja.net serves an expired certificate, and it was not fetched over an unverified connection. So the node is attested but not primary-sourced, and no source read here describes how the two cards differ in practice.
+
+### [Hong Kong Taiwanese](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/01-hong-kong-taiwanese/)
+
+No longer unsupported. Chinese Wikipedia carries a full article on 港式臺灣麻雀, the 16-tile game of Hong Kong and Macau, giving 144 tiles with eight flowers, a 16-tile hand, additive and unlimited fan, a ready declaration called ding and a carry-over stake called la, and citing a Hong Kong Mahjong Association league rules document. Two cautions. The article itself carries a single-source reliability warning, so it is one account rather than a consensus. And it contradicts the tree's shape: it describes the game as a blend of Hong Kong, authentic Taiwanese, Japanese and MCR rules, where the chart makes it simply a child of Taiwanese style. Its additive scoring is also the feature the article uses to contrast it with Guangdong, which the chart places on a different branch entirely.
 
 ### [Malaysian 3-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/02-malaysian-3-player/)
 
@@ -210,7 +210,7 @@ Primary-sourced. The rulebook itself was fetched and read: 144 tiles of which 10
 
 ### [Mhing](02-modern-inventions/02-mhing/)
 
-Sloperama confirms a card version and attributes it to the publisher Suntex, which is more than the chart records. It was added to Sloperama's list in November 2001, giving a rough floor for its documented existence.
+Three sources, and the node is now dated and attributed where the chart had only 'card version'. Wikipedia and a card collector's description agree on a 1982 Suntex release; the collector adds Robert Sun as the company's founder, Pennsylvania as its home, a Chinese money-suited card design, and a 1984 Spear's Games edition for the UK under licence. Card counts should be treated with care: the only count read at source is 158 for the Spear's edition including its extras, which is not necessarily the count of the playing deck.
 
 ### [Modern riichi / yonma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/01-modern-riichi-yonma/)
 
