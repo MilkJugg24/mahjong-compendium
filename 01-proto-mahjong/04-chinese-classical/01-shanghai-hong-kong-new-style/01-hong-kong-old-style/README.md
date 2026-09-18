@@ -7,6 +7,7 @@ parent: Shanghai / Hong Kong new style
 chart_id: hkos
 canonical_source: wikidot-hkos
 chart_refs: [8, 18, 27, 28, 29, 36]
+evidence: conflicting
 ---
 
 # Hong Kong old style
@@ -40,6 +41,26 @@ chart_refs: [8, 18, 27, 28, 29, 36]
 | [36](../../../../REFERENCES.md#ref-36) | Tsui, Cofa. International Mahjong Rules, 1998. | <http://www.cofatsui.com/mahjong.html> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `conflicting` — sources disagree materially, or one source contradicts itself
+
+What each source actually says, as fetched and read:
+
+| Source | Tiles | Hand | Flowers | Scoring | Payout |
+| --- | --- | --- | --- | --- | --- |
+| [1](../../../../REFERENCES.md#ref-1) | 136 or 144 | 13, out on 14 | optional; melded instantly when received | count doubles, convert to points | winner only |
+| [8](../../../../REFERENCES.md#ref-8) | 136 tiles (144 tiles) | 13 | dead wall 14 if used | fan-laak; fan converted to points | winner only |
+| [18](../../../../REFERENCES.md#ref-18) | — | — | — | faan; common 3-faan minimum, 13-faan ceiling | — |
+
+- **[1](../../../../REFERENCES.md#ref-1)** — few special hands; books: Perlmen & Chan, Constantino, Li, Lo, Tsui
+- **[8](../../../../REFERENCES.md#ref-8)** — minimum and maximum both 'varies'; branched off traditional mahjong after WWII, prevalent among the upper class of Shanghai and Peking
+- **[4](../../../../REFERENCES.md#ref-4)** — in the same table HKOS scores 0 similarity against 1920s standard Chinese Classical and 4 against the 1920s 'New Method', supporting the chart's decision to descend HKOS through an intermediate new-style node rather than directly from Chinese Classical
+
+**Reading it:** Tiles, hand, scoring and payout agree across three sources. The date does not. The chart says fu was removed in the 1950s; the wiki's own Guangdong page dates the adoption of Clear Chapter, with pungs unscored and fu removed, to the 1970s; the wiki's HKOS page says only that HKOS branched off after the Second World War. The chart appears to have merged the post-war emergence of HKOS with the later Clear Chapter reform. Sloperama's early-forms table separately scores HKOS at 0 similarity to Chinese Classical, which supports descending it through a new-style intermediate.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

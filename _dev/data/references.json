@@ -402,6 +402,30 @@
       "citation": "Mahjong Wiki. \"Western Mah Jong Scoring.\" mahjong.wikidot.com.",
       "note": "Cited as the source for individual nodes in the chart's node table. Carries no bibliography or per-claim citations of its own; see the appendix on tracing the wiki.",
       "url": "http://mahjong.wikidot.com/rules:western-mah-jong-scoring"
+    },
+    {
+      "id": 51,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "mil-bloody",
+      "citation": "Mahjong International League. \"Brief Introduction to Bloody Mahjong.\"",
+      "note": "Rules document for Sichuan Bloody Rules: 108 tiles in three suits, no honours or flowers, the blood-battle continuation after the first win, and the missing-suit requirement.",
+      "url": "https://mahjong-mil.org/wp-content/uploads/2024/08/Brief_Introduction_to_Bloody_Mahjong-1.pdf"
+    },
+    {
+      "id": 52,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "sloperama-cards",
+      "citation": "Sloper, Tom. \"Mah-Jongg Cards.\" Sloperama.",
+      "note": "Describes how the annual American card works as an artefact and how the NMJL and AMJA cards differ in form. Used here only for structure, never for hand content.",
+      "url": "https://www.sloperama.com/mjfaq/cards.html"
+    },
+    {
+      "id": 53,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wikidot-korean",
+      "citation": "Mahjong Wiki. \"Korean Mahjong Rules.\" mahjong.wikidot.com.",
+      "note": "Infobox for the Korean game: 104 tiles, 13-tile hand, point-based scoring with a 2-point minimum and 80-point maximum, 32 hands. Not listed in the chart's own wiki table.",
+      "url": "http://mahjong.wikidot.com/rules:korean-overview"
     }
   ]
 }

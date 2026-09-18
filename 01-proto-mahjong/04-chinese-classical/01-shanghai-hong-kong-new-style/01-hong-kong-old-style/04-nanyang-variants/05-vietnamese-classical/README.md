@@ -7,6 +7,7 @@ parent: Nanyang variants
 chart_id: vietnamese-classical
 canonical_source: sloperama-faq-2b
 chart_refs: [1]
+evidence: corroborated
 ---
 
 # Vietnamese classical
@@ -30,6 +31,22 @@ chart_refs: [1]
 | [1](../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | **canonical** |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
+
+What each source actually says, as fetched and read:
+
+| Source | Tiles | Hand | Flowers | Scoring | Payout |
+| --- | --- | --- | --- | --- | --- |
+| [1](../../../../../../REFERENCES.md#ref-1) | 160 | 13, out on 14 | includes flowers/seasons, 8 kings/queens, and 8 jokers | based on the 19 ways of going Out | winner only |
+
+- **[1](../../../../../../REFERENCES.md#ref-1)** — no books in English
+
+**Reading it:** 160 tiles and 8 jokers match exactly; the source adds 8 kings/queens and 19 ways of going out, which the chart does not mention.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

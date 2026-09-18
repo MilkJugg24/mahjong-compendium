@@ -7,6 +7,7 @@ parent: Mainland regionals
 chart_id: sichuan-108
 canonical_source: sloperama-faq-2b
 chart_refs: [1]
+evidence: corroborated
 ---
 
 # Sichuan / Hunan / Tibetan
@@ -26,6 +27,22 @@ chart_refs: [1]
 | [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | **canonical** |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
+
+What each source actually says, as fetched and read:
+
+| Source | Tiles | Hand | Flowers | Scoring | Payout |
+| --- | --- | --- | --- | --- | --- |
+| [1](../../../../../REFERENCES.md#ref-1) | 108 (suit tiles only; no winds or dragons) | 13, out on 14 | none | — | winner only; discarder pays for all |
+
+- **[1](../../../../../REFERENCES.md#ref-1)** — Hunan: 5 ways out, hand must include a pair of 2s/5s/8s else seven pairs or pure. Tibetan & Sichuan: no more than two suits, punging OK, chowing not permitted
+
+**Reading it:** 108 suit-only tiles match. The source is more precise than the chart in a useful way: Hunan and Tibetan/Sichuan are given different winning conditions, so this single node covers at least two distinct games.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

@@ -7,6 +7,7 @@ parent: Modern rules
 chart_id: sanma
 canonical_source: wikipedia-japanese-mahjong
 chart_refs: [12, 1]
+evidence: partial
 ---
 
 # Sanma
@@ -27,6 +28,19 @@ chart_refs: [12, 1]
 | [1](../../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `partial` — sources agree on some points and are silent or divided on others
+
+What each source actually says, as fetched and read:
+
+- **[1](../../../../../../../REFERENCES.md#ref-1)** — Sloperama's catalogue does not carry a separate Sanma entry; three-player riichi is attested in the Japanese-modern material and in the Wikipedia article
+- **[12](../../../../../../../REFERENCES.md#ref-12)** — three-player variants are described in the Wikipedia article on Japanese mahjong
+
+**Reading it:** Three-player riichi is attested, but Sloperama's catalogue has no separate Sanma entry, so the node has no tile count or hand size from a source that names it.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

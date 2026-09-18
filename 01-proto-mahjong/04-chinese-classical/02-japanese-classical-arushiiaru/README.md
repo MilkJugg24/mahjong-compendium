@@ -7,6 +7,7 @@ parent: Chinese classical
 chart_id: japanese-classical
 canonical_source: wikidot-japanese-classical
 chart_refs: [47, 10, 11, 12]
+evidence: corroborated
 ---
 
 # Japanese classical / arushiiaru
@@ -33,6 +34,25 @@ chart_refs: [47, 10, 11, 12]
 | [12](../../../REFERENCES.md#ref-12) | Wikipedia. "Japanese Mahjong." | <https://en.wikipedia.org/wiki/Japanese_mahjong> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
+
+What each source actually says, as fetched and read:
+
+| Source | Tiles | Hand | Flowers | Scoring | Payout |
+| --- | --- | --- | --- | --- | --- |
+| [1](../../../REFERENCES.md#ref-1) | 136 | 13, out on 14 | come with the sets but are not used in play | 20 for Out, then count pungs/kongs/pairs, then double | winner only |
+| [47](../../../REFERENCES.md#ref-47) | 136 in the wall | 13 | — | point and double; minimum 0, maximum 500 | — |
+
+- **[47](../../../REFERENCES.md#ref-47)** — dead wall 14, length 4 rounds
+- **[10](../../../REFERENCES.md#ref-10)** — in 1929 the first organisation dedicated to mahjong players in Japan was established; the Federation still recognises Arushiiaru as its primary variant and accepted riichi as a second approved variant only in 2016
+- **[4](../../../REFERENCES.md#ref-4)** — in Sloperama's early-forms table, Japanese Classical scores 8 (identical) against the 1920s 'New Method' column and only 4 against 1920s standard Chinese Classical, which places its descent through the new-style line rather than straight from Chinese Classical
+
+**Reading it:** Sloperama and the wiki agree on 136 tiles, a 13-tile hand and point-and-double scoring, and the Krakow Chombo Club history independently dates the first Japanese mahjong organisation to 1929. Sloperama's early-forms table adds real structural evidence: Japanese Classical scores identically with the 1920s New Method and only 4 against standard Chinese Classical.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

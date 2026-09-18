@@ -7,6 +7,7 @@ parent: (none)
 chart_id: modern-inventions
 canonical_source: sloperama-faq-2b
 chart_refs: [1]
+evidence: unsupported
 ---
 
 # Modern inventions
@@ -36,6 +37,18 @@ chart_refs: [1]
 | [1](../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | **canonical** |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `unsupported` — the sources checked do not carry the claim this node makes
+
+What each source actually says, as fetched and read:
+
+- **[1](../REFERENCES.md#ref-1)** — Sloperama lists Duplicate, Mhing, Siamese and Mahjong Masters Millions among its variants without grouping them; the grouping is the chart's own editorial device, not a sourced claim
+
+**Reading it:** No source groups these as a category. Sloperama lists each of them among its variants without any shared heading. The grouping is the chart's own editorial device, which is exactly what the node label already admits.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

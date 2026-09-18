@@ -7,6 +7,7 @@ parent: Hong Kong old style
 chart_id: nanyang
 canonical_source: wikidot-home
 chart_refs: [7, 1]
+evidence: unsupported
 ---
 
 # Nanyang variants
@@ -40,6 +41,19 @@ chart_refs: [7, 1]
 | [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `unsupported` — the sources checked do not carry the claim this node makes
+
+What each source actually says, as fetched and read:
+
+- **[1](../../../../../REFERENCES.md#ref-1)** — Sloperama catalogues the individual Southeast Asian variants but uses no grouping term 'Nanyang' and asserts no common parent for them
+- **[7](../../../../../REFERENCES.md#ref-7)** — the wiki's family tree is the chart's stated source for this grouping; the chart itself draws the link dashed and states that no source establishes the descent
+
+**Reading it:** Sloperama catalogues each Southeast Asian variant separately and never groups them or asserts a common parent; the grouping term does not appear. This is consistent with the chart drawing the link dashed, and confirms that the grouping is an organising device rather than a sourced lineage.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

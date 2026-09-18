@@ -522,6 +522,38 @@ Cited as the source for individual nodes in the chart's node table. Carries no b
 
 *Cited for:* no variant folder yet.
 
+## Sources Added While Cross-checking
+
+<a id="ref-51"></a>
+
+**51. Mahjong International League. "Brief Introduction to Bloody Mahjong."**
+
+Rules document for Sichuan Bloody Rules: 108 tiles in three suits, no honours or flowers, the blood-battle continuation after the first win, and the missing-suit requirement.
+
+<https://mahjong-mil.org/wp-content/uploads/2024/08/Brief_Introduction_to_Bloody_Mahjong-1.pdf>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-52"></a>
+
+**52. Sloper, Tom. "Mah-Jongg Cards." Sloperama.**
+
+Describes how the annual American card works as an artefact and how the NMJL and AMJA cards differ in form. Used here only for structure, never for hand content.
+
+<https://www.sloperama.com/mjfaq/cards.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-53"></a>
+
+**53. Mahjong Wiki. "Korean Mahjong Rules." mahjong.wikidot.com.**
+
+Infobox for the Korean game: 104 tiles, 13-tile hand, point-based scoring with a 2-point minimum and 80-point maximum, 32 hands. Not listed in the chart's own wiki table.
+
+<http://mahjong.wikidot.com/rules:korean-overview>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.

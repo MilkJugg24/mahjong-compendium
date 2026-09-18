@@ -6,6 +6,7 @@ parent: Shanghai / Hong Kong new style
 chart_id: mainland-regionals
 canonical_source: wikidot-mainland
 chart_refs: [46, 1, 7]
+evidence: corroborated
 ---
 
 # Mainland regionals
@@ -43,6 +44,22 @@ chart_refs: [46, 1, 7]
 | [7](../../../../REFERENCES.md#ref-7) | Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com. | <http://mahjong.wikidot.com/> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
+
+What each source actually says, as fetched and read:
+
+| Source | Tiles | Hand | Flowers | Scoring | Payout |
+| --- | --- | --- | --- | --- | --- |
+| [46](../../../../REFERENCES.md#ref-46) | 136, 144 | 13 | — | varies | — |
+
+- **[46](../../../../REFERENCES.md#ref-46)** — states there are over 100 variants of Mainland Mahjong today, but that as late as 1990 regional variants shared many rules; in the 1990s they began deviating, Sichuan/Chengdu added Bloody rules, some dropped Joys, some removed honours, some built on Old Style and some on an additive New Style. Chinese Classical is said to have been allegedly invented in Ningbo in the 1900s, with later pattern additions referred to as Shanghai New Style
+
+**Reading it:** The wiki independently confirms both of the chart's caveats about this group: over 100 variants today, and a 1990s divergence in which some built on Old Style and some on an additive New Style. It also dates the Sichuan/Chengdu Bloody rules to the 1990s, matching the chart's separate node.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

@@ -7,6 +7,7 @@ parent: Mainland regionals
 chart_id: fujian-style
 canonical_source: sloperama-faq-2b
 chart_refs: [1]
+evidence: single-source
 ---
 
 # Fujian style
@@ -30,6 +31,22 @@ chart_refs: [1]
 | [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | **canonical** |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `single-source` — only one source was found; nothing independent confirms it
+
+What each source actually says, as fetched and read:
+
+| Source | Tiles | Hand | Flowers | Scoring | Payout |
+| --- | --- | --- | --- | --- | --- |
+| [1](../../../../../REFERENCES.md#ref-1) | 124 (3 suits, 4 winds, no dragons) | 13, out on 14 | none; winds treated as flower tiles and replaced when acquired; a wild tile from the back of the wall serves as joker | contributor Chris Jacques: 'The scoring system is beyond me' | — |
+
+- **[1](../../../../../REFERENCES.md#ref-1)** — Sloperama separately records that Dragon Chang says a style similar to Filipino is played in Fuzhou (Fukien)
+
+**Reading it:** 124 tiles, winds as flowers and a wild tile as joker match the chart exactly. But it rests on one contributor who says openly that he does not understand the scoring, and the Fuzhou entry on the same page appears to have borrowed this description. Treat the tile count as the only firm part.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

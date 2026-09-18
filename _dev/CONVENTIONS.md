@@ -38,6 +38,26 @@ with provenance `unknown` and whatever is known about where it came from. An
 unattributed file that is honestly labelled is useful; one that is quietly
 promoted to a source is not.
 
+## What must never be filed here
+
+Some works are live copyrighted material. This repository records **what they are
+and how the game is structured around them**, and never their contents:
+
+- **NMJL and AMJA annual cards, for any year.** No scans, no photographs, no
+  transcriptions, no hand lists, no partial reproductions of a card's contents.
+  That a card exists, is issued annually, costs what it costs, and that players
+  must make hands from it, is history and structure, and belongs here.
+- **_Mah Jongg Made Easy_ and the League's other publications.** No rulebook text.
+  Describing what the book covers is fine; reproducing it is not.
+
+The same principle applies to any variant's in-copyright rulebook. A file whose
+value is that it *is* the copyrighted work does not belong in this repository,
+however easy it would be to find elsewhere. If a file arrives that breaches this,
+remove the file, keep the ledger row, and record what happened in it.
+
+Comparative discussion is unaffected: how American mah jongg's fixed-hand
+structure differs from a fan or pattern system is analysis, not reproduction.
+
 ## Provenance vocabulary
 
 For a **collected file**, in the ledger table:
@@ -64,6 +84,35 @@ For a **variant folder**, in the README front matter and the root glossary:
 
 These describe the **sources**, not the game. `placeholder` means nobody has
 established where a game came from, not that the game is doubtful.
+
+## Cross-comparison
+
+Each variant folder's README carries a `## Cross-comparison` section, generated
+from [`data/claims.json`](data/claims.json): a table of what each source actually
+says about tiles, hand size, flowers, scoring and payout, the notes that do not
+fit a table, and a reading of where the sources agree and disagree.
+
+Its `evidence` verdict describes the **state of the sourcing**, which is not the
+same as the `confidence` tag on the node:
+
+| Verdict | Meaning |
+| --- | --- |
+| `corroborated` | Two or more independent sources agree on the defining facts |
+| `partial` | Sources agree on some points and are silent or divided on others |
+| `conflicting` | Sources disagree materially, or one source contradicts itself |
+| `single-source` | Only one source was found; nothing independent confirms it |
+| `unsupported` | The sources checked do not carry the claim the node makes |
+
+Two rules govern what may go in:
+
+1. **Only what was read at the source.** A claim from a search-result summary, or
+   from a page that could not be fetched, does not go in the table. Record the
+   source as unreachable instead. The whole point of the section is that a reader
+   can check it.
+2. **Quote or paraphrase closely, and say which source.** Where a source
+   contradicts itself, record both readings rather than picking one silently.
+
+The read across all variants is generated into [`FINDINGS.md`](../FINDINGS.md).
 
 ## Variant README structure
 

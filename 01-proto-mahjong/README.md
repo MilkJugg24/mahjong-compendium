@@ -7,6 +7,7 @@ parent: (none)
 chart_id: proto-mahjong
 canonical_source: sloperama-faq-11
 chart_refs: [3, 2, 26]
+evidence: single-source
 ---
 
 # Proto-mahjong
@@ -35,6 +36,19 @@ chart_refs: [3, 2, 26]
 | [26](../REFERENCES.md#ref-26) | Stanwick, Michael and Hongbing Xu. "Flowers and Kings." themahjongtileset.co.uk. | <http://www.themahjongtileset.co.uk/tile-set-history/flowers-and-kings-an-hypothesis-of-their-function-in-early-ma-que/> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `single-source` — only one source was found; nothing independent confirms it
+
+What each source actually says, as fetched and read:
+
+- **[2](../REFERENCES.md#ref-2)** — Sloperama's family tree page gives the Matiao / Khanhoo / dominoes root structure the chart's root node stands for
+- **[26](../REFERENCES.md#ref-26)** — Stanwick and Xu's tile-set research on early ma que, underlying the Hua Maque and Wang Maque material
+
+**Reading it:** Both sources describe the pre-mahjong card and tile games the node stands for, not a ruleset. Nothing here can corroborate a rules claim, because the chart makes none: the node is explicitly 'rules lost'.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 
