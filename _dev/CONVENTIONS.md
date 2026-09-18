@@ -50,6 +50,12 @@ and how the game is structured around them**, and never their contents:
 - **_Mah Jongg Made Easy_ and the League's other publications.** No rulebook text.
   Describing what the book covers is fine; reproducing it is not.
 
+This is not only about American mahjong. The Pusser's Bones rules book is
+© 2023 Hot Rod Handbooks, all rights reserved, and sells commercially: its game
+mechanics are recorded in that variant's cross-comparison as facts, exactly as
+tile counts are for every other variant, but its text is not reproduced and the
+file is not filed here.
+
 The same principle applies to any variant's in-copyright rulebook. A file whose
 value is that it *is* the copyrighted work does not belong in this repository,
 however easy it would be to find elsewhere. If a file arrives that breaches this,

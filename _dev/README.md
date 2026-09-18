@@ -18,7 +18,12 @@ read to say and a verdict on the state of the sourcing. It drives the
 `## Cross-comparison` section in every variant README and the whole of
 [`FINDINGS.md`](../FINDINGS.md).
 
-Sources were fetched with `curl` and rendered to text locally. Three sites answer
+Sources were fetched with `curl` and rendered to text locally. A PDF whose body
+is drawn through subset fonts needs
+[`scripts/extract_pdf_text.py`](scripts/extract_pdf_text.py) rather than a naive
+reader: the Pusser's Bones rules book looks like it contains only headings until
+each font's ToUnicode CMap is applied separately, at which point 30,000
+characters of rules appear. Three sites answer
 automated requests with a Cloudflare challenge and could not be read at all
 (riichi.wiki, mahjongg.org, BoardGameGeek); two more are served over HTTP or with
 an expired certificate and were read through the Wayback Machine, as was the

@@ -636,9 +636,9 @@ A tournament codification of Sichuan Blood Battle: 108 tiles in three suits, the
 
 <a id="ref-62"></a>
 
-**62. Munday, Choco. "How to Play the Royal Australian Navy Version of Mah Jong."**
+**62. Munday, Frank "Choco". How to Play the Royal Australian Navy Version of Mah Jong. Hot Rod Handbooks, first edition 2023.**
 
-A full rules book for Pusser's Bones, retrieved as a PDF. Its title page settles the navy in question; most of its body is scanned images rather than extractable text.
+A complete 32-page ruleset for Pusser's Bones: tile taxonomy and sailors' names, game preparation, gameplay, strategy, the full points, doubles, fixed-score, bonus and penalty tables, and Bones etiquette. IN COPYRIGHT: © 2023 Hot Rod Handbooks, all rights reserved. Its game mechanics are recorded here as facts; its text is not reproduced and the file is not filed in this repository.
 
 <https://www.hotrodhandbooks.com.au/ebooks/pussers%20bones.pdf>
 
