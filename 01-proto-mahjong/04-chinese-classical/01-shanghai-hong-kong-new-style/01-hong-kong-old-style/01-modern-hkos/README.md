@@ -4,7 +4,9 @@ detail: 3-faan minimum, 1970s
 family: chinese
 confidence: documented
 parent: Hong Kong old style
-chart_refs: [8, 18, 1]
+chart_id: modern-hkos
+canonical_source: wikipedia-hk-scoring
+chart_refs: [18, 8, 1]
 ---
 
 # Modern HKOS
@@ -23,11 +25,13 @@ chart_refs: [8, 18, 1]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [8](../../../../../REFERENCES.md#ref-8) | Mahjong Wiki. "Hong Kong Old Style Overview." | <http://mahjong.wikidot.com/rules:hong-kong-old-style-overview> |
-| [18](../../../../../REFERENCES.md#ref-18) | Wikipedia. "Hong Kong Mahjong Scoring Rules." | <https://en.wikipedia.org/wiki/Hong_Kong_mahjong_scoring_rules> |
-| [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [18](../../../../../REFERENCES.md#ref-18) | Wikipedia. "Hong Kong Mahjong Scoring Rules." | <https://en.wikipedia.org/wiki/Hong_Kong_mahjong_scoring_rules> | **canonical** |
+| [8](../../../../../REFERENCES.md#ref-8) | Mahjong Wiki. "Hong Kong Old Style Overview." | <http://mahjong.wikidot.com/rules:hong-kong-old-style-overview> | supporting |
+| [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

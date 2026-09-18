@@ -2,7 +2,7 @@
 
 A collection of files gathered from around the web, filed by mahjong variant, so that each file's origin and legitimacy can be checked and proper rulebooks can eventually be built from material that has been verified rather than assumed.
 
-The folder tree mirrors the variant family tree in [`_dev/source-chart/mahjong-variant-family-tree.pdf`](_dev/source-chart/mahjong-variant-family-tree.pdf): **one folder per variant, nested by descent**. Drop a collected file into the folder for the variant it documents, and log it in that folder's `README.md` table. Every folder's README carries the variant's lineage, the sources the chart cites for it, and how much those sources are actually worth.
+The folder tree mirrors the variant family tree in [`_dev/source-chart/`](_dev/source-chart/): **one folder per variant, nested by descent**. Drop a collected file into the folder for the variant it documents, and log it in that folder's `README.md` table. Every folder's README carries the variant's lineage, the sources the chart cites for it, and how much those sources are actually worth.
 
 ## How to use this repository
 
@@ -171,9 +171,10 @@ The chart this tree is built from is explicit about where it is weak, and those 
 
 - Guangdong was influenced first by Hong Kong, later by Taiwanese; the arrow should run both ways.
 - Mainland regionals began on a Chinese Classical frame and later adopted HKOS's simplified scoring.
-- All Pairs and All Green flowed backwards from Western Mah Jong into most other modern rulesets.
-- The ten mainland nodes stand in for a hundred-plus real variants, most undocumented in English.
+- All Pairs and All Green flowed backwards from Western Mah Jong into most other modern rulesets, meaning the `us` branch fed the `cn` branch, which no tree layout shows.
+- The eleven mainland nodes stand in for a hundred-plus real variants, most undocumented in English.
 - Several entries (Shenzhen, Tui Dao Hu, Fujian) rest on a single informant report.
 - No source establishes how Korean 104-tile mahjong descends from anything; the link is a placeholder.
+- Filipino style sits under Nanyang despite a 16-tile hand resembling Taiwanese. The distinguishing test is that Filipino play treats winds and dragons as flowers.
 
 Sourcing is uneven by region rather than absent: Cantonese material is credited, most of the rest is not. Weight the tree accordingly — and weight anything filed into it accordingly too. Correcting the tree is as welcome as filling it.

@@ -4,7 +4,9 @@ detail: c. 1870s, rules lost
 family: roots
 confidence: lost
 parent: (none)
-chart_refs: [2, 26]
+chart_id: proto-mahjong
+canonical_source: sloperama-faq-11
+chart_refs: [3, 2, 26]
 ---
 
 # Proto-mahjong
@@ -26,10 +28,13 @@ chart_refs: [2, 26]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [2](../REFERENCES.md#ref-2) | Sloper, Tom. "The Mah-Jongg Family Tree." Sloperama. | <https://www.sloperama.com/mjfaq/tree.htm> |
-| [26](../REFERENCES.md#ref-26) | Stanwick, Michael and Hongbing Xu. "Flowers and Kings." themahjongtileset.co.uk. | <http://www.themahjongtileset.co.uk/tile-set-history/flowers-and-kings-an-hypothesis-of-their-function-in-early-ma-que/> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [3](../REFERENCES.md#ref-3) | Sloper, Tom. "FAQ 11: History of Mah-Jongg." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq11f.html> | **canonical** |
+| [2](../REFERENCES.md#ref-2) | Sloper, Tom. "The Mah-Jongg Family Tree." Sloperama. | <https://www.sloperama.com/mjfaq/tree.htm> | supporting |
+| [26](../REFERENCES.md#ref-26) | Stanwick, Michael and Hongbing Xu. "Flowers and Kings." themahjongtileset.co.uk. | <http://www.themahjongtileset.co.uk/tile-set-history/flowers-and-kings-an-hypothesis-of-their-function-in-early-ma-que/> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

@@ -4,6 +4,8 @@ detail: USAF spouses, Ohio
 family: western-american
 confidence: documented
 parent: Western / British Empire style
+chart_id: wright-patterson
+canonical_source: mahjong-line
 chart_refs: [15, 1]
 ---
 
@@ -19,10 +21,12 @@ chart_refs: [15, 1]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [15](../../../../../REFERENCES.md#ref-15) | The Mahjong Line. "History of the Game." | <https://themahjongline.com/pages/history> |
-| [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [15](../../../../../REFERENCES.md#ref-15) | The Mahjong Line. "History of the Game." | <https://themahjongline.com/pages/history> | **canonical** |
+| [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

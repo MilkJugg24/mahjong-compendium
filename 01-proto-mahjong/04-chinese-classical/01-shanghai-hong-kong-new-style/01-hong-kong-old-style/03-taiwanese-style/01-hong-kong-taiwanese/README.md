@@ -4,7 +4,9 @@ detail: HKT
 family: taiwanese
 confidence: catalogued
 parent: Taiwanese style
-chart_refs: [1]
+chart_id: hkt
+canonical_source: wikidot-taiwanese
+chart_refs: [44, 1]
 ---
 
 # Hong Kong Taiwanese
@@ -19,9 +21,12 @@ chart_refs: [1]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [1](../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [44](../../../../../../REFERENCES.md#ref-44) | Mahjong Wiki. "Taiwanese Overview." mahjong.wikidot.com. | <http://mahjong.wikidot.com/rules:taiwanese-overview> | **canonical** |
+| [1](../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

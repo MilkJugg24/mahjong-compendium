@@ -4,7 +4,9 @@ detail: Alan Kwan, 2000s
 family: chinese
 confidence: documented
 parent: Hong Kong old style
-chart_refs: [30]
+chart_id: zung-jung
+canonical_source: wikidot-zung-jung
+chart_refs: [45, 30]
 ---
 
 # Zung Jung
@@ -19,9 +21,12 @@ chart_refs: [30]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [30](../../../../../REFERENCES.md#ref-30) | Kwan, Alan. Zung Jung scoring system. | <http://mahjong.wikidot.com/rules:zung-jung-overview> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [45](../../../../../REFERENCES.md#ref-45) | Mahjong Wiki. "Zung Jung Overview." mahjong.wikidot.com. | <http://mahjong.wikidot.com/rules:zung-jung-overview> | **canonical** |
+| [30](../../../../../REFERENCES.md#ref-30) | Kwan, Alan. Zung Jung scoring system. | <http://mahjong.wikidot.com/rules:zung-jung-overview> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

@@ -7,7 +7,7 @@ it is the scaffolding that produced the folder tree.
 | Path | What it is |
 | --- | --- |
 | [`CONVENTIONS.md`](CONVENTIONS.md) | How files are filed, named and logged; the provenance vocabulary |
-| [`source-chart/`](source-chart/) | The variant family tree chart this repository's structure is built from, and the text extracted from it |
+| [`source-chart/`](source-chart/) | The variant family tree chart this repository's structure is built from: the author's Markdown export (authoritative), the original PDF, and the text extracted from that PDF |
 | [`data/`](data/) | The chart's contents as data: the node tree, the bibliography, the chart's own caveats |
 | [`scripts/`](scripts/) | The extraction and generation scripts |
 
@@ -27,17 +27,32 @@ To add, rename or re-parent a variant, edit
 changes its folder name; move the existing folder yourself first, then rerun, or
 the old folder will be left behind alongside the new one.
 
-## Re-reading the source chart
+## The source chart, and checking against it
+
+`source-chart/` holds two forms of the same chart. The Markdown export,
+`mahjong-variant-family-tree.md`, is authoritative: it carries the node table
+with each variant's canonical source, which the PDF does not. To check the
+repository against it:
+
+```sh
+python3 _dev/scripts/verify_against_export.py
+```
+
+That compares every node's label, depth, family, parent and disputed flag, and
+every reference's URL, against the export, and exits non-zero on any
+difference. Run it after editing `data/`.
+
+The PDF came first and is kept as the original artefact. It is a vector PDF with no tagged text, so the tree has to be read back
+out of its content stream: indentation is each label's x coordinate, family
+grouping is its fill colour, and a disputed descent is a connector drawn with a
+dash pattern:
 
 ```sh
 python3 _dev/scripts/extract_chart.py > _dev/source-chart/extracted-text.txt
 ```
 
-The chart is a vector PDF with no tagged text, so the tree has to be read back
-out of its content stream: indentation is each label's x coordinate, family
-grouping is its fill colour, and a disputed descent is a connector drawn with a
-dash pattern. The script prints one line per text run as
-`y, x, family, flag, label`, which is what `data/nodes.tsv` was checked against.
+It prints one line per text run as `y, x, family, flag, label`. The tree was
+first built from this, then verified against the Markdown export.
 
 Two connectors in the chart are dashed — under **Nanyang variants** and
 **Korean traditional** — and both are marked `disputed` / `placeholder` in the

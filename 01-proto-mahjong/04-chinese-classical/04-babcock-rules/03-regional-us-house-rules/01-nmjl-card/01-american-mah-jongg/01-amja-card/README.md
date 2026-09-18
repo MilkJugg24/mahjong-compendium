@@ -3,6 +3,8 @@ node: AMJA card
 family: western-american
 confidence: documented
 parent: American mah jongg
+chart_id: amja-card
+canonical_source: wikipedia-american
 chart_refs: [13]
 ---
 
@@ -16,9 +18,11 @@ chart_refs: [13]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [13](../../../../../../../REFERENCES.md#ref-13) | Wikipedia. "American Mahjong." | <https://en.wikipedia.org/wiki/American_mahjong> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [13](../../../../../../../REFERENCES.md#ref-13) | Wikipedia. "American Mahjong." | <https://en.wikipedia.org/wiki/American_mahjong> | **canonical** |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

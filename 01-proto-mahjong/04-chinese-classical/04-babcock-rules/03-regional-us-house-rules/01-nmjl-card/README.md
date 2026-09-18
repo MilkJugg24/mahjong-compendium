@@ -4,7 +4,9 @@ detail: 1937, annual hand list
 family: western-american
 confidence: documented
 parent: Regional US house rules
-chart_refs: [13, 14, 17]
+chart_id: nmjl-card
+canonical_source: wikidot-american
+chart_refs: [49, 13, 14, 17]
 ---
 
 # NMJL card
@@ -23,11 +25,14 @@ chart_refs: [13, 14, 17]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [13](../../../../../REFERENCES.md#ref-13) | Wikipedia. "American Mahjong." | <https://en.wikipedia.org/wiki/American_mahjong> |
-| [14](../../../../../REFERENCES.md#ref-14) | MahjongCompare. "Mahjong History and Origin." | <https://mahjongcompare.com/history> |
-| [17](../../../../../REFERENCES.md#ref-17) | Grokipedia. "American Mahjong." | <https://grokipedia.com/page/American_mahjong> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [49](../../../../../REFERENCES.md#ref-49) | Mahjong Wiki. "American Overview." mahjong.wikidot.com. | <http://mahjong.wikidot.com/rules:american-overview> | **canonical** |
+| [13](../../../../../REFERENCES.md#ref-13) | Wikipedia. "American Mahjong." | <https://en.wikipedia.org/wiki/American_mahjong> | supporting |
+| [14](../../../../../REFERENCES.md#ref-14) | MahjongCompare. "Mahjong History and Origin." | <https://mahjongcompare.com/history> | supporting |
+| [17](../../../../../REFERENCES.md#ref-17) | Grokipedia. "American Mahjong." | <https://grokipedia.com/page/American_mahjong> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

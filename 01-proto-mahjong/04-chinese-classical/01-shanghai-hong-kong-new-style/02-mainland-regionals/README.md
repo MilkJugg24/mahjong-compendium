@@ -3,7 +3,9 @@ node: Mainland regionals
 family: chinese
 confidence: catalogued
 parent: Shanghai / Hong Kong new style
-chart_refs: [1, 7]
+chart_id: mainland-regionals
+canonical_source: wikidot-mainland
+chart_refs: [46, 1, 7]
 ---
 
 # Mainland regionals
@@ -30,14 +32,17 @@ chart_refs: [1, 7]
 
 ## Caveat from the source chart
 
-> These ten nodes stand in for a hundred-plus real variants, most undocumented in English. The group began on a Chinese Classical frame and only later adopted HKOS's simplified scoring, so its placement under Hong Kong old style is a simplification.
+> These eleven nodes stand in for a hundred-plus real variants, most undocumented in English. The group began on a Chinese Classical frame and only later adopted HKOS's simplified scoring, so its placement under Hong Kong old style is a simplification.
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [1](../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> |
-| [7](../../../../REFERENCES.md#ref-7) | Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com. | <http://mahjong.wikidot.com/> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [46](../../../../REFERENCES.md#ref-46) | Mahjong Wiki. "Mainland Mahjong Overview." mahjong.wikidot.com. | <http://mahjong.wikidot.com/rules:mainland-mahjong-overview> | **canonical** |
+| [1](../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
+| [7](../../../../REFERENCES.md#ref-7) | Mahjong Wiki. "Family Tree and Timeline." mahjong.wikidot.com. | <http://mahjong.wikidot.com/> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

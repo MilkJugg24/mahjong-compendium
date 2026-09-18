@@ -4,7 +4,9 @@ detail: 3-player riichi
 family: japanese
 confidence: catalogued
 parent: Modern rules
-chart_refs: [1, 12]
+chart_id: sanma
+canonical_source: wikipedia-japanese-mahjong
+chart_refs: [12, 1]
 ---
 
 # Sanma
@@ -19,10 +21,12 @@ chart_refs: [1, 12]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [1](../../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> |
-| [12](../../../../../../../REFERENCES.md#ref-12) | Wikipedia. "Japanese Mahjong." | <https://en.wikipedia.org/wiki/Japanese_mahjong> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [12](../../../../../../../REFERENCES.md#ref-12) | Wikipedia. "Japanese Mahjong." | <https://en.wikipedia.org/wiki/Japanese_mahjong> | **canonical** |
+| [1](../../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

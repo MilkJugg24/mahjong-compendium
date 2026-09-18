@@ -4,6 +4,8 @@ detail: 16-tile hand, honours as flowers
 family: southeast-asian
 confidence: catalogued
 parent: Nanyang variants
+chart_id: filipino-style
+canonical_source: sloperama-faq-2b
 chart_refs: [1]
 ---
 
@@ -21,11 +23,17 @@ chart_refs: [1]
 
 - [Bashi-Bashi](01-bashi-bashi/) — 3-player, Philippine casinos
 
+## Caveat from the source chart
+
+> Sits under Nanyang despite a 16-tile hand resembling Taiwanese. The distinguishing test is that Filipino play treats winds and dragons as flowers.
+
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [1](../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [1](../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | **canonical** |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

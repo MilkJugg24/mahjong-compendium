@@ -4,6 +4,8 @@ detail: 1920s-30s
 family: western-american
 confidence: catalogued
 parent: Babcock rules
+chart_id: regional-us-house
+canonical_source: wikipedia-american
 chart_refs: [13, 14]
 ---
 
@@ -23,10 +25,12 @@ chart_refs: [13, 14]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [13](../../../../REFERENCES.md#ref-13) | Wikipedia. "American Mahjong." | <https://en.wikipedia.org/wiki/American_mahjong> |
-| [14](../../../../REFERENCES.md#ref-14) | MahjongCompare. "Mahjong History and Origin." | <https://mahjongcompare.com/history> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [13](../../../../REFERENCES.md#ref-13) | Wikipedia. "American Mahjong." | <https://en.wikipedia.org/wiki/American_mahjong> | **canonical** |
+| [14](../../../../REFERENCES.md#ref-14) | MahjongCompare. "Mahjong History and Origin." | <https://mahjongcompare.com/history> | supporting |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 

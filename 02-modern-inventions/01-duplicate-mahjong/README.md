@@ -4,6 +4,8 @@ detail: prebuilt walls, no luck
 family: roots
 confidence: documented
 parent: Modern inventions
+chart_id: duplicate-mahjong
+canonical_source: mil-duplicate
 chart_refs: [22]
 ---
 
@@ -19,9 +21,11 @@ chart_refs: [22]
 
 ## Sources the chart cites for this node
 
-| # | Source | URL |
-| --- | --- | --- |
-| [22](../../REFERENCES.md#ref-22) | Mahjong International League. "Duplicate Mahjong Rules." | <http://mahjong-mil.org/rules_dup.html> |
+| # | Source | URL | Role |
+| --- | --- | --- | --- |
+| [22](../../REFERENCES.md#ref-22) | Mahjong International League. "Duplicate Mahjong Rules." | <http://mahjong-mil.org/rules_dup.html> | **canonical** |
+
+The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
 
 ## Collected files
 
