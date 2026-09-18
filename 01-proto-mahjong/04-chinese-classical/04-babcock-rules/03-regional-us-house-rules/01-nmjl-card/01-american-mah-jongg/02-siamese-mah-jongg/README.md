@@ -7,7 +7,7 @@ parent: American mah jongg
 chart_id: siamese-mah-jongg
 canonical_source: mahjongg-org
 chart_refs: [23]
-evidence: single-source
+evidence: partial
 ---
 
 # Siamese Mah Jongg
@@ -30,13 +30,14 @@ The canonical source is the one the chart's node table names for this variant. S
 
 ## Cross-comparison
 
-**Evidence** · `single-source` — only one source was found; nothing independent confirms it
+**Evidence** · `partial` — sources agree on some points and are silent or divided on others
 
 What each source actually says, as fetched and read:
 
 - **[1](../../../../../../../REFERENCES.md#ref-1)** — special two-handed rules by Gladys Grad, 2015; the name plays on 'Siamese twins'. Two players each play two hands on specially designed two-tiered racks. Primarily designed with American mah-jongg in mind, but the concept can be applied to any variant
+- **[23](../../../../../../../REFERENCES.md#ref-23)** — the cited site was read through the Wayback Machine. The archived homepage is about Mah Jongg Master Points, American tournaments and prizes, and does not describe Siamese Mah Jongg at all, so the citation does not currently support the node's rules claims
 
-**Reading it:** Gladys Grad, 2015, two players each playing two hands on two-tiered racks. The source also says the concept can be applied to any variant, which makes its placement under American a matter of design intent rather than descent.
+**Reading it:** Sloperama gives the substance: Gladys Grad, 2015, two players each playing two hands on two-tiered racks, with the concept applicable to any variant. The chart's own canonical source for the node, mahjongg.org, does not corroborate it: its archived homepage is a tournament and Master Points site that does not mention Siamese Mah Jongg. The variant is attested, but by the other source, not the cited one.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

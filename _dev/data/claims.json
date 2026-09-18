@@ -527,6 +527,11 @@
         "source": "sloperama-analysis",
         "retrieved": "2026-09-18",
         "note": "in Sloperama's early-forms table, Japanese Classical scores 8 (identical) against the 1920s 'New Method' column and only 4 against 1920s standard Chinese Classical, which places its descent through the new-style line rather than straight from Chinese Classical"
+      },
+      {
+        "source": "riichi-wiki",
+        "retrieved": "2026-09-18",
+        "note": "dates mahjong's arrival in Japan to 1909, two decades before the 1929 organisation the chart uses to date this node"
       }
     ],
     "evidence": "corroborated",
@@ -538,10 +543,15 @@
         "source": "chombo-club",
         "retrieved": "2026-09-18",
         "note": "Amano Daizou published rules in the newspaper Houchi Shinbun between 11 November and 5 December 1952, for a game heavily based on tochuu riichi which he called simply riichi; the Houchi rules established the dora as the third tile from the edge of the dead wall. Amano then left the Federation and founded the Japanese Mahjong Association"
+      },
+      {
+        "source": "riichi-wiki",
+        "retrieved": "2026-09-18",
+        "note": "independently states that the riichi variant played today emerged only after the publication of the Hochi rules in 1952, corroborating the Chombo Club account from a different source"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "The Chombo Club history gives the exact serialisation window, 11 November to 5 December 1952, Amano Daizou as author, the Houchi Shinbun as publisher, and the dora placement the rules introduced. Precise and internally consistent, but a single secondary account."
+    "evidence": "corroborated",
+    "assessment": "Two independent sources agree that the 1952 Houchi/Hochi publication is the origin point of modern riichi. The Chombo Club gives the exact serialisation window, 11 November to 5 December 1952, and Amano Daizou as author; riichi.wiki, written by a different community, independently makes the same ruleset the hinge of the modern game. This is now one of the better-supported nodes in the Japanese branch."
   },
   "tokyo-rules": {
     "observations": [
@@ -588,18 +598,27 @@
       {
         "source": "riichi-wiki",
         "retrieved": "2026-09-18",
-        "note": "page is behind a Cloudflare challenge from this environment; read through the Wayback Machine"
+        "tiles": "136 (34 unique types, 4 copies each)",
+        "hand": "13, winning hand 14",
+        "flowers": "not used; modern sets come with four red five dora tiles, whose use is optional",
+        "scoring": "han from yaku and dora, plus fu from hand composition; at least one yaku required to win",
+        "note": "names the four-player game yonma (四麻) against the three-player sanma. Dates the modern riichi variant to the 1960s, with the explosion in popularity after 1969 and online play from Tenhou in 2007. It does not date red fives to 1970 as the chart does"
       }
     ],
     "evidence": "corroborated",
-    "assessment": "Sloperama and the wiki agree on 136 tiles, a 13-tile hand, no flowers in play, and discards in orderly rows. The chart's 1970 date for red fives is not confirmed by either."
+    "assessment": "Three sources now agree on 136 tiles, a 13-tile hand and no flowers in play, and riichi.wiki adds the han-and-fu structure and the one-yaku minimum. The chart's 1970 date for red fives is still uncorroborated: riichi.wiki confirms red five dora exist and are optional but dates the modern variant only to the 1960s, with the popularity surge after 1969."
   },
   "sanma": {
     "observations": [
       {
+        "source": "riichi-wiki",
+        "retrieved": "2026-09-18",
+        "note": "names sanma as the three-player counterpart to yonma and says there is a well-established modified version of the rules for it, but treats it as an accommodation for when four players are not available rather than a separate lineage. The same page also describes two-player and five-player variations, which the chart does not carry"
+      },
+      {
         "source": "sloperama-faq-2b",
         "retrieved": "2026-09-18",
-        "note": "Sloperama's catalogue does not carry a separate Sanma entry; three-player riichi is attested in the Japanese-modern material and in the Wikipedia article"
+        "note": "Sloperama's catalogue has no separate Sanma entry, so no tile count or hand size is attributed to the name"
       },
       {
         "source": "wikipedia-japanese-mahjong",
@@ -608,7 +627,7 @@
       }
     ],
     "evidence": "partial",
-    "assessment": "Three-player riichi is attested, but Sloperama's catalogue has no separate Sanma entry, so the node has no tile count or hand size from a source that names it."
+    "assessment": "The name is confirmed and riichi.wiki says a well-established modified ruleset exists, which is more than the chart had. But the same source frames three-player play as an accommodation when a fourth player is missing, not as a descent event, and gives it no tile count or hand size of its own. The chart's placement as a sibling of yonma is reasonable; its status as a separate variant is weaker than the tree implies."
   },
   "korean-traditional": {
     "observations": [
@@ -888,10 +907,15 @@
         "source": "sloperama-faq-2b",
         "retrieved": "2026-09-18",
         "note": "special two-handed rules by Gladys Grad, 2015; the name plays on 'Siamese twins'. Two players each play two hands on specially designed two-tiered racks. Primarily designed with American mah-jongg in mind, but the concept can be applied to any variant"
+      },
+      {
+        "source": "mahjongg-org",
+        "retrieved": "2026-09-18",
+        "note": "the cited site was read through the Wayback Machine. The archived homepage is about Mah Jongg Master Points, American tournaments and prizes, and does not describe Siamese Mah Jongg at all, so the citation does not currently support the node's rules claims"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "Gladys Grad, 2015, two players each playing two hands on two-tiered racks. The source also says the concept can be applied to any variant, which makes its placement under American a matter of design intent rather than descent."
+    "evidence": "partial",
+    "assessment": "Sloperama gives the substance: Gladys Grad, 2015, two players each playing two hands on two-tiered racks, with the concept applicable to any variant. The chart's own canonical source for the node, mahjongg.org, does not corroborate it: its archived homepage is a tournament and Master Points site that does not mention Siamese Mah Jongg. The variant is attested, but by the other source, not the cited one."
   },
   "duplicate-mahjong": {
     "observations": [
