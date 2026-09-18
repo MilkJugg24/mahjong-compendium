@@ -37,10 +37,12 @@ What each source actually says, as fetched and read:
 | Source | Tiles | Hand | Flowers | Scoring | Payout |
 | --- | --- | --- | --- | --- | --- |
 | [1](../../../../../../REFERENCES.md#ref-1) | 148 (basic set plus 4 animal flowers) | 13, out on 14 | game requires 12 flowers: the 8 regular plus 4 animal flowers | count the fan (doubles) and convert to points | winner only |
+| [54](../../../../../../REFERENCES.md#ref-54) | — | — | four animal bonus tiles, named as cat, mouse, cockerel and centipede | — | — |
 
 - **[1](../../../../../../REFERENCES.md#ref-1)** — relatively few special hands; book: AMAZING MAHJONG by Celia Ching
+- **[54](../../../../../../REFERENCES.md#ref-54)** — groups Singaporean and Malaysian mahjong together as sharing much with Hong Kong mahjong, and describes payouts midway through a hand when conditions such as a kong are met
 
-**Reading it:** Sloperama's 148 tiles and 4 animal flowers match the chart exactly, and a general web search independently returned 148 as the Singapore count. The distinguishing detail, that the game requires all 12 flowers, is stronger than the chart's summary.
+**Reading it:** Two independent sources agree on the animal tiles that define the variant, and Wikipedia names all four: cat, mouse, cockerel and centipede. Sloperama's 148 total and requirement of all twelve flowers is consistent with that. Wikipedia's mid-hand payout rule is a structural feature neither the chart nor Sloperama records.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

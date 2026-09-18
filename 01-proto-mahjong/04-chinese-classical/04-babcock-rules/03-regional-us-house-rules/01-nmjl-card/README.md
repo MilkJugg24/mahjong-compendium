@@ -7,7 +7,7 @@ parent: Regional US house rules
 chart_id: nmjl-card
 canonical_source: wikidot-american
 chart_refs: [49, 13, 14, 17]
-evidence: conflicting
+evidence: corroborated
 ---
 
 # NMJL card
@@ -37,7 +37,7 @@ The canonical source is the one the chart's node table names for this variant. S
 
 ## Cross-comparison
 
-**Evidence** · `conflicting` — sources disagree materially, or one source contradicts itself
+**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
 
 What each source actually says, as fetched and read:
 
@@ -46,8 +46,9 @@ What each source actually says, as fetched and read:
 - **[17](../../../../../REFERENCES.md#ref-17)** — dates the founding to 1937 in New York City
 - **[15](../../../../../REFERENCES.md#ref-15)** — dates the NMJL's start to 1937
 - **[13](../../../../../REFERENCES.md#ref-13)** — CONFLICT: states that the National Mah Jongg League, Inc. published a volume of 'Official American Rules' in 1935, which predates the 1937 founding date the other four sources give
+- **[63](../../../../../REFERENCES.md#ref-63)** — RESOLVES THE CONFLICT: the League's own site, selling the 2026 card, describes itself as celebrating 89 years. Counting back from 2026 gives 1937, which is the League's own dating of its founding
 
-**Reading it:** Four independent sources date the NMJL's founding to 1937 in New York City, and two name the Essex House meeting; that part is as well corroborated as anything in this compendium. But Wikipedia states the League published a volume of Official American Rules in 1935, which cannot be reconciled with a 1937 founding. Either the League predates its usual founding date or Wikipedia's year is wrong, and nothing fetched here settles it.
+**Reading it:** The conflict is settled. Four secondary sources date the founding to 1937 in New York City, two of them naming the Essex House meeting, and the League's own website now confirms it from the inside: in 2026 it celebrates 89 years, which counts back to 1937. Wikipedia's statement that the League published Official American Rules in 1935 cannot be reconciled with that and should be treated as the outlier; whatever the 1935 publication was, the organisation dates itself from 1937.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

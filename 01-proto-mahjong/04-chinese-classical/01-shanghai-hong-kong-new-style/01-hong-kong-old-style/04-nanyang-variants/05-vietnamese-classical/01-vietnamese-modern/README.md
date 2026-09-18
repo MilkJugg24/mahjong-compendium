@@ -37,8 +37,11 @@ What each source actually says, as fetched and read:
 | Source | Tiles | Hand | Flowers | Scoring | Payout |
 | --- | --- | --- | --- | --- | --- |
 | [1](../../../../../../../REFERENCES.md#ref-1) | 176 or more large tiles | 13, out on 14 | flowers/seasons, 8 kings/queens, and 24 or more jokers | based on the 19 ways of going Out | winner only |
+| [54](../../../../../../../REFERENCES.md#ref-54) | 176 or 184 | — | — | — | — |
 
-**Reading it:** 176 or more tiles and 24 or more jokers match exactly, as does its descent from the classical form through the shared 19 ways of going out.
+- **[54](../../../../../../../REFERENCES.md#ref-54)** — describes the modern variant as triplicating or quadruplicating the jokers, which gives 176 or 184 rather than Sloperama's open-ended '176 or more'
+
+**Reading it:** Two independent sources agree, and Wikipedia is the more precise: triplicating or quadruplicating the eight jokers gives exactly 176 or 184 tiles, where Sloperama says 176 or more and the chart says 176+. The mechanism explains the number rather than just reporting it.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

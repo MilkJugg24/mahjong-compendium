@@ -44,10 +44,14 @@ What each source actually says, as fetched and read:
 | --- | --- | --- | --- | --- | --- |
 | [1](../../../../../REFERENCES.md#ref-1) | 144 | 16, out on 17 | melded instantly when received | count doubles, convert to points | winner only |
 | [44](../../../../../REFERENCES.md#ref-44) | 144 | 16 | dead wall 16 | pattern; unit tai; minimum 5 tai, maximum 300 tai | — |
+| [54](../../../../../REFERENCES.md#ref-54) | — | sixteen tiles, against thirteen in other versions | — | — | — |
+| [55](../../../../../REFERENCES.md#ref-55) | — | — | — | linear, using tai (台), where the winning hand's tai count is multiplied by a factor and added to a base score | — |
 
 - **[1](../../../../../REFERENCES.md#ref-1)** — books: Amy Lo, Dragon Chang
+- **[54](../../../../../REFERENCES.md#ref-54)** — features bonuses for dealers and recurring dealerships, and allows multiple players to win from a single discard. Separately notes that holding all eight flowers and seasons is an automatic win with a payout from all players
+- **[55](../../../../../REFERENCES.md#ref-55)** — contrasts this explicitly with the exponential doubling used in Hong Kong scoring
 
-**Reading it:** Three-way agreement on the two facts that define the node: 144 tiles and a 16-tile hand. The wiki adds tai scoring with a 5-tai minimum. Nothing contradicts the chart.
+**Reading it:** Four sources agree on the 144-tile set and the 16-tile hand, and two independently describe tai scoring as linear, which the wiki's infobox also shows. Wikipedia adds two structural features the chart omits and which distinguish the branch sharply from Hong Kong play: recurring dealerships, and multiple players winning from one discard. This is among the best-supported nodes in the tree.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

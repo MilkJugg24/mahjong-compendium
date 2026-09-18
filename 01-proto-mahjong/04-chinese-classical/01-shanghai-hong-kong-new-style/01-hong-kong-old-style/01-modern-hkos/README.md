@@ -44,10 +44,12 @@ What each source actually says, as fetched and read:
 | --- | --- | --- | --- | --- | --- |
 | [8](../../../../../REFERENCES.md#ref-8) | — | — | — | no standardised rubric; a popular variation is a minimum of three fan before winning | — |
 | [18](../../../../../REFERENCES.md#ref-18) | — | — | — | common 3-faan minimum and 13-faan ceiling | — |
+| [55](../../../../../REFERENCES.md#ref-55) | — | — | — | a winning hand must often reach some point value, anywhere between one and five points, with three being the most common | — |
 
 - **[8](../../../../../REFERENCES.md#ref-8)** — wiki states the 3-fan minimum as a common variation, not a dated reform
+- **[55](../../../../../REFERENCES.md#ref-55)** — presents the minimum as a player convention with a range, not as a dated reform
 
-**Reading it:** Wikipedia and the wiki both describe a 3-faan minimum as a common convention, and Wikipedia adds the 13-faan ceiling. Neither dates it to the 1970s. The wiki explicitly says there is no standardised rubric and calls the 3-fan minimum a popular variation, which makes this node a convention rather than a dated reform.
+**Reading it:** Three sources now describe the minimum, and all three describe it as a convention rather than an event. Wikipedia's scoring article is the most explicit: the threshold ranges from one to five points, with three most common. The chart's 3-faan figure is well supported; its 1970s date is supported by nothing fetched here, and the wiki's own Guangdong timeline attaches the 1970s to the Clear Chapter reform instead.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

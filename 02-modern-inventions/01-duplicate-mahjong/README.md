@@ -36,8 +36,9 @@ What each source actually says, as fetched and read:
 
 - **[1](../../REFERENCES.md#ref-1)** — a form of play similar to usual international competition forms; the walls are prebuilt so as to remove the element of luck, making winning a matter of skill; designed so mahjong can be considered a mind sport and qualify as a potential Olympic event
 - **[22](../../REFERENCES.md#ref-22)** — the Mahjong International League's own rules page, fetched and confirmed to exist at the cited URL
+- **[64](../../REFERENCES.md#ref-64)** — MIL describes itself as operating under the International Mind Sports Association with member associations in more than 50 countries, states that it initiated the duplicate format to decrease luck, and calls it an innovation that sublimates mahjong from a game into a real mind sport. It recognises MCR, Riichi and Sichuan rules as the three main international competition rulesets
 
-**Reading it:** Sloperama and the Mahjong International League's own rules page agree on the prebuilt walls and the mind-sport motive. The MIL page was fetched and confirmed live at the cited address.
+**Reading it:** Three sources agree on the prebuilt walls and the mind-sport motive, and the organisation's own homepage confirms both the motive and the institutional context: MIL sits under the International Mind Sports Association with members in over 50 countries. A useful side finding: MIL names MCR, Riichi and Sichuan rules as the three main international competition rulesets, which independently marks how far Sichuan Bloody Rules has travelled beyond its region.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

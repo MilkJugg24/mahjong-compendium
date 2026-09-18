@@ -49,8 +49,9 @@ What each source actually says, as fetched and read:
 
 - **[1](../../../REFERENCES.md#ref-1)** — fewer special hands than Chinese Classical; Babcock's opening line describes a set of 136 pieces
 - **[16](../../../REFERENCES.md#ref-16)** — Babcock's 1920 translation, and the Parker Brothers / Milton Bradley licensing
+- **[65](../../../REFERENCES.md#ref-65)** — Joseph Park Babcock, 1893 to 1949, born in Lafayette, Indiana. His Rules of Mah-Jongg, the red book, appeared in 1920 and was the English-language rule book; a second edition followed in 1923. He was also a member of the committee that published a standardised rule set
 
-**Reading it:** Sloperama gives the rules in detail, including that kongs and flowers were dropped from Babcock's simplified system, and the Charleston Club history independently confirms the 1920 translation and the Parker Brothers licensing. The 136-or-144 ambiguity traces to Babcock's own opening sentence.
+**Reading it:** Four sources agree on the 1920 red book and its role in introducing the game to the West, and Wikipedia adds the man, his dates and a 1923 second edition. Sloperama gives the rules themselves, including that kongs and flowers were dropped from Babcock's simplified system, and Wikipedia's scoring article independently derives the Babcock system from Chinese Classical, which supports the chart's descent. The 136-or-144 ambiguity traces to Babcock's own opening sentence describing a set of 136 pieces.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

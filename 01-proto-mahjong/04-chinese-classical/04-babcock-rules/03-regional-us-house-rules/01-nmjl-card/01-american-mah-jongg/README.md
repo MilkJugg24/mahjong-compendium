@@ -50,8 +50,9 @@ What each source actually says, as fetched and read:
 - **[49](../../../../../../REFERENCES.md#ref-49)** — no dead wall
 - **[14](../../../../../../REFERENCES.md#ref-14)** — joker tiles were added to the official rules in 1961
 - **[17](../../../../../../REFERENCES.md#ref-17)** — jokers appear in sets from the 1940s, with the NMJL mandate from the 1960-61 season
+- **[54](../../../../../../REFERENCES.md#ref-54)** — uses joker tiles, the Charleston, melds of five or more tiles, treats bonus tiles as honours and eschews both the chow and the notion of a standard hand; permitted hands change annually through a card that must be purchased from one of the sponsoring bodies. Notes that purists claim this makes it a separate game
 
-**Reading it:** Sloperama and the wiki agree on 152 tiles and a 13-tile hand, and Sloperama and two American-history sources agree the card is annual and that jokers became official around 1961, with Grokipedia specifying the 1960-61 season. Sloperama independently notes the set composition fluctuated through the 1940s to 1960s, which is why tile counts for this branch vary by decade.
+**Reading it:** Five sources. Tiles, hand and the annual card are agreed; Wikipedia adds the features that separate this branch structurally from every other node in the tree, melds of five or more and no chow at all. The joker date is consistent across sources at 1961 or the 1960-61 season. Nothing here records what is printed on any card, which is deliberate.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

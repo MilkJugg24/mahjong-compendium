@@ -7,7 +7,7 @@ parent: Proto-mahjong
 chart_id: chinese-classical
 canonical_source: wikidot-chinese-classical
 chart_refs: [39, 7, 3]
-evidence: conflicting
+evidence: corroborated
 ---
 
 # Chinese classical
@@ -39,7 +39,7 @@ The canonical source is the one the chart's node table names for this variant. S
 
 ## Cross-comparison
 
-**Evidence** · `conflicting` — sources disagree materially, or one source contradicts itself
+**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
 
 What each source actually says, as fetched and read:
 
@@ -50,8 +50,10 @@ What each source actually says, as fetched and read:
 
 - **[1](../../REFERENCES.md#ref-1)** — ~19 special hands
 - **[39](../../REFERENCES.md#ref-39)** — minimum 0, maximum 500
+- **[54](../../REFERENCES.md#ref-54)** — the oldest surviving variety, and the version introduced to America in the 1920s under various names; all players score and it is possible to score higher than the winner
+- **[55](../../REFERENCES.md#ref-55)** — sets out the point-and-double sequence in full and states that the Babcock system is derived from Chinese Classical scoring, which independently supports the chart's descent of Babcock rules from this node
 
-**Reading it:** Sloperama says 144 tiles; the Mahjong Wiki says 136. Both are right about different things: 136 is the wall without flowers and seasons, 144 is the boxed set with them. This is the single most common apparent conflict across this whole compendium and it is almost always definitional. Hand size, scoring system and payout agree exactly.
+**Reading it:** Four sources agree on the scoring structure and on all players scoring, and Sloperama's detail that a non-winner can outscore the winner is confirmed by Wikipedia. Wikipedia also independently derives the Babcock system from Chinese Classical, which supports the chart's placement of Babcock rules as a child of this node. The 136-versus-144 tile difference between sources is definitional: 136 is the wall, 144 the boxed set with flowers and seasons.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

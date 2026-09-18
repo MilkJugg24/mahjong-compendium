@@ -43,11 +43,14 @@ What each source actually says, as fetched and read:
 | --- | --- | --- | --- | --- | --- |
 | [1](../../../REFERENCES.md#ref-1) | 104 (dots, craks, winds, dragons and 4 flowers) | 13, out on 14 | only 4 flowers | several regional systems, most commonly '1,5,10' and '1,3,6' | — |
 | [53](../../../REFERENCES.md#ref-53) | 104 | 13 | — | point-based; minimum 2 points, maximum 80 points | — |
+| [54](../../../REFERENCES.md#ref-54) | — | — | uses season tiles but calls them flowers | — | — |
 
 - **[1](../../../REFERENCES.md#ref-1)** — Sloperama queries whether 104 applies only to the three-player game. Bamboo is absent from the listed suits, which is what the chart means by 'no bamboo'
 - **[53](../../../REFERENCES.md#ref-53)** — length 32 hands, no dead wall
+- **[54](../../../REFERENCES.md#ref-54)** — states that Korean mahjong does not allow melded, that is stolen, chows, and that Japanese mahjong is standardised in Japan and South Korea
+- **[56](../../../REFERENCES.md#ref-56)** — sets out the Korean and Japanese three-player game: the north wind is removed, 2 to 8 of bamboo are removed, the four seasons are removed and the four flowers kept, with no jokers. That is a different reduction from the Korean 104-tile game, which drops bamboo entirely
 
-**Reading it:** Sloperama and the wiki agree on 104 tiles and a 13-tile hand. Sloperama's suit list, dots, craks, winds and dragons, confirms bamboo's absence, which is the chart's distinguishing detail. None of this establishes the parent, which is why the chart draws the link dashed, and nothing found here changes that.
+**Reading it:** 104 tiles and a 13-tile hand are confirmed by two sources, and Sloperama's suit list independently confirms bamboo's absence, which is the chart's distinguishing detail. Wikipedia adds two rules that mark the branch: season tiles used but called flowers, and no melded chows. Note that the Korean three-player game described by Wikipedia keeps bamboo 1 and 9, so it is a different reduction from this node's 104-tile game. None of this establishes the parent, which is why the chart draws the link dashed.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

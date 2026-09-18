@@ -7,7 +7,7 @@ parent: Mainland regionals
 chart_id: tui-dao-hu
 canonical_source: maque-games
 chart_refs: [24, 1]
-evidence: partial
+evidence: conflicting
 ---
 
 # Tui Dao Hu
@@ -35,7 +35,7 @@ The canonical source is the one the chart's node table names for this variant. S
 
 ## Cross-comparison
 
-**Evidence** · `partial` — sources agree on some points and are silent or divided on others
+**Evidence** · `conflicting` — sources disagree materially, or one source contradicts itself
 
 What each source actually says, as fetched and read:
 
@@ -45,8 +45,9 @@ What each source actually says, as fetched and read:
 
 - **[1](../../../../../REFERENCES.md#ref-1)** — twelve ways of going out; more than one player can win; tip from Joe S., 16 January 2021
 - **[24](../../../../../REFERENCES.md#ref-24)** — maque.games page reachable only through the Wayback Machine from this environment; brief English description
+- **[55](../../../../../REFERENCES.md#ref-55)** — MEANING CONFLICT: gives 推倒胡 (tui dao hu) as the Mandarin term for a SCORELESS HAND, the Cantonese equivalent being 雞糊 (gai wu), in a passage about variants where scoreless hands are permitted. That is a general scoring term, not the name of a regional variant
 
-**Reading it:** Twelve ways of going out and multiple winners are confirmed and match the chart. Everything else is unknown: Sloperama records no tile count, no hand size, and says the scoring is not clearly defined even at the cited site.
+**Reading it:** The name may not denote a variant at all. Wikipedia gives 推倒胡 as the ordinary Mandarin term for a scoreless or chicken hand, paired with Cantonese 雞糊, in a discussion of variants that allow such hands to win. Sloperama, working from the same maque.games page, guessed the meaning as 'push down hu' and recorded a variant with twelve ways of going out and multiple winners. Both can be true, since a ruleset can be named after the scoreless hand it permits, but the chart presents as a distinct regional style what at least one source treats as a common noun. Everything else about the node remains unknown: no tile count, no hand size, no scoring.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

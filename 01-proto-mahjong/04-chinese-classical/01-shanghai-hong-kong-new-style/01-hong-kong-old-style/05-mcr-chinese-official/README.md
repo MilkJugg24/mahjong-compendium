@@ -47,10 +47,12 @@ What each source actually says, as fetched and read:
 | --- | --- | --- | --- | --- | --- |
 | [1](../../../../../REFERENCES.md#ref-1) | 144 | 13, out on 14 | melded instantly when received | count points for hand characteristics | winner only |
 | [9](../../../../../REFERENCES.md#ref-9) | 144 | 13 | no dead wall | pattern-based; minimum 8 points, no maximum | — |
+| [20](../../../../../REFERENCES.md#ref-20) | 144 | 13 | eight, replaced from the back end of the wall | 8-point minimum, enforced by a false-mahjong penalty | — |
 
 - **[1](../../../../../REFERENCES.md#ref-1)** — discards placed in orderly rows
 - **[9](../../../../../REFERENCES.md#ref-9)** — length 16 hands; page shows a 2006 rulebook
 - **[19](../../../../../REFERENCES.md#ref-19)** — mahjong certified as China's 255th sport in January 1998; unified rules codified that September
+- **[20](../../../../../REFERENCES.md#ref-20)** — the ruleset itself, confirming what the secondary sources say about it
 
 **Reading it:** Sloperama and the wiki agree on 144 tiles, a 13-tile hand and pattern scoring; the wiki adds the 8-point minimum. Wikipedia independently dates the sport certification to January 1998 and the rules to that September, matching the chart. One wrinkle: the wiki's infobox is built on a 2006 rulebook, not the 1998 edition the chart cites.
 

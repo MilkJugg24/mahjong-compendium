@@ -7,7 +7,7 @@ parent: Hong Kong old style
 chart_id: zung-jung
 canonical_source: wikidot-zung-jung
 chart_refs: [45, 30]
-evidence: conflicting
+evidence: partial
 ---
 
 # Zung Jung
@@ -31,15 +31,19 @@ The canonical source is the one the chart's node table names for this variant. S
 
 ## Cross-comparison
 
-**Evidence** · `conflicting` — sources disagree materially, or one source contradicts itself
+**Evidence** · `partial` — sources agree on some points and are silent or divided on others
 
 What each source actually says, as fetched and read:
 
 | Source | Tiles | Hand | Flowers | Scoring | Payout |
 | --- | --- | --- | --- | --- | --- |
 | [1](../../../../../REFERENCES.md#ref-1) | 136 | 13, out on 14 | none | points-based; doubles built into the system | winner only |
+| [57](../../../../../REFERENCES.md#ref-57) | 136 in 34 designs, four identical tiles of each | 13 | none in the scoring system; bonus tiles noted as an optional addition some players make | 44 patterns in categories and series, additive, with no basic points at all | only the winning hand is scored; the winner collects from the other three by a payoff scheme |
 
-**Reading it:** Sloperama's description, 136 tiles, no flowers, points-based with doubles built in, is consistent with the chart. The date is not: the chart says 2000s, while the wiki's Guangdong timeline places the adaptation of Guangdong Style into both MCR and Zung Jung in the 1990s. The same timeline also makes Zung Jung a descendant of Guangdong Style rather than a sibling of it, which is not how the chart draws it.
+- **[57](../../../../../REFERENCES.md#ref-57)** — the designer's own official site, carrying version 3.3 of the system and his book Zung Jung: a Perspective of Mahjong History. It gives no creation date for the system
+- **[55](../../../../../REFERENCES.md#ref-55)** — describes the general landscape of attempts at an international scoring standard, of which Zung Jung is one, and notes that most are not widely accepted
+
+**Reading it:** The rules are now primary-sourced: Alan Kwan's own site gives 136 tiles, a 13-tile hand, 44 additive patterns with no basic points, and winner-only payment, all matching Sloperama. That is the strongest evidence any node in this compendium has, because it comes from the system's designer. The date and the parentage remain open: the official site gives no creation date, so the chart's 2000s against the wiki's 1990s is still unresolved, as is whether Zung Jung descends from Guangdong Style or sits beside it.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

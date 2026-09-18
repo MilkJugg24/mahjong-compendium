@@ -554,6 +554,156 @@ Infobox for the Korean game: 104 tiles, 13-tile hand, point-based scoring with a
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-54"></a>
+
+**54. Wikipedia. "Mahjong."**
+
+The main article's regional-variations section, which describes most branches of this tree independently of the chart's own sources.
+
+<https://en.wikipedia.org/wiki/Mahjong>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-55"></a>
+
+**55. Wikipedia. "Scoring in Mahjong."**
+
+Comparative scoring across Hong Kong, Chinese Classical and Taiwanese systems, including the range of minimum-point conventions and the Mandarin and Cantonese terms for a scoreless hand.
+
+<https://en.wikipedia.org/wiki/Scoring_in_Mahjong>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-56"></a>
+
+**56. Wikipedia. "Three-player mahjong."**
+
+The Korean and Japanese three-player game in detail: which tiles are removed, the prohibition on melding chows from a discard, and the sacred-discard rule.
+
+<https://en.wikipedia.org/wiki/Three-player_mahjong>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-57"></a>
+
+**57. Kwan, Alan. Zung Jung Mahjong Scoring System v3.3, official website.**
+
+The designer's own site and rules text: 136 tiles in 34 designs, only the winning hand scored, 44 patterns with an additive rule and no basic points. Also hosts his book, Zung Jung: a Perspective of Mahjong History.
+
+<https://www.zj-mahjong.info/zj33_rules_eng.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-58"></a>
+
+**58. Ging's Brain. "How to Play Filipino Mahjong."**
+
+A play-level account of the Filipino game, cited by Sloperama's catalogue. Confirms the 17-tile winning hand and the flower and season sets.
+
+<http://gingsbrain.blogspot.com/2010/10/how-to-play-filipino-mahjong.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-59"></a>
+
+**59. Beijing Mahjong Rules (kzpn200 blog).**
+
+The Beijing game in detail, cited by Sloperama's catalogue: 136 tiles, no flower or season tiles, and the wild-tile mechanism worked from a face-up indicator.
+
+<https://kzpn200.blogspot.com/2016/03/beijing-mahjong-rules.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-60"></a>
+
+**60. Mahjong Pros. "Official Sichuan (SBR) Mahjong Rules."**
+
+Sichuan Bloody Rules as a playable ruleset: 108 tiles with all honours, flowers, red fives and jokers removed, and the restriction on calling a chow.
+
+<https://mahjongpros.com/blogs/mahjong-rules-and-scoring-tables/official-sichuan-sbr-mahjong-rules>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-61"></a>
+
+**61. World Mahjong Tour. Sichuan Mahjong Blood Battle tournament rules.**
+
+A tournament codification of Sichuan Blood Battle: 108 tiles in three suits, the one-missing-suit requirement, and a three-fan cap intended to reduce luck.
+
+<https://worldmahjongtour.live/tournament-rules-sichuan-mahjong/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-62"></a>
+
+**62. Munday, Choco. "How to Play the Royal Australian Navy Version of Mah Jong."**
+
+A full rules book for Pusser's Bones, retrieved as a PDF. Its title page settles the navy in question; most of its body is scanned images rather than extractable text.
+
+<https://www.hotrodhandbooks.com.au/ebooks/pussers%20bones.pdf>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-63"></a>
+
+**63. National Mah Jongg League, official website.**
+
+The League's own site. In 2026 it advertises the current card while celebrating 89 years, which dates its own founding to 1937.
+
+<https://www.nationalmahjonggleague.org/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-64"></a>
+
+**64. Mahjong International League, organisation homepage.**
+
+States that MIL operates under the International Mind Sports Association with member associations in more than 50 countries, initiated the duplicate format, and recognises MCR, Riichi and Sichuan rules as the three main international competition rulesets.
+
+<https://mahjong-mil.org/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-65"></a>
+
+**65. Wikipedia. "Joseph Park Babcock."**
+
+Biography of the populariser: 1893 to 1949, his 1920 Rules of Mah-Jongg known as the red book, and his membership of the committee that published a standardised American rule set.
+
+<https://en.wikipedia.org/wiki/Joseph_Park_Babcock>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-66"></a>
+
+**66. Chinese Wikipedia: 港式臺灣麻雀 (Hong Kong-style Taiwanese Mahjong).**
+
+The only encyclopedia treatment found of the 16-tile Hong Kong and Macau game. Describes it as a blend of Hong Kong, authentic Taiwanese, Japanese and MCR rules, with additive scoring, a ready declaration called ding, and a carry-over stake called la. The article itself carries a single-source reliability warning.
+
+<https://zh.wikipedia.org/zh-hant/%E6%B8%AF%E5%BC%8F%E5%8F%B0%E7%81%A3%E9%BA%BB%E5%B0%87>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-67"></a>
+
+**67. Wikipedia. "Mhing."**
+
+Dates the card game to a 1982 Suntex publication. The article is an orphan and carries a single-source reliability warning.
+
+<https://en.wikipedia.org/wiki/Mhing>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-68"></a>
+
+**68. Steve-p.org. "Cards - Mhing (Spear's Games)."**
+
+A card collector's description of the Spear's Games 1984 UK edition: a deck based on Chinese money-suited cards, with wild cards, scoring cards and hand-reference tables. Records the original 1982 Suntex International release in Pennsylvania and names Robert Sun as the company's founder.
+
+<https://steve-p.org/cards/Mhin.html>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.

@@ -6,7 +6,7 @@ parent: Babcock rules
 chart_id: western-british
 canonical_source: sloperama-faq-2b
 chart_refs: [1, 32]
-evidence: corroborated
+evidence: partial
 ---
 
 # Western / British Empire style
@@ -40,7 +40,7 @@ The canonical source is the one the chart's node table names for this variant. S
 
 ## Cross-comparison
 
-**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
+**Evidence** · `partial` — sources agree on some points and are silent or divided on others
 
 What each source actually says, as fetched and read:
 
@@ -49,8 +49,9 @@ What each source actually says, as fetched and read:
 | [1](../../../../REFERENCES.md#ref-1) | 144 or more (jokers optional and variable in number) | 13, out on 14 | melded instantly when received | 20 for Out, then points for pongs/kongs/pairs, then double | all players earn points |
 
 - **[1](../../../../REFERENCES.md#ref-1)** — 70-80 special hands varying book to book; optional Charleston or Razzle exchange, and a Goulash after a drawn game. Sloperama calls this 'Vanilla Western' and suggests 'British Empire style' as the better name; played in the UK, Australia, New Zealand, India and Italy
+- **[54](../../../../REFERENCES.md#ref-54)** — PARENTAGE TENSION: calls Western classical a descendant of the version Babcock introduced, which matches the chart, but then says the term today largely refers to the Wright-Patterson rules used in the US military. The chart makes Wright-Patterson a child of this node rather than a synonym for it
 
-**Reading it:** 144 or more tiles, a 13-tile hand, 70 to 80 special hands, and both the Charleston and the Goulash. Sloperama argues for the name British Empire style over American, which is the name the chart uses.
+**Reading it:** The rules are well attested by Sloperama and the descent from Babcock is independently confirmed. The relationship to Wright-Patterson is not: Wikipedia treats Western classical as largely meaning the Wright-Patterson rules today, while the chart makes Wright-Patterson one child among five. Sloperama's own naming discussion, preferring British Empire style precisely to separate it from American variants, suggests the chart's separation is the more careful reading, but the sources genuinely differ.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

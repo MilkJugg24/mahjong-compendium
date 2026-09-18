@@ -41,10 +41,12 @@ What each source actually says, as fetched and read:
 | Source | Tiles | Hand | Flowers | Scoring | Payout |
 | --- | --- | --- | --- | --- | --- |
 | [1](../../../../../../REFERENCES.md#ref-1) | 160 | 13, out on 14 | includes flowers/seasons, 8 kings/queens, and 8 jokers | based on the 19 ways of going Out | winner only |
+| [54](../../../../../../REFERENCES.md#ref-54) | 160 | — | eight specialised jokers and eight extra flowers | — | — |
 
 - **[1](../../../../../../REFERENCES.md#ref-1)** — no books in English
+- **[54](../../../../../../REFERENCES.md#ref-54)** — independently gives the same 160-tile total the chart and Sloperama give
 
-**Reading it:** 160 tiles and 8 jokers match exactly; the source adds 8 kings/queens and 19 ways of going out, which the chart does not mention.
+**Reading it:** Two independent sources give 160 tiles built from eight jokers and eight extra flowers, matching the chart exactly. Sloperama adds the eight kings and queens and the nineteen ways of going out, which is the feature that ties the classical and modern forms together.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
