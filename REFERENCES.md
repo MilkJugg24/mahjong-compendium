@@ -714,6 +714,16 @@ The play and scoring rules: three or four players, thirteen bones in hand, the w
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-70"></a>
+
+**70. Pussers Greenies (Royal Australian Navy electrical branch association). Slang glossary.**
+
+An RAN veterans' slang index with no connection to the Pusser's Bones rules author. Defines Bones as mah-jongg tiles, and independently carries the register the rules guide is written in: grey funnel line, roughers, gash, macca.
+
+<https://www.pussersgreenies.org/glossary.html>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.

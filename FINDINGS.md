@@ -6,8 +6,8 @@ What the sources say when set against each other, variant by variant. Every clai
 | --- | --- | --- |
 | `corroborated` | two or more independent sources agree on the facts that define this variant | 34 |
 | `partial` | sources agree on some points and are silent or divided on others | 8 |
-| `conflicting` | sources disagree materially, or one source contradicts itself | 6 |
-| `single-source` | only one source was found; nothing independent confirms it | 11 |
+| `conflicting` | sources disagree materially, or one source contradicts itself | 7 |
+| `single-source` | only one source was found; nothing independent confirms it | 10 |
 | `unsupported` | the sources checked do not carry the claim this node makes | 2 |
 
 A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast Asian entries there simply is one English-language account, usually a newsgroup report, and the honest record is that it stands alone.
@@ -31,6 +31,20 @@ The detailed entry gives 132 tiles with one honour removed and no flowers or jok
 ### [Hong Kong old style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/)
 
 Tiles, hand, scoring and payout agree across three sources. The date does not. The chart says fu was removed in the 1950s; the wiki's own Guangdong page dates the adoption of Clear Chapter, with pungs unscored and fu removed, to the 1970s; the wiki's HKOS page says only that HKOS branched off after the Second World War. The chart appears to have merged the post-war emergence of HKOS with the later Clear Chapter reform. Sloperama's early-forms table separately scores HKOS at 0 similarity to Chinese Classical, which supports descending it through a new-style intermediate.
+
+### [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/)
+
+A complete ruleset is on record, and the numbers in it are stable: the points, doubles, fixed-score, bonus and penalty tables are word-for-word identical between the website and the book, as is the scoring procedure — points times two, doubled once per double, rounded to the nearest hundred, divided by a hundred, and that many cents from each loser. 98 sentences are identical across the two. They are one document in two forms.
+
+The verdict is conflicting because of one material discrepancy, and it is a scoring one. On holding four identical bones, the website covers only the hand-sorting case: declare the set, keep it CONCEALED, place it face down. The book adds a second case the website lacks — if a set of three has already been declared and the fourth is then plucked, it joins the declared, open set — and the book then contradicts itself, a later passage saying a fourth bone plucked into a set goes face down. The difference is worth double: a set of four minors scores 8 open against 16 concealed, and majors 16 against 32.
+
+The points table settles it. It lists open and concealed rows separately for sets of four. If every four-of-a-kind were concealed, as the website alone implies, the two open rows would be unreachable. So the book's All-Of (declared) rule is the operative one, the website is incomplete rather than wrong, and the book's later face-down sentence is the error. A rulebook built from this should follow the book and note the contradiction.
+
+On whether the tradition itself is real, two sources independent of the author now say so. Wikipedia's Mahjong article carries a sentence attributing the variant to Royal Australian Navy sailors and naming the Eddie / Sammy / Wally / Normie vocabulary. An RAN veterans' slang glossary, unconnected to the author, glosses 'Bones' as 'Mah-jongg tiles' and independently carries his register — grey funnel line, roughers, gash. Neither corroborates a single rule, but together they settle that the game and its name are genuine RAN culture and not one man's reconstruction. The rules remain one witness.
+
+A caution for anyone repeating this search: this repository's own pull requests now appear in web results for Pusser's Bones. They are not sources and must not be cited back into it.
+
+COPYRIGHT: the book is © 2023 Hot Rod Handbooks, all rights reserved, and sells commercially; the Gun Plot site separately restricts reproduction of substantial parts. Mechanics are recorded here as facts, as tile counts are for every other variant. Neither text is reproduced and neither file is filed in this repository.
 
 ### [Shenzhen style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/08-shenzhen-style/)
 
@@ -123,18 +137,6 @@ The wiki's Guangdong timeline ends with GMCR in the 2020s, matching the chart ex
 ### [Nanjing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/07-nanjing-style/)
 
 144 tiles with dragons treated as flowers matches the chart exactly. It rests on a single newsgroup report from 2006 by one Shanghai player.
-
-### [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/)
-
-A complete, playable ruleset is on record — and that changes the answer to the question this node was flagged for. The earlier reading, that the website alone was too thin to build a rulebook from, was right. The book is not.
-
-Its 32 pages give the tile taxonomy with a sailors' name for every rank, game preparation, gameplay, the declaration procedure, five named special hands with exact compositions, the full points table, the seven sources of doubles, fixed scores, bonuses, penalties, a worked scoring procedure and the rotation rules. Scoring resolves to: points times two, doubled once per double, rounded to the nearest hundred, divided by a hundred, and that many cents paid by each loser. A hand may not be declared below 50 points with at least one double, and declaring under it is itself a 50-point penalty.
-
-The verdict stays single-source, and deliberately. The Gun Plot pages and this book are both Frank 'Choco' Munday's work — one testimony in two forms. What the book adds is not a second witness but completeness: it supplies every number the website leaves out. A second former sailor's account would still be the thing that corroborates it.
-
-Two structural points stand. There are no chows: a winning hand is four sets of three or four identical bones plus a pair, which places this with the chow-less family rather than with the Western / British Empire style the chart descends it from. And the Moon — one of each of the thirteen major bones plus a double-up — is Thirteen Orphans under another name, which is a strong sign of descent from a standard form rather than independent invention, exactly as the author himself concluded.
-
-COPYRIGHT: the book is © 2023 Hot Rod Handbooks, all rights reserved, and sells commercially. Its mechanics are recorded here as facts, in the same way tile counts are recorded for every other variant. Its text is not reproduced and the file is not filed in this repository — the rule this compendium applies to the NMJL card applies here too.
 
 ### [Sichuan 72-tile game](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/03-sichuan-72-tile/)
 
