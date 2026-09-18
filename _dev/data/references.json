@@ -426,6 +426,70 @@
       "citation": "Mahjong Wiki. \"Korean Mahjong Rules.\" mahjong.wikidot.com.",
       "note": "Infobox for the Korean game: 104 tiles, 13-tile hand, point-based scoring with a 2-point minimum and 80-point maximum, 32 hands. Not listed in the chart's own wiki table.",
       "url": "http://mahjong.wikidot.com/rules:korean-overview"
+    },
+    {
+      "id": 54,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wikipedia-mahjong",
+      "citation": "Wikipedia. \"Mahjong.\"",
+      "note": "The main article's regional-variations section, which describes most branches of this tree independently of the chart's own sources.",
+      "url": "https://en.wikipedia.org/wiki/Mahjong"
+    },
+    {
+      "id": 55,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wikipedia-scoring",
+      "citation": "Wikipedia. \"Scoring in Mahjong.\"",
+      "note": "Comparative scoring across Hong Kong, Chinese Classical and Taiwanese systems, including the range of minimum-point conventions and the Mandarin and Cantonese terms for a scoreless hand.",
+      "url": "https://en.wikipedia.org/wiki/Scoring_in_Mahjong"
+    },
+    {
+      "id": 56,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wikipedia-three-player",
+      "citation": "Wikipedia. \"Three-player mahjong.\"",
+      "note": "The Korean and Japanese three-player game in detail: which tiles are removed, the prohibition on melding chows from a discard, and the sacred-discard rule.",
+      "url": "https://en.wikipedia.org/wiki/Three-player_mahjong"
+    },
+    {
+      "id": 57,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "kwan-zj-official",
+      "citation": "Kwan, Alan. Zung Jung Mahjong Scoring System v3.3, official website.",
+      "note": "The designer's own site and rules text: 136 tiles in 34 designs, only the winning hand scored, 44 patterns with an additive rule and no basic points. Also hosts his book, Zung Jung: a Perspective of Mahjong History.",
+      "url": "https://www.zj-mahjong.info/zj33_rules_eng.html"
+    },
+    {
+      "id": 58,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "gingsbrain-filipino",
+      "citation": "Ging's Brain. \"How to Play Filipino Mahjong.\"",
+      "note": "A play-level account of the Filipino game, cited by Sloperama's catalogue. Confirms the 17-tile winning hand and the flower and season sets.",
+      "url": "http://gingsbrain.blogspot.com/2010/10/how-to-play-filipino-mahjong.html"
+    },
+    {
+      "id": 59,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "beijing-blog",
+      "citation": "Beijing Mahjong Rules (kzpn200 blog).",
+      "note": "The Beijing game in detail, cited by Sloperama's catalogue: 136 tiles, no flower or season tiles, and the wild-tile mechanism worked from a face-up indicator.",
+      "url": "https://kzpn200.blogspot.com/2016/03/beijing-mahjong-rules.html"
+    },
+    {
+      "id": 60,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "mahjongpros-sbr",
+      "citation": "Mahjong Pros. \"Official Sichuan (SBR) Mahjong Rules.\"",
+      "note": "Sichuan Bloody Rules as a playable ruleset: 108 tiles with all honours, flowers, red fives and jokers removed, and the restriction on calling a chow.",
+      "url": "https://mahjongpros.com/blogs/mahjong-rules-and-scoring-tables/official-sichuan-sbr-mahjong-rules"
+    },
+    {
+      "id": 61,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wmt-sichuan",
+      "citation": "World Mahjong Tour. Sichuan Mahjong Blood Battle tournament rules.",
+      "note": "A tournament codification of Sichuan Blood Battle: 108 tiles in three suits, the one-missing-suit requirement, and a three-fan cap intended to reduce luck.",
+      "url": "https://worldmahjongtour.live/tournament-rules-sichuan-mahjong/"
     }
   ]
 }

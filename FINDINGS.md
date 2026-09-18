@@ -4,10 +4,10 @@ What the sources say when set against each other, variant by variant. Every clai
 
 | Evidence | Meaning | Variants |
 | --- | --- | --- |
-| `corroborated` | two or more independent sources agree on the facts that define this variant | 31 |
+| `corroborated` | two or more independent sources agree on the facts that define this variant | 32 |
 | `partial` | sources agree on some points and are silent or divided on others | 6 |
 | `conflicting` | sources disagree materially, or one source contradicts itself | 8 |
-| `single-source` | only one source was found; nothing independent confirms it | 13 |
+| `single-source` | only one source was found; nothing independent confirms it | 12 |
 | `unsupported` | the sources checked do not carry the claim this node makes | 3 |
 
 A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast Asian entries there simply is one English-language account, usually a newsgroup report, and the honest record is that it stands alone.
@@ -20,9 +20,9 @@ These are the entries where cross-comparison actually changes what you should be
 
 Sloperama documents two incompatible games under this name: version A with 144 tiles and 8 red fives, version B with 112 tiles and 6 red fives, differing also on scoring and payout. The chart carries one undifferentiated node. Sloperama also says Bashi-Bashi is based on Japanese modern AND Filipino rules, while the chart descends it from Filipino alone.
 
-### [Chinese classical](01-proto-mahjong/04-chinese-classical/)
+### [Beijing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/06-beijing-style/)
 
-Sloperama says 144 tiles; the Mahjong Wiki says 136. Both are right about different things: 136 is the wall without flowers and seasons, 144 is the boxed set with them. This is the single most common apparent conflict across this whole compendium and it is almost always definitional. Hand size, scoring system and payout agree exactly.
+A second source settles what the first could not, and contradicts it. Sloperama assumed 144 tiles and recorded flower handling as unknown; the blog it cites states 136 tiles and that the eight flower and season tiles are not used, and its 17-wide two-high wall confirms 136 arithmetically. Prefer 136 and no flowers. The wild-tile mechanism the chart summarises as 'drawn wild tile' is corroborated and much more specific than either summary: the indicator is face up, and the wild tiles are the four one greater in number, wrapping from nine to one.
 
 ### [Fuzhou style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/04-fuzhou-style/)
 
@@ -44,9 +44,9 @@ The chart says Royal Navy. The gunplot.net guide the chart cites presents the ga
 
 The source contradicts itself on the same page: the abbreviated list says the game is played with kongs and no pungs or chows, the detailed entry says the winning hand must be pungs only, hedged with 'if I recall correctly'. The chart follows the kongs wording without flagging the conflict. Tile count, hand size, flowers, scoring and payout are all recorded as unknown.
 
-### [Zung Jung](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/06-zung-jung/)
+### [Tui Dao Hu](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/10-tui-dao-hu/)
 
-Sloperama's description, 136 tiles, no flowers, points-based with doubles built in, is consistent with the chart. The date is not: the chart says 2000s, while the wiki's Guangdong timeline places the adaptation of Guangdong Style into both MCR and Zung Jung in the 1990s. The same timeline also makes Zung Jung a descendant of Guangdong Style rather than a sibling of it, which is not how the chart draws it.
+The name may not denote a variant at all. Wikipedia gives 推倒胡 as the ordinary Mandarin term for a scoreless or chicken hand, paired with Cantonese 雞糊, in a discussion of variants that allow such hands to win. Sloperama, working from the same maque.games page, guessed the meaning as 'push down hu' and recorded a variant with twelve ways of going out and multiple winners. Both can be true, since a ruleset can be named after the scoreless hand it permits, but the chart presents as a distinct regional style what at least one source treats as a common noun. Everything else about the node remains unknown: no tile count, no hand size, no scoring.
 
 ## Where the sources do not carry the claim
 
@@ -74,11 +74,7 @@ The 84-tile one-suit game is confirmed with a full component breakdown. But Slop
 
 ### [Modern HKOS](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/01-modern-hkos/)
 
-Wikipedia and the wiki both describe a 3-faan minimum as a common convention, and Wikipedia adds the 13-faan ceiling. Neither dates it to the 1970s. The wiki explicitly says there is no standardised rubric and calls the 3-fan minimum a popular variation, which makes this node a convention rather than a dated reform.
-
-### [Sanma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/02-sanma/)
-
-The name is confirmed and riichi.wiki says a well-established modified ruleset exists, which is more than the chart had. But the same source frames three-player play as an accommodation when a fourth player is missing, not as a descent event, and gives it no tile count or hand size of its own. The chart's placement as a sibling of yonma is reasonable; its status as a separate variant is weaker than the tree implies.
+Three sources now describe the minimum, and all three describe it as a convention rather than an event. Wikipedia's scoring article is the most explicit: the threshold ranges from one to five points, with three most common. The chart's 3-faan figure is well supported; its 1970s date is supported by nothing fetched here, and the wiki's own Guangdong timeline attaches the 1970s to the Clear Chapter reform instead.
 
 ### [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/)
 
@@ -88,9 +84,13 @@ Sloperama's Hong Kong New Style entry matches on tiles, hand and payout, and its
 
 Sloperama gives the substance: Gladys Grad, 2015, two players each playing two hands on two-tiered racks, with the concept applicable to any variant. The chart's own canonical source for the node, mahjongg.org, does not corroborate it: its archived homepage is a tournament and Master Points site that does not mention Siamese Mah Jongg. The variant is attested, but by the other source, not the cited one.
 
-### [Tui Dao Hu](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/10-tui-dao-hu/)
+### [Western / British Empire style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/)
 
-Twelve ways of going out and multiple winners are confirmed and match the chart. Everything else is unknown: Sloperama records no tile count, no hand size, and says the scoring is not clearly defined even at the cited site.
+The rules are well attested by Sloperama and the descent from Babcock is independently confirmed. The relationship to Wright-Patterson is not: Wikipedia treats Western classical as largely meaning the Wright-Patterson rules today, while the chart makes Wright-Patterson one child among five. Sloperama's own naming discussion, preferring British Empire style precisely to separate it from American variants, suggests the chart's separation is the more careful reading, but the sources genuinely differ.
+
+### [Zung Jung](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/06-zung-jung/)
+
+The rules are now primary-sourced: Alan Kwan's own site gives 136 tiles, a 13-tile hand, 44 additive patterns with no basic points, and winner-only payment, all matching Sloperama. That is the strongest evidence any node in this compendium has, because it comes from the system's designer. The date and the parentage remain open: the official site gives no creation date, so the chart's 2000s against the wiki's 1990s is still unresolved, as is whether Zung Jung descends from Guangdong Style or sits beside it.
 
 ## Where one account stands alone
 
@@ -99,10 +99,6 @@ Confirmed as far as one source goes, with nothing independent behind it.
 ### [AMJA card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/01-amja-card/)
 
 Wikipedia confirms that the annual card is published by both the NMJL and the AMJA, which establishes that the AMJA card exists as a separate artefact. No source fetched here describes how it differs in rules.
-
-### [Beijing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/06-beijing-style/)
-
-The drawn wild tile matches the chart and the mechanism is described in detail, with dora named as the analogy. The tile count is Sloperama's own assumption, and flower handling is unknown.
 
 ### [Chinese archaic](01-proto-mahjong/01-chinese-archaic/)
 
@@ -154,11 +150,15 @@ Two or more sources, read separately, agree on the facts that define the variant
 
 ### [American mah jongg](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/)
 
-Sloperama and the wiki agree on 152 tiles and a 13-tile hand, and Sloperama and two American-history sources agree the card is annual and that jokers became official around 1961, with Grokipedia specifying the 1960-61 season. Sloperama independently notes the set composition fluctuated through the 1940s to 1960s, which is why tile counts for this branch vary by decade.
+Five sources. Tiles, hand and the annual card are agreed; Wikipedia adds the features that separate this branch structurally from every other node in the tree, melds of five or more and no chow at all. The joker date is consistent across sources at 1961 or the 1960-61 season. Nothing here records what is printed on any card, which is deliberate.
 
 ### [Babcock rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/)
 
 Sloperama gives the rules in detail, including that kongs and flowers were dropped from Babcock's simplified system, and the Charleston Club history independently confirms the 1920 translation and the Parker Brothers licensing. The 136-or-144 ambiguity traces to Babcock's own opening sentence.
+
+### [Chinese classical](01-proto-mahjong/04-chinese-classical/)
+
+Four sources agree on the scoring structure and on all players scoring, and Sloperama's detail that a non-winner can outscore the winner is confirmed by Wikipedia. Wikipedia also independently derives the Babcock system from Chinese Classical, which supports the chart's placement of Babcock rules as a child of this node. The 136-versus-144 tile difference between sources is definitional: 136 is the wall, 144 the boxed set with flowers and seasons.
 
 ### [Chinese pre-classical](01-proto-mahjong/03-chinese-pre-classical/)
 
@@ -170,7 +170,7 @@ Sloperama and the Mahjong International League's own rules page agree on the pre
 
 ### [Filipino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/04-filipino-style/)
 
-144 tiles, a 16-tile hand, and winds and dragons treated as flowers all match. This matters beyond the node itself: the flower handling is exactly the test the chart's new caveat gives for telling Filipino from Taiwanese, and the source confirms the test is real.
+Three sources agree on the 144-tile set and the 16-tile hand winning on 17. More importantly, Wikipedia independently confirms the flower handling that the chart's own new caveat makes the test for telling Filipino from Taiwanese: dragons and winds are grouped with the flowers. The one disagreement is jokers, which Sloperama hedges and Wikipedia denies; prefer Wikipedia, since Sloperama admits it cannot state the rule.
 
 ### [Guangdong style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/)
 
@@ -190,7 +190,7 @@ Sloperama and the wiki agree on 136 tiles, a 13-tile hand and point-and-double s
 
 ### [Korean traditional](01-proto-mahjong/04-chinese-classical/03-korean-traditional/)
 
-Sloperama and the wiki agree on 104 tiles and a 13-tile hand. Sloperama's suit list, dots, craks, winds and dragons, confirms bamboo's absence, which is the chart's distinguishing detail. None of this establishes the parent, which is why the chart draws the link dashed, and nothing found here changes that.
+104 tiles and a 13-tile hand are confirmed by two sources, and Sloperama's suit list independently confirms bamboo's absence, which is the chart's distinguishing detail. Wikipedia adds two rules that mark the branch: season tiles used but called flowers, and no melded chows. Note that the Korean three-player game described by Wikipedia keeps bamboo 1 and 9, so it is a different reduction from this node's 104-tile game. None of this establishes the parent, which is why the chart draws the link dashed.
 
 ### [Late Qing style](01-proto-mahjong/02-late-qing-style/)
 
@@ -236,21 +236,25 @@ Three sources now agree on 136 tiles, a 13-tile hand and no flowers in play, and
 
 Grokipedia records a 1924 American Code of Laws for Mah-Jongg produced by a committee, and Wikipedia describes the proliferation of incompatible rule sets that preceded standardisation. Both support a distinct pre-NMJL layer, which is what this node is.
 
+### [Sanma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/02-sanma/)
+
+Now properly sourced. Wikipedia gives the exact tile reduction and three rules of its own, and states explicitly that the three-player game is not a mere adaptation but has its own idiosyncrasies, which strengthens the chart's decision to give it a node. That cuts against riichi.wiki's framing of three-player play as an accommodation for a missing fourth. Both are describing real practice; the chart's node is better supported than the previous pass concluded.
+
 ### [Sichuan / Hunan / Tibetan](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/01-sichuan-hunan-tibetan/)
 
 108 suit-only tiles match. The source is more precise than the chart in a useful way: Hunan and Tibetan/Sichuan are given different winning conditions, so this single node covers at least two distinct games.
 
 ### [Sichuan bloody rules](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/02-sichuan-bloody-rules/)
 
-Three independent lines agree. Sloperama carries a 2007 Chengdu report of play continuing until three players have won; the Mahjong International League's rules document gives 108 tiles, no honours, and the blood-battle continuation; and the wiki dates the Sichuan/Chengdu adoption of Bloody rules to the 1990s, matching the chart.
+The best-evidenced node in the mainland group: five sources, four of them independent of the chart. All agree on 108 tiles with honours and flowers removed, the one-missing-suit requirement and the continuation of play after the first win. The wiki independently dates the Chengdu adoption to the 1990s, matching the chart. Two sources also qualify the no-chow rule: chows cannot be called from a discard except to complete a winning hand, which is narrower than a flat prohibition.
 
 ### [Singapore style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/01-singapore-style/)
 
-Sloperama's 148 tiles and 4 animal flowers match the chart exactly, and a general web search independently returned 148 as the Singapore count. The distinguishing detail, that the game requires all 12 flowers, is stronger than the chart's summary.
+Two independent sources agree on the animal tiles that define the variant, and Wikipedia names all four: cat, mouse, cockerel and centipede. Sloperama's 148 total and requirement of all twelve flowers is consistent with that. Wikipedia's mid-hand payout rule is a structural feature neither the chart nor Sloperama records.
 
 ### [Taiwanese style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/)
 
-Three-way agreement on the two facts that define the node: 144 tiles and a 16-tile hand. The wiki adds tai scoring with a 5-tai minimum. Nothing contradicts the chart.
+Four sources agree on the 144-tile set and the 16-tile hand, and two independently describe tai scoring as linear, which the wiki's infobox also shows. Wikipedia adds two structural features the chart omits and which distinguish the branch sharply from Hong Kong play: recurring dealerships, and multiple players winning from one discard. This is among the best-supported nodes in the tree.
 
 ### [Twenty Point Mah Jong](01-proto-mahjong/04-chinese-classical/04-babcock-rules/01-twenty-point-mah-jong/)
 
@@ -258,15 +262,11 @@ Three-way agreement on the two facts that define the node: 144 tiles and a 16-ti
 
 ### [Vietnamese classical](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/05-vietnamese-classical/)
 
-160 tiles and 8 jokers match exactly; the source adds 8 kings/queens and 19 ways of going out, which the chart does not mention.
+Two independent sources give 160 tiles built from eight jokers and eight extra flowers, matching the chart exactly. Sloperama adds the eight kings and queens and the nineteen ways of going out, which is the feature that ties the classical and modern forms together.
 
 ### [Vietnamese modern](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/05-vietnamese-classical/01-vietnamese-modern/)
 
-176 or more tiles and 24 or more jokers match exactly, as does its descent from the classical form through the shared 19 ways of going out.
-
-### [Western / British Empire style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/)
-
-144 or more tiles, a 13-tile hand, 70 to 80 special hands, and both the Charleston and the Goulash. Sloperama argues for the name British Empire style over American, which is the name the chart uses.
+Two independent sources agree, and Wikipedia is the more precise: triplicating or quadruplicating the eight jokers gives exactly 176 or 184 tiles, where Sloperama says 176 or more and the chart says 176+. The mechanism explains the number rather than just reporting it.
 
 ### [WMPA / WMF](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/03-wmpa-wmf/)
 

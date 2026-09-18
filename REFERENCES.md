@@ -554,6 +554,86 @@ Infobox for the Korean game: 104 tiles, 13-tile hand, point-based scoring with a
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-54"></a>
+
+**54. Wikipedia. "Mahjong."**
+
+The main article's regional-variations section, which describes most branches of this tree independently of the chart's own sources.
+
+<https://en.wikipedia.org/wiki/Mahjong>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-55"></a>
+
+**55. Wikipedia. "Scoring in Mahjong."**
+
+Comparative scoring across Hong Kong, Chinese Classical and Taiwanese systems, including the range of minimum-point conventions and the Mandarin and Cantonese terms for a scoreless hand.
+
+<https://en.wikipedia.org/wiki/Scoring_in_Mahjong>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-56"></a>
+
+**56. Wikipedia. "Three-player mahjong."**
+
+The Korean and Japanese three-player game in detail: which tiles are removed, the prohibition on melding chows from a discard, and the sacred-discard rule.
+
+<https://en.wikipedia.org/wiki/Three-player_mahjong>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-57"></a>
+
+**57. Kwan, Alan. Zung Jung Mahjong Scoring System v3.3, official website.**
+
+The designer's own site and rules text: 136 tiles in 34 designs, only the winning hand scored, 44 patterns with an additive rule and no basic points. Also hosts his book, Zung Jung: a Perspective of Mahjong History.
+
+<https://www.zj-mahjong.info/zj33_rules_eng.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-58"></a>
+
+**58. Ging's Brain. "How to Play Filipino Mahjong."**
+
+A play-level account of the Filipino game, cited by Sloperama's catalogue. Confirms the 17-tile winning hand and the flower and season sets.
+
+<http://gingsbrain.blogspot.com/2010/10/how-to-play-filipino-mahjong.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-59"></a>
+
+**59. Beijing Mahjong Rules (kzpn200 blog).**
+
+The Beijing game in detail, cited by Sloperama's catalogue: 136 tiles, no flower or season tiles, and the wild-tile mechanism worked from a face-up indicator.
+
+<https://kzpn200.blogspot.com/2016/03/beijing-mahjong-rules.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-60"></a>
+
+**60. Mahjong Pros. "Official Sichuan (SBR) Mahjong Rules."**
+
+Sichuan Bloody Rules as a playable ruleset: 108 tiles with all honours, flowers, red fives and jokers removed, and the restriction on calling a chow.
+
+<https://mahjongpros.com/blogs/mahjong-rules-and-scoring-tables/official-sichuan-sbr-mahjong-rules>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-61"></a>
+
+**61. World Mahjong Tour. Sichuan Mahjong Blood Battle tournament rules.**
+
+A tournament codification of Sichuan Blood Battle: 108 tiles in three suits, the one-missing-suit requirement, and a three-fan cap intended to reduce luck.
+
+<https://worldmahjongtour.live/tournament-rules-sichuan-mahjong/>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.

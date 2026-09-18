@@ -38,11 +38,15 @@ What each source actually says, as fetched and read:
 | Source | Tiles | Hand | Flowers | Scoring | Payout |
 | --- | --- | --- | --- | --- | --- |
 | [51](../../../../../REFERENCES.md#ref-51) | 108 across 3 suits, ranks 1-9, four copies each; no winds, dragons or flowers | — | — | — | — |
+| [60](../../../../../REFERENCES.md#ref-60) | 108: any set with all honour tiles, flower tiles, red fives and jokers removed, leaving four each of 1-9 in three suits | — | — | — | — |
+| [61](../../../../../REFERENCES.md#ref-61) | 108 in three suits, Wan, Bing and Tiao | — | — | tournament form caps the multiplier at three fan and adds game scores, explicitly to reduce luck | — |
 
 - **[1](../../../../../REFERENCES.md#ref-1)** — Morten Andersen, newsgroup November 2007, on Sichuan style as played in Chengdu: kongs score very well; play continues after the first player goes out and does not stop until three players are mahjong or the wall runs out; penalty for holding all three suits at the end
 - **[51](../../../../../REFERENCES.md#ref-51)** — MIL 'Brief Introduction to Bloody Mahjong' fetched as PDF; blood-battle continuation and missing-suit requirement
+- **[60](../../../../../REFERENCES.md#ref-60)** — translates the name as Bloody Battle to the End. A chow cannot be called except for a winning hand, which is narrower than a flat no-chow rule
+- **[61](../../../../../REFERENCES.md#ref-61)** — describes Blood Battle as one of the most widely recognised and adopted mahjong rulesets within China, and states the one-missing-suit requirement
 
-**Reading it:** Three independent lines agree. Sloperama carries a 2007 Chengdu report of play continuing until three players have won; the Mahjong International League's rules document gives 108 tiles, no honours, and the blood-battle continuation; and the wiki dates the Sichuan/Chengdu adoption of Bloody rules to the 1990s, matching the chart.
+**Reading it:** The best-evidenced node in the mainland group: five sources, four of them independent of the chart. All agree on 108 tiles with honours and flowers removed, the one-missing-suit requirement and the continuation of play after the first win. The wiki independently dates the Chengdu adoption to the 1990s, matching the chart. Two sources also qualify the no-chow rule: chows cannot be called from a discard except to complete a winning hand, which is narrower than a flat prohibition.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

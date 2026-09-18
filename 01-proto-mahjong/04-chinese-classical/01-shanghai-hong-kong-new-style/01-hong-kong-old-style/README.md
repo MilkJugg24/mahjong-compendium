@@ -57,6 +57,7 @@ What each source actually says, as fetched and read:
 - **[1](../../../../REFERENCES.md#ref-1)** — few special hands; books: Perlmen & Chan, Constantino, Li, Lo, Tsui
 - **[8](../../../../REFERENCES.md#ref-8)** — minimum and maximum both 'varies'; branched off traditional mahjong after WWII, prevalent among the upper class of Shanghai and Peking
 - **[4](../../../../REFERENCES.md#ref-4)** — in the same table HKOS scores 0 similarity against 1920s standard Chinese Classical and 4 against the 1920s 'New Method', supporting the chart's decision to descend HKOS through an intermediate new-style node rather than directly from Chinese Classical
+- **[54](../../../../REFERENCES.md#ref-54)** — describes Hong Kong or Cantonese mahjong as differing from Chinese Classical in minor scoring details, and states it does not allow multiple players to win from a single discard, which is the opposite of the Taiwanese rule
 
 **Reading it:** Tiles, hand, scoring and payout agree across three sources. The date does not. The chart says fu was removed in the 1950s; the wiki's own Guangdong page dates the adoption of Clear Chapter, with pungs unscored and fu removed, to the 1970s; the wiki's HKOS page says only that HKOS branched off after the Second World War. The chart appears to have merged the post-war emergence of HKOS with the later Clear Chapter reform. Sloperama's early-forms table separately scores HKOS at 0 similarity to Chinese Classical, which supports descending it through a new-style intermediate.
 
