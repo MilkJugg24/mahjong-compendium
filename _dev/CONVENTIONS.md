@@ -115,7 +115,11 @@ Two rules govern what may go in:
    from a page that could not be fetched, does not go in the table. Record the
    source as unreachable instead. The whole point of the section is that a reader
    can check it.
-2. **Quote or paraphrase closely, and say which source.** Where a source
+2. **A fact reported by a person, rather than read, is labelled as such.** If the
+   only way to see a page was for someone to open it themselves, record whose
+   report it is in the observation, so it is never mistaken for a fetched source.
+   There is one such entry in the compendium, on Pusser's Bones.
+3. **Quote or paraphrase closely, and say which source.** Where a source
    contradicts itself, record both readings rather than picking one silently.
 
 The read across all variants is generated into [`FINDINGS.md`](../FINDINGS.md).

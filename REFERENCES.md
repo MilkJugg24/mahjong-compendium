@@ -724,6 +724,16 @@ An RAN veterans' slang index with no connection to the Pusser's Bones rules auth
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-71"></a>
+
+**71. BoardGameGeek. "Pussers Bones (the Australian Navy Rules)", Mahjong forum thread 1729359, c. February 2017.**
+
+Checked and closed as a lead. A single post containing a link to the Gun Plot site, with no independent account of play. Behind a Cloudflare challenge and with no usable archive snapshot, so its contents are as reported by the repository owner, who opened it directly.
+
+<https://boardgamegeek.com/thread/1729359/pussers-bones-the-australian-navy-rules>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.

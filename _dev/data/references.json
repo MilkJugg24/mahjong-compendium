@@ -562,6 +562,14 @@
       "citation": "Pussers Greenies (Royal Australian Navy electrical branch association). Slang glossary.",
       "note": "An RAN veterans' slang index with no connection to the Pusser's Bones rules author. Defines Bones as mah-jongg tiles, and independently carries the register the rules guide is written in: grey funnel line, roughers, gash, macca.",
       "url": "https://www.pussersgreenies.org/glossary.html"
+    },
+    {
+      "id": 71,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "bgg-pussers-thread",
+      "citation": "BoardGameGeek. \"Pussers Bones (the Australian Navy Rules)\", Mahjong forum thread 1729359, c. February 2017.",
+      "note": "Checked and closed as a lead. A single post containing a link to the Gun Plot site, with no independent account of play. Behind a Cloudflare challenge and with no usable archive snapshot, so its contents are as reported by the repository owner, who opened it directly.",
+      "url": "https://boardgamegeek.com/thread/1729359/pussers-bones-the-australian-navy-rules"
     }
   ]
 }
