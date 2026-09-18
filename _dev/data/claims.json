@@ -1,0 +1,1097 @@
+{
+  "chinese-classical": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144 (sets may come with extraneous tiles)",
+        "hand": "13, out on 14",
+        "flowers": "melded instantly when received; some players omit flowers",
+        "scoring": "10 or 20 for Out, then count pungs/kongs/pairs, then double",
+        "payout": "all players earn points",
+        "note": "~19 special hands"
+      },
+      {
+        "source": "wikidot-chinese-classical",
+        "retrieved": "2026-09-18",
+        "tiles": "136 in the wall",
+        "hand": "13",
+        "flowers": "dead wall 14",
+        "scoring": "point and double",
+        "payout": "",
+        "note": "minimum 0, maximum 500"
+      }
+    ],
+    "evidence": "conflicting",
+    "assessment": "Sloperama says 144 tiles; the Mahjong Wiki says 136. Both are right about different things: 136 is the wall without flowers and seasons, 144 is the boxed set with them. This is the single most common apparent conflict across this whole compendium and it is almost always definitional. Hand size, scoring system and payout agree exactly."
+  },
+  "shanghai-hong-kong-new-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "136 or 144",
+        "hand": "13, out on 14",
+        "flowers": "optional; melded instantly when received",
+        "scoring": "count doubles, convert to points",
+        "payout": "winner only",
+        "note": "Sloperama's 'Hong Kong New Style': many many special hands, vs few in Old Style"
+      },
+      {
+        "source": "lets-mahjong",
+        "retrieved": "2026-09-18",
+        "note": "wiki treats New Chapter as the transition from HKOS toward Guangdong style"
+      }
+    ],
+    "evidence": "partial",
+    "assessment": "Sloperama's Hong Kong New Style entry matches on tiles, hand and payout, and its 'many many special hands' against Old Style's 'few' is the substantive difference the chart's branch depends on. The wiki's mainland page independently describes later pattern additions to the Ningbo-origin classical game as Shanghai New Style, which supports the node's existence; neither source dates it to the 1920s."
+  },
+  "hong-kong-old-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "136 or 144",
+        "hand": "13, out on 14",
+        "flowers": "optional; melded instantly when received",
+        "scoring": "count doubles, convert to points",
+        "payout": "winner only",
+        "note": "few special hands; books: Perlmen & Chan, Constantino, Li, Lo, Tsui"
+      },
+      {
+        "source": "wikidot-hkos",
+        "retrieved": "2026-09-18",
+        "tiles": "136 tiles (144 tiles)",
+        "hand": "13",
+        "flowers": "dead wall 14 if used",
+        "scoring": "fan-laak; fan converted to points",
+        "payout": "winner only",
+        "note": "minimum and maximum both 'varies'; branched off traditional mahjong after WWII, prevalent among the upper class of Shanghai and Peking"
+      },
+      {
+        "source": "wikipedia-hk-scoring",
+        "retrieved": "2026-09-18",
+        "scoring": "faan; common 3-faan minimum, 13-faan ceiling"
+      },
+      {
+        "source": "sloperama-analysis",
+        "retrieved": "2026-09-18",
+        "note": "in the same table HKOS scores 0 similarity against 1920s standard Chinese Classical and 4 against the 1920s 'New Method', supporting the chart's decision to descend HKOS through an intermediate new-style node rather than directly from Chinese Classical"
+      }
+    ],
+    "evidence": "conflicting",
+    "assessment": "Tiles, hand, scoring and payout agree across three sources. The date does not. The chart says fu was removed in the 1950s; the wiki's own Guangdong page dates the adoption of Clear Chapter, with pungs unscored and fu removed, to the 1970s; the wiki's HKOS page says only that HKOS branched off after the Second World War. The chart appears to have merged the post-war emergence of HKOS with the later Clear Chapter reform. Sloperama's early-forms table separately scores HKOS at 0 similarity to Chinese Classical, which supports descending it through a new-style intermediate."
+  },
+  "modern-hkos": {
+    "observations": [
+      {
+        "source": "wikidot-hkos",
+        "retrieved": "2026-09-18",
+        "scoring": "no standardised rubric; a popular variation is a minimum of three fan before winning",
+        "note": "wiki states the 3-fan minimum as a common variation, not a dated reform"
+      },
+      {
+        "source": "wikipedia-hk-scoring",
+        "retrieved": "2026-09-18",
+        "scoring": "common 3-faan minimum and 13-faan ceiling"
+      }
+    ],
+    "evidence": "partial",
+    "assessment": "Wikipedia and the wiki both describe a 3-faan minimum as a common convention, and Wikipedia adds the 13-faan ceiling. Neither dates it to the 1970s. The wiki explicitly says there is no standardised rubric and calls the 3-fan minimum a popular variation, which makes this node a convention rather than a dated reform."
+  },
+  "taiwanese-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144",
+        "hand": "16, out on 17",
+        "flowers": "melded instantly when received",
+        "scoring": "count doubles, convert to points",
+        "payout": "winner only",
+        "note": "books: Amy Lo, Dragon Chang"
+      },
+      {
+        "source": "wikidot-taiwanese",
+        "retrieved": "2026-09-18",
+        "tiles": "144",
+        "hand": "16",
+        "flowers": "dead wall 16",
+        "scoring": "pattern; unit tai; minimum 5 tai, maximum 300 tai",
+        "payout": ""
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Three-way agreement on the two facts that define the node: 144 tiles and a 16-tile hand. The wiki adds tai scoring with a 5-tai minimum. Nothing contradicts the chart."
+  },
+  "mcr-chinese-official": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144",
+        "hand": "13, out on 14",
+        "flowers": "melded instantly when received",
+        "scoring": "count points for hand characteristics",
+        "payout": "winner only",
+        "note": "discards placed in orderly rows"
+      },
+      {
+        "source": "wikidot-mcr",
+        "retrieved": "2026-09-18",
+        "tiles": "144",
+        "hand": "13",
+        "flowers": "no dead wall",
+        "scoring": "pattern-based; minimum 8 points, no maximum",
+        "note": "length 16 hands; page shows a 2006 rulebook"
+      },
+      {
+        "source": "wikipedia-wmc",
+        "retrieved": "2026-09-18",
+        "note": "mahjong certified as China's 255th sport in January 1998; unified rules codified that September"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama and the wiki agree on 144 tiles, a 13-tile hand and pattern scoring; the wiki adds the 8-point minimum. Wikipedia independently dates the sport certification to January 1998 and the rules to that September, matching the chart. One wrinkle: the wiki's infobox is built on a 2006 rulebook, not the 1998 edition the chart cites."
+  },
+  "zung-jung": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "136",
+        "hand": "13, out on 14",
+        "flowers": "none",
+        "scoring": "points-based; doubles built into the system",
+        "payout": "winner only"
+      }
+    ],
+    "evidence": "conflicting",
+    "assessment": "Sloperama's description, 136 tiles, no flowers, points-based with doubles built in, is consistent with the chart. The date is not: the chart says 2000s, while the wiki's Guangdong timeline places the adaptation of Guangdong Style into both MCR and Zung Jung in the 1990s. The same timeline also makes Zung Jung a descendant of Guangdong Style rather than a sibling of it, which is not how the chart draws it."
+  },
+  "sichuan-hunan-tibetan": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "108 (suit tiles only; no winds or dragons)",
+        "hand": "13, out on 14",
+        "flowers": "none",
+        "payout": "winner only; discarder pays for all",
+        "note": "Hunan: 5 ways out, hand must include a pair of 2s/5s/8s else seven pairs or pure. Tibetan & Sichuan: no more than two suits, punging OK, chowing not permitted"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "108 suit-only tiles match. The source is more precise than the chart in a useful way: Hunan and Tibetan/Sichuan are given different winning conditions, so this single node covers at least two distinct games."
+  },
+  "sichuan-bloody-rules": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "Morten Andersen, newsgroup November 2007, on Sichuan style as played in Chengdu: kongs score very well; play continues after the first player goes out and does not stop until three players are mahjong or the wall runs out; penalty for holding all three suits at the end"
+      },
+      {
+        "source": "mil-bloody",
+        "retrieved": "2026-09-18",
+        "tiles": "108 across 3 suits, ranks 1-9, four copies each; no winds, dragons or flowers",
+        "note": "MIL 'Brief Introduction to Bloody Mahjong' fetched as PDF; blood-battle continuation and missing-suit requirement"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Three independent lines agree. Sloperama carries a 2007 Chengdu report of play continuing until three players have won; the Mahjong International League's rules document gives 108 tiles, no honours, and the blood-battle continuation; and the wiki dates the Sichuan/Chengdu adoption of Bloody rules to the 1990s, matching the chart."
+  },
+  "sichuan-72-tile": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "72 (bams and dots only)",
+        "hand": "7, out on 8 (some players hold 10, out on 11)",
+        "flowers": "none",
+        "scoring": "unknown",
+        "payout": "unknown",
+        "note": "from conversations with author Dragon Chang; a very quick gambling game. Sloperama notes this contradicts the Chengdu account it also carries"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "72 tiles, bams and dots only, a 7-tile hand winning on 8. Sloperama attributes it solely to Dragon Chang and itself flags that it differs from the other Sichuan account on the same page. The chart is right to carry it as a separate node rather than merging it."
+  },
+  "fuzhou-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "132; one honour removed (probably White)",
+        "hand": "13, out on 14",
+        "flowers": "none",
+        "scoring": "count the points",
+        "payout": "winner only",
+        "note": "from a newsgroup post by Jesse, May 28 and June 1-2 2003"
+      },
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "CONTRADICTION WITHIN ONE SOURCE: the abbreviated overview describes Fuzhou as using no flower tiles, with honours treated like flowers as in the Filipino game and a Japanese dora-type tile as joker. That description matches the detailed FUJIAN entry, not the detailed Fuzhou entry, which says 132 tiles with one honour removed and no flowers or jokers"
+      }
+    ],
+    "evidence": "conflicting",
+    "assessment": "The detailed entry gives 132 tiles with one honour removed and no flowers or jokers. The abbreviated list on the same page describes Fuzhou as having honours treated like flowers and a dora-type joker, which is the detailed Fujian entry's description, not Fuzhou's. One of the two is contaminated, and there is no second source to break the tie."
+  },
+  "fujian-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "124 (3 suits, 4 winds, no dragons)",
+        "hand": "13, out on 14",
+        "flowers": "none; winds treated as flower tiles and replaced when acquired; a wild tile from the back of the wall serves as joker",
+        "scoring": "contributor Chris Jacques: 'The scoring system is beyond me'",
+        "note": "Sloperama separately records that Dragon Chang says a style similar to Filipino is played in Fuzhou (Fukien)"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "124 tiles, winds as flowers and a wild tile as joker match the chart exactly. But it rests on one contributor who says openly that he does not understand the scoring, and the Fuzhou entry on the same page appears to have borrowed this description. Treat the tile count as the only firm part."
+  },
+  "beijing-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144 (assumed)",
+        "hand": "13, out on 14",
+        "flowers": "unknown; the first picked tile dictates the wild tile, by similar logic to Japanese dora",
+        "scoring": "no minimum; 1 point per pung, 2 per kong (non-winners score for kongs too); kong doubles winner's score; only three special hands",
+        "payout": "winners and kong holders",
+        "note": "information from Laurent Mahe"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "The drawn wild tile matches the chart and the mechanism is described in detail, with dora named as the analogy. The tile count is Sloperama's own assumption, and flower handling is unknown."
+  },
+  "nanjing-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144",
+        "hand": "13, out on 14",
+        "flowers": "in addition to the regular flowers/seasons, the dragon tiles are treated as flowers",
+        "scoring": "points for flowers, doubled for special ways of going out",
+        "payout": "winner only",
+        "note": "revealed by Shanghai player 'ithinc' on the mahjong newsgroup, 17-18 April 2006"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "144 tiles with dragons treated as flowers matches the chart exactly. It rests on a single newsgroup report from 2006 by one Shanghai player."
+  },
+  "shenzhen-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "unknown",
+        "hand": "unknown whether 13 or 16 or another number",
+        "flowers": "unknown",
+        "scoring": "unknown",
+        "payout": "unknown",
+        "note": "winning hand, if Sloper recalls correctly, must be PUNGS only (no chows); from conversations with author Dragon Chang"
+      },
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "CONTRADICTION WITHIN ONE SOURCE: the abbreviated overview on the same page reads 'Shenzhen Style (played with KONGS - no pungs or chows - details not available at present)', while the detailed section reads 'Winning hand (if I recall correctly) must be PUNGS only (no chows)'. The chart follows the kongs wording"
+      }
+    ],
+    "evidence": "conflicting",
+    "assessment": "The source contradicts itself on the same page: the abbreviated list says the game is played with kongs and no pungs or chows, the detailed entry says the winning hand must be pungs only, hedged with 'if I recall correctly'. The chart follows the kongs wording without flagging the conflict. Tile count, hand size, flowers, scoring and payout are all recorded as unknown."
+  },
+  "macau-simplificado": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "112 (3 suits and green dragons)",
+        "hand": "4, win on 5",
+        "flowers": "none",
+        "scoring": "points for characteristics of the hand",
+        "payout": "winner only",
+        "note": "revealed by Thierry Depaulis in a newsgroup post, 1 May 2006"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "112 tiles and a 4-tile hand winning on 5 match the chart, and both the detailed entry and the abbreviated list agree. Its extreme hand size makes it the least mahjong-like entry in the tree that still carries a firm description."
+  },
+  "tui-dao-hu": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "unknown; unknown whether flowers are used",
+        "hand": "presumed 13, out on 14",
+        "scoring": "not clearly defined at maque.games; kongs may add points",
+        "note": "twelve ways of going out; more than one player can win; tip from Joe S., 16 January 2021"
+      },
+      {
+        "source": "maque-games",
+        "retrieved": "2026-09-18",
+        "note": "maque.games page reachable only through the Wayback Machine from this environment; brief English description"
+      }
+    ],
+    "evidence": "partial",
+    "assessment": "Twelve ways of going out and multiple winners are confirmed and match the chart. Everything else is unknown: Sloperama records no tile count, no hand size, and says the scoring is not clearly defined even at the cited site."
+  },
+  "chinese-casino-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144 (some add 2 jokers for 146, probably a table rule)",
+        "hand": "13, out on 14",
+        "flowers": "melded instantly when received",
+        "scoring": "not reported",
+        "payout": "all players earn points",
+        "note": "fewer than 20 special hands; no chows; discards briefly shown then placed face down in orderly rows; drawn hands result in a goulash. Reported by Ian Stanley on the ReachMahjong forum, June 2009"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "144 tiles, no chows, and all players scoring. One forum report from 2009. The no-chows rule links it to the other chow-less variants, which is more interesting than the chart's bare label suggests."
+  },
+  "singapore-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "148 (basic set plus 4 animal flowers)",
+        "hand": "13, out on 14",
+        "flowers": "game requires 12 flowers: the 8 regular plus 4 animal flowers",
+        "scoring": "count the fan (doubles) and convert to points",
+        "payout": "winner only",
+        "note": "relatively few special hands; book: AMAZING MAHJONG by Celia Ching"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama's 148 tiles and 4 animal flowers match the chart exactly, and a general web search independently returned 148 as the Singapore count. The distinguishing detail, that the game requires all 12 flowers, is stronger than the chart's summary."
+  },
+  "malaysian-3-player": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "84 (one suit, honours, 16 flowers, 4 jokers); a 108-tile variant also exists",
+        "hand": "13, out on 14",
+        "flowers": "8 flowers/seasons, 4 animals (Singapore flowers), 4 faces, 4 Fly (jokers)",
+        "scoring": "count the fan, convert to points",
+        "payout": "all players are paid, depending on what they hold",
+        "note": "Vincent Cheah describes the 84-tile three-player game"
+      },
+      {
+        "source": "sloperama-malaysian",
+        "retrieved": "2026-09-18",
+        "note": "Sloperama's dedicated Malaysian page, fetched separately, covers the same 84-tile game"
+      },
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "the abbreviated overview splits this into Malaysian 3-Player 'A' (84 tiles, one suit) and Malaysian 3-Player 'B' (108 tiles, details unknown). The chart carries only the 84-tile game"
+      }
+    ],
+    "evidence": "partial",
+    "assessment": "The 84-tile one-suit game is confirmed with a full component breakdown. But Sloperama also records a second three-player Malaysian game of 108 tiles, which the chart does not carry at all, so the node covers only one of two documented forms."
+  },
+  "malaysian-4-player": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "164 (24 flowers, 4 jokers)",
+        "hand": "13, out on 14",
+        "flowers": "16 flowers/seasons, 8 animals, 4 jokers",
+        "scoring": "50 points for Out, then points for pungs, kongs, pairs, flowers, then double",
+        "payout": "all players are paid, depending on what they hold",
+        "note": "winning hand must be All Chow, All Pung, or Half/Full Flush"
+      },
+      {
+        "source": "sloperama-malaysian",
+        "retrieved": "2026-09-18",
+        "note": "Sloperama's dedicated Malaysian page covers the same 164-tile game"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "164 tiles and 24 flowers match exactly, from two Sloperama pages. The winning-hand restriction to All Chow, All Pung or a flush is a substantive rule the chart omits."
+  },
+  "filipino-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144 (possibly more); certain tiles may be designated as jokers",
+        "hand": "16, out on 17",
+        "flowers": "melded instantly; winds and dragons are treated the same as flowers",
+        "scoring": "count doubles, convert to points",
+        "payout": "winner only (?); thrower pays double",
+        "note": "kongs get paid at the instant they are melded"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "144 tiles, a 16-tile hand, and winds and dragons treated as flowers all match. This matters beyond the node itself: the flower handling is exactly the test the chart's new caveat gives for telling Filipino from Taiwanese, and the source confirms the test is real."
+  },
+  "bashi-bashi": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "version A: 144; version B: 112 (craks omitted except 1C, 5C, 9C)",
+        "hand": "A: probably 13, win on 14; B: 13, win on 14",
+        "flowers": "none in either; A has 8 red fives, B has 6 red fives",
+        "scoring": "A: 'simplified and streamlined'; B: count the points",
+        "payout": "A: unknown; B: winner only",
+        "note": "three-player game that originated in casinos in the Philippines, BASED ON JAPANESE MODERN AND FILIPINO RULES; version B reported by Vladimir, April 2015"
+      }
+    ],
+    "evidence": "conflicting",
+    "assessment": "Sloperama documents two incompatible games under this name: version A with 144 tiles and 8 red fives, version B with 112 tiles and 6 red fives, differing also on scoring and payout. The chart carries one undifferentiated node. Sloperama also says Bashi-Bashi is based on Japanese modern AND Filipino rules, while the chart descends it from Filipino alone."
+  },
+  "vietnamese-classical": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "160",
+        "hand": "13, out on 14",
+        "flowers": "includes flowers/seasons, 8 kings/queens, and 8 jokers",
+        "scoring": "based on the 19 ways of going Out",
+        "payout": "winner only",
+        "note": "no books in English"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "160 tiles and 8 jokers match exactly; the source adds 8 kings/queens and 19 ways of going out, which the chart does not mention."
+  },
+  "vietnamese-modern": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "176 or more large tiles",
+        "hand": "13, out on 14",
+        "flowers": "flowers/seasons, 8 kings/queens, and 24 or more jokers",
+        "scoring": "based on the 19 ways of going Out",
+        "payout": "winner only"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "176 or more tiles and 24 or more jokers match exactly, as does its descent from the classical form through the shared 19 ways of going out."
+  },
+  "pong-malaya": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "120 (3 suits and all dragon tiles)",
+        "hand": "11, win on 12",
+        "flowers": "none",
+        "scoring": "points for characteristics of the hand",
+        "payout": "winner only",
+        "note": "four threesomes only, no pair; threesomes are pungs and knitted pungs only, no chows. Book: Dobree, Gambling Games of Malaya, 1955. Existence revealed by Thierry Depaulis, newsgroup, 2 May 2006"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "120 tiles and the Dobree 1955 attribution match. The source adds the defining structure: four threesomes and no pair, pungs and knitted pungs only, an 11-tile hand winning on 12. That is a far more distinctive game than the chart's one-line entry suggests."
+  },
+  "japanese-classical-arushiiaru": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "136",
+        "hand": "13, out on 14",
+        "flowers": "come with the sets but are not used in play",
+        "scoring": "20 for Out, then count pungs/kongs/pairs, then double",
+        "payout": "winner only"
+      },
+      {
+        "source": "wikidot-japanese-classical",
+        "retrieved": "2026-09-18",
+        "tiles": "136 in the wall",
+        "hand": "13",
+        "scoring": "point and double; minimum 0, maximum 500",
+        "note": "dead wall 14, length 4 rounds"
+      },
+      {
+        "source": "chombo-club",
+        "retrieved": "2026-09-18",
+        "note": "in 1929 the first organisation dedicated to mahjong players in Japan was established; the Federation still recognises Arushiiaru as its primary variant and accepted riichi as a second approved variant only in 2016"
+      },
+      {
+        "source": "sloperama-analysis",
+        "retrieved": "2026-09-18",
+        "note": "in Sloperama's early-forms table, Japanese Classical scores 8 (identical) against the 1920s 'New Method' column and only 4 against 1920s standard Chinese Classical, which places its descent through the new-style line rather than straight from Chinese Classical"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama and the wiki agree on 136 tiles, a 13-tile hand and point-and-double scoring, and the Krakow Chombo Club history independently dates the first Japanese mahjong organisation to 1929. Sloperama's early-forms table adds real structural evidence: Japanese Classical scores identically with the 1920s New Method and only 4 against standard Chinese Classical."
+  },
+  "houchi-rules": {
+    "observations": [
+      {
+        "source": "chombo-club",
+        "retrieved": "2026-09-18",
+        "note": "Amano Daizou published rules in the newspaper Houchi Shinbun between 11 November and 5 December 1952, for a game heavily based on tochuu riichi which he called simply riichi; the Houchi rules established the dora as the third tile from the edge of the dead wall. Amano then left the Federation and founded the Japanese Mahjong Association"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "The Chombo Club history gives the exact serialisation window, 11 November to 5 December 1952, Amano Daizou as author, the Houchi Shinbun as publisher, and the dora placement the rules introduced. Precise and internally consistent, but a single secondary account."
+  },
+  "tokyo-rules": {
+    "observations": [
+      {
+        "source": "chombo-club",
+        "retrieved": "2026-09-18",
+        "note": "in 1957 Amano published 'All 1-Han Shibari', also known as the Tokyo rules"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "The 1957 date and the 1-han minimum are confirmed, with the ruleset's Japanese name. Same single source as the rest of the Japanese chain."
+  },
+  "modern-rules": {
+    "observations": [
+      {
+        "source": "chombo-club",
+        "retrieved": "2026-09-18",
+        "note": "in 1967 Amano published the 'modern rules' (gendai ruuru), introducing rounding fu up to the nearest ten, bazoro, oka and ura-dora, all still used today"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "1967, bazoro, oka and ura-dora all confirmed, with an explanation of why bazoro survives invisibly inside modern scoring tables. Same single source."
+  },
+  "modern-riichi-yonma": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "136",
+        "hand": "13, out on 14",
+        "flowers": "come with the sets but are not used in play",
+        "scoring": "base points times fan; most easily scored from a memorised chart",
+        "payout": "winner only",
+        "note": "discards placed in orderly rows"
+      },
+      {
+        "source": "wikidot-japanese-modern",
+        "retrieved": "2026-09-18",
+        "tiles": "136",
+        "hand": "13",
+        "scoring": "point and pattern; fu and han/yaku; minimum 1 yaku, maximum yakuman",
+        "note": "length 2 rounds, dead wall 14"
+      },
+      {
+        "source": "riichi-wiki",
+        "retrieved": "2026-09-18",
+        "note": "page is behind a Cloudflare challenge from this environment; read through the Wayback Machine"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama and the wiki agree on 136 tiles, a 13-tile hand, no flowers in play, and discards in orderly rows. The chart's 1970 date for red fives is not confirmed by either."
+  },
+  "sanma": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "Sloperama's catalogue does not carry a separate Sanma entry; three-player riichi is attested in the Japanese-modern material and in the Wikipedia article"
+      },
+      {
+        "source": "wikipedia-japanese-mahjong",
+        "retrieved": "2026-09-18",
+        "note": "three-player variants are described in the Wikipedia article on Japanese mahjong"
+      }
+    ],
+    "evidence": "partial",
+    "assessment": "Three-player riichi is attested, but Sloperama's catalogue has no separate Sanma entry, so the node has no tile count or hand size from a source that names it."
+  },
+  "korean-traditional": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "104 (dots, craks, winds, dragons and 4 flowers)",
+        "hand": "13, out on 14",
+        "flowers": "only 4 flowers",
+        "scoring": "several regional systems, most commonly '1,5,10' and '1,3,6'",
+        "note": "Sloperama queries whether 104 applies only to the three-player game. Bamboo is absent from the listed suits, which is what the chart means by 'no bamboo'"
+      },
+      {
+        "source": "wikidot-korean",
+        "retrieved": "2026-09-18",
+        "tiles": "104",
+        "hand": "13",
+        "scoring": "point-based; minimum 2 points, maximum 80 points",
+        "note": "length 32 hands, no dead wall"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama and the wiki agree on 104 tiles and a 13-tile hand. Sloperama's suit list, dots, craks, winds and dragons, confirms bamboo's absence, which is the chart's distinguishing detail. None of this establishes the parent, which is why the chart draws the link dashed, and nothing found here changes that."
+  },
+  "wmpa-wmf": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "136",
+        "hand": "13, out on 14",
+        "flowers": "none",
+        "scoring": "determine the total faan of the winning hand, then square it to arrive at the portion",
+        "payout": "winner only",
+        "note": "Sloperama states WMPA is Korean and BASED ON JAPANESE MODERN, which matches the chart's placement under Modern rules. Book: WORLD MAHJONG Essence, by Kingstone Kim"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "136 tiles, no flowers, and the distinctive squared-faan scoring. Sloperama states independently that WMPA is Korean and based on Japanese Modern, which is exactly the placement the chart gives it, under the Japanese branch but coloured Korean."
+  },
+  "babcock-rules": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "136 or 144",
+        "hand": "13, out on 14",
+        "flowers": "if used, melded instantly upon receipt",
+        "scoring": "20 for Out, then points for pungs and pairs, then double; kongs and flowers not used in Babcock's original simplified system",
+        "payout": "all players earn points",
+        "note": "fewer special hands than Chinese Classical; Babcock's opening line describes a set of 136 pieces"
+      },
+      {
+        "source": "charleston-club",
+        "retrieved": "2026-09-18",
+        "note": "Babcock's 1920 translation, and the Parker Brothers / Milton Bradley licensing"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama gives the rules in detail, including that kongs and flowers were dropped from Babcock's simplified system, and the Charleston Club history independently confirms the 1920 translation and the Parker Brothers licensing. The 136-or-144 ambiguity traces to Babcock's own opening sentence."
+  },
+  "twenty-point-mah-jong": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144 (the standard 136 plus 8 flowers)",
+        "hand": "13, out on 14",
+        "flowers": "used in the hand to form sets",
+        "scoring": "all sets earn points; the hand cannot go out until points reach at least 20; points can be doubled",
+        "payout": "all players earn points",
+        "note": "designed in 1924 by R.F. Foster to solve the Chinese Classical problem of high-scoring hands thwarted by cheap wins and frequent wall-building"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "1924, R.F. Foster, and the 20-point minimum that gives the game its name all confirm the chart. Sloperama adds the motive and the verdict: Foster's attempt satisfied nobody but paved the way for American mah-jongg in the 1930s, which supports the chart's placement of it beside the American line rather than in it."
+  },
+  "western-british-empire-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144 or more (jokers optional and variable in number)",
+        "hand": "13, out on 14",
+        "flowers": "melded instantly when received",
+        "scoring": "20 for Out, then points for pongs/kongs/pairs, then double",
+        "payout": "all players earn points",
+        "note": "70-80 special hands varying book to book; optional Charleston or Razzle exchange, and a Goulash after a drawn game. Sloperama calls this 'Vanilla Western' and suggests 'British Empire style' as the better name; played in the UK, Australia, New Zealand, India and Italy"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "144 or more tiles, a 13-tile hand, 70 to 80 special hands, and both the Charleston and the Goulash. Sloperama argues for the name British Empire style over American, which is the name the chart uses."
+  },
+  "wright-patterson": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144 (some add 2 jokers for 146, probably a table rule)",
+        "hand": "13, out on 14",
+        "flowers": "melded instantly when received",
+        "scoring": "count points for pongs/kongs/pairs, then double",
+        "payout": "all players earn points",
+        "note": "70-80 special hands; has a Charleston. Books: Wright-Patterson AFB OSC"
+      },
+      {
+        "source": "mahjong-line",
+        "retrieved": "2026-09-18",
+        "note": "Wright-Patterson origins among Air Force officers' spouses at Wright Field, Ohio; described as a distinct American approach played by military families"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama and The Mahjong Line agree on the Wright Field, Ohio origin among Air Force officers' spouses. Sloperama adds 144 tiles, 70 to 80 hands and a Charleston, which places it closer to Western than to NMJL American."
+  },
+  "india-mumbai-style": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144",
+        "hand": "13, out on 14",
+        "flowers": "melded instantly when received",
+        "scoring": "count points for pungs/kongs etc., then double",
+        "payout": "all players earn points",
+        "note": "each round uses different rules: one permits chicken hands, another requires special hands, another is a goulash requiring all pungs in one suit, the fourth is dealer's choice with wild tiles; in some rounds a player can buy a discard. Sloper corrected his own earlier assumption that this was the same as British/Western after visiting Mumbai in March 2009"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "The rotating round rules that distinguish this node are confirmed in detail, each round with different conditions. Notably the author records correcting his own earlier assumption that it was the same as British Western, after visiting Mumbai in 2009, which is a documented revision rather than an assertion."
+  },
+  "israeli-mah-jongg-association": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144 tiles or kards",
+        "hand": "13, out on 14",
+        "flowers": "melded upon receipt",
+        "scoring": "calculate points then apply doubles, with numbers varying greatly from other forms",
+        "payout": "all players"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "144 tiles, a 13-tile hand, flowers melded on receipt, and scoring whose numbers vary greatly from other forms. One source, no books."
+  },
+  "nepalese": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "144",
+        "hand": "10, out on 11",
+        "flowers": "8 flowers/seasons",
+        "scoring": "20 for Out, then points for pongs/kongs/pairs, then double",
+        "note": "similar to Western but with fewer tiles in the hand; this is what the chart means by an 11-tile winning hand"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "144 tiles with a 10-tile hand winning on 11 confirms the chart's 11-tile winning hand precisely, and the source identifies it as Western-like but with fewer tiles in hand, which supports its placement under the Western branch."
+  },
+  "pussers-bones": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "Sloperama's entry is only that mah-jongg was adopted by British sailors who nicknamed the game 'Bones' because the tiles were made of bone; it gives no tile count or hand size and points to gunplot.net"
+      },
+      {
+        "source": "gunplot",
+        "retrieved": "2026-09-18",
+        "note": "the gunplot.net guide presents the game as ROYAL AUSTRALIAN NAVY practice, not Royal Navy: it describes pussers bones as handed down by sailors moving between ships, with rules that were surprisingly standard, and the author learning it at sea in 1975. Reachable from this environment only through the Wayback Machine"
+      }
+    ],
+    "evidence": "conflicting",
+    "assessment": "The chart says Royal Navy. The gunplot.net guide the chart cites presents the game as Royal AUSTRALIAN Navy practice throughout, with the author learning it at sea in 1975, and a search result independently labels it the Australian Navy rules. Sloperama's own entry says only that British sailors adopted the game and nicknamed it Bones, and gives no tile count or hand size."
+  },
+  "regional-us-house-rules": {
+    "observations": [
+      {
+        "source": "grokipedia-american",
+        "retrieved": "2026-09-18",
+        "note": "records a 1924 'American Code of Laws for Mah-Jongg' produced by a committee of publishers and enthusiasts, which unified variations before the NMJL's 1937 standardisation"
+      },
+      {
+        "source": "wikipedia-american",
+        "retrieved": "2026-09-18",
+        "note": "describes the proliferation of incompatible American rule sets before standardisation"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Grokipedia records a 1924 American Code of Laws for Mah-Jongg produced by a committee, and Wikipedia describes the proliferation of incompatible rule sets that preceded standardisation. Both support a distinct pre-NMJL layer, which is what this node is."
+  },
+  "nmjl-card": {
+    "observations": [
+      {
+        "source": "mahjong-compare",
+        "retrieved": "2026-09-18",
+        "note": "in 1937 four women, Viola Cecil, Dorothy Meyerson, Herma Jacobs and Hortense Potter, founded the National Mah Jongg League in New York City; nearly 400 women rallied at Manhattan's Essex House hotel to support standardising American rules"
+      },
+      {
+        "source": "charleston-club",
+        "retrieved": "2026-09-18",
+        "note": "dates the founding to 1937 in New York City, by a group of predominantly Jewish women from the Upper West Side"
+      },
+      {
+        "source": "grokipedia-american",
+        "retrieved": "2026-09-18",
+        "note": "dates the founding to 1937 in New York City"
+      },
+      {
+        "source": "mahjong-line",
+        "retrieved": "2026-09-18",
+        "note": "dates the NMJL's start to 1937"
+      },
+      {
+        "source": "wikipedia-american",
+        "retrieved": "2026-09-18",
+        "note": "CONFLICT: states that the National Mah Jongg League, Inc. published a volume of 'Official American Rules' in 1935, which predates the 1937 founding date the other four sources give"
+      }
+    ],
+    "evidence": "conflicting",
+    "assessment": "Four independent sources date the NMJL's founding to 1937 in New York City, and two name the Essex House meeting; that part is as well corroborated as anything in this compendium. But Wikipedia states the League published a volume of Official American Rules in 1935, which cannot be reconciled with a 1937 founding. Either the League predates its usual founding date or Wikipedia's year is wrong, and nothing fetched here settles it."
+  },
+  "american-mah-jongg": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "152 (8 jokers added to a regular Chinese set)",
+        "hand": "13, out on 14",
+        "flowers": "used in the hand; they can be punged and konged",
+        "scoring": "look it up on the card, available from NMJL and/or AMJA",
+        "payout": "winner only",
+        "note": "about 52 special hands, which players must make; no free-form hands; the card changes every year; has the Charleston. Sloperama notes the make-up of the American set fluctuated in the 1940s, 50s and 60s"
+      },
+      {
+        "source": "wikidot-american",
+        "retrieved": "2026-09-18",
+        "tiles": "152",
+        "hand": "13",
+        "scoring": "score card",
+        "note": "no dead wall"
+      },
+      {
+        "source": "mahjong-compare",
+        "retrieved": "2026-09-18",
+        "note": "joker tiles were added to the official rules in 1961"
+      },
+      {
+        "source": "grokipedia-american",
+        "retrieved": "2026-09-18",
+        "note": "jokers appear in sets from the 1940s, with the NMJL mandate from the 1960-61 season"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama and the wiki agree on 152 tiles and a 13-tile hand, and Sloperama and two American-history sources agree the card is annual and that jokers became official around 1961, with Grokipedia specifying the 1960-61 season. Sloperama independently notes the set composition fluctuated through the 1940s to 1960s, which is why tile counts for this branch vary by decade."
+  },
+  "amja-card": {
+    "observations": [
+      {
+        "source": "wikipedia-american",
+        "retrieved": "2026-09-18",
+        "note": "the scorecard is published annually by both the National Mah Jongg League and the American Mah-Jongg Association; the AMJA card is the second of the two"
+      },
+      {
+        "source": "sloperama-cards",
+        "retrieved": "2026-09-18",
+        "note": "describes the annual card as an artefact and how the NMJL and AMJA cards differ in form"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "Wikipedia confirms that the annual card is published by both the NMJL and the AMJA, which establishes that the AMJA card exists as a separate artefact. No source fetched here describes how it differs in rules."
+  },
+  "siamese-mah-jongg": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "special two-handed rules by Gladys Grad, 2015; the name plays on 'Siamese twins'. Two players each play two hands on specially designed two-tiered racks. Primarily designed with American mah-jongg in mind, but the concept can be applied to any variant"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "Gladys Grad, 2015, two players each playing two hands on two-tiered racks. The source also says the concept can be applied to any variant, which makes its placement under American a matter of design intent rather than descent."
+  },
+  "duplicate-mahjong": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "a form of play similar to usual international competition forms; the walls are prebuilt so as to remove the element of luck, making winning a matter of skill; designed so mahjong can be considered a mind sport and qualify as a potential Olympic event"
+      },
+      {
+        "source": "mil-duplicate",
+        "retrieved": "2026-09-18",
+        "note": "the Mahjong International League's own rules page, fetched and confirmed to exist at the cited URL"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama and the Mahjong International League's own rules page agree on the prebuilt walls and the mind-sport motive. The MIL page was fetched and confirmed live at the cited address."
+  },
+  "mahjong-masters-millions": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "tiles": "136 or 144",
+        "hand": "13, out on 14",
+        "flowers": "optional; if used, melded instantly when received",
+        "scoring": "points for pongs/kongs/pairs, then an 'aux' value, then multiply",
+        "payout": "winner(s) only",
+        "note": "several special hands"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "136 or 144 tiles, a 13-tile hand, and an unusual scoring step in which an aux value multiplies the total. Only the winner or winners are paid, which is unusual enough to be a real identifying feature."
+  },
+  "proto-mahjong": {
+    "observations": [
+      {
+        "source": "sloperama-tree",
+        "retrieved": "2026-09-18",
+        "note": "Sloperama's family tree page gives the Matiao / Khanhoo / dominoes root structure the chart's root node stands for"
+      },
+      {
+        "source": "stanwick-xu",
+        "retrieved": "2026-09-18",
+        "note": "Stanwick and Xu's tile-set research on early ma que, underlying the Hua Maque and Wang Maque material"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "Both sources describe the pre-mahjong card and tile games the node stands for, not a ruleset. Nothing here can corroborate a rules claim, because the chart makes none: the node is explicitly 'rules lost'."
+  },
+  "chinese-archaic": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "listed as 'Chinese Archaic (1890 rules per Wilkinson)', matching the chart's date and attribution"
+      },
+      {
+        "source": "sloperama-analysis",
+        "retrieved": "2026-09-18",
+        "note": "Sloperama's early-forms table compares 1903 (Li), 1915 (Mauger), 1920s standard, 1920s 'New Method', Japanese Classical and HKOS against eight rule hallmarks; Chinese Archaic itself is not a column in that table"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "Sloperama's catalogue gives the same 1890 date and Wilkinson attribution the chart does, but it is the chart's own source, so this is agreement by inheritance rather than corroboration. Sloperama's early-forms comparison does not include an Archaic column, so its rules are untested against the later forms."
+  },
+  "late-qing-style": {
+    "observations": [
+      {
+        "source": "sloperama-analysis",
+        "retrieved": "2026-09-18",
+        "note": "the 1903 (Li) column scores YES on the Chinese Classical hallmarks (10/20 for mahjong plus points for sets, count then double, concealed sets rewarded, East pays and gets double) and NO on discarder-pays-all, self-pick reward and settlement between non-winners. Its similarity score is 8 to itself, 6 to Mauger, 6 to Chinese Classical, and only 2 to HKOS"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama's early-forms table puts numbers on this node. The 1903 Li column scores YES on all four Chinese Classical hallmarks and NO on the three new-style ones, and rates 6 similarity to Chinese Classical against only 2 to HKOS. That is independent structural support for placing Li 1903 on the ancestral side of the tree."
+  },
+  "chinese-pre-classical": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "listed as 'Chinese Pre-Classical (pre-WWI, source: Mauger 1915)', matching the chart"
+      },
+      {
+        "source": "sloperama-analysis",
+        "retrieved": "2026-09-18",
+        "note": "the 1915 (Mauger) column differs from 1903 (Li) on two hallmarks: East pays and gets double is NO, and settlement between non-winners is YES. Similarity 6 to Li, 6 to Chinese Classical, 2 to HKOS"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "The 1915 Mauger column differs from Li 1903 on exactly two hallmarks, and scores 6 against Chinese Classical and 2 against HKOS. Its position between Late Qing and Chinese Classical is supported by rule content, not just by date order."
+  },
+  "guangdong-style": {
+    "observations": [
+      {
+        "source": "wikidot-guangdong",
+        "retrieved": "2026-09-18",
+        "tiles": "13-tile variant",
+        "hand": "13",
+        "scoring": "additive",
+        "note": "Guangdong Style (廣東十三張麻將) is described as popular in South China AND TAIWAN, based on HKOS but using a large number of 'New Style' winning conditions and an additive scoring system. Its timeline reads: 1970s, New Style became associated with gambling in HK and a 'back to basics' variant called Clear Chapter or HKOS was adopted, winning conditions shrunk and fu removed; 1980s, New Style conditions were added back and fan were removed in favour of an additive system, and Guangdong Style was born"
+      },
+      {
+        "source": "wikidot-mainland",
+        "retrieved": "2026-09-18",
+        "note": "although Guangdong is a mainland province, Guangdong New Style has more in common with variants coming out of Hong Kong, and Taiwan post-1990s; it never uses Joys or Treasure Tiles, almost always allows multiple winners on a discard, and almost always uses discarder-pays-all"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Two wiki pages agree that Guangdong Style is a 13-tile game built on HKOS with New Style winning conditions and additive scoring, born in the 1980s, matching the chart. Both also independently support the chart's caveat about influence running two ways: one calls it popular in South China and Taiwan, the other says it has more in common with Hong Kong, and with Taiwan post-1990s, than with its mainland neighbours."
+  },
+  "guangdong-mcr": {
+    "observations": [
+      {
+        "source": "wikidot-guangdong",
+        "retrieved": "2026-09-18",
+        "note": "the same timeline ends: 2020s, the synthetic competitive variant Guangdong Mahjong Competition Rules (GMCR) is made. This corroborates the chart's 2020s date"
+      }
+    ],
+    "evidence": "single-source",
+    "assessment": "The wiki's Guangdong timeline ends with GMCR in the 2020s, matching the chart exactly. No second source fetched here mentions GMCR at all."
+  },
+  "hong-kong-taiwanese": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "NOT FOUND. Neither Sloperama's catalogue nor any Mahjong Wiki page fetched here carries an entry for Hong Kong Taiwanese or HKT. The chart's node rests on the Sloperama catalogue as its canonical source, but the label does not appear there"
+      }
+    ],
+    "evidence": "unsupported",
+    "assessment": "Neither the Sloperama catalogue named as this node's canonical source nor any wiki page fetched here contains an entry for Hong Kong Taiwanese or HKT. The node currently rests on a label that its own cited source does not carry."
+  },
+  "nanyang-variants": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "Sloperama catalogues the individual Southeast Asian variants but uses no grouping term 'Nanyang' and asserts no common parent for them"
+      },
+      {
+        "source": "wikidot-home",
+        "retrieved": "2026-09-18",
+        "note": "the wiki's family tree is the chart's stated source for this grouping; the chart itself draws the link dashed and states that no source establishes the descent"
+      }
+    ],
+    "evidence": "unsupported",
+    "assessment": "Sloperama catalogues each Southeast Asian variant separately and never groups them or asserts a common parent; the grouping term does not appear. This is consistent with the chart drawing the link dashed, and confirms that the grouping is an organising device rather than a sourced lineage."
+  },
+  "mcr-scoring-reference": {
+    "observations": [
+      {
+        "source": "mcr-rulebook",
+        "retrieved": "2026-09-18",
+        "note": "the World Mahjong Organization's English-edition Mahjong Competition Rules PDF was fetched successfully through the Wayback Machine (374 KB), confirming the cited document exists at the cited URL"
+      },
+      {
+        "source": "wikidot-mcr",
+        "retrieved": "2026-09-18",
+        "scoring": "pattern-based, minimum 8 points, no maximum",
+        "note": "the wiki's MCR infobox names a 2006 rulebook rather than the 1998 edition the chart cites"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "The cited World Mahjong Organization PDF was fetched successfully and is a real document at the cited address. Its scoring structure matches what the wiki's MCR page describes."
+  },
+  "mainland-regionals": {
+    "observations": [
+      {
+        "source": "wikidot-mainland",
+        "retrieved": "2026-09-18",
+        "tiles": "136, 144",
+        "hand": "13",
+        "scoring": "varies",
+        "note": "states there are over 100 variants of Mainland Mahjong today, but that as late as 1990 regional variants shared many rules; in the 1990s they began deviating, Sichuan/Chengdu added Bloody rules, some dropped Joys, some removed honours, some built on Old Style and some on an additive New Style. Chinese Classical is said to have been allegedly invented in Ningbo in the 1900s, with later pattern additions referred to as Shanghai New Style"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "The wiki independently confirms both of the chart's caveats about this group: over 100 variants today, and a 1990s divergence in which some built on Old Style and some on an additive New Style. It also dates the Sichuan/Chengdu Bloody rules to the 1990s, matching the chart's separate node."
+  },
+  "modern-inventions": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "Sloperama lists Duplicate, Mhing, Siamese and Mahjong Masters Millions among its variants without grouping them; the grouping is the chart's own editorial device, not a sourced claim"
+      }
+    ],
+    "evidence": "unsupported",
+    "assessment": "No source groups these as a category. Sloperama lists each of them among its variants without any shared heading. The grouping is the chart's own editorial device, which is exactly what the node label already admits."
+  },
+  "mhing": {
+    "observations": [
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-18",
+        "note": "listed as 'Mhing (Suntex)', cross-referenced to Sloperama's Cards/Kards FAQ; added to the variant list on 17 November 2001. Attributing it to the publisher Suntex is more specific than the chart's bare 'card version'"
+      }
+    ],
+    "evidence": "corroborated",
+    "assessment": "Sloperama confirms a card version and attributes it to the publisher Suntex, which is more than the chart records. It was added to Sloperama's list in November 2001, giving a rough floor for its documented existence."
+  }
+}

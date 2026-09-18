@@ -7,6 +7,7 @@ parent: Guangdong style
 chart_id: gmcr
 canonical_source: wikidot-gmcr
 chart_refs: [43, 8]
+evidence: single-source
 ---
 
 # Guangdong MCR / GMCR
@@ -27,6 +28,18 @@ chart_refs: [43, 8]
 | [8](../../../../../../REFERENCES.md#ref-8) | Mahjong Wiki. "Hong Kong Old Style Overview." | <http://mahjong.wikidot.com/rules:hong-kong-old-style-overview> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `single-source` — only one source was found; nothing independent confirms it
+
+What each source actually says, as fetched and read:
+
+- **[42](../../../../../../REFERENCES.md#ref-42)** — the same timeline ends: 2020s, the synthetic competitive variant Guangdong Mahjong Competition Rules (GMCR) is made. This corroborates the chart's 2020s date
+
+**Reading it:** The wiki's Guangdong timeline ends with GMCR in the 2020s, matching the chart exactly. No second source fetched here mentions GMCR at all.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

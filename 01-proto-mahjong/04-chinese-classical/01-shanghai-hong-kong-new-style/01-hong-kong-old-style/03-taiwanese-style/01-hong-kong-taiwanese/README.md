@@ -7,6 +7,7 @@ parent: Taiwanese style
 chart_id: hkt
 canonical_source: wikidot-taiwanese
 chart_refs: [44, 1]
+evidence: unsupported
 ---
 
 # Hong Kong Taiwanese
@@ -27,6 +28,18 @@ chart_refs: [44, 1]
 | [1](../../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `unsupported` — the sources checked do not carry the claim this node makes
+
+What each source actually says, as fetched and read:
+
+- **[1](../../../../../../REFERENCES.md#ref-1)** — NOT FOUND. Neither Sloperama's catalogue nor any Mahjong Wiki page fetched here carries an entry for Hong Kong Taiwanese or HKT. The chart's node rests on the Sloperama catalogue as its canonical source, but the label does not appear there
+
+**Reading it:** Neither the Sloperama catalogue named as this node's canonical source nor any wiki page fetched here contains an entry for Hong Kong Taiwanese or HKT. The node currently rests on a label that its own cited source does not carry.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

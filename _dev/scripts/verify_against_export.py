@@ -117,26 +117,50 @@ def main():
     wiki = re.findall(r"^\| `([\w-]+)` \| (.+?) \| <(\S+?)> \|", md, re.M)
     expected = {int(n): (url, slug) for n, _c, _n, url, slug in numbered}
     expected.update({39 + i: (url, slug) for i, (slug, _p, url) in enumerate(wiki)})
-    if len(refs) != len(expected):
-        problems.append(f"reference count {len(refs)} != export {len(expected)}")
-    for ref in refs:
+    # References 1-50 come from the chart and must match it exactly. Anything beyond that was
+    # added while cross-checking and is deliberately not in the export, but must say so.
+    ADDED = "SOURCES ADDED WHILE CROSS-CHECKING"
+    from_chart = [r for r in refs if r["section"] != ADDED]
+    if len(from_chart) != len(expected):
+        problems.append(f"chart-derived reference count {len(from_chart)} != export {len(expected)}")
+    for ref in from_chart:
         want = expected.get(ref["id"])
         if not want:
-            problems.append(f"reference {ref['id']} is not in the export")
+            problems.append(f"reference {ref['id']} is not in the export and is not marked as added")
         elif (ref["url"], ref["slug"]) != want:
             problems.append(f"reference {ref['id']}: {(ref['url'], ref['slug'])} != export {want}")
+    for ref in refs:
+        if ref["section"] == ADDED and ref["id"] in expected:
+            problems.append(f"reference {ref['id']} is marked as added but occupies a chart id")
 
     used = {n["source"] for n in rows}
     known = {r["slug"] for r in refs}
     for slug in sorted(used - known):
         problems.append(f"canonical source {slug} has no reference entry")
 
+    claims_path = os.path.join(DATA, "claims.json")
+    if os.path.exists(claims_path):
+        claims = json.load(open(claims_path))
+        slugs = {r["slug"] for r in refs}
+        for slug, block in claims.items():
+            if slug not in {r["slug"] for r in rows}:
+                problems.append(f"claims entry {slug} is not a node")
+            if not block.get("assessment") or not block.get("evidence"):
+                problems.append(f"claims entry {slug} has no evidence verdict or assessment")
+            for o in block.get("observations", []):
+                if o["source"] not in slugs:
+                    problems.append(f"claims entry {slug} cites unknown source {o['source']}")
+        for r in rows:
+            if r["slug"] not in claims:
+                problems.append(f"node {r['slug']} has no claims entry")
+
     if problems:
         print(f"{len(problems)} difference(s) against the export:")
         for p in problems:
             print(f"  - {p}")
         return 1
-    print(f"{len(rows)} nodes and {len(refs)} references match the export")
+    print(f"{len(rows)} nodes and {len(from_chart)} chart references match the export; "
+          f"{len(refs) - len(from_chart)} sources added while cross-checking")
     return 0
 
 

@@ -7,6 +7,7 @@ parent: Mainland regionals
 chart_id: tui-dao-hu
 canonical_source: maque-games
 chart_refs: [24, 1]
+evidence: partial
 ---
 
 # Tui Dao Hu
@@ -31,6 +32,23 @@ chart_refs: [24, 1]
 | [1](../../../../../REFERENCES.md#ref-1) | Sloper, Tom. "FAQ 2b: Identifying a Mah-Jongg Variant." Sloperama. | <https://www.sloperama.com/mjfaq/mjfaq02b.html> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `partial` — sources agree on some points and are silent or divided on others
+
+What each source actually says, as fetched and read:
+
+| Source | Tiles | Hand | Flowers | Scoring | Payout |
+| --- | --- | --- | --- | --- | --- |
+| [1](../../../../../REFERENCES.md#ref-1) | unknown; unknown whether flowers are used | presumed 13, out on 14 | — | not clearly defined at maque.games; kongs may add points | — |
+
+- **[1](../../../../../REFERENCES.md#ref-1)** — twelve ways of going out; more than one player can win; tip from Joe S., 16 January 2021
+- **[24](../../../../../REFERENCES.md#ref-24)** — maque.games page reachable only through the Wayback Machine from this environment; brief English description
+
+**Reading it:** Twelve ways of going out and multiple winners are confirmed and match the chart. Everything else is unknown: Sloperama records no tile count, no hand size, and says the scoring is not clearly defined even at the cited site.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 

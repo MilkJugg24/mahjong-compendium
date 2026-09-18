@@ -21,6 +21,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 DATA = os.path.join(ROOT, "_dev", "data")
 LEDGER_HEADING = "## Collected files"
 
+EVIDENCE = {
+    "corroborated": "two or more independent sources agree on the facts that define this variant",
+    "partial": "sources agree on some points and are silent or divided on others",
+    "conflicting": "sources disagree materially, or one source contradicts itself",
+    "single-source": "only one source was found; nothing independent confirms it",
+    "unsupported": "the sources checked do not carry the claim this node makes",
+}
+
 FAMILY_NAMES = {
     "roots": "Roots / ancestral",
     "chinese": "Chinese",
@@ -61,6 +69,8 @@ def load_nodes():
         nodes = list(csv.DictReader(f, delimiter="\t"))
     refs_by_slug = {r["slug"]: r["id"] for r in
                     json.load(open(os.path.join(DATA, "references.json")))["references"]}
+    claims_path = os.path.join(DATA, "claims.json")
+    claims = json.load(open(claims_path)) if os.path.exists(claims_path) else {}
     for n in nodes:
         n["depth"] = int(n["depth"])
         n["children"] = []
@@ -81,6 +91,7 @@ def load_nodes():
         n["path"] = os.path.join(parent["path"], folder) if parent else folder
         if parent:
             parent["children"].append(n)
+        n["claims"] = claims.get(n["slug"])
         stack[n["depth"]] = n
         for deeper in [d for d in stack if d > n["depth"]]:
             del stack[deeper]
@@ -111,7 +122,11 @@ def lineage(node):
     return list(reversed(chain))
 
 
-def node_readme(node, refs_by_id):
+def refs_by_id_for(slug, refs_by_slug):
+    return refs_by_slug[slug]
+
+
+def node_readme(node, refs_by_id, refs_by_slug):
     depth = node["depth"] + 1
     up = "/".join([".."] * depth)
     dev = f"{up}/_dev"
@@ -132,6 +147,8 @@ def node_readme(node, refs_by_id):
     out.append(f"chart_id: {node['alias']}")
     out.append(f"canonical_source: {node['source']}")
     out.append(f"chart_refs: [{', '.join(str(r) for r in node['refs'])}]")
+    if node.get("claims"):
+        out.append(f"evidence: {node['claims']['evidence']}")
     out.append("---")
     out.append("")
     out.append(f"# {node['label']}")
@@ -182,6 +199,40 @@ def node_readme(node, refs_by_id):
     else:
         out.append("None. This node is grouped here for convenience, not on a cited claim.")
     out.append("")
+    if node.get("claims"):
+        c = node["claims"]
+        out.append("## Cross-comparison")
+        out.append("")
+        out.append(
+            f"**Evidence** · `{c['evidence']}` — {EVIDENCE[c['evidence']]}"
+        )
+        out.append("")
+        out.append("What each source actually says, as fetched and read:")
+        out.append("")
+        FIELDS = ("tiles", "hand", "flowers", "scoring", "payout")
+        measured = [o for o in c["observations"] if any(o.get(f) for f in FIELDS)]
+        notes = [(refs_by_id_for(o["source"], refs_by_slug), o["note"])
+                 for o in c["observations"] if o.get("note")]
+        if measured:
+            out.append("| Source | Tiles | Hand | Flowers | Scoring | Payout |")
+            out.append("| --- | --- | --- | --- | --- | --- |")
+            for o in measured:
+                rid = refs_by_id_for(o["source"], refs_by_slug)
+                label = f"[{rid}]({up}/REFERENCES.md#ref-{rid})"
+                cells = [o.get(f, "") or "—" for f in FIELDS]
+                out.append("| " + label + " | " + " | ".join(cells) + " |")
+            out.append("")
+        if notes:
+            for rid, note in notes:
+                out.append(f"- **[{rid}]({up}/REFERENCES.md#ref-{rid})** — {note}")
+            out.append("")
+        out.append("**Reading it:** " + c["assessment"])
+        out.append("")
+        out.append(
+            f"All sources above were fetched and read on {c['observations'][0]['retrieved']}. "
+            "Nothing here is second-hand: a claim that could not be read at its source is not in this table."
+        )
+        out.append("")
     out.append(LEDGER_HEADING)
     out.append(EMPTY_LEDGER.format(dev=dev).rstrip())
     out.append("")
@@ -231,6 +282,7 @@ def root_readme(nodes, data):
     out.append("| --- | --- |")
     out.append("| Find the folder for a variant | The [glossary](#glossary) below |")
     out.append("| See how variants descend from each other | The [family tree](#family-tree) below |")
+    out.append("| See what the sources say against each other | [`FINDINGS.md`](FINDINGS.md) |")
     out.append("| Check where a claim comes from | [`REFERENCES.md`](REFERENCES.md) |")
     out.append("| File a new document, or learn the conventions | [`_dev/CONVENTIONS.md`](_dev/CONVENTIONS.md) |")
     out.append("| See how the tree was derived from the chart | [`_dev/`](_dev/) |")
@@ -269,12 +321,15 @@ def root_readme(nodes, data):
     out.append("")
     out.append("Every variant in the tree, alphabetically, with the folder that holds its files.")
     out.append("")
-    out.append("| Variant | Family | Confidence | Folder |")
-    out.append("| --- | --- | --- | --- |")
+    out.append("| Variant | Family | Confidence | Evidence | Folder |")
+    out.append("| --- | --- | --- | --- | --- |")
     for n in sorted(nodes, key=lambda n: n["label"].lower()):
         detail = f" — {n['detail']}" if n["detail"] else ""
         out.append(
             f"| **{n['label']}**{detail} | {family_name(n)} | `{n['confidence']}` | "
+            f"`{n['claims']['evidence']}` | [`{n['path']}`]({n['path']}/) |"
+            if n.get("claims") else
+            f"| **{n['label']}**{detail} | {family_name(n)} | `{n['confidence']}` | — | "
             f"[`{n['path']}`]({n['path']}/) |"
         )
     out.append("")
@@ -373,18 +428,108 @@ def references_md(nodes, data):
     return "\n".join(out)
 
 
+def findings_md(nodes):
+    """The cross-comparison read across the whole tree."""
+    by = {}
+    for n in nodes:
+        if n.get("claims"):
+            by.setdefault(n["claims"]["evidence"], []).append(n)
+
+    out = []
+    out.append("# Findings")
+    out.append("")
+    out.append(
+        "What the sources say when set against each other, variant by variant. Every claim here was read "
+        "at its source; a source that could not be fetched is recorded as unreachable rather than "
+        "summarised from search results. Each variant's full comparison table lives in its own folder — "
+        "this page is the read across the whole tree."
+    )
+    out.append("")
+    out.append("| Evidence | Meaning | Variants |")
+    out.append("| --- | --- | --- |")
+    for key, meaning in EVIDENCE.items():
+        out.append(f"| `{key}` | {meaning} | {len(by.get(key, []))} |")
+    out.append("")
+    out.append(
+        "A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast "
+        "Asian entries there simply is one English-language account, usually a newsgroup report, and the "
+        "honest record is that it stands alone."
+    )
+    out.append("")
+
+    order = ["conflicting", "unsupported", "partial", "single-source", "corroborated"]
+    HEADS = {
+        "conflicting": ("Where sources disagree",
+                        "These are the entries where cross-comparison actually changes what you should "
+                        "believe. Each one names what conflicts and, where the evidence allows, which "
+                        "account is likelier."),
+        "unsupported": ("Where the sources do not carry the claim",
+                        "The node asserts something its own cited source does not contain. None of these "
+                        "means the variant is not real; it means the citation does not support the entry "
+                        "as written."),
+        "partial": ("Where the sources are partly silent",
+                    "Agreement on some defining facts, silence or division on others."),
+        "single-source": ("Where one account stands alone",
+                          "Confirmed as far as one source goes, with nothing independent behind it."),
+        "corroborated": ("Where independent sources agree",
+                         "Two or more sources, read separately, agree on the facts that define the "
+                         "variant. These are the entries a rulebook could be built on first."),
+    }
+    for key in order:
+        if not by.get(key):
+            continue
+        heading, blurb = HEADS[key]
+        out.append(f"## {heading}")
+        out.append("")
+        out.append(blurb)
+        out.append("")
+        for n in sorted(by[key], key=lambda n: n["label"].lower()):
+            out.append(f"### [{n['label']}]({n['path']}/)")
+            out.append("")
+            out.append(n["claims"]["assessment"])
+            out.append("")
+    out.append("## What this pass did not settle")
+    out.append("")
+    out.append(
+        "Three sites could not be read from this environment at all: riichi.wiki, mahjongg.org and "
+        "BoardGameGeek each answer automated requests with a Cloudflare challenge. Two more, maque.games "
+        "and gunplot.net, are served over HTTP or with an expired certificate and were read through the "
+        "Wayback Machine instead, which is dated but at least quotable. Anything those sources alone "
+        "would have settled is still open."
+    )
+    out.append("")
+    out.append(
+        "The Mahjong Wiki itself was read through the Wayback Machine throughout, because the live site "
+        "is not reachable here. Its pages carry a footnote marker on at least one claim, which is worth "
+        "noting against the source chart's appendix asserting that the wiki has no per-claim citations "
+        "anywhere — that is nearly, but not quite, true."
+    )
+    out.append("")
+    out.append(
+        "Nothing in this pass touches the content of the NMJL or AMJA annual cards, or of *Mah Jongg "
+        "Made Easy*. Those are live copyrighted works: this compendium records what they are and how the "
+        "game is structured around them, never what is printed on them."
+    )
+    out.append("")
+    return "\n".join(out)
+
+
 def main():
     nodes = load_nodes()
     data = json.load(open(os.path.join(DATA, "references.json")))
     data["distortions"] = json.load(open(os.path.join(DATA, "distortions.json")))
     refs_by_id = {r["id"]: r for r in data["references"]}
+    refs_by_slug = {r["slug"]: r["id"] for r in data["references"]}
 
     for n in nodes:
         os.makedirs(os.path.join(ROOT, n["path"]), exist_ok=True)
-        write_node_readme(os.path.join(ROOT, n["path"], "README.md"), node_readme(n, refs_by_id))
+        write_node_readme(os.path.join(ROOT, n["path"], "README.md"),
+                          node_readme(n, refs_by_id, refs_by_slug))
 
     open(os.path.join(ROOT, "README.md"), "w").write(root_readme(nodes, data))
     open(os.path.join(ROOT, "REFERENCES.md"), "w").write(references_md(nodes, data))
+    if any(n.get("claims") for n in nodes):
+        open(os.path.join(ROOT, "FINDINGS.md"), "w").write(findings_md(nodes))
     print(f"{len(nodes)} variant folders, README.md and REFERENCES.md written")
 
 

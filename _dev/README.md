@@ -8,8 +8,26 @@ it is the scaffolding that produced the folder tree.
 | --- | --- |
 | [`CONVENTIONS.md`](CONVENTIONS.md) | How files are filed, named and logged; the provenance vocabulary |
 | [`source-chart/`](source-chart/) | The variant family tree chart this repository's structure is built from: the author's Markdown export (authoritative), the original PDF, and the text extracted from that PDF |
-| [`data/`](data/) | The chart's contents as data: the node tree, the bibliography, the chart's own caveats |
+| [`data/`](data/) | The chart's contents as data: the node tree, the bibliography, the chart's own caveats, and the cross-comparison claims |
 | [`scripts/`](scripts/) | The extraction and generation scripts |
+
+## The cross-comparison pass
+
+[`data/claims.json`](data/claims.json) holds, per variant, what each source was
+read to say and a verdict on the state of the sourcing. It drives the
+`## Cross-comparison` section in every variant README and the whole of
+[`FINDINGS.md`](../FINDINGS.md).
+
+Sources were fetched with `curl` and rendered to text locally. Three sites answer
+automated requests with a Cloudflare challenge and could not be read at all
+(riichi.wiki, mahjongg.org, BoardGameGeek); two more are served over HTTP or with
+an expired certificate and were read through the Wayback Machine, as was the
+Mahjong Wiki. Raw fetched pages are deliberately **not** committed: this
+repository keeps extracted claims with attribution, not wholesale copies of other
+people's pages.
+
+Nothing enters `claims.json` that was not read at its source. A search-result
+summary is a lead, not evidence — see [`CONVENTIONS.md`](CONVENTIONS.md).
 
 ## Regenerating the tree
 

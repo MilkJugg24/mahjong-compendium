@@ -7,6 +7,7 @@ parent: Hong Kong old style
 chart_id: mcr
 canonical_source: wikidot-mcr
 chart_refs: [9, 6, 19, 20, 21, 31]
+evidence: corroborated
 ---
 
 # MCR / Chinese official
@@ -35,6 +36,25 @@ chart_refs: [9, 6, 19, 20, 21, 31]
 | [31](../../../../../REFERENCES.md#ref-31) | Chinese Mahjong Competition Rules, People's Sports Publishing House, 1998. | <http://mahjong-europe.org/portal/images/docs/mcr_EN.pdf> | supporting |
 
 The canonical source is the one the chart's node table names for this variant. Supporting references are matched by subject and were not attributed to it by the chart.
+
+## Cross-comparison
+
+**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
+
+What each source actually says, as fetched and read:
+
+| Source | Tiles | Hand | Flowers | Scoring | Payout |
+| --- | --- | --- | --- | --- | --- |
+| [1](../../../../../REFERENCES.md#ref-1) | 144 | 13, out on 14 | melded instantly when received | count points for hand characteristics | winner only |
+| [9](../../../../../REFERENCES.md#ref-9) | 144 | 13 | no dead wall | pattern-based; minimum 8 points, no maximum | — |
+
+- **[1](../../../../../REFERENCES.md#ref-1)** — discards placed in orderly rows
+- **[9](../../../../../REFERENCES.md#ref-9)** — length 16 hands; page shows a 2006 rulebook
+- **[19](../../../../../REFERENCES.md#ref-19)** — mahjong certified as China's 255th sport in January 1998; unified rules codified that September
+
+**Reading it:** Sloperama and the wiki agree on 144 tiles, a 13-tile hand and pattern scoring; the wiki adds the 8-point minimum. Wikipedia independently dates the sport certification to January 1998 and the rules to that September, matching the chart. One wrinkle: the wiki's infobox is built on a 2006 rulebook, not the 1998 edition the chart cites.
+
+All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
 ## Collected files
 
