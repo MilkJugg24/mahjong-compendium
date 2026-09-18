@@ -41,12 +41,13 @@ What each source actually says, as fetched and read:
 | --- | --- | --- | --- | --- | --- |
 | [1](../../../../../../../REFERENCES.md#ref-1) | 136 | 13, out on 14 | come with the sets but are not used in play | base points times fan; most easily scored from a memorised chart | winner only |
 | [48](../../../../../../../REFERENCES.md#ref-48) | 136 | 13 | — | point and pattern; fu and han/yaku; minimum 1 yaku, maximum yakuman | — |
+| [11](../../../../../../../REFERENCES.md#ref-11) | 136 (34 unique types, 4 copies each) | 13, winning hand 14 | not used; modern sets come with four red five dora tiles, whose use is optional | han from yaku and dora, plus fu from hand composition; at least one yaku required to win | — |
 
 - **[1](../../../../../../../REFERENCES.md#ref-1)** — discards placed in orderly rows
 - **[48](../../../../../../../REFERENCES.md#ref-48)** — length 2 rounds, dead wall 14
-- **[11](../../../../../../../REFERENCES.md#ref-11)** — page is behind a Cloudflare challenge from this environment; read through the Wayback Machine
+- **[11](../../../../../../../REFERENCES.md#ref-11)** — names the four-player game yonma (四麻) against the three-player sanma. Dates the modern riichi variant to the 1960s, with the explosion in popularity after 1969 and online play from Tenhou in 2007. It does not date red fives to 1970 as the chart does
 
-**Reading it:** Sloperama and the wiki agree on 136 tiles, a 13-tile hand, no flowers in play, and discards in orderly rows. The chart's 1970 date for red fives is not confirmed by either.
+**Reading it:** Three sources now agree on 136 tiles, a 13-tile hand and no flowers in play, and riichi.wiki adds the han-and-fu structure and the one-yaku minimum. The chart's 1970 date for red fives is still uncorroborated: riichi.wiki confirms red five dora exist and are optional but dates the modern variant only to the 1960s, with the popularity surge after 1969.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

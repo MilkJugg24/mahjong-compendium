@@ -35,10 +35,11 @@ The canonical source is the one the chart's node table names for this variant. S
 
 What each source actually says, as fetched and read:
 
-- **[1](../../../../../../../REFERENCES.md#ref-1)** — Sloperama's catalogue does not carry a separate Sanma entry; three-player riichi is attested in the Japanese-modern material and in the Wikipedia article
+- **[11](../../../../../../../REFERENCES.md#ref-11)** — names sanma as the three-player counterpart to yonma and says there is a well-established modified version of the rules for it, but treats it as an accommodation for when four players are not available rather than a separate lineage. The same page also describes two-player and five-player variations, which the chart does not carry
+- **[1](../../../../../../../REFERENCES.md#ref-1)** — Sloperama's catalogue has no separate Sanma entry, so no tile count or hand size is attributed to the name
 - **[12](../../../../../../../REFERENCES.md#ref-12)** — three-player variants are described in the Wikipedia article on Japanese mahjong
 
-**Reading it:** Three-player riichi is attested, but Sloperama's catalogue has no separate Sanma entry, so the node has no tile count or hand size from a source that names it.
+**Reading it:** The name is confirmed and riichi.wiki says a well-established modified ruleset exists, which is more than the chart had. But the same source frames three-player play as an accommodation when a fourth player is missing, not as a descent event, and gives it no tile count or hand size of its own. The chart's placement as a sibling of yonma is reasonable; its status as a separate variant is weaker than the tree implies.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

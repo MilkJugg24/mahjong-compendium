@@ -491,14 +491,19 @@ def findings_md(nodes):
     out.append("## What this pass did not settle")
     out.append("")
     out.append(
-        "Three sites could not be read from this environment at all: riichi.wiki, mahjongg.org and "
-        "BoardGameGeek each answer automated requests with a Cloudflare challenge. Two more, maque.games "
-        "and gunplot.net, are served over HTTP or with an expired certificate and were read through the "
-        "Wayback Machine instead, which is dated but at least quotable. Anything those sources alone "
-        "would have settled is still open."
+        "Three sites refuse automated requests with a Cloudflare challenge: riichi.wiki, mahjongg.org and "
+        "BoardGameGeek. Two of the three were still read, through the Wayback Machine, and their evidence "
+        "is in the tables above. Only BoardGameGeek remains unread: its archived copies are thin and its "
+        "official XML API now requires an account. No attempt was made to defeat the bot protection on any "
+        "of them, and none is needed for the two that archives cover."
     )
     out.append("")
     out.append(
+        "Three further sites, maque.games, gunplot.net and mahjong-europe.org, serve broken or expired "
+        "TLS certificates. They were read through the Wayback Machine rather than over an unverified "
+        "connection: a source fetched over a channel that cannot be authenticated is not one this "
+        "compendium can honestly record as read at source, and a dated archive snapshot is better "
+        "provenance in any case.\n\n"
         "The Mahjong Wiki itself was read through the Wayback Machine throughout, because the live site "
         "is not reachable here. Its pages carry a footnote marker on at least one claim, which is worth "
         "noting against the source chart's appendix asserting that the wiki has no per-claim citations "

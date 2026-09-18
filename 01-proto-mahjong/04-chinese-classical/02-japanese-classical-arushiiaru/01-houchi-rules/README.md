@@ -7,7 +7,7 @@ parent: Japanese classical / arushiiaru
 chart_id: houchi-rules
 canonical_source: chombo-club
 chart_refs: [10]
-evidence: single-source
+evidence: corroborated
 ---
 
 # Houchi rules
@@ -34,13 +34,14 @@ The canonical source is the one the chart's node table names for this variant. S
 
 ## Cross-comparison
 
-**Evidence** · `single-source` — only one source was found; nothing independent confirms it
+**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
 
 What each source actually says, as fetched and read:
 
 - **[10](../../../../REFERENCES.md#ref-10)** — Amano Daizou published rules in the newspaper Houchi Shinbun between 11 November and 5 December 1952, for a game heavily based on tochuu riichi which he called simply riichi; the Houchi rules established the dora as the third tile from the edge of the dead wall. Amano then left the Federation and founded the Japanese Mahjong Association
+- **[11](../../../../REFERENCES.md#ref-11)** — independently states that the riichi variant played today emerged only after the publication of the Hochi rules in 1952, corroborating the Chombo Club account from a different source
 
-**Reading it:** The Chombo Club history gives the exact serialisation window, 11 November to 5 December 1952, Amano Daizou as author, the Houchi Shinbun as publisher, and the dora placement the rules introduced. Precise and internally consistent, but a single secondary account.
+**Reading it:** Two independent sources agree that the 1952 Houchi/Hochi publication is the origin point of modern riichi. The Chombo Club gives the exact serialisation window, 11 November to 5 December 1952, and Amano Daizou as author; riichi.wiki, written by a different community, independently makes the same ruleset the hinge of the modern game. This is now one of the better-supported nodes in the Japanese branch.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

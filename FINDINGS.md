@@ -4,10 +4,10 @@ What the sources say when set against each other, variant by variant. Every clai
 
 | Evidence | Meaning | Variants |
 | --- | --- | --- |
-| `corroborated` | two or more independent sources agree on the facts that define this variant | 30 |
-| `partial` | sources agree on some points and are silent or divided on others | 5 |
+| `corroborated` | two or more independent sources agree on the facts that define this variant | 31 |
+| `partial` | sources agree on some points and are silent or divided on others | 6 |
 | `conflicting` | sources disagree materially, or one source contradicts itself | 8 |
-| `single-source` | only one source was found; nothing independent confirms it | 15 |
+| `single-source` | only one source was found; nothing independent confirms it | 13 |
 | `unsupported` | the sources checked do not carry the claim this node makes | 3 |
 
 A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast Asian entries there simply is one English-language account, usually a newsgroup report, and the honest record is that it stands alone.
@@ -78,11 +78,15 @@ Wikipedia and the wiki both describe a 3-faan minimum as a common convention, an
 
 ### [Sanma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/02-sanma/)
 
-Three-player riichi is attested, but Sloperama's catalogue has no separate Sanma entry, so the node has no tile count or hand size from a source that names it.
+The name is confirmed and riichi.wiki says a well-established modified ruleset exists, which is more than the chart had. But the same source frames three-player play as an accommodation when a fourth player is missing, not as a descent event, and gives it no tile count or hand size of its own. The chart's placement as a sibling of yonma is reasonable; its status as a separate variant is weaker than the tree implies.
 
 ### [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/)
 
 Sloperama's Hong Kong New Style entry matches on tiles, hand and payout, and its 'many many special hands' against Old Style's 'few' is the substantive difference the chart's branch depends on. The wiki's mainland page independently describes later pattern additions to the Ningbo-origin classical game as Shanghai New Style, which supports the node's existence; neither source dates it to the 1920s.
+
+### [Siamese Mah Jongg](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/02-siamese-mah-jongg/)
+
+Sloperama gives the substance: Gladys Grad, 2015, two players each playing two hands on two-tiered racks, with the concept applicable to any variant. The chart's own canonical source for the node, mahjongg.org, does not corroborate it: its archived homepage is a tournament and Master Points site that does not mention Siamese Mah Jongg. The variant is attested, but by the other source, not the cited one.
 
 ### [Tui Dao Hu](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/10-tui-dao-hu/)
 
@@ -116,10 +120,6 @@ Sloperama's catalogue gives the same 1890 date and Wilkinson attribution the cha
 
 The wiki's Guangdong timeline ends with GMCR in the 2020s, matching the chart exactly. No second source fetched here mentions GMCR at all.
 
-### [Houchi rules](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/)
-
-The Chombo Club history gives the exact serialisation window, 11 November to 5 December 1952, Amano Daizou as author, the Houchi Shinbun as publisher, and the dora placement the rules introduced. Precise and internally consistent, but a single secondary account.
-
 ### [Israeli Mah-Jongg Association](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/03-israeli-mah-jongg-association/)
 
 144 tiles, a 13-tile hand, flowers melded on receipt, and scoring whose numbers vary greatly from other forms. One source, no books.
@@ -139,10 +139,6 @@ The Chombo Club history gives the exact serialisation window, 11 November to 5 D
 ### [Proto-mahjong](01-proto-mahjong/)
 
 Both sources describe the pre-mahjong card and tile games the node stands for, not a ruleset. Nothing here can corroborate a rules claim, because the chart makes none: the node is explicitly 'rules lost'.
-
-### [Siamese Mah Jongg](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/02-siamese-mah-jongg/)
-
-Gladys Grad, 2015, two players each playing two hands on two-tiered racks. The source also says the concept can be applied to any variant, which makes its placement under American a matter of design intent rather than descent.
 
 ### [Sichuan 72-tile game](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/03-sichuan-72-tile/)
 
@@ -179,6 +175,10 @@ Sloperama and the Mahjong International League's own rules page agree on the pre
 ### [Guangdong style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/)
 
 Two wiki pages agree that Guangdong Style is a 13-tile game built on HKOS with New Style winning conditions and additive scoring, born in the 1980s, matching the chart. Both also independently support the chart's caveat about influence running two ways: one calls it popular in South China and Taiwan, the other says it has more in common with Hong Kong, and with Taiwan post-1990s, than with its mainland neighbours.
+
+### [Houchi rules](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/)
+
+Two independent sources agree that the 1952 Houchi/Hochi publication is the origin point of modern riichi. The Chombo Club gives the exact serialisation window, 11 November to 5 December 1952, and Amano Daizou as author; riichi.wiki, written by a different community, independently makes the same ruleset the hinge of the modern game. This is now one of the better-supported nodes in the Japanese branch.
 
 ### [India / Mumbai style](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/02-india-mumbai-style/)
 
@@ -222,7 +222,7 @@ Sloperama confirms a card version and attributes it to the publisher Suntex, whi
 
 ### [Modern riichi / yonma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/01-modern-riichi-yonma/)
 
-Sloperama and the wiki agree on 136 tiles, a 13-tile hand, no flowers in play, and discards in orderly rows. The chart's 1970 date for red fives is not confirmed by either.
+Three sources now agree on 136 tiles, a 13-tile hand and no flowers in play, and riichi.wiki adds the han-and-fu structure and the one-yaku minimum. The chart's 1970 date for red fives is still uncorroborated: riichi.wiki confirms red five dora exist and are optional but dates the modern variant only to the 1960s, with the popularity surge after 1969.
 
 ### [Nepalese](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/04-nepalese/)
 
@@ -278,7 +278,9 @@ Sloperama and The Mahjong Line agree on the Wright Field, Ohio origin among Air 
 
 ## What this pass did not settle
 
-Three sites could not be read from this environment at all: riichi.wiki, mahjongg.org and BoardGameGeek each answer automated requests with a Cloudflare challenge. Two more, maque.games and gunplot.net, are served over HTTP or with an expired certificate and were read through the Wayback Machine instead, which is dated but at least quotable. Anything those sources alone would have settled is still open.
+Three sites refuse automated requests with a Cloudflare challenge: riichi.wiki, mahjongg.org and BoardGameGeek. Two of the three were still read, through the Wayback Machine, and their evidence is in the tables above. Only BoardGameGeek remains unread: its archived copies are thin and its official XML API now requires an account. No attempt was made to defeat the bot protection on any of them, and none is needed for the two that archives cover.
+
+Three further sites, maque.games, gunplot.net and mahjong-europe.org, serve broken or expired TLS certificates. They were read through the Wayback Machine rather than over an unverified connection: a source fetched over a channel that cannot be authenticated is not one this compendium can honestly record as read at source, and a dated archive snapshot is better provenance in any case.
 
 The Mahjong Wiki itself was read through the Wayback Machine throughout, because the live site is not reachable here. Its pages carry a footnote marker on at least one claim, which is worth noting against the source chart's appendix asserting that the wiki has no per-claim citations anywhere — that is nearly, but not quite, true.
 
