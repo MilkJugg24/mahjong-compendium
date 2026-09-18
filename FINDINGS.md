@@ -6,8 +6,8 @@ What the sources say when set against each other, variant by variant. Every clai
 | --- | --- | --- |
 | `corroborated` | two or more independent sources agree on the facts that define this variant | 34 |
 | `partial` | sources agree on some points and are silent or divided on others | 8 |
-| `conflicting` | sources disagree materially, or one source contradicts itself | 7 |
-| `single-source` | only one source was found; nothing independent confirms it | 10 |
+| `conflicting` | sources disagree materially, or one source contradicts itself | 6 |
+| `single-source` | only one source was found; nothing independent confirms it | 11 |
 | `unsupported` | the sources checked do not carry the claim this node makes | 2 |
 
 A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast Asian entries there simply is one English-language account, usually a newsgroup report, and the honest record is that it stands alone.
@@ -31,10 +31,6 @@ The detailed entry gives 132 tiles with one honour removed and no flowers or jok
 ### [Hong Kong old style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/)
 
 Tiles, hand, scoring and payout agree across three sources. The date does not. The chart says fu was removed in the 1950s; the wiki's own Guangdong page dates the adoption of Clear Chapter, with pungs unscored and fu removed, to the 1970s; the wiki's HKOS page says only that HKOS branched off after the Second World War. The chart appears to have merged the post-war emergence of HKOS with the later Clear Chapter reform. Sloperama's early-forms table separately scores HKOS at 0 similarity to Chinese Classical, which supports descending it through a new-style intermediate.
-
-### [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/)
-
-Three sources now say Australian and none says Royal Navy. The rules book the tradition is built on is titled 'How to play the Royal Australian Navy version of Mah Jong', the gunplot.net guide presents Royal Australian Navy practice with the author learning it at sea in 1975, and a search result independently labels it the Australian Navy rules. Sloperama says only that British sailors adopted the game and nicknamed it Bones, which is about the name's origin, not the ruleset. The chart's 'Royal Navy' looks like a compression of the two: the nickname is British, the codified game is Australian.
 
 ### [Shenzhen style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/08-shenzhen-style/)
 
@@ -127,6 +123,16 @@ The wiki's Guangdong timeline ends with GMCR in the 2020s, matching the chart ex
 ### [Nanjing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/07-nanjing-style/)
 
 144 tiles with dragons treated as flowers matches the chart exactly. It rests on a single newsgroup report from 2006 by one Shanghai player.
+
+### [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/)
+
+The best-documented entry in the Western branch, and the chart's one-line summary understates it badly — but it rests on one witness, which is why the verdict is single-source rather than corroborated. The Gun Plot pages and the rules book are both Frank 'Choco' Munday's work: one testimony in two forms, not two.
+
+What that one testimony gives is a complete ruleset. 108 minor bones in three suits, 28 majors, and eight Pretties, made by discarding the dice and counting sticks from a shop-bought set. Thirteen bones in hand, winning on fourteen, three or four players, with North sitting out of the three-player game. Pretties are declared and replaced from the dead wall. A hand may not win unless it reaches 50 points AND holds at least one double beyond the double for tying up. Scoring is zero-sum at a cent a point, and the scoresheet is expected to total zero throughout.
+
+Two findings matter beyond the detail. The navy: the chart says Royal Navy, the source says Royal AUSTRALIAN Navy in terms. These turn out not to be in real conflict — Sloperama's British sailors explain the nickname 'Bones', from the material the tiles were made of, while the codified game Munday documents is Australian. The chart compressed two different claims into one label. The structure: a winning hand is four sets of three or four identical bones plus a pair, and there are no chows anywhere in the game. That places Pusser's Bones with the chow-less family — American, Chinese casino, Sichuan — rather than with the Western / British Empire style the chart descends it from, where chows are ordinary. Beware the jargon when reading the source: a 'pair' there means three or four identical bones and a 'double-up' means two, the reverse of ordinary usage.
+
+What would corroborate it is a second witness from the same tradition. The account is unusually checkable for an oral one — it names the teacher, the ship and the year, 'Bull' May aboard Ibis in 1975, and a chain of teachers before that — so a second former sailor's account would settle it quickly. A BoardGameGeek thread on the Australian Navy rules looks like the obvious candidate and could not be read from here. Note also that the guide's tile glossary is written in lower-deck slang, much of it crude; the naming system is itself evidence of an independent oral tradition, which is why it is recorded rather than reproduced.
 
 ### [Sichuan 72-tile game](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/03-sichuan-72-tile/)
 

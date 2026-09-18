@@ -704,6 +704,16 @@ A card collector's description of the Spear's Games 1984 UK edition: a deck base
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-69"></a>
+
+**69. Munday, Frank "Choco". "Pussers Bones" reference guide, part 2: the rules. Gun Plot.**
+
+The play and scoring rules: three or four players, thirteen bones in hand, the winning structure of four sets and a double-up, the 50-point-and-one-double minimum, and the zero-sum scoresheet at a cent a point. Read through the Wayback Machine.
+
+<http://www.gunplot.net/mahjongg/mahjongg3.html>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.
