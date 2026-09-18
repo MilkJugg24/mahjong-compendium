@@ -41,8 +41,9 @@ What each source actually says, as fetched and read:
 
 - **[17](../../../../REFERENCES.md#ref-17)** — records a 1924 'American Code of Laws for Mah-Jongg' produced by a committee of publishers and enthusiasts, which unified variations before the NMJL's 1937 standardisation
 - **[13](../../../../REFERENCES.md#ref-13)** — describes the proliferation of incompatible American rule sets before standardisation
+- **[65](../../../../REFERENCES.md#ref-65)** — records that Babcock himself sat on the committee that published a standardised rule set, which is the 1924 American Code of Laws that Grokipedia describes. The pre-NMJL standardisation effort therefore involved the man whose rules it was trying to supersede
 
-**Reading it:** Grokipedia records a 1924 American Code of Laws for Mah-Jongg produced by a committee, and Wikipedia describes the proliferation of incompatible rule sets that preceded standardisation. Both support a distinct pre-NMJL layer, which is what this node is.
+**Reading it:** Three sources support a distinct pre-NMJL layer: a 1924 American Code of Laws produced by a committee, the proliferation of incompatible rule sets that prompted it, and Babcock's own membership of that committee. The node is a real stage rather than a placeholder, though no source gives it tiles or a hand size because it is a period rather than a ruleset.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

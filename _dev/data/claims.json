@@ -182,6 +182,15 @@
         "source": "wikipedia-wmc",
         "retrieved": "2026-09-18",
         "note": "mahjong certified as China's 255th sport in January 1998; unified rules codified that September"
+      },
+      {
+        "source": "mcr-rulebook",
+        "retrieved": "2026-09-18",
+        "tiles": "144",
+        "hand": "13",
+        "flowers": "eight, replaced from the back end of the wall",
+        "scoring": "8-point minimum, enforced by a false-mahjong penalty",
+        "note": "the ruleset itself, confirming what the secondary sources say about it"
       }
     ],
     "evidence": "corroborated",
@@ -819,10 +828,15 @@
         "source": "charleston-club",
         "retrieved": "2026-09-18",
         "note": "Babcock's 1920 translation, and the Parker Brothers / Milton Bradley licensing"
+      },
+      {
+        "source": "wikipedia-babcock",
+        "retrieved": "2026-09-18",
+        "note": "Joseph Park Babcock, 1893 to 1949, born in Lafayette, Indiana. His Rules of Mah-Jongg, the red book, appeared in 1920 and was the English-language rule book; a second edition followed in 1923. He was also a member of the committee that published a standardised rule set"
       }
     ],
     "evidence": "corroborated",
-    "assessment": "Sloperama gives the rules in detail, including that kongs and flowers were dropped from Babcock's simplified system, and the Charleston Club history independently confirms the 1920 translation and the Parker Brothers licensing. The 136-or-144 ambiguity traces to Babcock's own opening sentence."
+    "assessment": "Four sources agree on the 1920 red book and its role in introducing the game to the West, and Wikipedia adds the man, his dates and a 1923 second edition. Sloperama gives the rules themselves, including that kongs and flowers were dropped from Babcock's simplified system, and Wikipedia's scoring article independently derives the Babcock system from Chinese Classical, which supports the chart's descent. The 136-or-144 ambiguity traces to Babcock's own opening sentence describing a set of 136 pieces."
   },
   "twenty-point-mah-jong": {
     "observations": [
@@ -939,10 +953,15 @@
         "source": "gunplot",
         "retrieved": "2026-09-18",
         "note": "the gunplot.net guide presents the game as ROYAL AUSTRALIAN NAVY practice, not Royal Navy: it describes pussers bones as handed down by sailors moving between ships, with rules that were surprisingly standard, and the author learning it at sea in 1975. Reachable from this environment only through the Wayback Machine"
+      },
+      {
+        "source": "pussers-munday",
+        "retrieved": "2026-09-18",
+        "note": "a full rules book whose title page reads 'How to play the Royal Australian Navy version of Mah Jong, by Choco Munday'. Its contents cover Major Bones, the sailors' names for the tiles, game preparation, gameplay, strategy, scoring with fixed scores, penalties, points and doubles, and Bones etiquette. Most of the body is scanned images, so only the structure and title could be read as text"
       }
     ],
     "evidence": "conflicting",
-    "assessment": "The chart says Royal Navy. The gunplot.net guide the chart cites presents the game as Royal AUSTRALIAN Navy practice throughout, with the author learning it at sea in 1975, and a search result independently labels it the Australian Navy rules. Sloperama's own entry says only that British sailors adopted the game and nicknamed it Bones, and gives no tile count or hand size."
+    "assessment": "Three sources now say Australian and none says Royal Navy. The rules book the tradition is built on is titled 'How to play the Royal Australian Navy version of Mah Jong', the gunplot.net guide presents Royal Australian Navy practice with the author learning it at sea in 1975, and a search result independently labels it the Australian Navy rules. Sloperama says only that British sailors adopted the game and nicknamed it Bones, which is about the name's origin, not the ruleset. The chart's 'Royal Navy' looks like a compression of the two: the nickname is British, the codified game is Australian."
   },
   "regional-us-house-rules": {
     "observations": [
@@ -955,10 +974,15 @@
         "source": "wikipedia-american",
         "retrieved": "2026-09-18",
         "note": "describes the proliferation of incompatible American rule sets before standardisation"
+      },
+      {
+        "source": "wikipedia-babcock",
+        "retrieved": "2026-09-18",
+        "note": "records that Babcock himself sat on the committee that published a standardised rule set, which is the 1924 American Code of Laws that Grokipedia describes. The pre-NMJL standardisation effort therefore involved the man whose rules it was trying to supersede"
       }
     ],
     "evidence": "corroborated",
-    "assessment": "Grokipedia records a 1924 American Code of Laws for Mah-Jongg produced by a committee, and Wikipedia describes the proliferation of incompatible rule sets that preceded standardisation. Both support a distinct pre-NMJL layer, which is what this node is."
+    "assessment": "Three sources support a distinct pre-NMJL layer: a 1924 American Code of Laws produced by a committee, the proliferation of incompatible rule sets that prompted it, and Babcock's own membership of that committee. The node is a real stage rather than a placeholder, though no source gives it tiles or a hand size because it is a period rather than a ruleset."
   },
   "nmjl-card": {
     "observations": [
@@ -986,10 +1010,15 @@
         "source": "wikipedia-american",
         "retrieved": "2026-09-18",
         "note": "CONFLICT: states that the National Mah Jongg League, Inc. published a volume of 'Official American Rules' in 1935, which predates the 1937 founding date the other four sources give"
+      },
+      {
+        "source": "nmjl-official",
+        "retrieved": "2026-09-18",
+        "note": "RESOLVES THE CONFLICT: the League's own site, selling the 2026 card, describes itself as celebrating 89 years. Counting back from 2026 gives 1937, which is the League's own dating of its founding"
       }
     ],
-    "evidence": "conflicting",
-    "assessment": "Four independent sources date the NMJL's founding to 1937 in New York City, and two name the Essex House meeting; that part is as well corroborated as anything in this compendium. But Wikipedia states the League published a volume of Official American Rules in 1935, which cannot be reconciled with a 1937 founding. Either the League predates its usual founding date or Wikipedia's year is wrong, and nothing fetched here settles it."
+    "evidence": "corroborated",
+    "assessment": "The conflict is settled. Four secondary sources date the founding to 1937 in New York City, two of them naming the Essex House meeting, and the League's own website now confirms it from the inside: in 2026 it celebrates 89 years, which counts back to 1937. Wikipedia's statement that the League published Official American Rules in 1935 cannot be reconciled with that and should be treated as the outlier; whatever the 1935 publication was, the organisation dates itself from 1937."
   },
   "american-mah-jongg": {
     "observations": [
@@ -1041,10 +1070,20 @@
         "source": "sloperama-cards",
         "retrieved": "2026-09-18",
         "note": "describes the annual card as an artefact and how the NMJL and AMJA cards differ in form"
+      },
+      {
+        "source": "wikipedia-american",
+        "retrieved": "2026-09-18",
+        "note": "the AMJA is named alongside the NMJL as one of the two bodies publishing an annual card, and the two are described as having minor scoring differences"
+      },
+      {
+        "source": "mil-home",
+        "retrieved": "2026-09-18",
+        "note": "not relevant to this node; recorded only to note that amja.net itself could not be read, its TLS certificate having expired, so no primary source for this node was obtainable"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "Wikipedia confirms that the annual card is published by both the NMJL and the AMJA, which establishes that the AMJA card exists as a separate artefact. No source fetched here describes how it differs in rules."
+    "evidence": "partial",
+    "assessment": "Two sources confirm the AMJA card exists as the second of the two annual American cards and that the NMJL and AMJA differ in minor scoring details. The association's own site could not be read: amja.net serves an expired certificate, and it was not fetched over an unverified connection. So the node is attested but not primary-sourced, and no source read here describes how the two cards differ in practice."
   },
   "siamese-mah-jongg": {
     "observations": [
@@ -1073,10 +1112,15 @@
         "source": "mil-duplicate",
         "retrieved": "2026-09-18",
         "note": "the Mahjong International League's own rules page, fetched and confirmed to exist at the cited URL"
+      },
+      {
+        "source": "mil-home",
+        "retrieved": "2026-09-18",
+        "note": "MIL describes itself as operating under the International Mind Sports Association with member associations in more than 50 countries, states that it initiated the duplicate format to decrease luck, and calls it an innovation that sublimates mahjong from a game into a real mind sport. It recognises MCR, Riichi and Sichuan rules as the three main international competition rulesets"
       }
     ],
     "evidence": "corroborated",
-    "assessment": "Sloperama and the Mahjong International League's own rules page agree on the prebuilt walls and the mind-sport motive. The MIL page was fetched and confirmed live at the cited address."
+    "assessment": "Three sources agree on the prebuilt walls and the mind-sport motive, and the organisation's own homepage confirms both the motive and the institutional context: MIL sits under the International Mind Sports Association with members in over 50 countries. A useful side finding: MIL names MCR, Riichi and Sichuan rules as the three main international competition rulesets, which independently marks how far Sichuan Bloody Rules has travelled beyond its region."
   },
   "mahjong-masters-millions": {
     "observations": [
@@ -1105,10 +1149,15 @@
         "source": "stanwick-xu",
         "retrieved": "2026-09-18",
         "note": "Stanwick and Xu's tile-set research on early ma que, underlying the Hua Maque and Wang Maque material"
+      },
+      {
+        "source": "stanwick-xu",
+        "retrieved": "2026-09-18",
+        "note": "dates the physical evidence: the ma que pai sets of Carl Himly and George Glover were collected in 1868-1876, 1872-1873 and 1875, and the wind tiles are found in most known ma que pai sets after the 1870s. The game is 麻雀 ma que, literally 'hemp bird' and in bonded form 'sparrow', also known in the Late Qing period as peng hu, 'encountering harmony'"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "Both sources describe the pre-mahjong card and tile games the node stands for, not a ruleset. Nothing here can corroborate a rules claim, because the chart makes none: the node is explicitly 'rules lost'."
+    "evidence": "corroborated",
+    "assessment": "The chart's 'c. 1870s' is corroborated, though by artefacts rather than by rules. Stanwick and Xu date surviving ma que pai sets to collections made between 1868 and 1876, and note that wind tiles appear in most known sets after the 1870s. That supports the decade without touching the chart's other claim, that the rules are lost, which no source contradicts either. The node is therefore well dated and genuinely ruleless."
   },
   "chinese-archaic": {
     "observations": [
@@ -1132,6 +1181,11 @@
         "source": "sloperama-analysis",
         "retrieved": "2026-09-18",
         "note": "the 1903 (Li) column scores YES on the Chinese Classical hallmarks (10/20 for mahjong plus points for sets, count then double, concealed sets rewarded, East pays and gets double) and NO on discarder-pays-all, self-pick reward and settlement between non-winners. Its similarity score is 8 to itself, 6 to Mauger, 6 to Chinese Classical, and only 2 to HKOS"
+      },
+      {
+        "source": "stanwick-xu",
+        "retrieved": "2026-09-18",
+        "note": "records that in the Late Qing period the game was also known as peng hu, 'encountering harmony', which is contemporaneous terminology for the period this node covers"
       }
     ],
     "evidence": "corroborated",
@@ -1222,10 +1276,19 @@
         "retrieved": "2026-09-18",
         "scoring": "pattern-based, minimum 8 points, no maximum",
         "note": "the wiki's MCR infobox names a 2006 rulebook rather than the 1998 edition the chart cites"
+      },
+      {
+        "source": "mcr-rulebook",
+        "retrieved": "2026-09-18",
+        "tiles": "144 pieces in total, of which 108 are numbered suit tiles across three suits",
+        "hand": "13",
+        "flowers": "one of each flower tile, eight in all; a drawn flower is exposed, declared 'hua', and replaced from the back end of the wall",
+        "scoring": "a hand worth less than 8 points is a false mahjong: the declarer forfeits 10 points to each of the other three players and may not win that hand",
+        "note": "read directly from the World Mahjong Organization's English-edition PDF. Its contents run from tenets and competition conduct through fan values, scoring, rankings, fouls and appeals"
       }
     ],
     "evidence": "corroborated",
-    "assessment": "The cited World Mahjong Organization PDF was fetched successfully and is a real document at the cited address. Its scoring structure matches what the wiki's MCR page describes."
+    "assessment": "Primary-sourced. The rulebook itself was fetched and read: 144 tiles of which 108 are suit tiles, a 13-tile hand, eight flowers replaced from the back of the wall, and an 8-point minimum enforced by a 10-point forfeit to each opponent for declaring below it. That matches the wiki's infobox and Sloperama's summary, and puts a number on the penalty neither of them gives."
   },
   "mainland-regionals": {
     "observations": [

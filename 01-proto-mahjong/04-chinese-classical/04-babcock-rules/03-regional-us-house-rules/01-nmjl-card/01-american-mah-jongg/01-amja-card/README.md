@@ -6,7 +6,7 @@ parent: American mah jongg
 chart_id: amja-card
 canonical_source: wikipedia-american
 chart_refs: [13]
-evidence: single-source
+evidence: partial
 ---
 
 # AMJA card
@@ -27,14 +27,16 @@ The canonical source is the one the chart's node table names for this variant. S
 
 ## Cross-comparison
 
-**Evidence** · `single-source` — only one source was found; nothing independent confirms it
+**Evidence** · `partial` — sources agree on some points and are silent or divided on others
 
 What each source actually says, as fetched and read:
 
 - **[13](../../../../../../../REFERENCES.md#ref-13)** — the scorecard is published annually by both the National Mah Jongg League and the American Mah-Jongg Association; the AMJA card is the second of the two
 - **[52](../../../../../../../REFERENCES.md#ref-52)** — describes the annual card as an artefact and how the NMJL and AMJA cards differ in form
+- **[13](../../../../../../../REFERENCES.md#ref-13)** — the AMJA is named alongside the NMJL as one of the two bodies publishing an annual card, and the two are described as having minor scoring differences
+- **[64](../../../../../../../REFERENCES.md#ref-64)** — not relevant to this node; recorded only to note that amja.net itself could not be read, its TLS certificate having expired, so no primary source for this node was obtainable
 
-**Reading it:** Wikipedia confirms that the annual card is published by both the NMJL and the AMJA, which establishes that the AMJA card exists as a separate artefact. No source fetched here describes how it differs in rules.
+**Reading it:** Two sources confirm the AMJA card exists as the second of the two annual American cards and that the NMJL and AMJA differ in minor scoring details. The association's own site could not be read: amja.net serves an expired certificate, and it was not fetched over an unverified connection. So the node is attested but not primary-sourced, and no source read here describes how the two cards differ in practice.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

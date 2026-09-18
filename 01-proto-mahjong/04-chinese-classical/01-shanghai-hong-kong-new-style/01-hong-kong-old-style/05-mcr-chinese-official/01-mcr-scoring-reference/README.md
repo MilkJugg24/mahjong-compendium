@@ -35,11 +35,13 @@ What each source actually says, as fetched and read:
 | Source | Tiles | Hand | Flowers | Scoring | Payout |
 | --- | --- | --- | --- | --- | --- |
 | [9](../../../../../../REFERENCES.md#ref-9) | — | — | — | pattern-based, minimum 8 points, no maximum | — |
+| [20](../../../../../../REFERENCES.md#ref-20) | 144 pieces in total, of which 108 are numbered suit tiles across three suits | 13 | one of each flower tile, eight in all; a drawn flower is exposed, declared 'hua', and replaced from the back end of the wall | a hand worth less than 8 points is a false mahjong: the declarer forfeits 10 points to each of the other three players and may not win that hand | — |
 
 - **[20](../../../../../../REFERENCES.md#ref-20)** — the World Mahjong Organization's English-edition Mahjong Competition Rules PDF was fetched successfully through the Wayback Machine (374 KB), confirming the cited document exists at the cited URL
 - **[9](../../../../../../REFERENCES.md#ref-9)** — the wiki's MCR infobox names a 2006 rulebook rather than the 1998 edition the chart cites
+- **[20](../../../../../../REFERENCES.md#ref-20)** — read directly from the World Mahjong Organization's English-edition PDF. Its contents run from tenets and competition conduct through fan values, scoring, rankings, fouls and appeals
 
-**Reading it:** The cited World Mahjong Organization PDF was fetched successfully and is a real document at the cited address. Its scoring structure matches what the wiki's MCR page describes.
+**Reading it:** Primary-sourced. The rulebook itself was fetched and read: 144 tiles of which 108 are suit tiles, a 13-tile hand, eight flowers replaced from the back of the wall, and an 8-point minimum enforced by a 10-point forfeit to each opponent for declaring below it. That matches the wiki's infobox and Sloperama's summary, and puts a number on the penalty neither of them gives.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

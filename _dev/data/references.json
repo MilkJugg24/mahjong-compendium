@@ -490,6 +490,38 @@
       "citation": "World Mahjong Tour. Sichuan Mahjong Blood Battle tournament rules.",
       "note": "A tournament codification of Sichuan Blood Battle: 108 tiles in three suits, the one-missing-suit requirement, and a three-fan cap intended to reduce luck.",
       "url": "https://worldmahjongtour.live/tournament-rules-sichuan-mahjong/"
+    },
+    {
+      "id": 62,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "pussers-munday",
+      "citation": "Munday, Choco. \"How to Play the Royal Australian Navy Version of Mah Jong.\"",
+      "note": "A full rules book for Pusser's Bones, retrieved as a PDF. Its title page settles the navy in question; most of its body is scanned images rather than extractable text.",
+      "url": "https://www.hotrodhandbooks.com.au/ebooks/pussers%20bones.pdf"
+    },
+    {
+      "id": 63,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "nmjl-official",
+      "citation": "National Mah Jongg League, official website.",
+      "note": "The League's own site. In 2026 it advertises the current card while celebrating 89 years, which dates its own founding to 1937.",
+      "url": "https://www.nationalmahjonggleague.org/"
+    },
+    {
+      "id": 64,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "mil-home",
+      "citation": "Mahjong International League, organisation homepage.",
+      "note": "States that MIL operates under the International Mind Sports Association with member associations in more than 50 countries, initiated the duplicate format, and recognises MCR, Riichi and Sichuan rules as the three main international competition rulesets.",
+      "url": "https://mahjong-mil.org/"
+    },
+    {
+      "id": 65,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wikipedia-babcock",
+      "citation": "Wikipedia. \"Joseph Park Babcock.\"",
+      "note": "Biography of the populariser: 1893 to 1949, his 1920 Rules of Mah-Jongg known as the red book, and his membership of the committee that published a standardised American rule set.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Park_Babcock"
     }
   ]
 }

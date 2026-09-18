@@ -4,10 +4,10 @@ What the sources say when set against each other, variant by variant. Every clai
 
 | Evidence | Meaning | Variants |
 | --- | --- | --- |
-| `corroborated` | two or more independent sources agree on the facts that define this variant | 32 |
-| `partial` | sources agree on some points and are silent or divided on others | 6 |
-| `conflicting` | sources disagree materially, or one source contradicts itself | 8 |
-| `single-source` | only one source was found; nothing independent confirms it | 12 |
+| `corroborated` | two or more independent sources agree on the facts that define this variant | 34 |
+| `partial` | sources agree on some points and are silent or divided on others | 7 |
+| `conflicting` | sources disagree materially, or one source contradicts itself | 7 |
+| `single-source` | only one source was found; nothing independent confirms it | 10 |
 | `unsupported` | the sources checked do not carry the claim this node makes | 3 |
 
 A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast Asian entries there simply is one English-language account, usually a newsgroup report, and the honest record is that it stands alone.
@@ -32,13 +32,9 @@ The detailed entry gives 132 tiles with one honour removed and no flowers or jok
 
 Tiles, hand, scoring and payout agree across three sources. The date does not. The chart says fu was removed in the 1950s; the wiki's own Guangdong page dates the adoption of Clear Chapter, with pungs unscored and fu removed, to the 1970s; the wiki's HKOS page says only that HKOS branched off after the Second World War. The chart appears to have merged the post-war emergence of HKOS with the later Clear Chapter reform. Sloperama's early-forms table separately scores HKOS at 0 similarity to Chinese Classical, which supports descending it through a new-style intermediate.
 
-### [NMJL card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/)
-
-Four independent sources date the NMJL's founding to 1937 in New York City, and two name the Essex House meeting; that part is as well corroborated as anything in this compendium. But Wikipedia states the League published a volume of Official American Rules in 1935, which cannot be reconciled with a 1937 founding. Either the League predates its usual founding date or Wikipedia's year is wrong, and nothing fetched here settles it.
-
 ### [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/)
 
-The chart says Royal Navy. The gunplot.net guide the chart cites presents the game as Royal AUSTRALIAN Navy practice throughout, with the author learning it at sea in 1975, and a search result independently labels it the Australian Navy rules. Sloperama's own entry says only that British sailors adopted the game and nicknamed it Bones, and gives no tile count or hand size.
+Three sources now say Australian and none says Royal Navy. The rules book the tradition is built on is titled 'How to play the Royal Australian Navy version of Mah Jong', the gunplot.net guide presents Royal Australian Navy practice with the author learning it at sea in 1975, and a search result independently labels it the Australian Navy rules. Sloperama says only that British sailors adopted the game and nicknamed it Bones, which is about the name's origin, not the ruleset. The chart's 'Royal Navy' looks like a compression of the two: the nickname is British, the codified game is Australian.
 
 ### [Shenzhen style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/08-shenzhen-style/)
 
@@ -68,6 +64,10 @@ Sloperama catalogues each Southeast Asian variant separately and never groups th
 
 Agreement on some defining facts, silence or division on others.
 
+### [AMJA card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/01-amja-card/)
+
+Two sources confirm the AMJA card exists as the second of the two annual American cards and that the NMJL and AMJA differ in minor scoring details. The association's own site could not be read: amja.net serves an expired certificate, and it was not fetched over an unverified connection. So the node is attested but not primary-sourced, and no source read here describes how the two cards differ in practice.
+
 ### [Malaysian 3-player](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/02-malaysian-3-player/)
 
 The 84-tile one-suit game is confirmed with a full component breakdown. But Sloperama also records a second three-player Malaysian game of 108 tiles, which the chart does not carry at all, so the node covers only one of two documented forms.
@@ -95,10 +95,6 @@ The rules are now primary-sourced: Alan Kwan's own site gives 136 tiles, a 13-ti
 ## Where one account stands alone
 
 Confirmed as far as one source goes, with nothing independent behind it.
-
-### [AMJA card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/01-amja-card/)
-
-Wikipedia confirms that the annual card is published by both the NMJL and the AMJA, which establishes that the AMJA card exists as a separate artefact. No source fetched here describes how it differs in rules.
 
 ### [Chinese archaic](01-proto-mahjong/01-chinese-archaic/)
 
@@ -132,10 +128,6 @@ The wiki's Guangdong timeline ends with GMCR in the 2020s, matching the chart ex
 
 144 tiles with dragons treated as flowers matches the chart exactly. It rests on a single newsgroup report from 2006 by one Shanghai player.
 
-### [Proto-mahjong](01-proto-mahjong/)
-
-Both sources describe the pre-mahjong card and tile games the node stands for, not a ruleset. Nothing here can corroborate a rules claim, because the chart makes none: the node is explicitly 'rules lost'.
-
 ### [Sichuan 72-tile game](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/03-sichuan-72-tile/)
 
 72 tiles, bams and dots only, a 7-tile hand winning on 8. Sloperama attributes it solely to Dragon Chang and itself flags that it differs from the other Sichuan account on the same page. The chart is right to carry it as a separate node rather than merging it.
@@ -154,7 +146,7 @@ Five sources. Tiles, hand and the annual card are agreed; Wikipedia adds the fea
 
 ### [Babcock rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/)
 
-Sloperama gives the rules in detail, including that kongs and flowers were dropped from Babcock's simplified system, and the Charleston Club history independently confirms the 1920 translation and the Parker Brothers licensing. The 136-or-144 ambiguity traces to Babcock's own opening sentence.
+Four sources agree on the 1920 red book and its role in introducing the game to the West, and Wikipedia adds the man, his dates and a 1923 second edition. Sloperama gives the rules themselves, including that kongs and flowers were dropped from Babcock's simplified system, and Wikipedia's scoring article independently derives the Babcock system from Chinese Classical, which supports the chart's descent. The 136-or-144 ambiguity traces to Babcock's own opening sentence describing a set of 136 pieces.
 
 ### [Chinese classical](01-proto-mahjong/04-chinese-classical/)
 
@@ -166,7 +158,7 @@ The 1915 Mauger column differs from Li 1903 on exactly two hallmarks, and scores
 
 ### [Duplicate mahjong](02-modern-inventions/01-duplicate-mahjong/)
 
-Sloperama and the Mahjong International League's own rules page agree on the prebuilt walls and the mind-sport motive. The MIL page was fetched and confirmed live at the cited address.
+Three sources agree on the prebuilt walls and the mind-sport motive, and the organisation's own homepage confirms both the motive and the institutional context: MIL sits under the International Mind Sports Association with members in over 50 countries. A useful side finding: MIL names MCR, Riichi and Sichuan rules as the three main international competition rulesets, which independently marks how far Sichuan Bloody Rules has travelled beyond its region.
 
 ### [Filipino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/04-filipino-style/)
 
@@ -214,7 +206,7 @@ Sloperama and the wiki agree on 144 tiles, a 13-tile hand and pattern scoring; t
 
 ### [MCR scoring reference](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/05-mcr-chinese-official/01-mcr-scoring-reference/)
 
-The cited World Mahjong Organization PDF was fetched successfully and is a real document at the cited address. Its scoring structure matches what the wiki's MCR page describes.
+Primary-sourced. The rulebook itself was fetched and read: 144 tiles of which 108 are suit tiles, a 13-tile hand, eight flowers replaced from the back of the wall, and an 8-point minimum enforced by a 10-point forfeit to each opponent for declaring below it. That matches the wiki's infobox and Sloperama's summary, and puts a number on the penalty neither of them gives.
 
 ### [Mhing](02-modern-inventions/02-mhing/)
 
@@ -228,13 +220,21 @@ Three sources now agree on 136 tiles, a 13-tile hand and no flowers in play, and
 
 144 tiles with a 10-tile hand winning on 11 confirms the chart's 11-tile winning hand precisely, and the source identifies it as Western-like but with fewer tiles in hand, which supports its placement under the Western branch.
 
+### [NMJL card](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/)
+
+The conflict is settled. Four secondary sources date the founding to 1937 in New York City, two of them naming the Essex House meeting, and the League's own website now confirms it from the inside: in 2026 it celebrates 89 years, which counts back to 1937. Wikipedia's statement that the League published Official American Rules in 1935 cannot be reconciled with that and should be treated as the outlier; whatever the 1935 publication was, the organisation dates itself from 1937.
+
 ### [Pong](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/06-pong-malaya/)
 
 120 tiles and the Dobree 1955 attribution match. The source adds the defining structure: four threesomes and no pair, pungs and knitted pungs only, an 11-tile hand winning on 12. That is a far more distinctive game than the chart's one-line entry suggests.
 
+### [Proto-mahjong](01-proto-mahjong/)
+
+The chart's 'c. 1870s' is corroborated, though by artefacts rather than by rules. Stanwick and Xu date surviving ma que pai sets to collections made between 1868 and 1876, and note that wind tiles appear in most known sets after the 1870s. That supports the decade without touching the chart's other claim, that the rules are lost, which no source contradicts either. The node is therefore well dated and genuinely ruleless.
+
 ### [Regional US house rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/)
 
-Grokipedia records a 1924 American Code of Laws for Mah-Jongg produced by a committee, and Wikipedia describes the proliferation of incompatible rule sets that preceded standardisation. Both support a distinct pre-NMJL layer, which is what this node is.
+Three sources support a distinct pre-NMJL layer: a 1924 American Code of Laws produced by a committee, the proliferation of incompatible rule sets that prompted it, and Babcock's own membership of that committee. The node is a real stage rather than a placeholder, though no source gives it tiles or a hand size because it is a period rather than a ruleset.
 
 ### [Sanma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/02-sanma/)
 

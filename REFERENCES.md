@@ -634,6 +634,46 @@ A tournament codification of Sichuan Blood Battle: 108 tiles in three suits, the
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-62"></a>
+
+**62. Munday, Choco. "How to Play the Royal Australian Navy Version of Mah Jong."**
+
+A full rules book for Pusser's Bones, retrieved as a PDF. Its title page settles the navy in question; most of its body is scanned images rather than extractable text.
+
+<https://www.hotrodhandbooks.com.au/ebooks/pussers%20bones.pdf>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-63"></a>
+
+**63. National Mah Jongg League, official website.**
+
+The League's own site. In 2026 it advertises the current card while celebrating 89 years, which dates its own founding to 1937.
+
+<https://www.nationalmahjonggleague.org/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-64"></a>
+
+**64. Mahjong International League, organisation homepage.**
+
+States that MIL operates under the International Mind Sports Association with member associations in more than 50 countries, initiated the duplicate format, and recognises MCR, Riichi and Sichuan rules as the three main international competition rulesets.
+
+<https://mahjong-mil.org/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-65"></a>
+
+**65. Wikipedia. "Joseph Park Babcock."**
+
+Biography of the populariser: 1893 to 1949, his 1920 Rules of Mah-Jongg known as the red book, and his membership of the committee that published a standardised American rule set.
+
+<https://en.wikipedia.org/wiki/Joseph_Park_Babcock>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.
