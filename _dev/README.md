@@ -58,7 +58,8 @@ python3 _dev/scripts/generate_site.py
 
 This builds [`docs/`](../docs/) — the published site, served by GitHub Pages
 from the `docs/` folder of the default branch at the domain in
-[`../docs/CNAME`](../docs/CNAME). It is **generated output: never edit anything
+[`../docs/CNAME`](../docs/CNAME), a subdomain so that the apex
+`pandaren.org` keeps serving the site already there. It is **generated output: never edit anything
 under `docs/` by hand**, the next run deletes it. It reads the same
 `_dev/data/` files the Markdown does, so the site and the folder tree can never
 drift apart.

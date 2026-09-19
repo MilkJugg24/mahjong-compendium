@@ -17,7 +17,7 @@ import shutil
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA = os.path.join(ROOT, "_dev", "data")
 OUT = os.path.join(ROOT, "docs")
-DOMAIN = "pandaren.org"
+DOMAIN = "compendium.pandaren.org"
 TITLE = "Mahjong Compendium"
 
 FAMILY = {
