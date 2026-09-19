@@ -34,7 +34,19 @@ Tiles, hand, scoring and payout agree across three sources. The date does not. T
 
 ### [Pusser's Bones](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/05-pussers-bones/)
 
-Three sources now say Australian and none says Royal Navy. The rules book the tradition is built on is titled 'How to play the Royal Australian Navy version of Mah Jong', the gunplot.net guide presents Royal Australian Navy practice with the author learning it at sea in 1975, and a search result independently labels it the Australian Navy rules. Sloperama says only that British sailors adopted the game and nicknamed it Bones, which is about the name's origin, not the ruleset. The chart's 'Royal Navy' looks like a compression of the two: the nickname is British, the codified game is Australian.
+A complete ruleset is on record and the search for a second witness is now finished rather than merely unfinished. Every trail leads back to one man.
+
+The numbers are stable across the two forms of his account: the points, doubles, fixed-score, bonus and penalty tables are word-for-word identical between the website and the book, as is the scoring procedure — points times two, doubled once per double, rounded to the nearest hundred, divided by a hundred, and that many cents from each loser. 98 sentences are identical. They are one document in two forms.
+
+ONE MATERIAL DISCREPANCY, and it is a scoring one. On holding four identical bones, the website covers only the hand-sorting case: declare the set, keep it CONCEALED, place it face down. The book adds a case the website lacks — if a set of three has already been declared and the fourth is then plucked, it joins the declared, open set — and then contradicts itself, a later passage saying a fourth bone plucked into a set goes face down. The difference is worth double: a set of four minors scores 8 open against 16 concealed, majors 16 against 32.
+
+The points table settles it. It lists open and concealed rows separately for sets of four, so if every four-of-a-kind were concealed the two open rows would be unreachable. The book's All-Of (declared) rule is operative, the website is incomplete rather than wrong, and the book's later face-down sentence is the error. Build from the book; keep the contradiction on the record.
+
+WHY THIS STAYS ONE WITNESS. The BoardGameGeek thread, the last open lead, turns out to be a single post linking to the Gun Plot site: a pointer, not an account. The site itself is now gone — the domain resolves but serves a certificate for an unrelated host — so the Wayback copies are its surviving form. Wikipedia's sentence on the variant and an RAN veterans' slang glossary both stand outside the author's work, and together they establish that the game and its name are genuine Royal Australian Navy culture: the glossary, unconnected to him, glosses 'Bones' as 'Mah-jongg tiles' and carries his register — grey funnel line, roughers, gash. Neither corroborates a single rule. What is missing is not evidence that the tradition existed but a second person's account of how it was played, and the author predicted exactly this, writing that the origins rest with no one individual and that the rules were never officially documented.
+
+A caution for anyone repeating the search: this repository's own pull requests now appear in web results for Pusser's Bones. They are not sources and must not be cited back into it.
+
+COPYRIGHT: the book is © 2023 Hot Rod Handbooks, all rights reserved, and sells commercially; the Gun Plot site separately restricted reproduction of substantial parts. Mechanics are recorded here as facts, as tile counts are for every other variant. Neither text is reproduced and neither file is filed in this repository.
 
 ### [Shenzhen style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/08-shenzhen-style/)
 

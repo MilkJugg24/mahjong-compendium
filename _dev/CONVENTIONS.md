@@ -50,6 +50,12 @@ and how the game is structured around them**, and never their contents:
 - **_Mah Jongg Made Easy_ and the League's other publications.** No rulebook text.
   Describing what the book covers is fine; reproducing it is not.
 
+This is not only about American mahjong. The Pusser's Bones rules book is
+© 2023 Hot Rod Handbooks, all rights reserved, and sells commercially: its game
+mechanics are recorded in that variant's cross-comparison as facts, exactly as
+tile counts are for every other variant, but its text is not reproduced and the
+file is not filed here.
+
 The same principle applies to any variant's in-copyright rulebook. A file whose
 value is that it *is* the copyrighted work does not belong in this repository,
 however easy it would be to find elsewhere. If a file arrives that breaches this,
@@ -109,7 +115,11 @@ Two rules govern what may go in:
    from a page that could not be fetched, does not go in the table. Record the
    source as unreachable instead. The whole point of the section is that a reader
    can check it.
-2. **Quote or paraphrase closely, and say which source.** Where a source
+2. **A fact reported by a person, rather than read, is labelled as such.** If the
+   only way to see a page was for someone to open it themselves, record whose
+   report it is in the observation, so it is never mistaken for a fetched source.
+   There is one such entry in the compendium, on Pusser's Bones.
+3. **Quote or paraphrase closely, and say which source.** Where a source
    contradicts itself, record both readings rather than picking one silently.
 
 The read across all variants is generated into [`FINDINGS.md`](../FINDINGS.md).

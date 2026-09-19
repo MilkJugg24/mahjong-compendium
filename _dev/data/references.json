@@ -495,8 +495,8 @@
       "id": 62,
       "section": "SOURCES ADDED WHILE CROSS-CHECKING",
       "slug": "pussers-munday",
-      "citation": "Munday, Choco. \"How to Play the Royal Australian Navy Version of Mah Jong.\"",
-      "note": "A full rules book for Pusser's Bones, retrieved as a PDF. Its title page settles the navy in question; most of its body is scanned images rather than extractable text.",
+      "citation": "Munday, Frank \"Choco\". How to Play the Royal Australian Navy Version of Mah Jong. Hot Rod Handbooks, first edition 2023.",
+      "note": "A complete 32-page ruleset for Pusser's Bones: tile taxonomy and sailors' names, game preparation, gameplay, strategy, the full points, doubles, fixed-score, bonus and penalty tables, and Bones etiquette. IN COPYRIGHT: © 2023 Hot Rod Handbooks, all rights reserved. Its game mechanics are recorded here as facts; its text is not reproduced and the file is not filed in this repository.",
       "url": "https://www.hotrodhandbooks.com.au/ebooks/pussers%20bones.pdf"
     },
     {
@@ -546,6 +546,30 @@
       "citation": "Steve-p.org. \"Cards - Mhing (Spear's Games).\"",
       "note": "A card collector's description of the Spear's Games 1984 UK edition: a deck based on Chinese money-suited cards, with wild cards, scoring cards and hand-reference tables. Records the original 1982 Suntex International release in Pennsylvania and names Robert Sun as the company's founder.",
       "url": "https://steve-p.org/cards/Mhin.html"
+    },
+    {
+      "id": 69,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "gunplot-rules",
+      "citation": "Munday, Frank \"Choco\". \"Pussers Bones\" reference guide, part 2: the rules. Gun Plot.",
+      "note": "The play and scoring rules: three or four players, thirteen bones in hand, the winning structure of four sets and a double-up, the 50-point-and-one-double minimum, and the zero-sum scoresheet at a cent a point. Read through the Wayback Machine.",
+      "url": "http://www.gunplot.net/mahjongg/mahjongg3.html"
+    },
+    {
+      "id": 70,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "ran-slang-glossary",
+      "citation": "Pussers Greenies (Royal Australian Navy electrical branch association). Slang glossary.",
+      "note": "An RAN veterans' slang index with no connection to the Pusser's Bones rules author. Defines Bones as mah-jongg tiles, and independently carries the register the rules guide is written in: grey funnel line, roughers, gash, macca.",
+      "url": "https://www.pussersgreenies.org/glossary.html"
+    },
+    {
+      "id": 71,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "bgg-pussers-thread",
+      "citation": "BoardGameGeek. \"Pussers Bones (the Australian Navy Rules)\", Mahjong forum thread 1729359, c. February 2017.",
+      "note": "Checked and closed as a lead. A single post containing a link to the Gun Plot site, with no independent account of play. Behind a Cloudflare challenge and with no usable archive snapshot, so its contents are as reported by the repository owner, who opened it directly.",
+      "url": "https://boardgamegeek.com/thread/1729359/pussers-bones-the-australian-navy-rules"
     }
   ]
 }
