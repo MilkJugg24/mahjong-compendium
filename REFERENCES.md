@@ -734,6 +734,86 @@ Checked and closed as a lead. A single post containing a link to the Gun Plot si
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-72"></a>
+
+**72. Japanese Mahjong Wiki. "Daizo Amano." riichi.wiki.**
+
+Biography and complete ruleset list for 天野大三 (1904-1982): the 1952 Hochi rules and the police incident, and the seven rulesets he authored between 1952 and 1978. Read through the Wayback Machine.
+
+<https://riichi.wiki/Daizo_Amano>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-73"></a>
+
+**73. Japanese Mahjong Wiki. "Tokyo rules." riichi.wiki.**
+
+A full treatment of the 1957 ruleset 東京ルール / 全一飜縛り麻雀: equipment, play, scoring and yaku, including that it has no kandora or uradora. Read through the Wayback Machine.
+
+<https://riichi.wiki/Tokyo_rules>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-74"></a>
+
+**74. World Mahjong Tour. Guangdong Mahjong tournament rules.**
+
+A tournament codification of Guangdong style, showing the variant in current competitive use.
+
+<https://worldmahjongtour.live/tournament-rules-guangdong-mahjong/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-75"></a>
+
+**75. Four Winds Mah Jong. "Rule presets — MMM."**
+
+The rule-preset documentation of a long-running mahjong program, describing the 1997 Mahjong Masters Millions tournament ruleset and its relation to the Internet Mahjong Server rules.
+
+<https://4windsmj.com/kb/help/4winpr21.htm>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-76"></a>
+
+**76. Wikipedia. "William Henry Wilkinson."**
+
+The collector behind the Chinese archaic node: British sinologist and Consul-General in China and Korea from 1880 to 1918, whose 1889-90 collection from nine Chinese cities is now in the British Museum.
+
+<https://en.wikipedia.org/wiki/William_Henry_Wilkinson>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-77"></a>
+
+**77. Wikipedia. "Khanhoo."**
+
+The draw-and-discard card game Wilkinson adapted for Western players in 1891, described as belonging to the same family as mahjong, with mòhú and pènghú named as mahjong's ancestors.
+
+<https://en.wikipedia.org/wiki/Khanhoo>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-78"></a>
+
+**78. Stanwick, Michael. "Má qiǎo / má què terms 1780-1920." themahjongtileset.co.uk.**
+
+Tile-set scholarship tracing the game's names before 1920, including Wilkinson's 1889 collection of precursor má qiǎo tiles now in the British Museum's Schreiber Collection, and his unpublished 1925 memorandum.
+
+<https://www.themahjongtileset.co.uk/pre-1920-names/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-79"></a>
+
+**79. Baidu Baike: 南京麻将 (Nanjing Mahjong).**
+
+A detailed account of the Nanjing regional variant, also called Jinling Mahjong: its 144-tile set with twenty flower tiles, its flower-based scoring, and its minor and major hand categories.
+
+<https://baike.baidu.com/en/item/Nanjing%20Mahjong/29762>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.

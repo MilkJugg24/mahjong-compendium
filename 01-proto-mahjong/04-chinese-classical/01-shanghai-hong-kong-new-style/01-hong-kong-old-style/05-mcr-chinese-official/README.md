@@ -53,6 +53,7 @@ What each source actually says, as fetched and read:
 - **[9](../../../../../REFERENCES.md#ref-9)** — length 16 hands; page shows a 2006 rulebook
 - **[19](../../../../../REFERENCES.md#ref-19)** — mahjong certified as China's 255th sport in January 1998; unified rules codified that September
 - **[20](../../../../../REFERENCES.md#ref-20)** — the ruleset itself, confirming what the secondary sources say about it
+- **[43](../../../../../REFERENCES.md#ref-43)** — TENSION WITHIN THE SAME WIKI: this page says that when there was a call to make mahjong a nationally recognised mindsport, the China State Sports Commission chose to eschew organic competitive mahjong and create MCR instead — a top-down invention. The wiki's Guangdong page says the opposite, that Guangdong Style was adapted into MCR and Zung Jung in the 1990s. The chart treats MCR as a sibling of Guangdong under HKOS, which matches neither account exactly
 
 **Reading it:** Sloperama and the wiki agree on 144 tiles, a 13-tile hand and pattern scoring; the wiki adds the 8-point minimum. Wikipedia independently dates the sport certification to January 1998 and the rules to that September, matching the chart. One wrinkle: the wiki's infobox is built on a 2006 rulebook, not the 1998 edition the chart cites.
 

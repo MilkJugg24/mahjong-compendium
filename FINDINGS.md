@@ -4,10 +4,10 @@ What the sources say when set against each other, variant by variant. Every clai
 
 | Evidence | Meaning | Variants |
 | --- | --- | --- |
-| `corroborated` | two or more independent sources agree on the facts that define this variant | 34 |
-| `partial` | sources agree on some points and are silent or divided on others | 8 |
+| `corroborated` | two or more independent sources agree on the facts that define this variant | 41 |
+| `partial` | sources agree on some points and are silent or divided on others | 7 |
 | `conflicting` | sources disagree materially, or one source contradicts itself | 7 |
-| `single-source` | only one source was found; nothing independent confirms it | 10 |
+| `single-source` | only one source was found; nothing independent confirms it | 4 |
 | `unsupported` | the sources checked do not carry the claim this node makes | 2 |
 
 A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast Asian entries there simply is one English-language account, usually a newsgroup report, and the honest record is that it stands alone.
@@ -88,10 +88,6 @@ The 84-tile one-suit game is confirmed with a full component breakdown. But Slop
 
 Three sources now describe the minimum, and all three describe it as a convention rather than an event. Wikipedia's scoring article is the most explicit: the threshold ranges from one to five points, with three most common. The chart's 3-faan figure is well supported; its 1970s date is supported by nothing fetched here, and the wiki's own Guangdong timeline attaches the 1970s to the Clear Chapter reform instead.
 
-### [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/)
-
-Sloperama's Hong Kong New Style entry matches on tiles, hand and payout, and its 'many many special hands' against Old Style's 'few' is the substantive difference the chart's branch depends on. The wiki's mainland page independently describes later pattern additions to the Ningbo-origin classical game as Shanghai New Style, which supports the node's existence; neither source dates it to the 1920s.
-
 ### [Siamese Mah Jongg](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/01-nmjl-card/01-american-mah-jongg/02-siamese-mah-jongg/)
 
 Sloperama gives the substance: Gladys Grad, 2015, two players each playing two hands on two-tiered racks, with the concept applicable to any variant. The chart's own canonical source for the node, mahjongg.org, does not corroborate it: its archived homepage is a tournament and Master Points site that does not mention Siamese Mah Jongg. The variant is attested, but by the other source, not the cited one.
@@ -108,10 +104,6 @@ The rules are now primary-sourced: Alan Kwan's own site gives 136 tiles, a 13-ti
 
 Confirmed as far as one source goes, with nothing independent behind it.
 
-### [Chinese archaic](01-proto-mahjong/01-chinese-archaic/)
-
-Sloperama's catalogue gives the same 1890 date and Wilkinson attribution the chart does, but it is the chart's own source, so this is agreement by inheritance rather than corroboration. Sloperama's early-forms comparison does not include an Archaic column, so its rules are untested against the later forms.
-
 ### [Chinese casino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/11-chinese-casino-style/)
 
 144 tiles, no chows, and all players scoring. One forum report from 2009. The no-chows rule links it to the other chow-less variants, which is more interesting than the chart's bare label suggests.
@@ -120,33 +112,13 @@ Sloperama's catalogue gives the same 1890 date and Wilkinson attribution the cha
 
 124 tiles, winds as flowers and a wild tile as joker match the chart exactly. But it rests on one contributor who says openly that he does not understand the scoring, and the Fuzhou entry on the same page appears to have borrowed this description. Treat the tile count as the only firm part.
 
-### [Guangdong MCR / GMCR](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/01-guangdong-mcr/)
-
-The wiki's Guangdong timeline ends with GMCR in the 2020s, matching the chart exactly. No second source fetched here mentions GMCR at all.
-
 ### [Israeli Mah-Jongg Association](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/03-israeli-mah-jongg-association/)
 
-144 tiles, a 13-tile hand, flowers melded on receipt, and scoring whose numbers vary greatly from other forms. One source, no books.
-
-### [Mahjong Masters Millions](02-modern-inventions/03-mahjong-masters-millions/)
-
-136 or 144 tiles, a 13-tile hand, and an unusual scoring step in which an aux value multiplies the total. Only the winner or winners are paid, which is unusual enough to be a real identifying feature.
-
-### [Modern rules](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/)
-
-1967, bazoro, oka and ura-dora all confirmed, with an explanation of why bazoro survives invisibly inside modern scoring tables. Same single source.
-
-### [Nanjing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/07-nanjing-style/)
-
-144 tiles with dragons treated as flowers matches the chart exactly. It rests on a single newsgroup report from 2006 by one Shanghai player.
+Still one source, and now known to be hard rather than merely unchecked. Sloperama gives 144 tiles or kards, a 13-tile hand, flowers melded on receipt, all players paid, and scoring whose numbers vary greatly from other forms — the last being the only real hint at what distinguishes it. A targeted search in English and Hebrew found nothing about the association's own rules; the results were swamped by American mahjong and general Jewish-mahjong material, which is a different subject and should not be mistaken for this node. Anyone with Hebrew and a route to the association itself would likely resolve this quickly; web search alone does not.
 
 ### [Sichuan 72-tile game](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/03-sichuan-72-tile/)
 
 72 tiles, bams and dots only, a 7-tile hand winning on 8. Sloperama attributes it solely to Dragon Chang and itself flags that it differs from the other Sichuan account on the same page. The chart is right to carry it as a separate node rather than merging it.
-
-### [Tokyo rules](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/)
-
-The 1957 date and the 1-han minimum are confirmed, with the ruleset's Japanese name. Same single source as the rest of the Japanese chain.
 
 ## Where independent sources agree
 
@@ -159,6 +131,12 @@ Five sources. Tiles, hand and the annual card are agreed; Wikipedia adds the fea
 ### [Babcock rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/)
 
 Four sources agree on the 1920 red book and its role in introducing the game to the West, and Wikipedia adds the man, his dates and a 1923 second edition. Sloperama gives the rules themselves, including that kongs and flowers were dropped from Babcock's simplified system, and Wikipedia's scoring article independently derives the Babcock system from Chinese Classical, which supports the chart's descent. The 136-or-144 ambiguity traces to Babcock's own opening sentence describing a set of 136 pieces.
+
+### [Chinese archaic](01-proto-mahjong/01-chinese-archaic/)
+
+The chart's 'c. 1890, Wilkinson' is now supported by three sources and, better, by surviving objects. Wilkinson collected across nine Chinese cities in 1889-90, and a box of precursor má qiǎo tiles he collected in 1889 is in the British Museum's Schreiber Collection with 中發 on it. The date is therefore artefactual rather than merely asserted.
+
+One caution about what the node contains. Wilkinson's best-known documentation is of money-suited CARDS — khanhoo and kunpai — rather than of a tile-mahjong ruleset, and he adapted khanhoo for Western players in 1891. Tiles and cards both survive from his collecting, so the node is not misplaced, but a reader should not assume a written 1890 ruleset for tile mahjong lies behind it. What lies behind it is a collection and a scholar's notes.
 
 ### [Chinese classical](01-proto-mahjong/04-chinese-classical/)
 
@@ -175,6 +153,10 @@ Three sources agree on the prebuilt walls and the mind-sport motive, and the org
 ### [Filipino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/04-nanyang-variants/04-filipino-style/)
 
 Three sources agree on the 144-tile set and the 16-tile hand winning on 17. More importantly, Wikipedia independently confirms the flower handling that the chart's own new caveat makes the test for telling Filipino from Taiwanese: dragons and winds are grouped with the flowers. The one disagreement is jokers, which Sloperama hedges and Wikipedia denies; prefer Wikipedia, since Sloperama admits it cannot state the rule.
+
+### [Guangdong MCR / GMCR](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/01-guangdong-mcr/)
+
+The 2020s date is confirmed by two wiki pages, and the node is now substantive rather than a bare label: GMCR was assembled to make Guangdong Style competitive, drawing only on rules already present in historic Guangdong rulesets and stripping out pure-luck wins like Blessing of Heaven and the self-drawn win. Its own page also states the descent chain in words — GMCR from Guangdong Style, Guangdong from HKOS, HKOS adopted as a backlash to Hong Kong New Style, and that from Chinese Classical — which matches the chart's shape through this whole branch, including the intermediate new-style node.
 
 ### [Guangdong style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/02-guangdong-style/)
 
@@ -204,6 +186,14 @@ Sloperama's early-forms table puts numbers on this node. The 1903 Li column scor
 
 112 tiles and a 4-tile hand winning on 5 match the chart, and both the detailed entry and the abbreviated list agree. Its extreme hand size makes it the least mahjong-like entry in the tree that still carries a firm description.
 
+### [Mahjong Masters Millions](02-modern-inventions/03-mahjong-masters-millions/)
+
+Two sources, and the second turns a bare label into a dated, attributed ruleset: created for the 1997 Mahjong Masters Millions tournament by Zuwei Thomas Feng and Hiroyuki Takashaki, as Internet Mahjong Server rules — a deliberate hybrid of modern Chinese and Japanese play. Pattern selection follows the Japanese side, including the sacred-discard and missed-discard rules and better scoring for concealed hands, while the Japanese low-scoring patterns are dropped and a self-drawn win instead takes auxiliary points in the Chinese modern style.
+
+It also decodes Sloperama. Its entry says to score the sets, then 'determine the aux value, then multiply' without saying what aux is; the preset documentation shows auxiliary points in use, ten of them for a self-drawn win. The one disagreement is flowers: Sloperama calls them optional and gives 136 or 144 tiles, while this source says the ruleset does not use flowers and seasons at all, which resolves the count to 136.
+
+The chart's placement under modern inventions is well supported by this. A 1997 tournament ruleset assembled deliberately from two traditions is an invention, not a descendant.
+
 ### [Mainland regionals](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/)
 
 The wiki independently confirms both of the chart's caveats about this group: over 100 variants today, and a 1990s divergence in which some built on Old Style and some on an additive New Style. It also dates the Sichuan/Chengdu Bloody rules to the 1990s, matching the chart's separate node.
@@ -228,6 +218,14 @@ Three sources, and the node is now dated and attributed where the chart had only
 
 Three sources now agree on 136 tiles, a 13-tile hand and no flowers in play, and riichi.wiki adds the han-and-fu structure and the one-yaku minimum. The chart's 1970 date for red fives is still uncorroborated: riichi.wiki confirms red five dora exist and are optional but dates the modern variant only to the 1960s, with the popularity surge after 1969.
 
+### [Modern rules](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/)
+
+Two independent sources agree that the 1967 rules introduced bazoro, oka and ura dora, exactly as the chart says. There is an apparent conflict with the 1957 Tokyo rules, which already carry a zoroba, and it resolves cleanly: riichi.wiki specifies that 1967 introduced TWO HAN bazoro, the fixed form still built into modern scoring tables, where 1957 had a variable bonus rolled on the dice that did not count toward the minimum. The chart's attribution is correct once bazoro is read as the fixed form.
+
+### [Nanjing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/07-nanjing-style/)
+
+Two independent sources agree, and the second is far richer than the 2006 newsgroup report the node rested on. Both give 144 tiles and dragons treated as flowers; Baidu makes the arithmetic explicit, twenty flower tiles being the twelve dragons plus the eight seasons and plants. Both make flower count the scoring engine. Baidu adds the structure the chart lacks: minor and major hands, four hard flowers to qualify for a minor, a flower kong alongside exposed and concealed kongs, and a major hand retaining the dealership. The local name is Jinling Mahjong.
+
 ### [Nepalese](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/04-nepalese/)
 
 144 tiles with a 10-tile hand winning on 11 confirms the chart's 11-tile winning hand precisely, and the source identifies it as Western-like but with fewer tiles in hand, which supports its placement under the Western branch.
@@ -242,7 +240,7 @@ The conflict is settled. Four secondary sources date the founding to 1937 in New
 
 ### [Proto-mahjong](01-proto-mahjong/)
 
-The chart's 'c. 1870s' is corroborated, though by artefacts rather than by rules. Stanwick and Xu date surviving ma que pai sets to collections made between 1868 and 1876, and note that wind tiles appear in most known sets after the 1870s. That supports the decade without touching the chart's other claim, that the rules are lost, which no source contradicts either. The node is therefore well dated and genuinely ruleless.
+Well dated, and now with a named mechanism of descent. Stanwick and Xu date surviving ma que pai sets to collections made between 1868 and 1876, with wind tiles in most known sets after the 1870s, which corroborates the chart's c. 1870s by artefacts rather than by rules. Wikipedia's khanhoo article supplies the structural story: the family shifted from trick-taking to draw-and-discard across the 18th and 19th centuries as shedding games — mòhú and pènghú, named there as mahjong's ancestors — displaced the older form. That is what this node stands for. The chart's other claim, that the rules are lost, no source contradicts: what survives from the period is tiles, cards and collectors' notes, not a ruleset.
 
 ### [Regional US house rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/)
 
@@ -251,6 +249,10 @@ Three sources support a distinct pre-NMJL layer: a 1924 American Code of Laws pr
 ### [Sanma](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/01-modern-rules/02-sanma/)
 
 Now properly sourced. Wikipedia gives the exact tile reduction and three rules of its own, and states explicitly that the three-player game is not a mere adaptation but has its own idiosyncrasies, which strengthens the chart's decision to give it a node. That cuts against riichi.wiki's framing of three-player play as an accommodation for a missing fourth. Both are describing real practice; the chart's node is better supported than the previous pass concluded.
+
+### [Shanghai / Hong Kong new style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/)
+
+The node's existence is now independently supported rather than inherited. Sloperama's Hong Kong New Style entry matches on tiles, hand and payout, and its 'many many special hands' against Old Style's 'few' is the substantive difference the branch depends on. The wiki's mainland page describes later pattern additions to the classical game as Shanghai New Style, and its GMCR page states outright that HKOS was adopted as a backlash to HKNS, which had evolved from Chinese Classical. Three sources therefore place a new-style stage between Chinese Classical and Hong Kong Old Style. What none of them does is date it to the 1920s.
 
 ### [Sichuan / Hunan / Tibetan](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/01-sichuan-hunan-tibetan/)
 
@@ -267,6 +269,10 @@ Two independent sources agree on the animal tiles that define the variant, and W
 ### [Taiwanese style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/03-taiwanese-style/)
 
 Four sources agree on the 144-tile set and the 16-tile hand, and two independently describe tai scoring as linear, which the wiki's infobox also shows. Wikipedia adds two structural features the chart omits and which distinguish the branch sharply from Hong Kong play: recurring dealerships, and multiple players winning from one discard. This is among the best-supported nodes in the tree.
+
+### [Tokyo rules](01-proto-mahjong/04-chinese-classical/02-japanese-classical-arushiiaru/01-houchi-rules/01-tokyo-rules/)
+
+Two independent sources now agree on the 1957 date, Amano's authorship and the one-han minimum that gives the node its name, and riichi.wiki supplies the Japanese titles, 東京ルール and 全一飜縛り麻雀. The page also settles a question the next node raises: the 1957 rules have no kandora and no uradora, so the chart is right to place ura dora at 1967. Its dice-driven han bonus is the early, variable ancestor of bazoro, and it explicitly does not count toward the minimum.
 
 ### [Twenty Point Mah Jong](01-proto-mahjong/04-chinese-classical/04-babcock-rules/01-twenty-point-mah-jong/)
 

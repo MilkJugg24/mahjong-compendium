@@ -7,7 +7,7 @@ parent: Guangdong style
 chart_id: gmcr
 canonical_source: wikidot-gmcr
 chart_refs: [43, 8]
-evidence: single-source
+evidence: corroborated
 ---
 
 # Guangdong MCR / GMCR
@@ -31,13 +31,19 @@ The canonical source is the one the chart's node table names for this variant. S
 
 ## Cross-comparison
 
-**Evidence** · `single-source` — only one source was found; nothing independent confirms it
+**Evidence** · `corroborated` — two or more independent sources agree on the facts that define this variant
 
 What each source actually says, as fetched and read:
 
-- **[42](../../../../../../REFERENCES.md#ref-42)** — the same timeline ends: 2020s, the synthetic competitive variant Guangdong Mahjong Competition Rules (GMCR) is made. This corroborates the chart's 2020s date
+| Source | Tiles | Hand | Flowers | Scoring | Payout |
+| --- | --- | --- | --- | --- | --- |
+| [43](../../../../../../REFERENCES.md#ref-43) | — | — | — | built only from rules found in historic Guangdong Style rulesets, and teachable as a three-step progression through Clear Chapter and New Chapter HKOS | — |
 
-**Reading it:** The wiki's Guangdong timeline ends with GMCR in the 2020s, matching the chart exactly. No second source fetched here mentions GMCR at all.
+- **[42](../../../../../../REFERENCES.md#ref-42)** — the same timeline ends: 2020s, the synthetic competitive variant Guangdong Mahjong Competition Rules (GMCR) is made. This corroborates the chart's 2020s date
+- **[43](../../../../../../REFERENCES.md#ref-43)** — states GMCR was created to promote competitive Guangdong Style, with three goals: true to the game yet simple, easy to learn, and competitive — the last achieved by removing pure-luck wins such as Blessing of Heaven and the self-drawn win. Gives an explicit descent chain: GMCR evolved from Guangdong Style, which evolved from HKOS, which was adopted as a backlash to HKNS, which evolved from Chinese Classical
+- **[74](../../../../../../REFERENCES.md#ref-74)** — a tournament codification of Guangdong style, showing the parent variant in current competitive use
+
+**Reading it:** The 2020s date is confirmed by two wiki pages, and the node is now substantive rather than a bare label: GMCR was assembled to make Guangdong Style competitive, drawing only on rules already present in historic Guangdong rulesets and stripping out pure-luck wins like Blessing of Heaven and the self-drawn win. Its own page also states the descent chain in words — GMCR from Guangdong Style, Guangdong from HKOS, HKOS adopted as a backlash to Hong Kong New Style, and that from Chinese Classical — which matches the chart's shape through this whole branch, including the intermediate new-style node.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 

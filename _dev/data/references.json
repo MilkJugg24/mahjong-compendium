@@ -570,6 +570,70 @@
       "citation": "BoardGameGeek. \"Pussers Bones (the Australian Navy Rules)\", Mahjong forum thread 1729359, c. February 2017.",
       "note": "Checked and closed as a lead. A single post containing a link to the Gun Plot site, with no independent account of play. Behind a Cloudflare challenge and with no usable archive snapshot, so its contents are as reported by the repository owner, who opened it directly.",
       "url": "https://boardgamegeek.com/thread/1729359/pussers-bones-the-australian-navy-rules"
+    },
+    {
+      "id": 72,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "riichi-wiki-amano",
+      "citation": "Japanese Mahjong Wiki. \"Daizo Amano.\" riichi.wiki.",
+      "note": "Biography and complete ruleset list for 天野大三 (1904-1982): the 1952 Hochi rules and the police incident, and the seven rulesets he authored between 1952 and 1978. Read through the Wayback Machine.",
+      "url": "https://riichi.wiki/Daizo_Amano"
+    },
+    {
+      "id": 73,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "riichi-wiki-tokyo",
+      "citation": "Japanese Mahjong Wiki. \"Tokyo rules.\" riichi.wiki.",
+      "note": "A full treatment of the 1957 ruleset 東京ルール / 全一飜縛り麻雀: equipment, play, scoring and yaku, including that it has no kandora or uradora. Read through the Wayback Machine.",
+      "url": "https://riichi.wiki/Tokyo_rules"
+    },
+    {
+      "id": 74,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wmt-guangdong",
+      "citation": "World Mahjong Tour. Guangdong Mahjong tournament rules.",
+      "note": "A tournament codification of Guangdong style, showing the variant in current competitive use.",
+      "url": "https://worldmahjongtour.live/tournament-rules-guangdong-mahjong/"
+    },
+    {
+      "id": 75,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "4winds-rule-presets",
+      "citation": "Four Winds Mah Jong. \"Rule presets — MMM.\"",
+      "note": "The rule-preset documentation of a long-running mahjong program, describing the 1997 Mahjong Masters Millions tournament ruleset and its relation to the Internet Mahjong Server rules.",
+      "url": "https://4windsmj.com/kb/help/4winpr21.htm"
+    },
+    {
+      "id": 76,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wikipedia-wilkinson",
+      "citation": "Wikipedia. \"William Henry Wilkinson.\"",
+      "note": "The collector behind the Chinese archaic node: British sinologist and Consul-General in China and Korea from 1880 to 1918, whose 1889-90 collection from nine Chinese cities is now in the British Museum.",
+      "url": "https://en.wikipedia.org/wiki/William_Henry_Wilkinson"
+    },
+    {
+      "id": 77,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wikipedia-khanhoo",
+      "citation": "Wikipedia. \"Khanhoo.\"",
+      "note": "The draw-and-discard card game Wilkinson adapted for Western players in 1891, described as belonging to the same family as mahjong, with mòhú and pènghú named as mahjong's ancestors.",
+      "url": "https://en.wikipedia.org/wiki/Khanhoo"
+    },
+    {
+      "id": 78,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "stanwick-names",
+      "citation": "Stanwick, Michael. \"Má qiǎo / má què terms 1780-1920.\" themahjongtileset.co.uk.",
+      "note": "Tile-set scholarship tracing the game's names before 1920, including Wilkinson's 1889 collection of precursor má qiǎo tiles now in the British Museum's Schreiber Collection, and his unpublished 1925 memorandum.",
+      "url": "https://www.themahjongtileset.co.uk/pre-1920-names/"
+    },
+    {
+      "id": 79,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "baidu-nanjing",
+      "citation": "Baidu Baike: 南京麻将 (Nanjing Mahjong).",
+      "note": "A detailed account of the Nanjing regional variant, also called Jinling Mahjong: its 144-tile set with twenty flower tiles, its flower-based scoring, and its minor and major hand categories.",
+      "url": "https://baike.baidu.com/en/item/Nanjing%20Mahjong/29762"
     }
   ]
 }

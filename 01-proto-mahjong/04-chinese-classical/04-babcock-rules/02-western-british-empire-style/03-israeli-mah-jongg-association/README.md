@@ -35,7 +35,9 @@ What each source actually says, as fetched and read:
 | --- | --- | --- | --- | --- | --- |
 | [1](../../../../../REFERENCES.md#ref-1) | 144 tiles or kards | 13, out on 14 | melded upon receipt | calculate points then apply doubles, with numbers varying greatly from other forms | all players |
 
-**Reading it:** 144 tiles, a 13-tile hand, flowers melded on receipt, and scoring whose numbers vary greatly from other forms. One source, no books.
+- **[1](../../../../../REFERENCES.md#ref-1)** — SEARCHED AND NOT FOUND: a targeted search for the Israeli Mah-Jongg Association's own rules, in English and in Hebrew (איגוד המהג'ונג הישראלי), returned nothing about the association, its rules, tiles or scoring. Results were dominated by American mahjong and general Jewish-mahjong material, which is a different subject. No second source for this node was located, and the association's own site was not found
+
+**Reading it:** Still one source, and now known to be hard rather than merely unchecked. Sloperama gives 144 tiles or kards, a 13-tile hand, flowers melded on receipt, all players paid, and scoring whose numbers vary greatly from other forms — the last being the only real hint at what distinguishes it. A targeted search in English and Hebrew found nothing about the association's own rules; the results were swamped by American mahjong and general Jewish-mahjong material, which is a different subject and should not be mistaken for this node. Anyone with Hebrew and a route to the association itself would likely resolve this quickly; web search alone does not.
 
 All sources above were fetched and read on 2026-09-18. Nothing here is second-hand: a claim that could not be read at its source is not in this table.
 
