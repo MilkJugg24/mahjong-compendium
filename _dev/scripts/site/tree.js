@@ -75,7 +75,7 @@
     }
 
     var scene = new THREE.Scene();
-    scene.fog = new THREE.FogExp2(0x0a0b0e, 0.0032);
+    scene.fog = new THREE.FogExp2(0x0b1f18, 0.0032);
     var camera = new THREE.PerspectiveCamera(52, 1, 0.1, 2000);
     var renderer;
     try {
@@ -93,7 +93,7 @@
     var eg = new THREE.BufferGeometry();
     eg.setAttribute("position", new THREE.Float32BufferAttribute(epos, 3));
     scene.add(new THREE.LineSegments(eg,
-      new THREE.LineBasicMaterial({ color: 0x50596e, transparent: true, opacity: 0.85 })));
+      new THREE.LineBasicMaterial({ color: 0x7d6a3d, transparent: true, opacity: 0.72 })));
 
     // nodes
     var geo = new THREE.SphereGeometry(1, 18, 14);
