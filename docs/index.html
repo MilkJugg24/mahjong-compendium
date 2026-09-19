@@ -16,6 +16,7 @@
   <a class="brand" href="">Mahjong&nbsp;Compendium</a>
   <nav>
     <a href="">Tree</a>
+    <a href="about/">About</a>
     <a href="variants/">Variants</a>
     <a href="findings/">Findings</a>
     <a href="references/">References</a>
@@ -25,15 +26,18 @@
 <main>
 
 <section class="hero">
-  <div class="stage">
-    <canvas id="tree"></canvas>
-    <div id="hud">
-      <div id="labels"></div>
-      <div id="tip" hidden></div>
-      <p class="hint">drag to orbit · scroll to zoom · click a node to open it</p>
-      <noscript><p class="hint">This view needs JavaScript. The
-        <a href="variants/">variant list</a> has everything without it.</p></noscript>
+  <div class="view">
+    <div class="stage">
+      <canvas id="tree"></canvas>
+      <div id="hud">
+        <div id="labels"></div>
+        <div id="tip" hidden></div>
+        <p class="hint">drag to orbit · scroll to zoom · click a node to open it</p>
+        <noscript><p class="hint">This view needs JavaScript. The
+          <a href="variants/">variant list</a> has everything without it.</p></noscript>
+      </div>
     </div>
+    <p class="learn"><a href="about/">Learn more about this chart here.</a></p>
   </div>
   <div class="intro">
     <h1>Mahjong variant family tree</h1>
@@ -47,15 +51,6 @@
 
 <section class="counts wide">
   <div class="count e-corroborated"><b>41</b><span>corroborated</span></div><div class="count e-conflicting"><b>7</b><span>conflicting</span></div><div class="count e-partial"><b>7</b><span>partial</span></div><div class="count e-single-source"><b>4</b><span>single-source</span></div><div class="count e-unsupported"><b>2</b><span>unsupported</span></div>
-</section>
-
-<section class="pitch">
-  <h2>What this is</h2>
-  <p>A collection of material gathered from around the web, filed by variant, so each claim's origin
-     can be checked. The tree records descent <em>as the source chart claims it</em> — not a judgement
-     that the claim is correct. Where a claim is weak, the entry says so.</p>
-  <h2>What the chart admits about itself</h2>
-  <ul class="caveats"><li>Guangdong was influenced first by Hong Kong, later by Taiwanese; the arrow should run both ways.</li><li>Mainland regionals began on a Chinese Classical frame and later adopted HKOS's simplified scoring.</li><li>All Pairs and All Green flowed backwards from Western Mah Jong into most other modern rulesets, meaning the <code>us</code> branch fed the <code>cn</code> branch, which no tree layout shows.</li><li>The eleven mainland nodes stand in for a hundred-plus real variants, most undocumented in English.</li><li>Several entries (Shenzhen, Tui Dao Hu, Fujian) rest on a single informant report.</li><li>No source establishes how Korean 104-tile mahjong descends from anything; the link is a placeholder.</li><li>Filipino style sits under Nanyang despite a 16-tile hand resembling Taiwanese. The distinguishing test is that Filipino play treats winds and dragons as flowers.</li></ul>
 </section>
 
 </main>
