@@ -4,10 +4,10 @@ What the sources say when set against each other, variant by variant. Every clai
 
 | Evidence | Meaning | Variants |
 | --- | --- | --- |
-| `corroborated` | two or more independent sources agree on the facts that define this variant | 38 |
+| `corroborated` | two or more independent sources agree on the facts that define this variant | 41 |
 | `partial` | sources agree on some points and are silent or divided on others | 7 |
 | `conflicting` | sources disagree materially, or one source contradicts itself | 7 |
-| `single-source` | only one source was found; nothing independent confirms it | 7 |
+| `single-source` | only one source was found; nothing independent confirms it | 4 |
 | `unsupported` | the sources checked do not carry the claim this node makes | 2 |
 
 A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast Asian entries there simply is one English-language account, usually a newsgroup report, and the honest record is that it stands alone.
@@ -104,10 +104,6 @@ The rules are now primary-sourced: Alan Kwan's own site gives 136 tiles, a 13-ti
 
 Confirmed as far as one source goes, with nothing independent behind it.
 
-### [Chinese archaic](01-proto-mahjong/01-chinese-archaic/)
-
-Sloperama's catalogue gives the same 1890 date and Wilkinson attribution the chart does, but it is the chart's own source, so this is agreement by inheritance rather than corroboration. Sloperama's early-forms comparison does not include an Archaic column, so its rules are untested against the later forms.
-
 ### [Chinese casino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/11-chinese-casino-style/)
 
 144 tiles, no chows, and all players scoring. One forum report from 2009. The no-chows rule links it to the other chow-less variants, which is more interesting than the chart's bare label suggests.
@@ -118,15 +114,7 @@ Sloperama's catalogue gives the same 1890 date and Wilkinson attribution the cha
 
 ### [Israeli Mah-Jongg Association](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/03-israeli-mah-jongg-association/)
 
-144 tiles, a 13-tile hand, flowers melded on receipt, and scoring whose numbers vary greatly from other forms. One source, no books.
-
-### [Mahjong Masters Millions](02-modern-inventions/03-mahjong-masters-millions/)
-
-136 or 144 tiles, a 13-tile hand, and an unusual scoring step in which an aux value multiplies the total. Only the winner or winners are paid, which is unusual enough to be a real identifying feature.
-
-### [Nanjing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/07-nanjing-style/)
-
-144 tiles with dragons treated as flowers matches the chart exactly. It rests on a single newsgroup report from 2006 by one Shanghai player.
+Still one source, and now known to be hard rather than merely unchecked. Sloperama gives 144 tiles or kards, a 13-tile hand, flowers melded on receipt, all players paid, and scoring whose numbers vary greatly from other forms — the last being the only real hint at what distinguishes it. A targeted search in English and Hebrew found nothing about the association's own rules; the results were swamped by American mahjong and general Jewish-mahjong material, which is a different subject and should not be mistaken for this node. Anyone with Hebrew and a route to the association itself would likely resolve this quickly; web search alone does not.
 
 ### [Sichuan 72-tile game](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/03-sichuan-72-tile/)
 
@@ -143,6 +131,12 @@ Five sources. Tiles, hand and the annual card are agreed; Wikipedia adds the fea
 ### [Babcock rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/)
 
 Four sources agree on the 1920 red book and its role in introducing the game to the West, and Wikipedia adds the man, his dates and a 1923 second edition. Sloperama gives the rules themselves, including that kongs and flowers were dropped from Babcock's simplified system, and Wikipedia's scoring article independently derives the Babcock system from Chinese Classical, which supports the chart's descent. The 136-or-144 ambiguity traces to Babcock's own opening sentence describing a set of 136 pieces.
+
+### [Chinese archaic](01-proto-mahjong/01-chinese-archaic/)
+
+The chart's 'c. 1890, Wilkinson' is now supported by three sources and, better, by surviving objects. Wilkinson collected across nine Chinese cities in 1889-90, and a box of precursor má qiǎo tiles he collected in 1889 is in the British Museum's Schreiber Collection with 中發 on it. The date is therefore artefactual rather than merely asserted.
+
+One caution about what the node contains. Wilkinson's best-known documentation is of money-suited CARDS — khanhoo and kunpai — rather than of a tile-mahjong ruleset, and he adapted khanhoo for Western players in 1891. Tiles and cards both survive from his collecting, so the node is not misplaced, but a reader should not assume a written 1890 ruleset for tile mahjong lies behind it. What lies behind it is a collection and a scholar's notes.
 
 ### [Chinese classical](01-proto-mahjong/04-chinese-classical/)
 
@@ -192,6 +186,14 @@ Sloperama's early-forms table puts numbers on this node. The 1903 Li column scor
 
 112 tiles and a 4-tile hand winning on 5 match the chart, and both the detailed entry and the abbreviated list agree. Its extreme hand size makes it the least mahjong-like entry in the tree that still carries a firm description.
 
+### [Mahjong Masters Millions](02-modern-inventions/03-mahjong-masters-millions/)
+
+Two sources, and the second turns a bare label into a dated, attributed ruleset: created for the 1997 Mahjong Masters Millions tournament by Zuwei Thomas Feng and Hiroyuki Takashaki, as Internet Mahjong Server rules — a deliberate hybrid of modern Chinese and Japanese play. Pattern selection follows the Japanese side, including the sacred-discard and missed-discard rules and better scoring for concealed hands, while the Japanese low-scoring patterns are dropped and a self-drawn win instead takes auxiliary points in the Chinese modern style.
+
+It also decodes Sloperama. Its entry says to score the sets, then 'determine the aux value, then multiply' without saying what aux is; the preset documentation shows auxiliary points in use, ten of them for a self-drawn win. The one disagreement is flowers: Sloperama calls them optional and gives 136 or 144 tiles, while this source says the ruleset does not use flowers and seasons at all, which resolves the count to 136.
+
+The chart's placement under modern inventions is well supported by this. A 1997 tournament ruleset assembled deliberately from two traditions is an invention, not a descendant.
+
 ### [Mainland regionals](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/)
 
 The wiki independently confirms both of the chart's caveats about this group: over 100 variants today, and a 1990s divergence in which some built on Old Style and some on an additive New Style. It also dates the Sichuan/Chengdu Bloody rules to the 1990s, matching the chart's separate node.
@@ -220,6 +222,10 @@ Three sources now agree on 136 tiles, a 13-tile hand and no flowers in play, and
 
 Two independent sources agree that the 1967 rules introduced bazoro, oka and ura dora, exactly as the chart says. There is an apparent conflict with the 1957 Tokyo rules, which already carry a zoroba, and it resolves cleanly: riichi.wiki specifies that 1967 introduced TWO HAN bazoro, the fixed form still built into modern scoring tables, where 1957 had a variable bonus rolled on the dice that did not count toward the minimum. The chart's attribution is correct once bazoro is read as the fixed form.
 
+### [Nanjing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/07-nanjing-style/)
+
+Two independent sources agree, and the second is far richer than the 2006 newsgroup report the node rested on. Both give 144 tiles and dragons treated as flowers; Baidu makes the arithmetic explicit, twenty flower tiles being the twelve dragons plus the eight seasons and plants. Both make flower count the scoring engine. Baidu adds the structure the chart lacks: minor and major hands, four hard flowers to qualify for a minor, a flower kong alongside exposed and concealed kongs, and a major hand retaining the dealership. The local name is Jinling Mahjong.
+
 ### [Nepalese](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/04-nepalese/)
 
 144 tiles with a 10-tile hand winning on 11 confirms the chart's 11-tile winning hand precisely, and the source identifies it as Western-like but with fewer tiles in hand, which supports its placement under the Western branch.
@@ -234,7 +240,7 @@ The conflict is settled. Four secondary sources date the founding to 1937 in New
 
 ### [Proto-mahjong](01-proto-mahjong/)
 
-The chart's 'c. 1870s' is corroborated, though by artefacts rather than by rules. Stanwick and Xu date surviving ma que pai sets to collections made between 1868 and 1876, and note that wind tiles appear in most known sets after the 1870s. That supports the decade without touching the chart's other claim, that the rules are lost, which no source contradicts either. The node is therefore well dated and genuinely ruleless.
+Well dated, and now with a named mechanism of descent. Stanwick and Xu date surviving ma que pai sets to collections made between 1868 and 1876, with wind tiles in most known sets after the 1870s, which corroborates the chart's c. 1870s by artefacts rather than by rules. Wikipedia's khanhoo article supplies the structural story: the family shifted from trick-taking to draw-and-discard across the 18th and 19th centuries as shedding games — mòhú and pènghú, named there as mahjong's ancestors — displaced the older form. That is what this node stands for. The chart's other claim, that the rules are lost, no source contradicts: what survives from the period is tiles, cards and collectors' notes, not a ruleset.
 
 ### [Regional US house rules](01-proto-mahjong/04-chinese-classical/04-babcock-rules/03-regional-us-house-rules/)
 

@@ -368,10 +368,18 @@
         "scoring": "points for flowers, doubled for special ways of going out",
         "payout": "winner only",
         "note": "revealed by Shanghai player 'ithinc' on the mahjong newsgroup, 17-18 April 2006"
+      },
+      {
+        "source": "baidu-nanjing",
+        "retrieved": "2026-09-19",
+        "tiles": "144, of which TWENTY are flower tiles: four green dragons, four red dragons, four white dragons, the four seasons, and plum, orchid, bamboo and chrysanthemum",
+        "scoring": "flower scoring is the core mechanic, the flower count converted into points at a rate the table sets; kongs come in three kinds, exposed, concealed and flower kong, each scoring differently",
+        "payout": "a self-drawn win collects from all three opponents, while a player who discards the winning tile pays for one hand only",
+        "note": "also called Jinling Mahjong (金陵麻将), popular in the Nanjing area of Jiangsu. Winning hands divide into minor and major; four 'hard flowers', such as red or white dragons, are needed to qualify for a minor hand, and a concealed hand awards additional flowers. A major hand retains the dealership"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "144 tiles with dragons treated as flowers matches the chart exactly. It rests on a single newsgroup report from 2006 by one Shanghai player."
+    "evidence": "corroborated",
+    "assessment": "Two independent sources agree, and the second is far richer than the 2006 newsgroup report the node rested on. Both give 144 tiles and dragons treated as flowers; Baidu makes the arithmetic explicit, twenty flower tiles being the twelve dragons plus the eight seasons and plants. Both make flower count the scoring engine. Baidu adds the structure the chart lacks: minor and major hands, four hard flowers to qualify for a minor, a flower kong alongside exposed and concealed kongs, and a major hand retaining the dealership. The local name is Jinling Mahjong."
   },
   "shenzhen-style": {
     "observations": [
@@ -953,10 +961,15 @@
         "flowers": "melded upon receipt",
         "scoring": "calculate points then apply doubles, with numbers varying greatly from other forms",
         "payout": "all players"
+      },
+      {
+        "source": "sloperama-faq-2b",
+        "retrieved": "2026-09-19",
+        "note": "SEARCHED AND NOT FOUND: a targeted search for the Israeli Mah-Jongg Association's own rules, in English and in Hebrew (איגוד המהג'ונג הישראלי), returned nothing about the association, its rules, tiles or scoring. Results were dominated by American mahjong and general Jewish-mahjong material, which is a different subject. No second source for this node was located, and the association's own site was not found"
       }
     ],
     "evidence": "single-source",
-    "assessment": "144 tiles, a 13-tile hand, flowers melded on receipt, and scoring whose numbers vary greatly from other forms. One source, no books."
+    "assessment": "Still one source, and now known to be hard rather than merely unchecked. Sloperama gives 144 tiles or kards, a 13-tile hand, flowers melded on receipt, all players paid, and scoring whose numbers vary greatly from other forms — the last being the only real hint at what distinguishes it. A targeted search in English and Hebrew found nothing about the association's own rules; the results were swamped by American mahjong and general Jewish-mahjong material, which is a different subject and should not be mistaken for this node. Anyone with Hebrew and a route to the association itself would likely resolve this quickly; web search alone does not."
   },
   "nepalese": {
     "observations": [
@@ -1213,10 +1226,17 @@
         "scoring": "points for pongs/kongs/pairs, then an 'aux' value, then multiply",
         "payout": "winner(s) only",
         "note": "several special hands"
+      },
+      {
+        "source": "4winds-rule-presets",
+        "retrieved": "2026-09-19",
+        "flowers": "does not use Flowers and Seasons at all",
+        "scoring": "retains point scoring for basic sets, as Japanese and classical rules do, rather than scoring only kongs as the Internet Mahjong Server rules do; a self-drawn win receives 10 AUXILIARY POINTS; patterns score slightly better concealed, and a fully concealed hand is rewarded",
+        "note": "DATES AND NAMES THE NODE: rules created for the 1997 Mahjong Masters Millions tournament by Zuwei Thomas Feng and Hiroyuki Takashaki. They are IMS (Internet Mahjong Server) rules — hybrid, combining features of modern Chinese and Japanese mahjong. Pattern selection resembles modern Japanese, with hands such as All Simples and Terminal or Honour in each set, but the Japanese low-scoring patterns are abandoned: no-points hand, going out on a pair, one-chance chow. It applies the Japanese sacred-discard rule in its extended form, and missed discard"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "136 or 144 tiles, a 13-tile hand, and an unusual scoring step in which an aux value multiplies the total. Only the winner or winners are paid, which is unusual enough to be a real identifying feature."
+    "evidence": "corroborated",
+    "assessment": "Two sources, and the second turns a bare label into a dated, attributed ruleset: created for the 1997 Mahjong Masters Millions tournament by Zuwei Thomas Feng and Hiroyuki Takashaki, as Internet Mahjong Server rules — a deliberate hybrid of modern Chinese and Japanese play. Pattern selection follows the Japanese side, including the sacred-discard and missed-discard rules and better scoring for concealed hands, while the Japanese low-scoring patterns are dropped and a self-drawn win instead takes auxiliary points in the Chinese modern style.\n\nIt also decodes Sloperama. Its entry says to score the sets, then 'determine the aux value, then multiply' without saying what aux is; the preset documentation shows auxiliary points in use, ten of them for a self-drawn win. The one disagreement is flowers: Sloperama calls them optional and gives 136 or 144 tiles, while this source says the ruleset does not use flowers and seasons at all, which resolves the count to 136.\n\nThe chart's placement under modern inventions is well supported by this. A 1997 tournament ruleset assembled deliberately from two traditions is an invention, not a descendant."
   },
   "proto-mahjong": {
     "observations": [
@@ -1234,10 +1254,15 @@
         "source": "stanwick-xu",
         "retrieved": "2026-09-18",
         "note": "dates the physical evidence: the ma que pai sets of Carl Himly and George Glover were collected in 1868-1876, 1872-1873 and 1875, and the wind tiles are found in most known ma que pai sets after the 1870s. The game is 麻雀 ma que, literally 'hemp bird' and in bonded form 'sparrow', also known in the Late Qing period as peng hu, 'encountering harmony'"
+      },
+      {
+        "source": "wikipedia-khanhoo",
+        "retrieved": "2026-09-19",
+        "note": "names the ancestry directly: khanhoo is a non-partnership draw-and-discard Chinese card game, first recorded in the late Ming as a multi-trick-taking game, which 'belongs to the same family as Mahjong'. By the late Qing the rules Wilkinson and Culin recorded had changed from trick-taking to draw-and-discard, a shift attributed to the 18th and 19th centuries when trick-taking gave way to shedding games — mòhú (默和) and pènghú (碰和), which it calls the ancestors of mahjong. Wilkinson had Charles Goodall issue a khanhoo pack with a rules booklet in 1891"
       }
     ],
     "evidence": "corroborated",
-    "assessment": "The chart's 'c. 1870s' is corroborated, though by artefacts rather than by rules. Stanwick and Xu date surviving ma que pai sets to collections made between 1868 and 1876, and note that wind tiles appear in most known sets after the 1870s. That supports the decade without touching the chart's other claim, that the rules are lost, which no source contradicts either. The node is therefore well dated and genuinely ruleless."
+    "assessment": "Well dated, and now with a named mechanism of descent. Stanwick and Xu date surviving ma que pai sets to collections made between 1868 and 1876, with wind tiles in most known sets after the 1870s, which corroborates the chart's c. 1870s by artefacts rather than by rules. Wikipedia's khanhoo article supplies the structural story: the family shifted from trick-taking to draw-and-discard across the 18th and 19th centuries as shedding games — mòhú and pènghú, named there as mahjong's ancestors — displaced the older form. That is what this node stands for. The chart's other claim, that the rules are lost, no source contradicts: what survives from the period is tiles, cards and collectors' notes, not a ruleset."
   },
   "chinese-archaic": {
     "observations": [
@@ -1250,10 +1275,20 @@
         "source": "sloperama-analysis",
         "retrieved": "2026-09-18",
         "note": "Sloperama's early-forms table compares 1903 (Li), 1915 (Mauger), 1920s standard, 1920s 'New Method', Japanese Classical and HKOS against eight rule hallmarks; Chinese Archaic itself is not a column in that table"
+      },
+      {
+        "source": "wikipedia-wilkinson",
+        "retrieved": "2026-09-19",
+        "note": "the collector behind this node: Sir William Henry Wilkinson, British sinologist and Consul-General in China and Korea from 1880 to 1918. His packs were procured during 1889-90 from Guangzhou, Shantou and Fuzhou in the south, Ningbo and Shanghai on the coast, Beijing in the north, Jiujiang and Yichang in mid-China and Chongqing in the far west. The collection is now in the British Museum"
+      },
+      {
+        "source": "stanwick-names",
+        "retrieved": "2026-09-19",
+        "note": "CONFIRMS THE DATE FROM ARTEFACTS: the characters 中發 appear on a box of precursor má qiǎo TILES collected by Wilkinson in 1889, donated to the British Museum as part of the Schreiber Collection. So Wilkinson's 1889-90 material is not only cards — tiles survive and are datable. It also cites an unpublished Wilkinson memorandum of 1925"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "Sloperama's catalogue gives the same 1890 date and Wilkinson attribution the chart does, but it is the chart's own source, so this is agreement by inheritance rather than corroboration. Sloperama's early-forms comparison does not include an Archaic column, so its rules are untested against the later forms."
+    "evidence": "corroborated",
+    "assessment": "The chart's 'c. 1890, Wilkinson' is now supported by three sources and, better, by surviving objects. Wilkinson collected across nine Chinese cities in 1889-90, and a box of precursor má qiǎo tiles he collected in 1889 is in the British Museum's Schreiber Collection with 中發 on it. The date is therefore artefactual rather than merely asserted.\n\nOne caution about what the node contains. Wilkinson's best-known documentation is of money-suited CARDS — khanhoo and kunpai — rather than of a tile-mahjong ruleset, and he adapted khanhoo for Western players in 1891. Tiles and cards both survive from his collecting, so the node is not misplaced, but a reader should not assume a written 1890 ruleset for tile mahjong lies behind it. What lies behind it is a collection and a scholar's notes."
   },
   "late-qing-style": {
     "observations": [
