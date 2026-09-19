@@ -9,7 +9,7 @@ it is the scaffolding that produced the folder tree.
 | [`CONVENTIONS.md`](CONVENTIONS.md) | How files are filed, named and logged; the provenance vocabulary |
 | [`source-chart/`](source-chart/) | The variant family tree chart this repository's structure is built from: the author's Markdown export (authoritative), the original PDF, and the text extracted from that PDF |
 | [`data/`](data/) | The chart's contents as data: the node tree, the bibliography, the chart's own caveats, and the cross-comparison claims |
-| [`scripts/`](scripts/) | The extraction and generation scripts |
+| [`scripts/`](scripts/) | The extraction and generation scripts, and the website's CSS and JavaScript |
 
 ## The cross-comparison pass
 
@@ -49,6 +49,37 @@ To add, rename or re-parent a variant, edit
 [`data/nodes.tsv`](data/nodes.tsv) and rerun. Note that renaming a variant
 changes its folder name; move the existing folder yourself first, then rerun, or
 the old folder will be left behind alongside the new one.
+
+## The website
+
+```sh
+python3 _dev/scripts/generate_site.py
+```
+
+This builds [`docs/`](../docs/) — the published site, served by GitHub Pages
+from the `docs/` folder of the default branch at the domain in
+[`../docs/CNAME`](../docs/CNAME). It is **generated output: never edit anything
+under `docs/` by hand**, the next run deletes it. It reads the same
+`_dev/data/` files the Markdown does, so the site and the folder tree can never
+drift apart.
+
+What it produces: a landing page whose 3D family tree is the way in, a page per
+variant carrying that variant's lineage, cross-comparison table and verdict, the
+findings, the bibliography, and a page on method. The page templates are in
+`generate_site.py`; the two assets it copies verbatim are
+[`scripts/site/site.css`](scripts/site/site.css) and
+[`scripts/site/tree.js`](scripts/site/tree.js).
+
+`tree.js` draws the landing-page tree with Three.js (loaded from a CDN; nothing
+is bundled). Three things in it are worth knowing before changing it: nodes are
+seated on a ring per generation with each branch's wedge proportional to the
+leaves under it *and* floored at a minimum arc, so a parent's small branches are
+not crushed into a sliver; the camera fits itself by measuring where the tree
+actually lands on screen rather than by enclosing it in a sphere, because the
+layout is a wide flat disk seen at an angle; and the labels are HTML elements
+positioned each frame, with any that would overlap dropped in priority order, so
+they stay crisp and never collide. Without JavaScript or WebGL the page still
+lists every variant.
 
 ## The source chart, and checking against it
 
