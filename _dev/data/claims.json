@@ -51,10 +51,15 @@
         "source": "lets-mahjong",
         "retrieved": "2026-09-18",
         "note": "wiki treats New Chapter as the transition from HKOS toward Guangdong style"
+      },
+      {
+        "source": "wikidot-gmcr",
+        "retrieved": "2026-09-19",
+        "note": "CORROBORATES THE INTERMEDIATE NODE: states that HKOS was adopted as a backlash to HKNS, which had itself evolved from Chinese Classical, and that the simplified variant born from that backlash is Qing Zhang, Clear Chapter, known in English as Hong Kong Old Style. That places a new-style stage between Chinese Classical and HKOS, which is exactly what this node is"
       }
     ],
-    "evidence": "partial",
-    "assessment": "Sloperama's Hong Kong New Style entry matches on tiles, hand and payout, and its 'many many special hands' against Old Style's 'few' is the substantive difference the chart's branch depends on. The wiki's mainland page independently describes later pattern additions to the Ningbo-origin classical game as Shanghai New Style, which supports the node's existence; neither source dates it to the 1920s."
+    "evidence": "corroborated",
+    "assessment": "The node's existence is now independently supported rather than inherited. Sloperama's Hong Kong New Style entry matches on tiles, hand and payout, and its 'many many special hands' against Old Style's 'few' is the substantive difference the branch depends on. The wiki's mainland page describes later pattern additions to the classical game as Shanghai New Style, and its GMCR page states outright that HKOS was adopted as a backlash to HKNS, which had evolved from Chinese Classical. Three sources therefore place a new-style stage between Chinese Classical and Hong Kong Old Style. What none of them does is date it to the 1920s."
   },
   "hong-kong-old-style": {
     "observations": [
@@ -191,6 +196,11 @@
         "flowers": "eight, replaced from the back end of the wall",
         "scoring": "8-point minimum, enforced by a false-mahjong penalty",
         "note": "the ruleset itself, confirming what the secondary sources say about it"
+      },
+      {
+        "source": "wikidot-gmcr",
+        "retrieved": "2026-09-19",
+        "note": "TENSION WITHIN THE SAME WIKI: this page says that when there was a call to make mahjong a nationally recognised mindsport, the China State Sports Commission chose to eschew organic competitive mahjong and create MCR instead — a top-down invention. The wiki's Guangdong page says the opposite, that Guangdong Style was adapted into MCR and Zung Jung in the 1990s. The chart treats MCR as a sibling of Guangdong under HKOS, which matches neither account exactly"
       }
     ],
     "evidence": "corroborated",
@@ -669,6 +679,11 @@
         "source": "riichi-wiki",
         "retrieved": "2026-09-18",
         "note": "independently states that the riichi variant played today emerged only after the publication of the Hochi rules in 1952, corroborating the Chombo Club account from a different source"
+      },
+      {
+        "source": "riichi-wiki-amano",
+        "retrieved": "2026-09-19",
+        "note": "independently confirms the 1952 Hochi Shinbun publication as the first standardised riichi rules, the report to the police by someone connected with the Mahjong Association of Japan, Amano's departure as its executive director, and his founding of the Japan Tile Association 日本牌棋院. Gives his dates as 1904-1982, which matches the other account's statement that the Federation accepted riichi in 2016, thirty-four years after his death"
       }
     ],
     "evidence": "corroborated",
@@ -680,10 +695,16 @@
         "source": "chombo-club",
         "retrieved": "2026-09-18",
         "note": "in 1957 Amano published 'All 1-Han Shibari', also known as the Tokyo rules"
+      },
+      {
+        "source": "riichi-wiki-tokyo",
+        "retrieved": "2026-09-19",
+        "scoring": "a riichi bet costs 100 points; all tenbou are worth a tenth of their usual value and players start on 20,000; hands are graded kazumangan, shoumangan, hanemangan, daimangan and, for chuuren poutou, choumangan",
+        "note": "names the ruleset 東京ルール, also 全一飜縛り麻雀 (all iihan shibari), and dates it to 1957 with Daizo Amano as author. Crucially it states there is NO kandora and NO uradora in these rules, which is negative evidence that both arrived later. Its han-from-dice mechanic — each 1 or 6 rolled, or any pair summing to 7, adds a han, re-rolling until at least one is added — is the early variable form of what later became a flat bonus, and the page notes that this zoroba does not count towards the one-han minimum"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "The 1957 date and the 1-han minimum are confirmed, with the ruleset's Japanese name. Same single source as the rest of the Japanese chain."
+    "evidence": "corroborated",
+    "assessment": "Two independent sources now agree on the 1957 date, Amano's authorship and the one-han minimum that gives the node its name, and riichi.wiki supplies the Japanese titles, 東京ルール and 全一飜縛り麻雀. The page also settles a question the next node raises: the 1957 rules have no kandora and no uradora, so the chart is right to place ura dora at 1967. Its dice-driven han bonus is the early, variable ancestor of bazoro, and it explicitly does not count toward the minimum."
   },
   "modern-rules": {
     "observations": [
@@ -691,10 +712,15 @@
         "source": "chombo-club",
         "retrieved": "2026-09-18",
         "note": "in 1967 Amano published the 'modern rules' (gendai ruuru), introducing rounding fu up to the nearest ten, bazoro, oka and ura-dora, all still used today"
+      },
+      {
+        "source": "riichi-wiki-amano",
+        "retrieved": "2026-09-19",
+        "note": "states that the 1967 Modern rules introduced 2 HAN bazoro, oka and uradora. The '2 han' is the detail that reconciles this with the 1957 Tokyo rules, which already had a variable dice-driven zoroba: what 1967 introduced was the fixed two-han form still baked into modern scoring tables, not the idea itself"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "1967, bazoro, oka and ura-dora all confirmed, with an explanation of why bazoro survives invisibly inside modern scoring tables. Same single source."
+    "evidence": "corroborated",
+    "assessment": "Two independent sources agree that the 1967 rules introduced bazoro, oka and ura dora, exactly as the chart says. There is an apparent conflict with the 1957 Tokyo rules, which already carry a zoroba, and it resolves cleanly: riichi.wiki specifies that 1967 introduced TWO HAN bazoro, the fixed form still built into modern scoring tables, where 1957 had a variable bonus rolled on the dice that did not count toward the minimum. The chart's attribution is correct once bazoro is read as the fixed form."
   },
   "modern-riichi-yonma": {
     "observations": [
@@ -729,6 +755,11 @@
         "source": "wikipedia-mahjong",
         "retrieved": "2026-09-18",
         "note": "standardised in Japan and South Korea, prevalent in video games, with riichi and dora as its unique highlights and discards arranged by order in front of each player"
+      },
+      {
+        "source": "riichi-wiki-amano",
+        "retrieved": "2026-09-19",
+        "note": "THE CHAIN IS INCOMPLETE: lists seven Amano rulesets — 1952 Hochi, 1957 Tokyo, 1958 Unified, 1963 Olympic, 1967 Modern, 1971 New modern, 1978 New hochi. The chart carries only the first, second and fifth. The chart's 1970 date for this node sits beside Amano's 1971 New modern rules, which it does not mention"
       }
     ],
     "evidence": "corroborated",
@@ -1281,10 +1312,21 @@
         "source": "wikidot-guangdong",
         "retrieved": "2026-09-18",
         "note": "the same timeline ends: 2020s, the synthetic competitive variant Guangdong Mahjong Competition Rules (GMCR) is made. This corroborates the chart's 2020s date"
+      },
+      {
+        "source": "wikidot-gmcr",
+        "retrieved": "2026-09-19",
+        "scoring": "built only from rules found in historic Guangdong Style rulesets, and teachable as a three-step progression through Clear Chapter and New Chapter HKOS",
+        "note": "states GMCR was created to promote competitive Guangdong Style, with three goals: true to the game yet simple, easy to learn, and competitive — the last achieved by removing pure-luck wins such as Blessing of Heaven and the self-drawn win. Gives an explicit descent chain: GMCR evolved from Guangdong Style, which evolved from HKOS, which was adopted as a backlash to HKNS, which evolved from Chinese Classical"
+      },
+      {
+        "source": "wmt-guangdong",
+        "retrieved": "2026-09-19",
+        "note": "a tournament codification of Guangdong style, showing the parent variant in current competitive use"
       }
     ],
-    "evidence": "single-source",
-    "assessment": "The wiki's Guangdong timeline ends with GMCR in the 2020s, matching the chart exactly. No second source fetched here mentions GMCR at all."
+    "evidence": "corroborated",
+    "assessment": "The 2020s date is confirmed by two wiki pages, and the node is now substantive rather than a bare label: GMCR was assembled to make Guangdong Style competitive, drawing only on rules already present in historic Guangdong rulesets and stripping out pure-luck wins like Blessing of Heaven and the self-drawn win. Its own page also states the descent chain in words — GMCR from Guangdong Style, Guangdong from HKOS, HKOS adopted as a backlash to Hong Kong New Style, and that from Chinese Classical — which matches the chart's shape through this whole branch, including the intermediate new-style node."
   },
   "hong-kong-taiwanese": {
     "observations": [

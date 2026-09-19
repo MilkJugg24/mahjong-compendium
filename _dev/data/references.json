@@ -570,6 +570,30 @@
       "citation": "BoardGameGeek. \"Pussers Bones (the Australian Navy Rules)\", Mahjong forum thread 1729359, c. February 2017.",
       "note": "Checked and closed as a lead. A single post containing a link to the Gun Plot site, with no independent account of play. Behind a Cloudflare challenge and with no usable archive snapshot, so its contents are as reported by the repository owner, who opened it directly.",
       "url": "https://boardgamegeek.com/thread/1729359/pussers-bones-the-australian-navy-rules"
+    },
+    {
+      "id": 72,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "riichi-wiki-amano",
+      "citation": "Japanese Mahjong Wiki. \"Daizo Amano.\" riichi.wiki.",
+      "note": "Biography and complete ruleset list for 天野大三 (1904-1982): the 1952 Hochi rules and the police incident, and the seven rulesets he authored between 1952 and 1978. Read through the Wayback Machine.",
+      "url": "https://riichi.wiki/Daizo_Amano"
+    },
+    {
+      "id": 73,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "riichi-wiki-tokyo",
+      "citation": "Japanese Mahjong Wiki. \"Tokyo rules.\" riichi.wiki.",
+      "note": "A full treatment of the 1957 ruleset 東京ルール / 全一飜縛り麻雀: equipment, play, scoring and yaku, including that it has no kandora or uradora. Read through the Wayback Machine.",
+      "url": "https://riichi.wiki/Tokyo_rules"
+    },
+    {
+      "id": 74,
+      "section": "SOURCES ADDED WHILE CROSS-CHECKING",
+      "slug": "wmt-guangdong",
+      "citation": "World Mahjong Tour. Guangdong Mahjong tournament rules.",
+      "note": "A tournament codification of Guangdong style, showing the variant in current competitive use.",
+      "url": "https://worldmahjongtour.live/tournament-rules-guangdong-mahjong/"
     }
   ]
 }

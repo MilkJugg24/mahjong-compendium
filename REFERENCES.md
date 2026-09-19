@@ -734,6 +734,36 @@ Checked and closed as a lead. A single post containing a link to the Gun Plot si
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-72"></a>
+
+**72. Japanese Mahjong Wiki. "Daizo Amano." riichi.wiki.**
+
+Biography and complete ruleset list for 天野大三 (1904-1982): the 1952 Hochi rules and the police incident, and the seven rulesets he authored between 1952 and 1978. Read through the Wayback Machine.
+
+<https://riichi.wiki/Daizo_Amano>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-73"></a>
+
+**73. Japanese Mahjong Wiki. "Tokyo rules." riichi.wiki.**
+
+A full treatment of the 1957 ruleset 東京ルール / 全一飜縛り麻雀: equipment, play, scoring and yaku, including that it has no kandora or uradora. Read through the Wayback Machine.
+
+<https://riichi.wiki/Tokyo_rules>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-74"></a>
+
+**74. World Mahjong Tour. Guangdong Mahjong tournament rules.**
+
+A tournament codification of Guangdong style, showing the variant in current competitive use.
+
+<https://worldmahjongtour.live/tournament-rules-guangdong-mahjong/>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.
