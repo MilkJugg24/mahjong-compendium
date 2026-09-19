@@ -8,7 +8,7 @@ The folder tree mirrors the variant family tree in [`_dev/source-chart/`](_dev/s
 
 | If you want to | Go to |
 | --- | --- |
-| Read it as a website | [pandaren.org](https://pandaren.org/) |
+| Read it as a website | [compendium.pandaren.org](https://compendium.pandaren.org/) |
 | Find the folder for a variant | The [glossary](#glossary) below |
 | See how variants descend from each other | The [family tree](#family-tree) below |
 | See what the sources say against each other | [`FINDINGS.md`](FINDINGS.md) |
