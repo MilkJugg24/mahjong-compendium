@@ -19,6 +19,8 @@ DATA = os.path.join(ROOT, "_dev", "data")
 OUT = os.path.join(ROOT, "docs")
 DOMAIN = "compendium.pandaren.org"
 TITLE = "Mahjong Compendium"
+# how many sibling variants a footnote names before deferring to the bibliography
+SEE_ALSO = 6
 
 # Family hues, warmed to sit on the Pandaria green-and-brown ground while
 # staying separable from one another at tree-node size.
@@ -76,6 +78,24 @@ def load():
         n["ref_ids"] = ([by_slug[n["source"]]["id"]] +
                         [int(x) for x in n["refs"].split(",") if x and by_slug[n["source"]]["id"] != int(x)])
     return {n["slug"]: n for n in nodes}, nodes, refs, by_slug, by_id, distortions
+
+
+def citation_map(nodes_list, by_slug):
+    """Reference id -> the variant nodes that cite it, in tree order.
+
+    Both the per-page footnotes and the master bibliography read this, so the
+    two can never disagree about who cites what.
+    """
+    cited, seen = {}, {}
+    for n in nodes_list:
+        ids = list(n["ref_ids"])
+        if n.get("claims"):
+            ids += [by_slug[o["source"]]["id"] for o in n["claims"]["observations"]]
+        for rid in ids:
+            if n["slug"] not in seen.setdefault(rid, set()):
+                seen[rid].add(n["slug"])
+                cited.setdefault(rid, []).append(n)
+    return cited
 
 
 # ------------------------------------------------------------ rendering
@@ -142,8 +162,44 @@ def page(title, body, depth, description="", extra_head="", extra_body=""):
 
 # ------------------------------------------------------------ variant page
 
-def variant_page(n, nodes, by_id, by_slug):
+def page_sources(n, by_slug):
+    """Every source this page uses, numbered locally in order of first appearance.
+
+    A page is self-contained: the footnote a reader lands on carries the full
+    citation, the annotation and the outbound link, so no page depends on the
+    bibliography to say what [3] is.
+    """
+    order, seen = [], set()
+
+    def use(rid):
+        if rid not in seen:
+            seen.add(rid)
+            order.append(rid)
+
+    observed = {}
+    if n.get("claims"):
+        obs = n["claims"]["observations"]
+        fields = ("tiles", "hand", "flowers", "scoring", "payout")
+        for o in [o for o in obs if any(o.get(f) for f in fields)]:
+            use(by_slug[o["source"]]["id"])
+        for o in [o for o in obs if o.get("note")]:
+            use(by_slug[o["source"]]["id"])
+        for o in obs:
+            observed.setdefault(by_slug[o["source"]]["id"], o)
+    for rid in n["ref_ids"]:
+        use(rid)
+
+    canonical = by_slug[n["source"]]["id"]
+    num = {rid: i + 1 for i, rid in enumerate(order)}
+    role = {rid: ("canonical" if rid == canonical
+                  else "supporting" if rid in n["ref_ids"] else "cross-check")
+            for rid in order}
+    return order, num, role, observed
+
+
+def variant_page(n, nodes, by_id, by_slug, cited):
     up = "../../"
+    order, num, role, observed = page_sources(n, by_slug)
     fam_name, fam_colour = FAMILY[n["family"]]
     if n["depth"] == 0 or nodes[n["slug"]]["slug"] == "modern-inventions":
         pass
@@ -199,24 +255,38 @@ def variant_page(n, nodes, by_id, by_slug):
             for o in measured:
                 r = by_slug[o["source"]]
                 cells = "".join(f'<td>{inline(o.get(f) or "—")}</td>' for f in fields)
-                b.append(f'<tr><td class="src"><a href="{up}references/#ref-{r["id"]}">[{r["id"]}]</a></td>{cells}</tr>')
+                b.append(f'<tr><td class="src"><a href="#src-{num[r["id"]]}">[{num[r["id"]]}]</a></td>{cells}</tr>')
             b.append('</tbody></table></div>')
         notes = [(by_slug[o["source"]], o["note"]) for o in c["observations"] if o.get("note")]
         if notes:
             b.append('<ul class="notes">')
             for r, note in notes:
-                b.append(f'<li><a href="{up}references/#ref-{r["id"]}">[{r["id"]}]</a> {inline(note)}</li>')
+                b.append(f'<li><a href="#src-{num[r["id"]]}">[{num[r["id"]]}]</a> {inline(note)}</li>')
             b.append('</ul>')
         b.append('<h3>Reading it</h3>')
         b.append(paragraphs(c["assessment"]))
         b.append('</section>')
 
-    b.append('<section><h2>Sources the chart cites</h2><ol class="srcs">')
-    for rid in n["ref_ids"]:
-        r = by_id[rid]
-        role = "canonical" if rid == by_slug[n["source"]]["id"] else "supporting"
-        b.append(f'<li value="{rid}" class="{role}"><a href="{up}references/#ref-{rid}">{esc(r["citation"])}</a>'
-                 f' <span class="role">{role}</span></li>')
+    b.append('<section><h2>Sources</h2><ol class="srcs">')
+    for rid in order:
+        r, o = by_id[rid], observed.get(rid)
+        others = [m for m in cited.get(rid, []) if m["slug"] != n["slug"]]
+        shown = ", ".join(f'<a href="{up}variants/{m["slug"]}/">{esc(m["label"])}</a>'
+                          for m in others[:SEE_ALSO])
+        rest = len(others) - min(len(others), SEE_ALSO)
+        also = (f'Also cited on: {shown}' + (f' and {rest} more' if rest else '')
+                if shown else 'Only cited here')
+        when = (f' <span class="when">checked {esc(o["retrieved"])}</span>'
+                if o and o.get("retrieved") else '')
+        b.append(f'<li id="src-{num[rid]}" class="{role[rid]}">'
+                 f'<p class="cite">{esc(r["citation"])}'
+                 f' <span class="role">{role[rid]}</span>{when}</p>'
+                 f'<p class="dim">{esc(r["note"])}</p>'
+                 f'<p class="url"><a href="{esc(r["url"])}" rel="nofollow noopener">'
+                 f'{esc(r["url"])}</a></p>'
+                 f'<p class="cited">{also} \u00b7 '
+                 f'<a href="{up}references/#ref-{rid}">bibliography #{rid}</a></p>'
+                 '</li>')
     b.append('</ol></section>')
 
     b.append(f'<p class="back"><a href="{up}">← back to the tree</a></p>')
@@ -284,31 +354,25 @@ def findings_page(nodes_list):
                 "Where the sources agree, disagree, and fall silent, variant by variant.")
 
 
-def references_page(refs, nodes_list, by_slug):
-    cited = {}
-    for n in nodes_list:
-        for rid in n["ref_ids"]:
-            cited.setdefault(rid, []).append(n)
-        if n.get("claims"):
-            for o in n["claims"]["observations"]:
-                cited.setdefault(by_slug[o["source"]]["id"], []).append(n)
+def references_page(refs, nodes_list, by_slug, cited):
     b = ['<h1>References</h1>',
-         f'<p class="lede">{inline(refs["note"])}</p>']
+         f'<p class="lede">{inline(refs["note"])}</p>',
+         '<p class="dim">Every source is quoted in full on the variant pages that use it; '
+         'this page is the index across all of them.</p>']
     section = None
     for r in refs["references"]:
         if r["section"] != section:
             section = r["section"]
             b.append(f'<h2>{esc(section.title())}</h2>')
-        seen, uniq = set(), []
-        for n in cited.get(r["id"], []):
-            if n["slug"] not in seen:
-                seen.add(n["slug"]); uniq.append(n)
+        uniq = cited.get(r["id"], [])
         links = ", ".join(f'<a href="../variants/{n["slug"]}/">{esc(n["label"])}</a>' for n in uniq)
         b.append(f'<div class="ref" id="ref-{r["id"]}">'
                  f'<p class="cite"><b>{r["id"]}.</b> {esc(r["citation"])}</p>'
                  f'<p class="dim">{esc(r["note"])}</p>'
                  f'<p class="url"><a href="{esc(r["url"])}" rel="nofollow noopener">{esc(r["url"])}</a></p>'
-                 + (f'<p class="cited">Cited for: {links}</p>' if links else "")
+                 + (f'<p class="cited">Cited for: {links}</p>' if links else
+                    '<p class="cited uncited">Not cited by any variant \u2014 background reading '
+                    'carried over from the source chart\u2019s bibliography.</p>')
                  + '</div>')
     return page(f"References — {TITLE}", "\n".join(b), 1,
                 "Every source used, with back-links to the variants it was cited for.")
@@ -489,6 +553,17 @@ def method_page():
    when sources were set against each other. They are not the same thing, and a variant can be
    well documented by one witness or thinly documented by several.</p>
 
+<h2>How sources are cited</h2>
+<p>Every variant page carries its own numbered sources at the foot of the page, with the full citation,
+   what the source was consulted for, and a link to the source itself. Numbering is local to each page,
+   so <code>[1]</code> on one variant is not <code>[1]</code> on another; each footnote names its entry
+   in the <a href="../references/">bibliography</a>, which indexes every source across the whole
+   compendium. Each footnote also lists the other variants citing the same source, so a source can be
+   followed sideways through the tree the way lineage is followed downwards.</p>
+<p>A source is marked <b>canonical</b> where the chart drew the variant from it, <b>supporting</b> where
+   the chart cites it alongside, and <b>cross-check</b> where it was fetched afterwards to test what the
+   chart claimed.</p>
+
 <h2>What is never filed here</h2>
 <p>Live copyrighted rulesets. The NMJL and AMJA annual cards for any year, <i>Mah Jongg Made Easy</i>,
    and any variant's in-copyright rulebook. Game mechanics are recorded as facts, exactly as tile counts
@@ -517,6 +592,7 @@ def tree_json(nodes_list):
 
 def main():
     nodes, nodes_list, refs, by_slug, by_id, distortions = load()
+    cited = citation_map(nodes_list, by_slug)
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
     os.makedirs(os.path.join(OUT, "assets"), exist_ok=True)
@@ -535,7 +611,7 @@ def main():
     for name, content in (("about", about_page(nodes, nodes_list, by_id, distortions)),
                           ("variants", variants_index(nodes_list)),
                           ("findings", findings_page(nodes_list)),
-                          ("references", references_page(refs, nodes_list, by_slug)),
+                          ("references", references_page(refs, nodes_list, by_slug, cited)),
                           ("method", method_page())):
         os.makedirs(os.path.join(OUT, name), exist_ok=True)
         open(os.path.join(OUT, name, "index.html"), "w").write(content)
@@ -543,7 +619,7 @@ def main():
     for n in nodes_list:
         d = os.path.join(OUT, "variants", n["slug"])
         os.makedirs(d, exist_ok=True)
-        open(os.path.join(d, "index.html"), "w").write(variant_page(n, nodes, by_id, by_slug))
+        open(os.path.join(d, "index.html"), "w").write(variant_page(n, nodes, by_id, by_slug, cited))
 
     print(f"docs/ built: {len(nodes_list)} variant pages, {len(refs['references'])} references, "
           f"CNAME {DOMAIN}")
