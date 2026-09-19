@@ -6,8 +6,8 @@ What the sources say when set against each other, variant by variant. Every clai
 | --- | --- | --- |
 | `corroborated` | two or more independent sources agree on the facts that define this variant | 41 |
 | `partial` | sources agree on some points and are silent or divided on others | 7 |
-| `conflicting` | sources disagree materially, or one source contradicts itself | 7 |
-| `single-source` | only one source was found; nothing independent confirms it | 4 |
+| `conflicting` | sources disagree materially, or one source contradicts itself | 8 |
+| `single-source` | only one source was found; nothing independent confirms it | 3 |
 | `unsupported` | the sources checked do not carry the claim this node makes | 2 |
 
 A `single-source` tag is not a criticism of a variant. For most of the mainland and Southeast Asian entries there simply is one English-language account, usually a newsgroup report, and the honest record is that it stands alone.
@@ -23,6 +23,10 @@ Sloperama documents two incompatible games under this name: version A with 144 t
 ### [Beijing style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/06-beijing-style/)
 
 A second source settles what the first could not, and contradicts it. Sloperama assumed 144 tiles and recorded flower handling as unknown; the blog it cites states 136 tiles and that the eight flower and season tiles are not used, and its 17-wide two-high wall confirms 136 arithmetically. Prefer 136 and no flowers. The wild-tile mechanism the chart summarises as 'drawn wild tile' is corroborated and much more specific than either summary: the indicator is face up, and the wild tiles are the four one greater in number, wrapping from nine to one.
+
+### [Chinese casino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/11-chinese-casino-style/)
+
+The label promises a casino ruleset; the sourcing gives one unreadable forum post and a body of published casino rules that contradicts it. Sloperama's entry has not changed a word since it appeared between August 2008 and December 2009, and the forum it came from is dead: the domain serves a hosting placeholder and the Internet Archive's captures of the relevant board return a permissions wall, so the report cannot now be read by anyone, including its author. Against that stands the only jurisdiction that publishes rules for mahjong played in casinos. Macau has regulated it since Portaria 133/88/M of 1988, and the rules in force — Portaria 135/91/M, still named by the regulator today — describe a different game from this node on every defining point: 136 tiles rather than 144, no flowers rather than flowers melded on receipt, chows explicitly allowed (only the player to the discarder's right may claim one), and the winner alone paid rather than all players scoring, with the House taking a commission by stake band instead. The British casinos that run mahjong publish the same shape: 144 tiles, chows, and house rules that vary table by table. What the Macau law does settle is a neighbouring node: its simplified form is Macau simplificado, tile for tile as catalogued. The honest reading is that 'Chinese casino style' names one table someone saw, not a style; nothing found in the published record of casino mahjong corroborates the no-chow, everyone-scores game it describes.
 
 ### [Fuzhou style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/04-fuzhou-style/)
 
@@ -104,10 +108,6 @@ The rules are now primary-sourced: Alan Kwan's own site gives 136 tiles, a 13-ti
 
 Confirmed as far as one source goes, with nothing independent behind it.
 
-### [Chinese casino style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/11-chinese-casino-style/)
-
-144 tiles, no chows, and all players scoring. One forum report from 2009. The no-chows rule links it to the other chow-less variants, which is more interesting than the chart's bare label suggests.
-
 ### [Fujian style](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/05-fujian-style/)
 
 124 tiles, winds as flowers and a wild tile as joker match the chart exactly. But it rests on one contributor who says openly that he does not understand the scoring, and the Fuzhou entry on the same page appears to have borrowed this description. Treat the tile count as the only firm part.
@@ -184,7 +184,7 @@ Sloperama's early-forms table puts numbers on this node. The 1903 Li column scor
 
 ### [Macau simplificado](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/02-mainland-regionals/09-macau-simplificado/)
 
-112 tiles and a 4-tile hand winning on 5 match the chart, and both the detailed entry and the abbreviated list agree. Its extreme hand size makes it the least mahjong-like entry in the tree that still carries a firm description.
+112 tiles and a 4-tile hand winning on 5 are now confirmed from the law that created them. Sloperama, working from a 2006 newsgroup post, catalogued the game correctly: Macau's official casino regulation, Portaria 135/91/M, gives 112 tiles — the three suits and the green dragon — a hand of 4 winning on 5, no flowers, and payment to the winner only. It adds what the catalogue could not: this is not a regional style that grew up in Macau but a second, faster form written into the casino rules in 1991, where a discard may be claimed only to win and never for a chow or a pung, and where the House takes a commission on every won game. Its extreme hand size is a casino's doing, not a region's, and the regulator still names those rules today.
 
 ### [Mahjong Masters Millions](02-modern-inventions/03-mahjong-masters-millions/)
 
