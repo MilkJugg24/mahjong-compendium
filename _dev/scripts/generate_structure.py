@@ -334,15 +334,16 @@ def root_readme(nodes, data):
             f"[`{n['path']}`]({n['path']}/) |"
         )
     out.append("")
-    out.append("## What the source chart admits about itself")
+    out.append("## Known limits of this tree")
     out.append("")
     out.append(
         "The chart this tree is built from is explicit about where it is weak, and those warnings belong on the "
-        "front page rather than buried in a folder:"
+        "front page rather than buried in a folder. Each one is written up at greater length on the site's "
+        "[about page](https://compendium.pandaren.org/about/):"
     )
     out.append("")
-    for line in data["distortions"]:
-        out.append(f"- {line}")
+    for d in data["distortions"]:
+        out.append(f"- **{d['heading']}.** {d['summary']}")
     out.append("")
     out.append(
         "Sourcing is uneven by region rather than absent: Cantonese material is credited, most of the rest is not. "

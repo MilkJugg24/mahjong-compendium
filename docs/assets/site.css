@@ -88,6 +88,12 @@ p{margin:.7rem 0}
   border:1px solid var(--line-strong); border-radius:var(--radius); overflow:hidden;
   box-shadow:0 1.2rem 2.6rem rgba(0,0,0,.45), inset 0 0 3rem rgba(0,0,0,.45)}
 @media(max-width:60rem){.stage{min-height:0; height:min(52vh,22rem)}}
+.view{display:flex; flex-direction:column; gap:.55rem}
+/* deliberately quiet: the tree is the front page, this is a footnote to it */
+.learn{margin:0; text-align:center; font-family:var(--ui); font-size:.78rem; letter-spacing:.04em}
+.learn a{color:var(--faint); text-decoration:underline; text-underline-offset:.18em;
+  text-decoration-color:var(--line-strong)}
+.learn a:hover{color:var(--accent); text-decoration-color:var(--accent)}
 #tree{display:block; width:100%; height:100%; cursor:grab}
 #tree:active{cursor:grabbing}
 #hud{position:absolute; inset:0; pointer-events:none}
@@ -141,10 +147,6 @@ p{margin:.7rem 0}
 .count.e-conflicting{border-top-color:var(--conflicting)}
 .count.e-single-source{border-top-color:var(--single-source)}
 .count.e-unsupported{border-top-color:var(--unsupported)}
-.pitch{max-width:64ch}
-.caveats{color:var(--dim); padding-left:1.1rem}
-.caveats li{margin:.35rem 0}
-.caveats::marker,.caveats li::marker{color:var(--accent)}
 
 /* tables */
 .scroll{overflow-x:auto; border:1px solid var(--line); border-radius:var(--radius);
@@ -192,6 +194,15 @@ tbody tr:hover{background:rgba(214,173,85,.08)}
 .srcs .role{color:var(--faint); font-family:var(--ui); font-size:.74rem}
 .srcs .canonical .role{color:var(--accent)}
 .back{margin-top:2.5rem}
+
+/* about */
+.prose{max-width:68ch}
+.limit{margin:1.8rem 0}
+/* the chart's own wording, set apart from the reading of it that follows */
+.claim{border-left:3px solid var(--partial); padding:.15rem 0 .15rem .9rem;
+  color:var(--dim); font-style:italic; margin:.5rem 0 .9rem}
+.anchors{font-family:var(--ui); font-size:.78rem; color:var(--faint); margin-top:.8rem}
+.anchors .sep{opacity:.5; padding:0 .15rem}
 
 /* findings + references */
 .finding{border:1px solid var(--line); border-radius:var(--radius); padding:.6rem .9rem;
