@@ -64,9 +64,13 @@ under `docs/` by hand**, the next run deletes it. It reads the same
 `_dev/data/` files the Markdown does, so the site and the folder tree can never
 drift apart.
 
-What it produces: a landing page whose 3D family tree is the way in, a page per
-variant carrying that variant's lineage, cross-comparison table and verdict, the
-findings, the bibliography, and a page on method. The page templates are in
+What it produces: a landing page whose 3D family tree is the way in and which
+carries nothing but a quiet link out to the about page, that about page (what
+the tree is, where its sources came from, and the source chart's own admissions
+written up one section at a time, from
+[`data/distortions.json`](data/distortions.json)), a page per variant carrying
+that variant's lineage, cross-comparison table and verdict, the findings, the
+bibliography, and a page on method. The page templates are in
 `generate_site.py`; the two assets it copies verbatim are
 [`scripts/site/site.css`](scripts/site/site.css) and
 [`scripts/site/tree.js`](scripts/site/tree.js).

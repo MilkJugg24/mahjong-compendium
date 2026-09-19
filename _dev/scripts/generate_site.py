@@ -19,6 +19,8 @@ DATA = os.path.join(ROOT, "_dev", "data")
 OUT = os.path.join(ROOT, "docs")
 DOMAIN = "compendium.pandaren.org"
 TITLE = "Mahjong Compendium"
+# how many sibling variants a footnote names before deferring to the bibliography
+SEE_ALSO = 6
 
 # Family hues, warmed to sit on the Pandaria green-and-brown ground while
 # staying separable from one another at tree-node size.
@@ -78,6 +80,24 @@ def load():
     return {n["slug"]: n for n in nodes}, nodes, refs, by_slug, by_id, distortions
 
 
+def citation_map(nodes_list, by_slug):
+    """Reference id -> the variant nodes that cite it, in tree order.
+
+    Both the per-page footnotes and the master bibliography read this, so the
+    two can never disagree about who cites what.
+    """
+    cited, seen = {}, {}
+    for n in nodes_list:
+        ids = list(n["ref_ids"])
+        if n.get("claims"):
+            ids += [by_slug[o["source"]]["id"] for o in n["claims"]["observations"]]
+        for rid in ids:
+            if n["slug"] not in seen.setdefault(rid, set()):
+                seen[rid].add(n["slug"])
+                cited.setdefault(rid, []).append(n)
+    return cited
+
+
 # ------------------------------------------------------------ rendering
 
 INLINE = [
@@ -120,6 +140,7 @@ def page(title, body, depth, description="", extra_head="", extra_body=""):
   <a class="brand" href="{up}">Mahjong&nbsp;Compendium</a>
   <nav>
     <a href="{up}">Tree</a>
+    <a href="{up}about/">About</a>
     <a href="{up}variants/">Variants</a>
     <a href="{up}findings/">Findings</a>
     <a href="{up}references/">References</a>
@@ -141,8 +162,44 @@ def page(title, body, depth, description="", extra_head="", extra_body=""):
 
 # ------------------------------------------------------------ variant page
 
-def variant_page(n, nodes, by_id, by_slug):
+def page_sources(n, by_slug):
+    """Every source this page uses, numbered locally in order of first appearance.
+
+    A page is self-contained: the footnote a reader lands on carries the full
+    citation, the annotation and the outbound link, so no page depends on the
+    bibliography to say what [3] is.
+    """
+    order, seen = [], set()
+
+    def use(rid):
+        if rid not in seen:
+            seen.add(rid)
+            order.append(rid)
+
+    observed = {}
+    if n.get("claims"):
+        obs = n["claims"]["observations"]
+        fields = ("tiles", "hand", "flowers", "scoring", "payout")
+        for o in [o for o in obs if any(o.get(f) for f in fields)]:
+            use(by_slug[o["source"]]["id"])
+        for o in [o for o in obs if o.get("note")]:
+            use(by_slug[o["source"]]["id"])
+        for o in obs:
+            observed.setdefault(by_slug[o["source"]]["id"], o)
+    for rid in n["ref_ids"]:
+        use(rid)
+
+    canonical = by_slug[n["source"]]["id"]
+    num = {rid: i + 1 for i, rid in enumerate(order)}
+    role = {rid: ("canonical" if rid == canonical
+                  else "supporting" if rid in n["ref_ids"] else "cross-check")
+            for rid in order}
+    return order, num, role, observed
+
+
+def variant_page(n, nodes, by_id, by_slug, cited):
     up = "../../"
+    order, num, role, observed = page_sources(n, by_slug)
     fam_name, fam_colour = FAMILY[n["family"]]
     if n["depth"] == 0 or nodes[n["slug"]]["slug"] == "modern-inventions":
         pass
@@ -198,24 +255,38 @@ def variant_page(n, nodes, by_id, by_slug):
             for o in measured:
                 r = by_slug[o["source"]]
                 cells = "".join(f'<td>{inline(o.get(f) or "—")}</td>' for f in fields)
-                b.append(f'<tr><td class="src"><a href="{up}references/#ref-{r["id"]}">[{r["id"]}]</a></td>{cells}</tr>')
+                b.append(f'<tr><td class="src"><a href="#src-{num[r["id"]]}">[{num[r["id"]]}]</a></td>{cells}</tr>')
             b.append('</tbody></table></div>')
         notes = [(by_slug[o["source"]], o["note"]) for o in c["observations"] if o.get("note")]
         if notes:
             b.append('<ul class="notes">')
             for r, note in notes:
-                b.append(f'<li><a href="{up}references/#ref-{r["id"]}">[{r["id"]}]</a> {inline(note)}</li>')
+                b.append(f'<li><a href="#src-{num[r["id"]]}">[{num[r["id"]]}]</a> {inline(note)}</li>')
             b.append('</ul>')
         b.append('<h3>Reading it</h3>')
         b.append(paragraphs(c["assessment"]))
         b.append('</section>')
 
-    b.append('<section><h2>Sources the chart cites</h2><ol class="srcs">')
-    for rid in n["ref_ids"]:
-        r = by_id[rid]
-        role = "canonical" if rid == by_slug[n["source"]]["id"] else "supporting"
-        b.append(f'<li value="{rid}" class="{role}"><a href="{up}references/#ref-{rid}">{esc(r["citation"])}</a>'
-                 f' <span class="role">{role}</span></li>')
+    b.append('<section><h2>Sources</h2><ol class="srcs">')
+    for rid in order:
+        r, o = by_id[rid], observed.get(rid)
+        others = [m for m in cited.get(rid, []) if m["slug"] != n["slug"]]
+        shown = ", ".join(f'<a href="{up}variants/{m["slug"]}/">{esc(m["label"])}</a>'
+                          for m in others[:SEE_ALSO])
+        rest = len(others) - min(len(others), SEE_ALSO)
+        also = (f'Also cited on: {shown}' + (f' and {rest} more' if rest else '')
+                if shown else 'Only cited here')
+        when = (f' <span class="when">checked {esc(o["retrieved"])}</span>'
+                if o and o.get("retrieved") else '')
+        b.append(f'<li id="src-{num[rid]}" class="{role[rid]}">'
+                 f'<p class="cite">{esc(r["citation"])}'
+                 f' <span class="role">{role[rid]}</span>{when}</p>'
+                 f'<p class="dim">{esc(r["note"])}</p>'
+                 f'<p class="url"><a href="{esc(r["url"])}" rel="nofollow noopener">'
+                 f'{esc(r["url"])}</a></p>'
+                 f'<p class="cited">{also} \u00b7 '
+                 f'<a href="{up}references/#ref-{rid}">bibliography #{rid}</a></p>'
+                 '</li>')
     b.append('</ol></section>')
 
     b.append(f'<p class="back"><a href="{up}">← back to the tree</a></p>')
@@ -283,31 +354,25 @@ def findings_page(nodes_list):
                 "Where the sources agree, disagree, and fall silent, variant by variant.")
 
 
-def references_page(refs, nodes_list, by_slug):
-    cited = {}
-    for n in nodes_list:
-        for rid in n["ref_ids"]:
-            cited.setdefault(rid, []).append(n)
-        if n.get("claims"):
-            for o in n["claims"]["observations"]:
-                cited.setdefault(by_slug[o["source"]]["id"], []).append(n)
+def references_page(refs, nodes_list, by_slug, cited):
     b = ['<h1>References</h1>',
-         f'<p class="lede">{inline(refs["note"])}</p>']
+         f'<p class="lede">{inline(refs["note"])}</p>',
+         '<p class="dim">Every source is quoted in full on the variant pages that use it; '
+         'this page is the index across all of them.</p>']
     section = None
     for r in refs["references"]:
         if r["section"] != section:
             section = r["section"]
             b.append(f'<h2>{esc(section.title())}</h2>')
-        seen, uniq = set(), []
-        for n in cited.get(r["id"], []):
-            if n["slug"] not in seen:
-                seen.add(n["slug"]); uniq.append(n)
+        uniq = cited.get(r["id"], [])
         links = ", ".join(f'<a href="../variants/{n["slug"]}/">{esc(n["label"])}</a>' for n in uniq)
         b.append(f'<div class="ref" id="ref-{r["id"]}">'
                  f'<p class="cite"><b>{r["id"]}.</b> {esc(r["citation"])}</p>'
                  f'<p class="dim">{esc(r["note"])}</p>'
                  f'<p class="url"><a href="{esc(r["url"])}" rel="nofollow noopener">{esc(r["url"])}</a></p>'
-                 + (f'<p class="cited">Cited for: {links}</p>' if links else "")
+                 + (f'<p class="cited">Cited for: {links}</p>' if links else
+                    '<p class="cited uncited">Not cited by any variant \u2014 background reading '
+                    'carried over from the source chart\u2019s bibliography.</p>')
                  + '</div>')
     return page(f"References — {TITLE}", "\n".join(b), 1,
                 "Every source used, with back-links to the variants it was cited for.")
@@ -315,7 +380,7 @@ def references_page(refs, nodes_list, by_slug):
 
 # ------------------------------------------------------- landing + method
 
-def landing(nodes_list, distortions):
+def landing(nodes_list):
     counts = {}
     for n in nodes_list:
         if n.get("claims"):
@@ -323,18 +388,20 @@ def landing(nodes_list, distortions):
     legend = "".join(
         f'<li><i style="background:{c}"></i>{esc(name)}</li>'
         for name, c in FAMILY.values())
-    caveats = "".join(f"<li>{inline(d)}</li>" for d in distortions)
     body = f"""
 <section class="hero">
-  <div class="stage">
-    <canvas id="tree"></canvas>
-    <div id="hud">
-      <div id="labels"></div>
-      <div id="tip" hidden></div>
-      <p class="hint">drag to orbit · scroll to zoom · click a node to open it</p>
-      <noscript><p class="hint">This view needs JavaScript. The
-        <a href="variants/">variant list</a> has everything without it.</p></noscript>
+  <div class="view">
+    <div class="stage">
+      <canvas id="tree"></canvas>
+      <div id="hud">
+        <div id="labels"></div>
+        <div id="tip" hidden></div>
+        <p class="hint">drag to orbit · scroll to zoom · click a node to open it</p>
+        <noscript><p class="hint">This view needs JavaScript. The
+          <a href="variants/">variant list</a> has everything without it.</p></noscript>
+      </div>
     </div>
+    <p class="learn"><a href="about/">Learn more about this chart here.</a></p>
   </div>
   <div class="intro">
     <h1>Mahjong variant family tree</h1>
@@ -350,15 +417,6 @@ def landing(nodes_list, distortions):
   {''.join(f'<div class="count e-{k}"><b>{v}</b><span>{k}</span></div>' for k, v in
            sorted(counts.items(), key=lambda kv: -kv[1]))}
 </section>
-
-<section class="pitch">
-  <h2>What this is</h2>
-  <p>A collection of material gathered from around the web, filed by variant, so each claim's origin
-     can be checked. The tree records descent <em>as the source chart claims it</em> — not a judgement
-     that the claim is correct. Where a claim is weak, the entry says so.</p>
-  <h2>What the chart admits about itself</h2>
-  <ul class="caveats">{caveats}</ul>
-</section>
 """
     head = ('<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" '
             'integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" '
@@ -367,6 +425,109 @@ def landing(nodes_list, distortions):
     return page(TITLE, body, 0,
                 "A cross-checked family tree of mahjong variants, with the evidence for each.",
                 extra_head=head, extra_body=tail)
+
+
+def about_page(nodes, nodes_list, by_id, distortions):
+    """The long-form companion to the tree: what it is, and where it is wrong.
+
+    The landing page carries the tree and little else; everything a reader needs in
+    order to weight what they are looking at lives here, a section at a time.
+    """
+    counts = {}
+    for n in nodes_list:
+        counts[n["confidence"]] = counts.get(n["confidence"], 0) + 1
+    dashed = [n for n in nodes_list if n["confidence"] in ("disputed", "placeholder")]
+    dashed_links = " and ".join(f'<a href="../variants/{n["slug"]}/">{esc(n["label"])}</a>'
+                               for n in dashed)
+    rows = "".join(
+        f'<tr><td><span class="pill c-{esc(k)}">{esc(k)}</span></td>'
+        f'<td>{esc(meaning)}</td><td>{counts.get(k, 0)}</td></tr>'
+        for k, meaning in CONFIDENCE.items())
+
+    b = [f"""<article class="prose">
+<h1>About this chart</h1>
+<p class="lede">What the family tree on the front page is, where its material came from, and the
+   places where it is known to misrepresent the history it draws.</p>
+
+<h2>What this is</h2>
+<p>A collection of material gathered from around the web and filed by variant, so that each claim's
+   origin can be checked rather than taken on trust. There are {len(nodes_list)} entries, one page
+   each, and every page records what each source was actually read to say about that ruleset — its
+   tile count, its hand size, how it handles flowers, how it scores, who pays whom — beside the
+   citation the reading came from. The reason for filing it this way is that proper rulebooks can
+   eventually be built from material that has been verified instead of assumed.</p>
+<p>The tree records descent <em>as the source chart claims it</em>. That is a narrower statement than
+   it appears: a node's position under its parent is a citation, not a conclusion. Where the claim
+   behind a position is thin, the entry says so rather than quietly straightening it out, and two
+   separate tags carry the weakness along with it. <b>Confidence</b> describes the sourcing behind a
+   variant; <b>evidence</b> describes what happened when those sources were set against each other.
+   A variant can be well documented by one witness or thinly documented by several, and keeping the
+   two judgements apart is what stops one from being mistaken for the other.</p>
+<p>Nothing here is presented as settled. Every page carries the sources it rests on, so a
+   disagreement can be taken up with the source rather than with the tree, and correcting an entry
+   is as welcome as adding one. The <a href="../findings/">findings</a> collect the places where
+   sources contradict each other or fall silent; the <a href="../references/">references</a> list
+   every source used, with back-links to the variants each was cited for.</p>
+
+<h2>Where the material comes from</h2>
+<p>The tree was derived from a single compiled chart, kept in the repository beside the data
+   generated from it. That chart leans on two frameworks. Tom Sloper's variant catalogue
+   <a href="../references/#ref-1">[1]</a> supplies the measurable facts for most leaf nodes: the
+   tile counts, hand sizes and flower handling that tell one named variant from another. The Mahjong
+   Wiki's family tree and timeline <a href="../references/#ref-7">[7]</a> supplies the branch
+   structure and the decade-by-decade chronology this tree's shape follows.</p>
+<p>The second of those is much the weaker, and the chart is candid about it. The timeline the branch
+   structure rests on carries no citation on any page of the wiki: the 1950s adoption of Clear
+   Chapter, the 1970s three-faan system and the late-1980s move to additive scoring are asserted and
+   never sourced. What the wiki does credit is Cantonese — one named book
+   <a href="../references/#ref-27">[27]</a>, one named ruleset
+   <a href="../references/#ref-28">[28]</a>, and three Cantonese fan-list traditions with almost no
+   English-language presence <a href="../references/#ref-29">[29]</a>. Sourcing is therefore uneven
+   by region rather than absent: the Hong Kong material is traceable, while most of the Japanese,
+   Nanyang, Korean and mainland material is not. Weight the tree accordingly, and weight anything
+   filed into it accordingly too.</p>
+
+<h2>How to read the tree</h2>
+<p>Colour marks the family a ruleset belongs to, and a link between two nodes means the source chart
+   claims descent between them. Two of those links were drawn dashed in the chart, meaning no source
+   establishes the descent at all: {dashed_links}. Both are filed where the chart filed them, and
+   tagged so that the guess stays visible instead of hardening into a fact.</p>
+<p>The sourcing behind the {len(nodes_list)} entries breaks down as follows. A
+   <code>placeholder</code> tag is a statement about the sources rather than about the game: it means
+   nobody has established where a ruleset came from, not that the ruleset itself is doubtful.</p>
+<div class="scroll"><table><thead><tr><th>Confidence</th><th>Meaning</th><th>Entries</th></tr></thead>
+<tbody>{rows}</tbody></table></div>
+<p>The <a href="../method/">method</a> page sets out the rules the compendium holds itself to,
+   including the full provenance vocabulary and what is deliberately never filed here.</p>
+
+<h2>Known limits of this tree</h2>
+<p>Any tree layout of this material distorts it, and the source chart is explicit about where. Each
+   warning below is given in the chart's own words first, then read against the entries it
+   affects.</p>"""]
+
+    for d in distortions:
+        b.append('<section class="limit">')
+        b.append(f'<h3>{esc(d["heading"])}</h3>')
+        b.append(f'<p class="claim">{inline(d["summary"])}</p>')
+        b.append(paragraphs(d["detail"]))
+        bits = []
+        if d.get("nodes"):
+            links = ", ".join(f'<a href="../variants/{s}/">{esc(nodes[s]["label"])}</a>'
+                              for s in d["nodes"])
+            bits.append(f"Entries affected: {links}")
+        if d.get("refs"):
+            cites = " ".join(f'<a href="../references/#ref-{r}" title="{esc(by_id[r]["citation"])}">'
+                             f'[{r}]</a>' for r in d["refs"])
+            bits.append(f"Sources: {cites}")
+        if bits:
+            b.append('<p class="anchors">' + ' <span class="sep">·</span> '.join(bits) + '</p>')
+        b.append('</section>')
+
+    b.append('<p class="back"><a href="../">&larr; back to the tree</a></p>')
+    b.append('</article>')
+    return page(f"About this chart — {TITLE}", "\n".join(b), 1,
+                "What the mahjong variant family tree is, where its sources came from, and where a "
+                "tree layout is known to distort the history.")
 
 
 def method_page():
@@ -391,6 +552,17 @@ def method_page():
 <p><b>Confidence</b> describes the sourcing behind a variant. <b>Evidence</b> describes what happened
    when sources were set against each other. They are not the same thing, and a variant can be
    well documented by one witness or thinly documented by several.</p>
+
+<h2>How sources are cited</h2>
+<p>Every variant page carries its own numbered sources at the foot of the page, with the full citation,
+   what the source was consulted for, and a link to the source itself. Numbering is local to each page,
+   so <code>[1]</code> on one variant is not <code>[1]</code> on another; each footnote names its entry
+   in the <a href="../references/">bibliography</a>, which indexes every source across the whole
+   compendium. Each footnote also lists the other variants citing the same source, so a source can be
+   followed sideways through the tree the way lineage is followed downwards.</p>
+<p>A source is marked <b>canonical</b> where the chart drew the variant from it, <b>supporting</b> where
+   the chart cites it alongside, and <b>cross-check</b> where it was fetched afterwards to test what the
+   chart claimed.</p>
 
 <h2>What is never filed here</h2>
 <p>Live copyrighted rulesets. The NMJL and AMJA annual cards for any year, <i>Mah Jongg Made Easy</i>,
@@ -420,6 +592,7 @@ def tree_json(nodes_list):
 
 def main():
     nodes, nodes_list, refs, by_slug, by_id, distortions = load()
+    cited = citation_map(nodes_list, by_slug)
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
     os.makedirs(os.path.join(OUT, "assets"), exist_ok=True)
@@ -431,13 +604,14 @@ def main():
     json.dump(tree_json(nodes_list), open(os.path.join(OUT, "assets", "tree.json"), "w"),
               separators=(",", ":"))
 
-    open(os.path.join(OUT, "index.html"), "w").write(landing(nodes_list, distortions))
+    open(os.path.join(OUT, "index.html"), "w").write(landing(nodes_list))
     open(os.path.join(OUT, "CNAME"), "w").write(DOMAIN + "\n")
     open(os.path.join(OUT, ".nojekyll"), "w").write("")
 
-    for name, content in (("variants", variants_index(nodes_list)),
+    for name, content in (("about", about_page(nodes, nodes_list, by_id, distortions)),
+                          ("variants", variants_index(nodes_list)),
                           ("findings", findings_page(nodes_list)),
-                          ("references", references_page(refs, nodes_list, by_slug)),
+                          ("references", references_page(refs, nodes_list, by_slug, cited)),
                           ("method", method_page())):
         os.makedirs(os.path.join(OUT, name), exist_ok=True)
         open(os.path.join(OUT, name, "index.html"), "w").write(content)
@@ -445,7 +619,7 @@ def main():
     for n in nodes_list:
         d = os.path.join(OUT, "variants", n["slug"])
         os.makedirs(d, exist_ok=True)
-        open(os.path.join(d, "index.html"), "w").write(variant_page(n, nodes, by_id, by_slug))
+        open(os.path.join(d, "index.html"), "w").write(variant_page(n, nodes, by_id, by_slug, cited))
 
     print(f"docs/ built: {len(nodes_list)} variant pages, {len(refs['references'])} references, "
           f"CNAME {DOMAIN}")

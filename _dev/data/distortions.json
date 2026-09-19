@@ -1,9 +1,95 @@
 [
-  "Guangdong was influenced first by Hong Kong, later by Taiwanese; the arrow should run both ways.",
-  "Mainland regionals began on a Chinese Classical frame and later adopted HKOS's simplified scoring.",
-  "All Pairs and All Green flowed backwards from Western Mah Jong into most other modern rulesets, meaning the `us` branch fed the `cn` branch, which no tree layout shows.",
-  "The eleven mainland nodes stand in for a hundred-plus real variants, most undocumented in English.",
-  "Several entries (Shenzhen, Tui Dao Hu, Fujian) rest on a single informant report.",
-  "No source establishes how Korean 104-tile mahjong descends from anything; the link is a placeholder.",
-  "Filipino style sits under Nanyang despite a 16-tile hand resembling Taiwanese. The distinguishing test is that Filipino play treats winds and dragons as flowers."
+  {
+    "heading": "Influence ran both ways between Hong Kong and Taiwan",
+    "summary": "Guangdong was influenced first by Hong Kong, later by Taiwanese; the arrow should run both ways.",
+    "detail": "The chart gives Guangdong style one parent, Hong Kong old style, because a single parent is the only shape a tree can hold. The account behind it is messier: Guangdong play was shaped first by Hong Kong, and then by Taiwanese play once the 16-tile game had established itself across the strait.\n\nThe entry keeps the single arrow and records the rest as a caveat, so the parentage drawn here is a sourced claim rather than the whole history. The late-1980s move to additive scoring belongs to that second phase, and is asserted on the wiki's timeline without a citation anywhere — which is why the node can be well documented for its rules and still carry a warning about its chronology.",
+    "nodes": [
+      "guangdong-style",
+      "taiwanese-style"
+    ],
+    "refs": [
+      42,
+      8,
+      28
+    ]
+  },
+  {
+    "heading": "The mainland branch changed its frame mid-history",
+    "summary": "Mainland regionals began on a Chinese Classical frame and later adopted HKOS's simplified scoring.",
+    "detail": "The mainland regional games are filed under Shanghai / Hong Kong new style, which is where they began: a Chinese Classical frame, with the tile set and hand structure that implies. What they score with arrived later and from elsewhere, after Hong Kong old style had dropped fu in the 1950s and simplified scoring to something a table could total in its head.\n\nA node has one position, so the tree records the frame and loses the borrowing. Read the eleven mainland entries as games with two inheritances: an older skeleton, and a newer scoring layer that came back up the branch from Hong Kong.",
+    "nodes": [
+      "hong-kong-old-style"
+    ],
+    "refs": [
+      8,
+      7
+    ]
+  },
+  {
+    "heading": "Some scoring travelled backwards, from West to East",
+    "summary": "All Pairs and All Green flowed backwards from Western Mah Jong into most other modern rulesets, meaning the `us` branch fed the `cn` branch, which no tree layout shows.",
+    "detail": "A family tree can only draw divergence. This one shows the Western branch leaving the Chinese line in 1920 with Babcock's rules and never rejoining it, yet the wiki's own Western Mah Jong scoring page credits British play with All Green, Seven Pairs and the Jewel Dragons — hands that then entered rulesets across the Chinese branch.\n\nNo book is named for that attribution, so it is recorded here as the wiki's claim rather than as an established fact. The direction still matters for anyone using the tree to date a hand: a pattern found in a Chinese ruleset is not automatically older than the Western one beside it.",
+    "nodes": [
+      "babcock-rules",
+      "western-british-empire-style"
+    ],
+    "refs": [
+      32
+    ]
+  },
+  {
+    "heading": "Eleven nodes stand in for more than a hundred games",
+    "summary": "The eleven mainland nodes stand in for a hundred-plus real variants, most undocumented in English.",
+    "detail": "The mainland branch is the most compressed part of the tree. Its eleven entries are the ones with an English-language description attached; the real distribution of play is regional to a degree no tree of this size could represent, and most of those games have never been written up in English at all.\n\nThe effect is that the tree's shape is partly a map of English-language documentation rather than of play. A thin branch is not evidence that little is played there: Sichuan alone carries three entries here and far more variation than three in practice.",
+    "nodes": [
+      "sichuan-hunan-tibetan",
+      "sichuan-bloody-rules",
+      "sichuan-72-tile"
+    ],
+    "refs": [
+      1,
+      7
+    ]
+  },
+  {
+    "heading": "Three entries rest on one person's report",
+    "summary": "Several entries (Shenzhen, Tui Dao Hu, Fujian) rest on a single informant report.",
+    "detail": "Shenzhen style, Tui Dao Hu and Fujian style each come from a single informant, material of that kind having largely been argued out in the rec.games.mahjong archive before reaching the chart through Sloper's variant catalogue. Nothing independent confirms any of the three. The compendium tags a fourth the chart's own line does not name: the Sichuan 72-tile game, reported by one person.\n\nThey are kept rather than dropped, and tagged `single-informant` so the weakness travels with the entry instead of being lost in the tree around it. One report is a lead worth filing; it is not two sources agreeing, and nothing here quietly promotes it to one.",
+    "nodes": [
+      "shenzhen-style",
+      "tui-dao-hu",
+      "fujian-style",
+      "sichuan-72-tile"
+    ],
+    "refs": [
+      1,
+      35,
+      24
+    ]
+  },
+  {
+    "heading": "The Korean 104-tile game has no established parent",
+    "summary": "No source establishes how Korean 104-tile mahjong descends from anything; the link is a placeholder.",
+    "detail": "Korean traditional play uses 104 tiles and drops the bamboo suit entirely, which puts it structurally further from its neighbours than any other entry on the tree. The chart hangs it under Chinese classical and draws the link dashed: no source examined establishes that descent, or proposes another.\n\nThe entry is tagged `placeholder` for exactly that reason, and it is one of only two dashed links in the chart — the Nanyang group is the other. The honest reading is that its position is a filing decision, not a finding.",
+    "nodes": [
+      "korean-traditional"
+    ],
+    "refs": [
+      1,
+      7
+    ]
+  },
+  {
+    "heading": "Filipino style sits on a branch its hand size argues against",
+    "summary": "Filipino style sits under Nanyang despite a 16-tile hand resembling Taiwanese. The distinguishing test is that Filipino play treats winds and dragons as flowers.",
+    "detail": "Filipino style is played with a 16-tile hand, which is the structural signature of the Taiwanese fork, and yet the chart files it under the Nanyang group. What keeps it there is its treatment of honours: Filipino play handles winds and dragons as flowers, which Taiwanese play does not.\n\nThat leaves the entry two levels of doubt deep, because the Nanyang link above it is itself dashed and tagged `disputed`. A shared hand size is evidence of structural kinship, not proof of descent, and this is the clearest case in the tree of those two things coming apart.",
+    "nodes": [
+      "filipino-style",
+      "nanyang-variants"
+    ],
+    "refs": [
+      1,
+      7
+    ]
+  }
 ]

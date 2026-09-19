@@ -167,16 +167,16 @@ Every variant in the tree, alphabetically, with the folder that holds its files.
 | **Wright-Patterson** — USAF spouses, Ohio | Western / American | `documented` | `corroborated` | [`01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/01-wright-patterson`](01-proto-mahjong/04-chinese-classical/04-babcock-rules/02-western-british-empire-style/01-wright-patterson/) |
 | **Zung Jung** — Alan Kwan, 2000s | Chinese | `documented` | `partial` | [`01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/06-zung-jung`](01-proto-mahjong/04-chinese-classical/01-shanghai-hong-kong-new-style/01-hong-kong-old-style/06-zung-jung/) |
 
-## What the source chart admits about itself
+## Known limits of this tree
 
-The chart this tree is built from is explicit about where it is weak, and those warnings belong on the front page rather than buried in a folder:
+The chart this tree is built from is explicit about where it is weak, and those warnings belong on the front page rather than buried in a folder. Each one is written up at greater length on the site's [about page](https://compendium.pandaren.org/about/):
 
-- Guangdong was influenced first by Hong Kong, later by Taiwanese; the arrow should run both ways.
-- Mainland regionals began on a Chinese Classical frame and later adopted HKOS's simplified scoring.
-- All Pairs and All Green flowed backwards from Western Mah Jong into most other modern rulesets, meaning the `us` branch fed the `cn` branch, which no tree layout shows.
-- The eleven mainland nodes stand in for a hundred-plus real variants, most undocumented in English.
-- Several entries (Shenzhen, Tui Dao Hu, Fujian) rest on a single informant report.
-- No source establishes how Korean 104-tile mahjong descends from anything; the link is a placeholder.
-- Filipino style sits under Nanyang despite a 16-tile hand resembling Taiwanese. The distinguishing test is that Filipino play treats winds and dragons as flowers.
+- **Influence ran both ways between Hong Kong and Taiwan.** Guangdong was influenced first by Hong Kong, later by Taiwanese; the arrow should run both ways.
+- **The mainland branch changed its frame mid-history.** Mainland regionals began on a Chinese Classical frame and later adopted HKOS's simplified scoring.
+- **Some scoring travelled backwards, from West to East.** All Pairs and All Green flowed backwards from Western Mah Jong into most other modern rulesets, meaning the `us` branch fed the `cn` branch, which no tree layout shows.
+- **Eleven nodes stand in for more than a hundred games.** The eleven mainland nodes stand in for a hundred-plus real variants, most undocumented in English.
+- **Three entries rest on one person's report.** Several entries (Shenzhen, Tui Dao Hu, Fujian) rest on a single informant report.
+- **The Korean 104-tile game has no established parent.** No source establishes how Korean 104-tile mahjong descends from anything; the link is a placeholder.
+- **Filipino style sits on a branch its hand size argues against.** Filipino style sits under Nanyang despite a 16-tile hand resembling Taiwanese. The distinguishing test is that Filipino play treats winds and dragons as flowers.
 
 Sourcing is uneven by region rather than absent: Cantonese material is credited, most of the rest is not. Weight the tree accordingly — and weight anything filed into it accordingly too. Correcting the tree is as welcome as filling it.
