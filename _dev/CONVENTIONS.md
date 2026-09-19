@@ -109,6 +109,14 @@ same as the `confidence` tag on the node:
 | `single-source` | Only one source was found; nothing independent confirms it |
 | `unsupported` | The sources checked do not carry the claim the node makes |
 
+Whether sources agree is a reading, and no script can check it. How many were read
+can be counted, and
+[`scripts/verify_against_export.py`](scripts/verify_against_export.py) does:
+`corroborated` needs two or more, `single-source` exactly one, and every verdict has
+to be one of the five above. `corroborated` also needs at least one source the chart
+did not already cite for that node — re-reading the chart's own witness confirms the
+transcription, not the claim, and independence is what the verdict asserts.
+
 Two rules govern what may go in:
 
 1. **Only what was read at the source.** A claim from a search-result summary, or

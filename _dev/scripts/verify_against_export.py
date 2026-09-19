@@ -3,6 +3,9 @@
 
 Compares every node's label, depth, family, parent and disputed flag, and every
 reference's URL and slug, against _dev/source-chart/mahjong-variant-family-tree.md.
+Also holds each variant's evidence verdict to the part of its own definition that
+can be counted: how many sources were read, and whether any of them is one the
+chart did not already cite.
 Exits non-zero if anything differs, so it can gate a change to _dev/data/.
 
 Usage:  python3 _dev/scripts/verify_against_export.py
@@ -21,6 +24,18 @@ EXPORT = os.path.join(ROOT, "_dev", "source-chart", "mahjong-variant-family-tree
 FAMILY = {
     "roots": "roots", "cn": "chinese", "tw": "taiwanese", "sea": "southeast-asian",
     "jp": "japanese", "kr": "korean", "us": "western-american",
+}
+
+# The evidence verdicts and what each one asserts, from _dev/CONVENTIONS.md. Whether
+# the sources really agree is a reading and cannot be checked here. How many were read,
+# and whether any of them is one the chart did not already cite, is arithmetic, and the
+# verdicts that make a claim about it are held to it below.
+EVIDENCE = {
+    "corroborated":  "two or more independent sources agree on the defining facts",
+    "partial":       "sources agree on some points and are silent or divided on others",
+    "conflicting":   "sources disagree materially, or one source contradicts itself",
+    "single-source": "only one source was found; nothing independent confirms it",
+    "unsupported":   "the sources checked do not carry the claim the node makes",
 }
 
 
@@ -142,20 +157,48 @@ def main():
     if os.path.exists(claims_path):
         claims = json.load(open(claims_path))
         slugs = {r["slug"] for r in refs}
+        by_id = {r["id"]: r["slug"] for r in refs}
+        # What the chart itself already cites for a node. A source in here is the
+        # witness the chart called; re-reading it confirms the transcription, not
+        # the claim, so it cannot be the independent agreement corroborated asserts.
+        chart_cites = {r["slug"]: {r["source"]} | {by_id[int(x)] for x in r["refs"].split(",")
+                                                   if x and int(x) in by_id}
+                       for r in rows}
         for slug, block in claims.items():
-            if slug not in {r["slug"] for r in rows}:
+            if slug not in chart_cites:
                 problems.append(f"claims entry {slug} is not a node")
             if not block.get("assessment") or not block.get("evidence"):
                 problems.append(f"claims entry {slug} has no evidence verdict or assessment")
+            elif block["evidence"] not in EVIDENCE:
+                problems.append(f"claims entry {slug} has unknown evidence verdict "
+                                f"{block['evidence']!r}")
             for o in block.get("observations", []):
                 if o["source"] not in slugs:
                     problems.append(f"claims entry {slug} cites unknown source {o['source']}")
+
+            witnesses = {o["source"] for o in block.get("observations", [])}
+            if not witnesses:
+                problems.append(f"claims entry {slug} has no observations")
+                continue
+            named = ", ".join(sorted(witnesses))
+            outside = witnesses - chart_cites.get(slug, set())
+            if block.get("evidence") == "corroborated":
+                if len(witnesses) < 2:
+                    problems.append(f"{slug}: corroborated on one source ({named}), but the "
+                                    f"verdict asserts two or more agree")
+                elif not outside:
+                    problems.append(f"{slug}: corroborated, but every source read ({named}) is "
+                                    f"one the chart already cites, so nothing independent "
+                                    f"confirms it")
+            if block.get("evidence") == "single-source" and len(witnesses) > 1:
+                problems.append(f"{slug}: single-source, but {len(witnesses)} sources were "
+                                f"read ({named})")
         for r in rows:
             if r["slug"] not in claims:
                 problems.append(f"node {r['slug']} has no claims entry")
 
     if problems:
-        print(f"{len(problems)} difference(s) against the export:")
+        print(f"{len(problems)} problem(s) found:")
         for p in problems:
             print(f"  - {p}")
         return 1
