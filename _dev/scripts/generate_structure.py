@@ -280,6 +280,7 @@ def root_readme(nodes, data):
     out.append("")
     out.append("| If you want to | Go to |")
     out.append("| --- | --- |")
+    out.append("| Read it as a website | [pandaren.org](https://pandaren.org/) |")
     out.append("| Find the folder for a variant | The [glossary](#glossary) below |")
     out.append("| See how variants descend from each other | The [family tree](#family-tree) below |")
     out.append("| See what the sources say against each other | [`FINDINGS.md`](FINDINGS.md) |")

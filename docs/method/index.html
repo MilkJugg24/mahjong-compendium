@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Method — Mahjong Compendium</title>
+<meta name="description" content="How the compendium is built and the rules it follows.">
+<link rel="stylesheet" href="../assets/site.css">
+
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="../">Mahjong&nbsp;Compendium</a>
+  <nav>
+    <a href="../">Tree</a>
+    <a href="../variants/">Variants</a>
+    <a href="../findings/">Findings</a>
+    <a href="../references/">References</a>
+    <a href="../method/">Method</a>
+  </nav>
+</header>
+<main>
+
+<h1>Method</h1>
+<p class="lede">How the compendium is built, and the rules it holds itself to.</p>
+
+<h2>One source of truth</h2>
+<p>Every page here and every Markdown file in the repository is generated from the same data in
+   <code>_dev/data/</code>: the node tree, the bibliography, and the per-variant claims. Nothing is
+   written twice, so nothing can drift.</p>
+
+<h2>Read at source, or not recorded</h2>
+<p>A claim enters the data only if the source was fetched and read. A search-result summary is a lead,
+   not evidence; a page that could not be fetched is recorded as unreachable. Where a source contradicts
+   itself, both readings are recorded rather than one being picked silently. There is exactly one entry
+   in the compendium not read at source, and it says so.</p>
+
+<h2>Two different judgements</h2>
+<p><b>Confidence</b> describes the sourcing behind a variant. <b>Evidence</b> describes what happened
+   when sources were set against each other. They are not the same thing, and a variant can be
+   well documented by one witness or thinly documented by several.</p>
+
+<h2>What is never filed here</h2>
+<p>Live copyrighted rulesets. The NMJL and AMJA annual cards for any year, <i>Mah Jongg Made Easy</i>,
+   and any variant's in-copyright rulebook. Game mechanics are recorded as facts, exactly as tile counts
+   are for every variant; the text of those works is not reproduced.</p>
+
+<h2>Provenance vocabulary</h2><p>For a <strong>collected file</strong>, in the ledger table:</p>
+<p>| Value | Meaning |
+| --- | --- |
+| <code>primary</code> | The ruleset itself, from the body that issued it |
+| <code>facsimile</code> | A scan or verbatim reproduction of a primary source |
+| <code>secondary</code> | Someone's description or translation of a ruleset |
+| <code>informant</code> | An account of how a game is played, from a player, with no published rules behind it |
+| <code>derived</code> | Assembled from other sources, including anything reconstructed here |
+| <code>unknown</code> | Origin not established |</p>
+<p>For a <strong>variant folder</strong>, in the README front matter and the root glossary:</p>
+<p>| Value | Meaning |
+| --- | --- |
+| <code>documented</code> | A published ruleset or rule description exists and is cited |
+| <code>catalogued</code> | Listed in a variant catalogue with tile counts and hand sizes, but no rules text has been verified |
+| <code>single-informant</code> | The whole entry rests on one report from one person |
+| <code>disputed</code> | The descent shown is contested; the chart drew this link dashed |
+| <code>placeholder</code> | No source establishes the descent at all; the parent link is a guess |
+| <code>lost</code> | No rules text survives |</p>
+<p>These describe the <strong>sources</strong>, not the game. <code>placeholder</code> means nobody has
+established where a game came from, not that the game is doubtful.</p>
+
+<p class="back"><a href="https://github.com/MilkJugg24/mahjong-compendium">The repository, including
+   the generators and the raw data</a></p>
+
+</main>
+<footer class="bar foot">
+  <span>Evidence recorded as read at source. Nothing here reproduces a copyrighted ruleset.</span>
+  <a href="https://github.com/MilkJugg24/mahjong-compendium">Source on GitHub</a>
+</footer>
+
+</body>
+</html>
