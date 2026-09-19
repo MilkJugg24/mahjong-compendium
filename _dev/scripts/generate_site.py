@@ -20,14 +20,16 @@ OUT = os.path.join(ROOT, "docs")
 DOMAIN = "compendium.pandaren.org"
 TITLE = "Mahjong Compendium"
 
+# Family hues, warmed to sit on the Pandaria green-and-brown ground while
+# staying separable from one another at tree-node size.
 FAMILY = {
-    "roots":            ("Roots / ancestral", "#b9bccb"),
-    "chinese":          ("Chinese",           "#3fb389"),
-    "taiwanese":        ("Taiwanese",         "#7fc23f"),
-    "southeast-asian":  ("Southeast Asian",   "#3f9ad6"),
-    "japanese":         ("Japanese",          "#8b7fe8"),
-    "korean":           ("Korean",            "#e0607f"),
-    "western-american": ("Western / American", "#e08a4a"),
+    "roots":            ("Roots / ancestral", "#d9cba3"),
+    "chinese":          ("Chinese",           "#52b98d"),
+    "taiwanese":        ("Taiwanese",         "#a3c45c"),
+    "southeast-asian":  ("Southeast Asian",   "#5aa9c9"),
+    "japanese":         ("Japanese",          "#a78bd0"),
+    "korean":           ("Korean",            "#d97a8e"),
+    "western-american": ("Western / American", "#e0954a"),
 }
 
 EVIDENCE = {
@@ -107,6 +109,9 @@ def page(title, body, depth, description="", extra_head="", extra_body=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{up}assets/site.css">
 {extra_head}
 </head>
