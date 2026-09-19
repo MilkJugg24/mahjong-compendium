@@ -814,6 +814,106 @@ A detailed account of the Nanjing regional variant, also called Jinling Mahjong:
 
 *Cited for:* no variant folder yet.
 
+<a id="ref-80"></a>
+
+**80. Macau. Portaria n.º 135/91/M, "Regulamento Oficial do Jogo de Mah-Jong." Boletim Oficial de Macau, I Série, n.º 31, 5 August 1991, p. 3435.**
+
+The official rules of mahjong as a casino game in Macau, still the ruleset in force. Governs two forms: conventional mahjong on 136 tiles with a 13-tile hand, and simplified mahjong on 112 tiles with a 4-tile hand. Carries the wall build, the claiming rules, the fan list, the banker's double payment, the discarder-liability rules and the table of house commission by stake. Revoked Portaria n.º 52/89/M.
+
+<https://bo.dsaj.gov.mo/bo/i/91/31/port135.asp>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-81"></a>
+
+**81. Macau. Portaria n.º 52/89/M, "Regulamento Oficial do Jogo de Mah-Jong." Boletim Oficial de Macau, I Série, n.º 12, 20 March 1989, p. 1326.**
+
+The 1989 official casino rules, superseded in 1991. One form only: 136 tiles, 13-tile hand, chows and pungs from discards, fan scoring, banker pays and receives double, house commission by stake band. Revoked the provisional Portaria n.º 133/88/M; its article 7 was amended by Portaria n.º 161/89/M.
+
+<https://bo.dsaj.gov.mo/bo/i/89/12/port52.asp>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-82"></a>
+
+**82. Direcção dos Serviços de Assuntos de Justiça (Macao SAR). Register of Portarias, Boletim Oficial.**
+
+The official legislative register. It lists Portaria n.º 133/88/M of 22 August 1988, "Aprova o regulamento provisório de jogo de Mah-Jong", the first regulation of casino mahjong, with no link to its text, and the chain that followed it: 52/89/M, 161/89/M, 100/89/M and 65/90/M (Mahjong — Pai Kao), 125/91/M and 135/91/M.
+
+<https://www.bo.dsaj.gov.mo/pt/legis/list/a/?d=54>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-83"></a>
+
+**83. Gaming Inspection and Coordination Bureau (DICJ), Macao SAR. "Gaming Rules."**
+
+The regulator's current list of casino games and the regulation governing each. It names Mahjong (Portaria 135/91/M), Mahjong Baccarat (15/96/M) and Mahjong Paikao (100/89/M), which establishes that the 1991 mahjong rules are live regulation rather than history.
+
+<https://www.dicj.gov.mo/web/en/rules/index.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-84"></a>
+
+**84. Shackleford, Michael. "Mah Jong Pai Gow." Wizard of Odds.**
+
+A banked table game found in older Macau casinos, played with 20 mahjong dot tiles two at a time against a rotating player-banker, the dealer taking 5 per cent of winning wagers. Not mahjong; a different game built from mahjong tiles. Its rules were obtained in Portuguese and translated, which matches the Macau portarias for "Mahjong — Pai Kao".
+
+<https://wizardofodds.com/games/mah-jong-pai-gow/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-85"></a>
+
+**85. Napoleons Casinos & Restaurants. "How to Play Mahjong."**
+
+A British casino group's published description of the mahjong it spreads at its Sheffield, Manchester and Hull venues: 144 tiles, 13 in hand and 14 for the dealer, pongs, kongs and chows, scoring "depending on the variation played", and an explicit statement that house rules vary by venue.
+
+<https://napoleons-casinos.co.uk/your-first-visit/how-to-play/mahjong/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-86"></a>
+
+**86. Genting Casinos UK. "Play Mahjong at Genting Casinos."**
+
+Lists the fourteen British casinos where the group runs mahjong games, and states that the rules each table of four plays by may differ. Establishes that casino mahjong is a live commercial offering outside Asia, with no single ruleset behind the name.
+
+<https://www.gentingcasinos.co.uk/casino-gaming/mahjong/>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-87"></a>
+
+**87. Internet Archive. Capture of Sloperama FAQ 2b, 28 August 2008.**
+
+The last capture of the variant catalogue before the Chinese casino style entry existed. The list ends at Fujian Style and runs straight on to the comparative-analysis link.
+
+<https://web.archive.org/web/20080828055632/http://www.sloperama.com/mjfaq/mjfaq02b.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-88"></a>
+
+**88. Internet Archive. Capture of Sloperama FAQ 2b, 28 December 2009.**
+
+The first capture carrying the Chinese casino style entry, six months after the forum report it rests on. Its wording is identical to the wording served today.
+
+<https://web.archive.org/web/20091228091957/http://www.sloperama.com/mjfaq/mjfaq02b.html>
+
+*Cited for:* no variant folder yet.
+
+<a id="ref-89"></a>
+
+**89. Internet Archive. Capture of the ReachMahjong forum, "Other Rules" board, 26 June 2010.**
+
+The board where non-Japanese rulesets were discussed on the forum that carried the Chinese casino style report. The archived page answers "You do not have the required permissions to read topics within this forum", so the archive holds the board's shell and none of its posts. reachmahjong.com itself now serves a hosting placeholder.
+
+<https://web.archive.org/web/20100626102811/http://www.reachmahjong.com:80/en/forum/viewforum.php?f=3>
+
+*Cited for:* no variant folder yet.
+
 ## Primary sources cited within the above, not consulted directly for the chart
 
 Wilkinson (c. 1889-95) on Chinese Archaic rules and Kun Pai cards; Culin (1924) on Khanhoo; Li Boyuan, Officialdom Unmasked (1903-05); Mauger (1915); J.P. Babcock, Rules for Mah-Jongg (1920); Olga Racster (1924); R.F. Foster, Twenty Point Mah Jong (1924); C.T. Dobree, Gambling Games of Malaya (1955); Amano Daizou's rules serialised in Houchi Shinbun (Nov-Dec 1952); and Chinese Mahjong Competition Rules, People's Sports Publishing House (1998), ISBN 7-5009-1630-2.
